@@ -1,0 +1,18 @@
+# Netlify config — alternative to Vercel.
+# Both work; pick whichever you prefer. Vercel is set up via vercel.json.
+
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+# Send all routes through index.html so React Router handles them client-side.
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# Cache hashed asset bundles aggressively, leave HTML cache-busted.
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"

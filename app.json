@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "Evently",
+    "slug": "evently-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#F4F1EB"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.evently.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#F4F1EB"
+      },
+      "package": "com.evently.app"
+    },
+    "web": {
+    },
+    "plugins": [
+      "expo-local-authentication"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "your-project-id-here"
+      }
+    }
+  }
+}
