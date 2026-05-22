@@ -105,16 +105,29 @@ const PortfolioManager = () => {
           {loading ? (
              <div style={{ gridColumn: 'span 2', display: 'flex', justifyContent: 'center', padding: '20px' }}><Loader2 className="animate-spin" color="var(--primary)" /></div>
           ) : (
-            <>
+            <React.Fragment>
               {photos.map(p => (
                 <div key={p.id} style={{ position: 'relative', borderRadius: '12px', overflow: 'hidden' }}>
                   <img src={p.url} style={{ width: '100%', height: '140px', objectFit: 'cover' }} />
                   <div style={{ position: 'absolute', top: '8px', right: '8px', display: 'flex', gap: '4px' }}>
-                    <span 
+                    <span
                       onClick={() => handleDelete(p.url)}
                       style={{ background: 'rgba(0,0,0,0.5)', color: 'white', padding: '4px', borderRadius: '6px', cursor: 'pointer' }}
                     >
                       <Trash2 size={14} />
                     </span>
                   </div>
-                  <div style={{ position: 'absolute', bottom: 0, left: 0, right: 0, background: 'linear-gradient(transparent, rgba(0,0,0,0.6))', padding: '8px', color: 'white', fontSize: 
+                  <div style={{ position: 'absolute', bottom: 0, left: 0, right: 0, background: 'linear-gradient(transparent, rgba(0,0,0,0.6))', padding: '8px', color: 'white', fontSize: '10px' }}>
+                    Source: {p.source}
+                  </div>
+                </div>
+              ))}
+            </React.Fragment>
+          )}
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default PortfolioManager;

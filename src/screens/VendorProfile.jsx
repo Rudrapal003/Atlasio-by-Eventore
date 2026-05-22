@@ -193,7 +193,7 @@ const VendorProfile = () => {
           <span className="google-cite">Google · 4.8 · 89</span>
         </div>
         <div className="s3-stat-row">
-          <span><MapPin size={12} style={{ verticalAlign: 'middle' }} /> <b>Toronto, ON</b> · 12 mi</span>
+          <span><MapPin size={12} style={{ verticalAlign: 'middle' }} /> <b>Vancouver, BC</b> · 8 mi</span>
           <span><b>Replies {vendor.replies}</b></span>
         </div>
         <div className="s3-tabs-row">
@@ -225,7 +225,7 @@ const VendorProfile = () => {
           <div style={{ padding: '4px 4px 80px' }}>
             <h4 style={{ fontSize: 15, margin: '12px 0 8px' }}>About {vendor.name}</h4>
             <p style={{ fontSize: 13, color: 'var(--muted)', lineHeight: 1.6 }}>
-              A premium event service specializing in {vendor.tags.toLowerCase()}. {vendor.reviews}+ successful events in the Toronto area.
+              A premium event service specializing in {vendor.tags.toLowerCase()}. {vendor.reviews}+ successful events across Greater Vancouver.
             </p>
             <h4 style={{ fontSize: 15, margin: '20px 0 8px' }}>Portfolio</h4>
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 6 }}>
@@ -261,4 +261,26 @@ const VendorProfile = () => {
                 </div>
                 <p style={{ fontSize: 13, color: 'var(--ink)', margin: 0, lineHeight: 1.5 }}>{r.body}</p>
                 {r.verified && (
-                  <span style={{ display: 'inline-block', marginTop: 6, fontSize: 10, fontWeight: 600, 
+                  <span style={{ display: 'inline-block', marginTop: 6, fontSize: 10, fontWeight: 600,                     color: 'var(--primary)', background: 'var(--primary-soft)', padding: '2px 8px', borderRadius: 999 }}>✓ Verified by Evently booking</span>
+                )}
+              </div>
+            ))}
+          </div>
+        )}
+      </div>
+
+      <div className="s3-cta-bar">
+        <div className="from">
+          {selectedPkg ? (<>Selected <b>{selectedPkg.name}</b></>) : (<>From <b>${vendor.priceFrom} / guest</b></>)}
+        </div>
+        <Link to={selectedPkg && available ? "/confirm" : "#"} style={{ flex: 1, pointerEvents: (selectedPkg && available) ? 'auto' : 'none', opacity: (selectedPkg && available) ? 1 : 0.5 }}>
+          <button style={{ width: '100%' }}>
+            {!available ? 'Unavailable on your date' : (selectedPkg ? 'Confirm Selection' : 'Select a Package')}
+          </button>
+        </Link>
+      </div>
+    </div>
+  );
+};
+
+export default VendorProfile;

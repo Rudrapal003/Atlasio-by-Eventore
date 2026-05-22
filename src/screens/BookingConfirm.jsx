@@ -126,4 +126,25 @@ const BookingConfirm = () => {
           </div>
           <div className="t">
             <div className="ico"><Clock size={18} /></div>
- 
+            <b>48h</b>
+            <small>Hold</small>
+          </div>
+          <div className="t">
+            <div className="ico">★</div>
+            <b>Evently</b>
+            <small>Protect</small>
+          </div>
+        </div>
+
+        <div className="s4-cta">
+          <button onClick={handlePay} disabled={paying} style={{ opacity: paying ? 0.6 : 1, cursor: paying ? 'wait' : 'pointer' }}>
+            {paying ? 'Processing…' : `Pay Deposit · $${deposit.toLocaleString()}`}
+          </button>
+          <p className="fine">By booking, you agree to our <a>Terms of Service</a> and the vendor's cancellation policy.</p>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default BookingConfirm;

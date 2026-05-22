@@ -162,4 +162,27 @@ const ChatView = () => {
       {/* Input Area */}
       <div style={{ 
         padding: '16px 20px 32px', 
-   
+        borderTop: '1px solid var(--line)',
+        background: 'white',
+        display: 'flex', gap: 8, alignItems: 'center'
+      }}>
+        <input
+          type="text"
+          value={inputText}
+          onChange={(e) => setInputText(e.target.value)}
+          onKeyDown={(e) => e.key === 'Enter' && handleSend && handleSend()}
+          placeholder="Type a message…"
+          style={{ flex: 1, padding: '10px 14px', borderRadius: 999, border: '1px solid var(--line)', fontSize: 14 }}
+        />
+        <button
+          onClick={() => handleSend && handleSend()}
+          style={{ padding: '10px 16px', borderRadius: 999, background: 'var(--primary)', color: 'white', border: 'none', fontWeight: 600, cursor: 'pointer' }}
+        >
+          <Send size={16} />
+        </button>
+      </div>
+    </div>
+  );
+};
+
+export default ChatView;

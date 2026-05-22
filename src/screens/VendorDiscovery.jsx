@@ -14,6 +14,25 @@ const unavailableFor = (vendorId, dateStr) => {
   return ((vendorId * 73 + day * 17) % 10) < 3;
 };
 
+// Next N open dates for a vendor starting from `from`. Skips blocked days.
+const nextOpenDates = (vendorId, from, n = 3) => {
+  const out = [];
+  const start = from ? new Date(from) : new Date();
+  let cursor = new Date(start);
+  let safety = 60; // never scan more than 60 days ahead
+  while (out.length < n && safety > 0) {
+    cursor.setDate(cursor.getDate() + 1);
+    if (!unavailableFor(vendorId, cursor.toISOString())) {
+      out.push(new Date(cursor));
+    }
+    safety -= 1;
+  }
+  return out;
+};
+
+const formatShortDate = (d) =>
+  d.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+
 // The VENDORS array is now fetched dynamically from Supabase.
 
 const VendorDiscovery = () => {
@@ -24,6 +43,15 @@ const VendorDiscovery = () => {
   const [hideUnavailable, setHideUnavailable] = useState(true);
   const [showCultural, setShowCultural] = useState(true);
   const [maxReply, setMaxReply] = useState(null);
+
+  // Hoist event-derived values so both the render JSX and the memo can read them.
+  const ev = state.event || {};
+  const eventTitle    = ev.title || "Your Event";
+  const eventDate     = ev.date || null;
+  const eventGuests   = ev.guests || state.guests || 100;
+  const eventBudget   = ev.budget || state.budget || 60000;
+  const eventLocation = ev.location || 'Vancouver, BC';
+  const culturalTags  = ev.culturalTags || [];
 
   React.useEffect(() => {
     const fetchVendors = async () => {
@@ -64,12 +92,6 @@ const VendorDiscovery = () => {
 
   // Compute availability + budget fit + cultural match per vendor, then sort.
   const vendorsWithAvail = useMemo(() => {
-    const ev = state.event || {};
-    const eventDate = ev.date || null;
-    const eventGuests = ev.guests || 100;
-    const eventBudget = ev.budget || 60000;
-    const culturalTags = ev.culturalTags || [];
-
     return vendors.map(v => {
       const available = !unavailableFor(v.id, eventDate);
       const priceUnit = v.category?.toLowerCase().includes('cater') ? '/ guest' : '';
@@ -87,11 +109,13 @@ const VendorDiscovery = () => {
         available,
         projected,
         fitsBudget,
-        cultural: culturalScore({ tags: v.category }), // Mocking cultural score
-        replyMins: 120
+        cultural: culturalScore({ tags: v.category }),
+        replyMins: 120,
+        nextDates: nextOpenDates(v.id, eventDate, 3)
       };
     });
-  }, [vendors, state.event, state.guests, state.budget]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [vendors, eventDate, eventGuests, eventBudget, culturalTags.join('|')]);
 
   const filteredVendors = vendorsWithAvail
     .filter(v => activeTab === 'All'
@@ -211,6 +235,18 @@ const VendorDiscovery = () => {
                 <div className="vrating">
                   <span className="star">★</span> <b>{vendor.rating}</b> ({vendor.reviews}) <span className="sep">·</span> Replies {vendor.replies}
                 </div>
+                {vendor.nextDates && vendor.nextDates.length > 0 && (
+                  <div style={{ display: 'flex', gap: 4, flexWrap: 'wrap', margin: '6px 0 4px', fontSize: 10 }}>
+                    <span style={{ color: 'var(--muted)', fontWeight: 600, marginRight: 2 }}>Open:</span>
+                    {vendor.nextDates.map((d, i) => (
+                      <span key={i} style={{
+                        padding: '2px 7px', borderRadius: 999,
+                        background: '#ECFDF5', color: '#065F46',
+                        fontWeight: 600
+                      }}>{formatShortDate(d)}</span>
+                    ))}
+                  </div>
+                )}
                 <div className="vbottom">
                   <span className="vprice">From ${vendor.priceFrom.toLocaleString()} <small>{vendor.priceUnit}</small></span>
                   {vendor.available ? (
@@ -234,4 +270,3 @@ const VendorDiscovery = () => {
 };
 
 export default VendorDiscovery;
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  

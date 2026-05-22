@@ -6,20 +6,22 @@ import { supabase } from '../lib/supabaseClient';
 
 // Popular Canadian metros for one-tap selection — covers ~75% of national event spend.
 const POPULAR_CITIES = [
-  'Toronto, ON',
-  'Mississauga, ON',
-  'Brampton, ON',
-  'Markham, ON',
-  'Ottawa, ON',
-  'Hamilton, ON',
+  // Greater Vancouver first — our launch market
   'Vancouver, BC',
   'Surrey, BC',
+  'Burnaby, BC',
+  'Richmond, BC',
+  'Coquitlam, BC',
+  'North Vancouver, BC',
+  'Delta, BC',
+  'Langley, BC',
+  // Then the rest of Canada
   'Calgary, AB',
   'Edmonton, AB',
-  'Montreal, QC',
-  'Quebec City, QC',
-  'Winnipeg, MB',
-  'Halifax, NS'
+  'Toronto, ON',
+  'Mississauga, ON',
+  'Ottawa, ON',
+  'Montreal, QC'
 ];
 
 // Universal event-creation flow. Every event type uses the same 5 steps:
@@ -383,7 +385,7 @@ const EventWizard = () => {
             </label>
             <input
               type="text"
-              placeholder="e.g. Mississauga, ON or L5B 4H3"
+              placeholder="e.g. Surrey, BC or V3T 5X3"
               value={draft.location}
               onChange={(e) => update({ location: e.target.value })}
               style={{ width: '100%', padding: 14, borderRadius: 12, border: '1px solid var(--line)', fontSize: 15 }}
@@ -428,4 +430,41 @@ const EventWizard = () => {
                       border: `1px solid ${on ? 'var(--primary)' : 'var(--line)'}`,
                       background: on ? 'var(--primary-soft)' : 'white',
                       color: on ? 'var(--primary)' : 'var(--muted)',
-    
+                      cursor: 'pointer'
+                    }}>{tag}</span>
+                );
+              })}
+            </div>
+          </>
+        )}
+      </div>
+
+      <div style={{ padding: '12px 20px 24px', borderTop: '1px solid var(--line)', background: 'white' }}>
+        {error && <p style={{ color: '#B91C1C', fontSize: 12, marginBottom: 8 }}>{error}</p>}
+        <button
+          onClick={next}
+          disabled={!canAdvance || loading}
+          style={{
+            width: '100%', padding: 16, borderRadius: 14,
+            background: 'var(--primary)', color: 'white', border: 'none',
+            fontSize: 16, fontWeight: 600,
+            opacity: (canAdvance && !loading) ? 1 : 0.5,
+            cursor: (canAdvance && !loading) ? 'pointer' : 'not-allowed'
+          }}
+        >
+          {loading ? 'Saving…' : (step === total ? 'Find vendors →' : 'Continue')}
+        </button>
+      </div>
+    </div>
+  );
+};
+
+function titleFor(draft) {
+  if (!draft.type) return '';
+  if (draft.title) return draft.title;
+  const dateStr = draft.date ? new Date(draft.date).toLocaleDateString('en-US', { month: 'short', day: 'numeric' }) : '';
+  const labels = { wedding: 'Wedding', birthday: 'Birthday', corporate: 'Corporate Event', cultural: 'Cultural Event', other: 'Event' };
+  return [labels[draft.type], dateStr].filter(Boolean).join(' · ');
+}
+
+export default EventWizard;

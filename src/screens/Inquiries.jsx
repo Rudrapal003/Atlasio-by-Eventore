@@ -74,4 +74,14 @@ const Inquiries = () => {
                 fontSize: '11px', 
                 fontWeight: 700, 
                 color: inq.status === 'accepted' ? 'var(--green)' : inq.status === 'declined' ? 'var(--rose)' : 'var(--primary)', 
-                background: inq.status === 'accepted' ? 'var(--green-soft)' : inq.stat
+                background: inq.status === 'accepted' ? 'var(--green-soft)' : inq.status === 'declined' ? '#FEE2E2' : 'var(--primary-soft)'
+              }}>{inq.status || 'New'}</span>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+};
+
+export default Inquiries;

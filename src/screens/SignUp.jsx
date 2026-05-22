@@ -299,4 +299,44 @@ const SignUp = () => {
           <h3 style={{ margin: '0 0 8px', fontSize: '24px', fontFamily: 'var(--serif)' }}>Profile Preview</h3>
           <div style={{ background: 'white', borderRadius: '20px', border: '1px solid var(--line)', overflow: 'hidden' }}>
             <div style={{ height: '120px', background: 'var(--primary-soft)', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-               <div style={{ width: '64px', he
+               <div style={{ width: '64px', height: '64px', borderRadius: '50%', background: 'white', border: '2px solid var(--primary)', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                 <Check size={32} color="var(--primary)" />
+               </div>
+            </div>
+            <div style={{ padding: '20px' }}>
+              <h4 style={{ margin: '0 0 4px', fontSize: '18px' }}>{formData.name || 'Your Business Name'}</h4>
+              <p style={{ margin: '0 0 16px', fontSize: '13px', color: 'var(--muted)' }}>{formData.creatorType} · Vancouver, BC</p>
+              <div style={{ display: 'flex', gap: '8px' }}>
+                {formData.connected.google && <span className="badge badge-available">4.8 ★ Google</span>}
+                {formData.connected.instagram && <span className="badge badge-pro">24 IG Photos</span>}
+                {formData.stripeConnected && <span className="badge badge-available">Stripe ready</span>}
+              </div>
+            </div>
+          </div>
+          <p style={{ fontSize: '13px', color: 'var(--muted)', textAlign: 'center' }}>Your profile is ready for planners to see!</p>
+        </div>
+      )}
+
+      <div style={{ marginTop: 'auto', paddingBottom: '20px' }}>
+        <button
+          onClick={handleNext}
+          disabled={!!loading || (isCreator && step === 3 && formData.stripeStatus === 'verifying')}
+          style={{
+            width: '100%', padding: '16px', borderRadius: '14px',
+            background: 'var(--primary)', color: 'white', border: 'none',
+            fontSize: '16px', fontWeight: 600,
+            boxShadow: '0 8px 24px rgba(0,0,0,0.1)',
+            opacity: loading ? 0.7 : 1, cursor: 'pointer'
+          }}
+        >
+          {isCreator && step === totalCreatorSteps ? 'Launch Dashboard' : 'Continue'}
+        </button>
+        {isCreator && step === 4 && (
+          <p onClick={handleNext} style={{ textAlign: 'center', marginTop: '16px', fontSize: '14px', color: 'var(--muted)', cursor: 'pointer' }}>Skip for now</p>
+        )}
+      </div>
+    </div>
+  );
+};
+
+export default SignUp;
