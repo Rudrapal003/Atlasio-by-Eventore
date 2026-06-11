@@ -1,3 +1,31 @@
+# =========================
+# Eventore workspace .gitignore
+# Covers application/ (JS/TS) + outreach/ (Python) + shared OS/editor cruft
+# =========================
+
+# --- JavaScript / Node / Vite / Expo (matches at any depth, so application/* is covered) ---
+node_modules
+dist
+dist-ssr
+build
+.cache
+.parcel-cache
+.eslintcache
+*.tsbuildinfo
+*.local
+coverage
+*.lcov
+
+# Expo / React Native
+.expo/
+.expo-shared/
+web-build/
+android/build
+android/app/build
+android/.gradle
+ios/build
+ios/Pods
+
 # Logs
 logs
 *.log
@@ -7,31 +35,47 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
-*.local
-
-# Expo
-.expo/
-.expo-shared/
-web-build/
-
-# Env
+# --- Env / secrets ---
 .env
 .env.*
 !.env.example
 
-# OS
-Thumbs.db
+# --- Python (outreach/) ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+.python-version
+*.egg-info/
 
-# Editor directories and files
+# --- OS junk ---
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
+
+# --- Editor / IDE ---
 .vscode/*
 !.vscode/extensions.json
 .idea
-.DS_Store
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
+
+# --- Backups / temp / orphan lock files ---
+*~
+*.bak
+*.tmp
+*.orig
+*.lock
+!package-lock.json
+!yarn.lock
+!pnpm-lock.yaml
+
+# --- Misc generated archives we don't want re-committed by accident ---
+Eventore_Outreach_*.zip
