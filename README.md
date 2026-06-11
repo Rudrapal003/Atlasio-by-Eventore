@@ -1,81 +1,67 @@
 # Eventore
 
-A marketplace-style events and vendor app. Hybrid codebase that ships to web and to native iOS/Android from a single React/React Native source tree, backed by Supabase.
+A marketplace-style events and vendor app for the Greater Vancouver market. This repo is a workspace: the app, the go-to-market motion (vendor outreach, survey, pitch), and the brand/legal/policy library all live alongside each other.
 
-## Stack
-
-- **Web:** Vite + React, with `react-native-web` aliasing so most components render in the browser. Entry: `src/main.jsx` → `src/App.web.jsx`.
-- **Native:** Expo SDK 55 + React Navigation 7. Entry: `App.js` → `src/App.native.jsx`. iOS bundle id `com.eventore.app`, Android package `com.eventore.app`.
-- **Backend:** Supabase (`@supabase/supabase-js`). Schema lives in `supabase/schema.sql`; client in `src/lib/supabaseClient.js`.
-- **Native capabilities:** `expo-local-authentication`, `expo-notifications`, `expo-device`, `expo-constants`.
-- **Hosting:** Vercel (see `vercel.json`). Netlify is supported as an alternative via `netlify.toml`.
-
-## Scripts
-
-| Command           | What it does                              |
-| ----------------- | ----------------------------------------- |
-| `npm run dev`     | Vite dev server (web)                     |
-| `npm run build`   | Vite production build to `dist/`          |
-| `npm run preview` | Preview the Vite build                    |
-| `npm run web`     | Expo web (alternative to Vite)            |
-| `npm start`       | Expo dev server (native)                  |
-| `npm run ios`     | Build and run on iOS simulator            |
-| `npm run android` | Build and run on Android emulator         |
-| `npm run lint`    | ESLint over the repo                      |
-
-## Project layout
+## Workspace layout
 
 ```
 .
-├── App.js                       Expo entry — registers src/App.native.jsx
-├── app.json                     Expo config (name, ids, splash, plugins)
-├── index.html                   Vite web entry
-├── vite.config.js               Vite + react-native-web aliasing
-├── metro.config.js              Metro bundler config for Expo
-├── eslint.config.js
-├── vercel.json                  Vercel deployment config
-├── netlify.toml                 Netlify deployment config (alt)
-├── public/                      Web static assets (favicon, manifest, icons)
-├── supabase/
-│   └── schema.sql               Database schema
-└── src/
-    ├── App.native.jsx           Native shell (React Navigation stack)
-    ├── App.web.jsx              Web shell
-    ├── main.jsx                 Vite/web bootstrap
-    ├── index.css
-    ├── assets/                  Hero image, logos
-    ├── components/              ErrorBoundary, Navbar
-    ├── lib/                     supabaseClient
-    ├── screens/                 ~20 screen components (see below)
-    └── styles/theme.js          Shared theme tokens
+├── application/                The Eventore app — Expo (native) + Vite (web), Supabase backend
+├── marketing/                  Vendor + planner + caterer + DJ + venue contact lists, agent skill
+│   └── outreach/               Daily outreach run logs (markdown, dated)
+├── outreach/                   Outreach automation: Python scripts + queues + campaign templates
+├── contacts/                   Google Apps Script for survey response collection
+├── survey-deploy/              Deployed survey landing page (single index.html)
+├── survey-launch/              Survey launch collateral — screenshots + email draft
+├── investor_pitch_deck.md / .docx
+├── Eventore_*.docx / .xlsx / .html      Brand, legal, policy, prototype, mockups (see Reference docs)
+└── survey-*-qr-code.png        QR codes for the live survey and live app
 ```
 
-### Screens
+### outreach/ vs marketing/outreach/
 
-Onboarding, authentication (Login web + native, SignUp), vendor discovery and profiles (VendorDiscovery, VendorProfile), the booking funnel (EventWizard, EventBudgetStep, BookingConfirm, MultiVendorCheckout, Success), post-booking flows (MyEvents, DayOfTimeline, Inquiries, Messages, ChatView, DisputeFlow, ReviewPrompt), and creator/vendor tooling (CreatorDashboard, PortfolioManager, Profile).
+Two folders with the same word, different jobs:
 
-## Setup
+- **`outreach/`** (root) is the *system*: Python generators (`generate_outreach.py`, `process_queue.py`), the hunting queue, B2B and B2C campaign templates, and the verified-sends log.
+- **`marketing/outreach/`** is the *output*: dated daily run files produced by that system (`outreach_2026-06-10.md` etc.).
+
+Worth eventually consolidating; for now, treat `outreach/` as code and `marketing/outreach/` as data.
+
+## The app — `application/`
+
+Hybrid codebase that ships to web and to native iOS/Android from one React/React Native source tree.
+
+- **Web:** Vite + React, with `react-native-web` aliasing. Entry: `src/main.jsx` → `src/App.web.jsx`.
+- **Native:** Expo SDK 55 + React Navigation 7. Entry: `App.js` → `src/App.native.jsx`. Bundle ids `com.eventore.app` (iOS / Android).
+- **Backend:** Supabase. Schema in `application/supabase_schema.sql`, seed data in `application/supabase_seed.sql`, client in `application/src/lib/supabaseClient.js`.
+- **Payments:** Stripe (`@stripe/stripe-js`, `@stripe/stripe-react-native`).
+- **Maps & icons:** Leaflet, lucide-react / lucide-react-native.
+- **Native capabilities:** `expo-local-authentication`, `expo-notifications`, `expo-device`, `expo-constants`, `@react-native-async-storage/async-storage`.
+- **State:** `application/src/AppContext.js` + dedicated `application/src/navigation/` folder.
+- **Builds:** EAS config at `application/eas.json`. Native Android project at `application/android/`.
+- **Hosting (web):** Vercel (`application/vercel.json`); Netlify supported via `application/netlify.toml`.
+
+34 screens covering onboarding, auth, vendor discovery and profiles, the multi-vendor booking funnel (EventWizard → EventBudgetStep → BookingConfirm → MultiVendorCheckout → Success), post-booking flows (MyEvents, DayOfTimeline, Inquiries, Messages, ChatView, DisputeFlow, ReviewPrompt), and creator/vendor tooling (CreatorDashboard, PortfolioManager, Profile).
+
+### Dev loop
 
 ```bash
-npm install
-cp .env.example .env.local   # if/when an example is added; supply Supabase keys
-npm run dev                  # web
-# or
-npm start                    # native via Expo
+cd application
+npm install            # if you haven't yet — node_modules isn't tracked
+npm run dev            # web (Vite)
+npm start              # native (Expo)
+npm run android        # native Android emulator
+npm run ios            # native iOS simulator
+npm run build          # web production build → dist/
 ```
 
-Supabase credentials are read from environment by `src/lib/supabaseClient.js` — see that file for the exact variable names.
+`application/.env` already exists with Supabase + Stripe keys; copy it forward when sharing the repo elsewhere.
 
-## Reference docs
+## Reference docs (repo root)
 
-The repo root also holds the product, brand, legal, and operational documents that govern the app:
+Product, brand, legal, and operational source-of-truth — versioned alongside the code:
 
-- `Eventore_PRD.docx`
-- `Eventore_Engineering_Handbook.docx`
-- `Eventore_Brand_and_Content_Guidelines.docx`
-- `Eventore_Operations_Playbook.docx`
-- `Eventore_Launch_Plan.docx`, `Eventore_Positioning_Roadmap_Launch.docx`
-- `Eventore_Terms_of_Service.docx`, `Eventore_Privacy_Policy.docx`
-- `Eventore_Community_Guidelines.docx`, `Eventore_Vendor_Agreement.docx`
-- `Eventore_Cancellation_and_Refund_Policy.docx`
-- `Eventore_UI_Mockups_v1.html`
+- **Product / engineering:** `Eventore_PRD.docx`, `Eventore_Engineering_Handbook.docx`
+- **Brand:** `Eventore_Brand_and_Content_Guidelines.docx`
+- **Operations:** `Eventore_Operations_Playbook.docx`
+- **Launch:** `Eventore_Launch_Plan.docx`, `Eventore_Positioning_Roadmap_Launch.docx`, `
