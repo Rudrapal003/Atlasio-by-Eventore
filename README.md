@@ -1,11 +1,11 @@
-# Evently
+# Eventore
 
 A marketplace-style events and vendor app. Hybrid codebase that ships to web and to native iOS/Android from a single React/React Native source tree, backed by Supabase.
 
 ## Stack
 
 - **Web:** Vite + React, with `react-native-web` aliasing so most components render in the browser. Entry: `src/main.jsx` → `src/App.web.jsx`.
-- **Native:** Expo SDK 55 + React Navigation 7. Entry: `App.js` → `src/App.native.jsx`. iOS bundle id `com.evently.app`, Android package `com.evently.app`.
+- **Native:** Expo SDK 55 + React Navigation 7. Entry: `App.js` → `src/App.native.jsx`. iOS bundle id `com.eventore.app`, Android package `com.eventore.app`.
 - **Backend:** Supabase (`@supabase/supabase-js`). Schema lives in `supabase/schema.sql`; client in `src/lib/supabaseClient.js`.
 - **Native capabilities:** `expo-local-authentication`, `expo-notifications`, `expo-device`, `expo-constants`.
 - **Hosting:** Vercel (see `vercel.json`). Netlify is supported as an alternative via `netlify.toml`.
@@ -70,12 +70,12 @@ Supabase credentials are read from environment by `src/lib/supabaseClient.js` �
 
 The repo root also holds the product, brand, legal, and operational documents that govern the app:
 
-- `Evently_PRD.docx`
-- `Evently_Engineering_Handbook.docx`
-- `Evently_Brand_and_Content_Guidelines.docx`
-- `Evently_Operations_Playbook.docx`
-- `Evently_Launch_Plan.docx`, `Evently_Positioning_Roadmap_Launch.docx`
-- `Evently_Terms_of_Service.docx`, `Evently_Privacy_Policy.docx`
-- `Evently_Community_Guidelines.docx`, `Evently_Vendor_Agreement.docx`
-- `Evently_Cancellation_and_Refund_Policy.docx`
-- `Evently_UI_Mockups_v1.html`
+- `Eventore_PRD.docx`
+- `Eventore_Engineering_Handbook.docx`
+- `Eventore_Brand_and_Content_Guidelines.docx`
+- `Eventore_Operations_Playbook.docx`
+- `Eventore_Launch_Plan.docx`, `Eventore_Positioning_Roadmap_Launch.docx`
+- `Eventore_Terms_of_Service.docx`, `Eventore_Privacy_Policy.docx`
+- `Eventore_Community_Guidelines.docx`, `Eventore_Vendor_Agreement.docx`
+- `Eventore_Cancellation_and_Refund_Policy.docx`
+- `Eventore_UI_Mockups_v1.html`

@@ -1,0 +1,435 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Eventore — Market Research Survey</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&display=swap" rel="stylesheet"/>
+<style>
+:root{
+  --brand:#1F4E79;--brand-deep:#133A5C;--gold:#C9A227;--rose:#E11D48;--green:#059669;
+  --bg:#F4F1EB;--surface:#FFFFFF;--cream:#FBF9F4;--ink:#0F172A;--text:#1F2937;
+  --muted:#64748B;--faint:#94A3B8;--line:#E5E7EB;--line-strong:#CBD5E1;
+  --serif:'Fraunces',Georgia,serif;--sans:'Inter',-apple-system,system-ui,sans-serif;
+}
+*,*::before,*::after{box-sizing:border-box}
+html,body{margin:0;padding:0}
+body{font-family:var(--sans);background:var(--bg);color:var(--text);-webkit-font-smoothing:antialiased;line-height:1.5}
+.wrap{max-width:640px;margin:0 auto;padding:32px 20px 80px;min-height:100vh}
+.brand{font-family:var(--serif);font-weight:700;font-size:30px;color:var(--brand);letter-spacing:-.02em;margin:0}
+.brand-tag{font-style:italic;color:var(--gold);font-weight:600;font-size:14px;margin:2px 0 0}
+.progress-wrap{position:sticky;top:0;background:var(--bg);padding:18px 0 14px;z-index:10}
+.progress-track{height:6px;background:var(--line);border-radius:3px;overflow:hidden}
+.progress-fill{height:100%;background:var(--brand);border-radius:3px;width:0%;transition:width .3s ease}
+.progress-label{font-size:12px;color:var(--muted);margin-top:8px;font-weight:500}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:20px;padding:30px 28px;box-shadow:0 6px 18px rgba(15,23,42,.05);margin-top:8px}
+.section-title{font-family:var(--serif);font-size:24px;font-weight:600;color:var(--ink);margin:0 0 6px;letter-spacing:-.01em;line-height:1.2}
+.section-sub{color:var(--muted);font-size:14px;margin:0 0 22px;line-height:1.5}
+.q{margin-bottom:26px}
+.q:last-child{margin-bottom:0}
+.q-label{font-size:15px;font-weight:600;color:var(--ink);margin:0 0 4px;line-height:1.4}
+.q-label .req{color:var(--rose);margin-left:3px}
+.q-help{font-size:12.5px;color:var(--muted);margin:0 0 12px;line-height:1.5}
+.opt{display:flex;align-items:center;gap:10px;padding:12px 14px;border:1.5px solid var(--line-strong);border-radius:12px;margin-bottom:8px;cursor:pointer;font-size:14px;color:var(--text);transition:all .12s ease;background:var(--surface)}
+.opt:hover{border-color:var(--brand);background:var(--cream)}
+.opt.sel{border-color:var(--brand);background:#EAF1F8;font-weight:500}
+.opt .box{width:20px;height:20px;border:2px solid var(--line-strong);border-radius:50%;flex:0 0 20px;display:flex;align-items:center;justify-content:center;transition:all .12s}
+.opt.multi .box{border-radius:6px}
+.opt.sel .box{border-color:var(--brand);background:var(--brand)}
+.opt.sel .box::after{content:'';width:8px;height:8px;border-radius:50%;background:white}
+.opt.multi.sel .box::after{content:'\2713';color:white;font-size:12px;font-weight:700;width:auto;height:auto;background:none;border-radius:0}
+.scale{display:flex;gap:8px;flex-wrap:wrap}
+.scale-btn{flex:1;min-width:54px;padding:14px 6px;border:1.5px solid var(--line-strong);border-radius:12px;text-align:center;cursor:pointer;background:var(--surface);transition:all .12s}
+.scale-btn:hover{border-color:var(--brand)}
+.scale-btn.sel{border-color:var(--brand);background:var(--brand);color:white;font-weight:700}
+.scale-btn .num{font-size:18px;font-weight:700;display:block}
+.scale-btn .lbl{font-size:10px;color:var(--muted);display:block;margin-top:2px;line-height:1.2}
+.scale-btn.sel .lbl{color:rgba(255,255,255,.85)}
+input[type=text],input[type=email],textarea{width:100%;border:1.5px solid var(--line-strong);border-radius:12px;padding:13px 14px;font-size:14px;font-family:var(--sans);outline:none;color:var(--ink);background:var(--surface)}
+input[type=text]:focus,input[type=email]:focus,textarea:focus{border-color:var(--brand)}
+textarea{min-height:90px;resize:vertical}
+.nav{display:flex;gap:12px;margin-top:28px}
+.btn{font-family:var(--sans);font-weight:600;font-size:15px;border:none;border-radius:14px;padding:15px 22px;cursor:pointer;transition:all .12s}
+.btn-primary{background:var(--rose);color:white;flex:1;box-shadow:0 6px 16px rgba(225,29,72,.24)}
+.btn-primary:hover{background:#BE123C}
+.btn-ghost{background:transparent;color:var(--brand);border:1.5px solid var(--line-strong)}
+.btn-ghost:hover{border-color:var(--brand)}
+.err{color:var(--rose);font-size:12.5px;margin-top:8px;font-weight:500;display:none}
+.err.show{display:block}
+.hero{text-align:center;padding:30px 0 10px}
+.hero h1{font-family:var(--serif);font-size:34px;font-weight:600;color:var(--ink);margin:14px 0 10px;letter-spacing:-.01em;line-height:1.15}
+.hero p{color:var(--muted);font-size:15px;line-height:1.6;margin:0 auto 8px;max-width:520px}
+.done-ico{width:84px;height:84px;border-radius:50%;background:#ECFDF5;color:var(--green);display:flex;align-items:center;justify-content:center;font-size:38px;margin:20px auto}
+.export-row{display:flex;gap:10px;flex-wrap:wrap;justify-content:center;margin-top:22px}
+.export-row .btn{flex:0 1 auto}
+.resp-box{margin-top:20px;background:var(--cream);border:1px solid var(--line);border-radius:12px;padding:14px;font-family:'SF Mono',Menlo,monospace;font-size:11px;color:var(--muted);max-height:180px;overflow:auto;white-space:pre-wrap;text-align:left}
+.foot{text-align:center;color:var(--faint);font-size:12px;margin-top:30px}
+.config-note{background:#FFF9E6;border:1px solid #FDE68A;border-radius:10px;padding:12px 14px;font-size:12px;color:#92760a;margin-top:18px;line-height:1.5}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="progress-wrap" id="progressWrap" style="display:none">
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:10px">
+      <span class="brand" style="font-size:20px">Eventore</span>
+      <span class="progress-label" id="progressLabel">Step 1</span>
+    </div>
+    <div class="progress-track"><div class="progress-fill" id="progressFill"></div></div>
+  </div>
+  <div id="app"></div>
+  <div class="foot">Eventore &middot; Market Research Survey</div>
+</div>
+<script>
+// ============================================================
+// HOW TO COLLECT EMAILS AND RESPONSES:
+// The easiest way is to use Web3Forms (it's 100% free and takes 10 seconds).
+// 1. Go to https://web3forms.com/ and enter your email address to get an Access Key.
+// 2. Paste your Access Key between the quotes below:
+const WEB3FORMS_ACCESS_KEY = "a4c098e7-6b2a-415f-a352-7695ff02d3ca"; 
+// ─── ALSO post to Google Sheet via Apps Script ───────────────────────────────
+// After deploying Eventore_Survey_Collector.gs as a Web App, paste the URL here.
+// Both Web3Forms (email) AND the Google Sheet will receive every submission.
+const FORM_ENDPOINT = "https://script.google.com/macros/s/AKfycbywOXzfe3xTW7BLqIpzbfBmdXIb-_JTm-BdCnanhd9hPBKgsCHawH7vEH5Ka3ueQonr/exec";
+// ─────────────────────────────────────────────────────────────────────────────
+// If you leave it blank, the survey will just let the user download their answers.
+// ============================================================
+
+const SURVEY = {
+  intro: {
+    title: "Help us build Eventore the right way",
+    body: "Eventore is a marketplace launching in Greater Vancouver — Surrey, Burnaby, Richmond, North Van, Coquitlam — that connects event hosts with caterers, photographers, DJs, decorators, venues, and every other vendor they need, all in one place.\n\nInstead of 8 browser tabs, 20 DMs, and vendors who ghost you — hosts search by date and budget, see who's actually available, and confirm bookings with upfront deposits.\n\nFor vendors, it means qualified leads that already match your dates and budget, an auto-blocking calendar, and a portfolio that pulls in your Instagram and Google reviews — no more cold chasing.\n\nWe want 4 minutes of your completely honest take before we build more.",
+  },
+  done: {
+    title: "Thank you — this is genuinely valuable.",
+    body: "Your answers directly shape what gets built first. If you left your email, you'll be among the first people we reach out to — either for early access as a host, or for the Founding Vendor program (6 months free, no credit card)."
+  },
+  role_selection: {
+    title: "How do you fit into events?",
+    sub: "This tells us which questions to ask. Takes about 4 minutes from here.",
+    questions: [
+      {
+        id: "user_role", type: "single", required: true, label: "I am primarily a...",
+        options: [
+          "Event host / planner (I plan weddings, birthdays, corporate events, cultural functions)",
+          "Vendor / service provider (catering, photography, DJ, decor, venue, MC, mehndi, etc.)"
+        ]
+      }
+    ]
+  },
+  planner_sections: [
+    {
+      title: "About your events",
+      sub: "Tell us what you plan so we understand exactly what to build for you.",
+      questions: [
+        { id: "p_types", type: "multi", required: true, label: "What kinds of events do you plan?", help: "Select all that apply.", options: ["Wedding / Engagement", "Birthday / Milestone", "Corporate / Office event", "South Asian cultural function (Diwali, Eid, Mehndi, etc.)", "East Asian cultural function (Lunar New Year, etc.)", "Persian / Iranian event", "Other cultural / religious function", "Other"] },
+        { id: "p_budget", type: "single", required: false, label: "What's your typical event budget?", options: ["Under $1,000", "$1,000–$5,000", "$5,000–$15,000", "$15,000–$40,000", "Over $40,000"] },
+        { id: "p_location", type: "text", required: false, label: "Where are you based?", placeholder: "e.g. Surrey, Burnaby, Richmond…" }
+      ]
+    },
+    {
+      title: "How you find vendors today",
+      sub: "We want to understand the real pain — not the polished version.",
+      questions: [
+        { id: "p_find", type: "multi", required: true, label: "How do you currently find vendors?", help: "Select all you use.", options: ["Instagram / social media", "Google Search", "Word of mouth / referrals", "Facebook Groups", "The Knot / WeddingWire", "Ask a friend who planned a similar event", "Other"] },
+        { id: "p_pain", type: "multi", required: true, label: "What frustrates you most about booking vendors?", help: "Select your top three.", options: ["Hidden prices — I have to ask for a quote first", "No way to know if they're available on my date", "Slow replies or getting ghosted", "Coordinating timelines and contracts across vendors", "Comparing 10 different vendor options is exhausting", "Fear of a vendor cancelling last minute", "Cultural or dietary requirements are hard to filter for"] },
+        { id: "p_time", type: "single", required: false, label: "How many hours did you spend sourcing vendors for your last event?", options: ["Under 2 hours", "2–5 hours", "5–15 hours", "More than 15 hours", "I haven't planned one yet"] }
+      ]
+    },
+    {
+      title: "What Eventore would look like for you",
+      sub: "Picture this: you open Eventore, enter your date (a Saturday in August), your location (Surrey), your guest count (180), and your budget ($25,000). Within seconds you see caterers, photographers, decorators, DJs, and MCs who are all available on that exact date, with transparent pricing and real reviews. You can message them, compare packages, and pay a deposit — all in one place.",
+      questions: [
+        { id: "p_likely", type: "scale", required: true, label: "How likely would you be to use an app like this to plan your next event?", min: 1, max: 5, minLabel: "Never", maxLabel: "Definitely" },
+        { id: "p_disappointed", type: "single", required: true, label: "If Eventore launched in Vancouver and then shut down, how would you feel?", options: ["Very disappointed — I'd genuinely miss it", "Somewhat disappointed", "Not disappointed — I'd manage without it", "Not sure yet"] },
+        { id: "p_features", type: "multi", required: true, label: "Which features matter most to you?", help: "Select all that apply.", options: ["See only vendors available on my exact date", "Upfront transparent pricing — no quote requests", "Book multiple vendors in one checkout", "Backup vendor protection if someone cancels", "Cultural / dietary filters (halal, kosher, dhol player, mehndi)", "Shared day-of timeline for all my vendors", "Reviews pulled from Google and Instagram"] },
+        { id: "p_concern", type: "paragraph", required: false, label: "What's your biggest concern or hesitation about using a marketplace to book event vendors?", help: "Totally honest — this helps us fix the right things." }
+      ]
+    },
+    {
+      title: "Last bit",
+      sub: "Almost done — genuinely appreciate your time.",
+      questions: [
+        { id: "p_email", type: "email", required: false, label: "Want early access when Eventore launches in Vancouver?", help: "We'll reach out before public launch — no spam, one email.", placeholder: "you@example.com" },
+        { id: "p_refer", type: "paragraph", required: false, label: "Know a vendor in Vancouver who should hear about this?", help: "Name + what they do — we'll reach out and mention you sent us." }
+      ]
+    }
+  ],
+  vendor_sections: [
+    {
+      title: "Your business",
+      sub: "Tell us what you do and at what scale — this helps us make sure Eventore works specifically for your category.",
+      questions: [
+        { id: "v_type", type: "multi", required: true, label: "What type of vendor are you?", help: "Select all that apply.", options: ["Catering / Food", "Venue / Event space", "Photography / Videography", "Decor / Florals", "DJ / Music / Entertainment", "MC / Anchor / Host", "Mehndi / Beauty", "Bartending", "Photo booth", "Dhol / Cultural music", "Other"] },
+        { id: "v_events", type: "single", required: true, label: "Roughly how many events do you do per year?", options: ["Fewer than 10", "10–30", "31–60", "61–100", "More than 100"] },
+        { id: "v_location", type: "text", required: false, label: "Where are you based?", placeholder: "e.g. Surrey, Burnaby, Richmond…" },
+        { id: "v_cultural", type: "multi", required: false, label: "Which communities do you primarily serve?", help: "This helps us match you with the right clients.", options: ["South Asian (Indian, Pakistani, Sri Lankan, Bangladeshi)", "East Asian (Chinese, Korean, Japanese, Filipino)", "Persian / Iranian", "West Indian / Caribbean", "African / Afro-Caribbean", "Latin / Hispanic", "General / all communities"] }
+      ]
+    },
+    {
+      title: "How you run things today",
+      sub: "We want to understand the real day-to-day before we build anything. No judgement.",
+      questions: [
+        { id: "v_find", type: "multi", required: true, label: "Where do most of your clients come from today?", help: "Select all that apply.", options: ["Instagram DMs", "Word of mouth / referrals", "Google search / SEO", "The Knot / WeddingWire", "Thumbtack", "Facebook ads or groups", "Paid ads (Meta, Google)", "Repeat clients", "Other"] },
+        { id: "v_spend", type: "single", required: false, label: "How much do you spend per month on lead platforms or ads?", help: "Include The Knot, Thumbtack, Meta ads, Google ads, etc.", options: ["$0 — word of mouth only", "Under $100", "$100–$300", "$300–$700", "$700–$1,500", "Over $1,500"] },
+        { id: "v_calendar", type: "single", required: false, label: "How do you manage your availability and bookings?", options: ["In my head", "Paper / physical calendar", "Google / Apple Calendar", "A spreadsheet", "Booking software (HoneyBook, 17hats, etc.)", "I don't really track it"] },
+        { id: "v_hours", type: "single", required: false, label: "How many hours a week do you spend on lead replies, quotes, and scheduling?", options: ["Under 2", "2–5", "6–10", "11–20", "More than 20"] },
+        { id: "v_pain", type: "multi", required: true, label: "What's the hardest part of running your vendor business?", help: "Select your top three.", options: ["Missing leads that come in at odd hours", "Risk of double-booking", "Spending on ads that bring tire-kickers", "Quoting people who never book", "Chasing deposits and payments", "No professional way to show my pricing", "Coordinating day-of logistics", "Standing out from other vendors"] }
+      ]
+    },
+    {
+      title: "What Eventore would do for your business",
+      sub: "Here's the concrete picture: your business on Eventore in Greater Vancouver. A couple in Surrey searches for a caterer available on the third Saturday of September with a $4,000 budget. They see your profile — with your Instagram photos pulled in automatically, your Google reviews, your packages with transparent pricing, and your calendar showing you're available. They send a booking request. You accept, they pay a deposit, it's confirmed. Your calendar auto-blocks that date. No more DMs that go nowhere.",
+      questions: [
+        { id: "v_likely", type: "scale", required: true, label: "How likely would you be to list your business on Eventore?", min: 1, max: 5, minLabel: "Never", maxLabel: "Definitely" },
+        { id: "v_disappointed", type: "single", required: true, label: "If Eventore launched in Vancouver and then shut down, how would you feel?", options: ["Very disappointed — I'd lose something genuinely useful", "Somewhat disappointed", "Not disappointed — I can manage without it", "Not sure yet"] },
+        { id: "v_features", type: "multi", required: true, label: "Which features matter most to your business?", help: "Select all that apply.", options: ["Auto-blocking calendar — no more double-booking risk", "Guaranteed deposits at booking", "Leads already filtered by my dates and budget range", "Instagram + Google reviews imported automatically", "Cultural filters so the right clients find me", "Centralized messaging with clients", "Protection if a client cancels last minute"] },
+        { id: "v_concern", type: "paragraph", required: false, label: "What's your biggest hesitation about joining a platform like this?", help: "This is what we most need to hear." }
+      ]
+    },
+    {
+      title: "Last bit",
+      sub: "Almost done. Founding vendors get 6 months of Pro free, their profile built for them, and 3% booking fee locked for 12 months.",
+      questions: [
+        { id: "v_email", type: "email", required: false, label: "Interested in the Founding Vendor program? Leave your email.", help: "6 months of Pro free, no credit card, your profile set up for you. We'll reach out within 48 hours.", placeholder: "vendor@example.com" },
+        { id: "v_business", type: "text", required: false, label: "Business name or Instagram handle", placeholder: "So we can check out your work" },
+        { id: "v_refer", type: "paragraph", required: false, label: "Who's the best vendor you'd genuinely recommend in your area?", help: "Name + category — we'll reach out and mention you sent us." }
+      ]
+    }
+  ]
+};
+
+let current = -1; // -1 = intro, 0 = role selection, 1+ = dynamic sections
+let activeSections = [];
+const responses = {};
+
+const app = document.getElementById('app');
+const pw = document.getElementById('progressWrap');
+const pf = document.getElementById('progressFill');
+const pl = document.getElementById('progressLabel');
+
+function esc(s){return String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));}
+
+function renderIntro(){
+  pw.style.display='none';
+  app.innerHTML = `
+    <div class="hero">
+      <p class="brand">Eventore</p>
+      <p class="brand-tag">Market Research</p>
+      <h1>${esc(SURVEY.intro.title)}</h1>
+      <p style="white-space:pre-line">${esc(SURVEY.intro.body)}</p>
+    </div>
+    <div class="nav"><button class="btn btn-primary" id="startBtn">Start Survey &rarr;</button></div>`;
+  document.getElementById('startBtn').onclick=()=>{current=0;renderRoleSelection();};
+}
+
+function renderRoleSelection(){
+  pw.style.display='block';
+  pf.style.width = '10%';
+  pl.textContent = `Question 1`;
+  const sec = SURVEY.role_selection;
+  let html = `<div class="card"><h2 class="section-title">${esc(sec.title)}</h2><p class="section-sub">${esc(sec.sub)}</p>`;
+  sec.questions.forEach(q=>{ html += renderQ(q); });
+  html += `<div class="err" id="err">Please select an option before continuing.</div>`;
+  html += `<div class="nav">`;
+  html += `<button class="btn btn-ghost" id="backBtn">&larr; Back</button>`;
+  html += `<button class="btn btn-primary" id="nextBtn">Next &rarr;</button>`;
+  html += `</div></div>`;
+  app.innerHTML = html;
+  sec.questions.forEach(q=>bindQ(q));
+  
+  document.getElementById('backBtn').onclick=()=>{ current=-1;renderIntro(); window.scrollTo(0,0); };
+  document.getElementById('nextBtn').onclick=()=>{ 
+    if(validate(sec)){ 
+      const role = responses["user_role"];
+      if (role.startsWith("Event host")) {
+        activeSections = SURVEY.planner_sections;
+      } else {
+        activeSections = SURVEY.vendor_sections;
+      }
+      current=1; 
+      renderDynamicSection();
+      window.scrollTo(0,0);
+    } 
+  };
+}
+
+function renderDynamicSection(){
+  const secIndex = current - 1;
+  const sec = activeSections[secIndex];
+  pw.style.display='block';
+  const pct = Math.round(((current) / (activeSections.length + 1)) * 100);
+  pf.style.width = pct + '%';
+  pl.textContent = `Section ${current+1} of ${activeSections.length + 1}`;
+  
+  let html = `<div class="card"><h2 class="section-title">${esc(sec.title)}</h2>`;
+  if(sec.sub) html += `<p class="section-sub">${esc(sec.sub)}</p>`;
+  sec.questions.forEach(q=>{ html += renderQ(q); });
+  html += `<div class="err" id="err">Please answer the required questions before continuing.</div>`;
+  html += `<div class="nav">`;
+  html += `<button class="btn btn-ghost" id="backBtn">&larr; Back</button>`;
+  const last = secIndex === activeSections.length - 1;
+  html += `<button class="btn btn-primary" id="nextBtn">${last?'Submit Survey':'Next &rarr;'}</button>`;
+  html += `</div></div>`;
+  app.innerHTML = html;
+  
+  sec.questions.forEach(q=>bindQ(q));
+  document.getElementById('backBtn').onclick=()=>{ 
+    if(current===1){current=0;renderRoleSelection();} 
+    else {current--;renderDynamicSection();} 
+    window.scrollTo(0,0); 
+  };
+  document.getElementById('nextBtn').onclick=()=>{ 
+    if(validate(sec)){ 
+      if(last){finish();} else {current++;renderDynamicSection();window.scrollTo(0,0);} 
+    } 
+  };
+}
+
+function renderQ(q){
+  let h = `<div class="q" data-qid="${q.id}"><p class="q-label">${esc(q.label)}${q.required?'<span class="req">*</span>':''}</p>`;
+  if(q.help) h += `<p class="q-help">${esc(q.help)}</p>`;
+  if(q.type==='single'||q.type==='multi'){
+    q.options.forEach((o,i)=>{
+      h += `<div class="opt ${q.type==='multi'?'multi':''}" data-val="${esc(o)}"><span class="box"></span><span>${esc(o)}</span></div>`;
+    });
+  } else if(q.type==='scale'){
+    h += `<div class="scale">`;
+    for(let n=q.min;n<=q.max;n++){
+      const lbl = (n===q.min?q.minLabel:(n===q.max?q.maxLabel:''));
+      h += `<div class="scale-btn" data-val="${n}"><span class="num">${n}</span><span class="lbl">${esc(lbl||'')}</span></div>`;
+    }
+    h += `</div>`;
+  } else if(q.type==='text'){
+    h += `<input type="text" data-input="${q.id}" placeholder="${esc(q.placeholder||'')}"/>`;
+  } else if(q.type==='email'){
+    h += `<input type="email" data-input="${q.id}" placeholder="${esc(q.placeholder||'you@example.com')}"/>`;
+  } else if(q.type==='textarea'){
+    h += `<textarea data-input="${q.id}" placeholder="${esc(q.placeholder||'')}"></textarea>`;
+  }
+  h += `</div>`;
+  return h;
+}
+
+function bindQ(q){
+  const el = document.querySelector(`.q[data-qid="${q.id}"]`);
+  if(!el) return;
+  if(q.type==='single'){
+    el.querySelectorAll('.opt').forEach(o=>{
+      if(responses[q.id]===o.dataset.val) o.classList.add('sel');
+      o.onclick=()=>{ el.querySelectorAll('.opt').forEach(x=>x.classList.remove('sel')); o.classList.add('sel'); responses[q.id]=o.dataset.val; };
+    });
+  } else if(q.type==='multi'){
+    const cur = responses[q.id]||[];
+    el.querySelectorAll('.opt').forEach(o=>{
+      if(cur.includes(o.dataset.val)) o.classList.add('sel');
+      o.onclick=()=>{ o.classList.toggle('sel'); let arr=responses[q.id]||[]; const v=o.dataset.val; if(o.classList.contains('sel')){if(!arr.includes(v))arr.push(v);} else {arr=arr.filter(x=>x!==v);} responses[q.id]=arr; };
+    });
+  } else if(q.type==='scale'){
+    el.querySelectorAll('.scale-btn').forEach(b=>{
+      if(String(responses[q.id])===b.dataset.val) b.classList.add('sel');
+      b.onclick=()=>{ el.querySelectorAll('.scale-btn').forEach(x=>x.classList.remove('sel')); b.classList.add('sel'); responses[q.id]=b.dataset.val; };
+    });
+  } else {
+    const inp = el.querySelector(`[data-input="${q.id}"]`);
+    if(responses[q.id]) inp.value=responses[q.id];
+    inp.oninput=()=>{ responses[q.id]=inp.value; };
+  }
+}
+
+function validate(sec){
+  let ok=true;
+  sec.questions.forEach(q=>{
+    if(q.required){
+      const v=responses[q.id];
+      if(v===undefined||v===''||(Array.isArray(v)&&v.length===0)) ok=false;
+    }
+  });
+  const e=document.getElementById('err');
+  if(!ok){ e.classList.add('show'); } else { e.classList.remove('show'); }
+  return ok;
+}
+
+function toCSV(){
+  const rows=[['question_id','question','answer']];
+  const allSec = [SURVEY.role_selection, ...activeSections];
+  allSec.forEach(sec=>sec.questions.forEach(q=>{
+    let a=responses[q.id]; if(Array.isArray(a)) a=a.join('; '); if(a===undefined)a='';
+    rows.push([q.id,q.label,a]);
+  }));
+  return rows.map(r=>r.map(c=>'"'+String(c).replace(/"/g,'""')+'"').join(',')).join('\n');
+}
+
+function finish(){
+  pf.style.width='100%';
+  pw.style.display='none';
+  
+  const allSec = [SURVEY.role_selection, ...activeSections];
+  const flat={};
+  allSec.forEach(sec=>sec.questions.forEach(q=>{
+    let a=responses[q.id]; if(Array.isArray(a)) a=a.join('; '); if(a===undefined)a='';
+    flat[q.label]=a; // Using label instead of ID for Web3Forms readability
+  }));
+  
+  if (WEB3FORMS_ACCESS_KEY) {
+    const formData = new FormData();
+    formData.append("access_key", WEB3FORMS_ACCESS_KEY);
+    formData.append("subject", "New Eventore Survey Response - " + responses["user_role"]);
+    for (const [key, value] of Object.entries(flat)) {
+      formData.append(key, value);
+    }
+    
+    fetch('https://api.web3forms.com/submit', {
+      method: 'POST',
+      body: formData
+    }).then(res => res.json()).then(data => {
+      console.log("Web3Forms submission success", data);
+    }).catch(err => console.error("Web3Forms error", err));
+  }
+
+  // Also send to Google Sheet via Apps Script
+  if (FORM_ENDPOINT) {
+    const role = responses["user_role"] || "";
+    const surveyType = role.startsWith("Event host") ? "customer" : "vendor";
+    const sheetPayload = {
+      survey: surveyType,
+      submitted_at: new Date().toISOString(),
+      user_agent: navigator.userAgent,
+      answers: responses
+    };
+    fetch(FORM_ENDPOINT, {
+      method: 'POST',
+      mode: 'no-cors',
+      headers: { 'Content-Type': 'text/plain;charset=utf-8' },
+      body: JSON.stringify(sheetPayload)
+    }).then(() => console.log("Sheet submission sent")).catch(err => console.error("Sheet error", err));
+  }
+
+  app.innerHTML = `
+    <div class="hero">
+      <div class="done-ico">&#10003;</div>
+      <h1>${esc(SURVEY.done.title)}</h1>
+      <p>${esc(SURVEY.done.body)}</p>
+    </div>
+    ${WEB3FORMS_ACCESS_KEY?'<div class="config-note" style="background:#ECFDF5;border-color:#A7F3D0;color:#047857"><b>Saved!</b> Your response has been securely submitted.</div>':''}
+    <div class="export-row">
+      <button class="btn btn-primary" id="dl">Download my answers (CSV)</button>
+      <button class="btn btn-ghost" id="cp">Copy answers</button>
+    </div>
+    <div class="resp-box" id="respBox">${esc(toCSV())}</div>
+    ${WEB3FORMS_ACCESS_KEY?'':'<div class="config-note"><b>For the survey owner:</b> Responses are not currently being emailed to you because WEB3FORMS_ACCESS_KEY is empty. Download the answers as a CSV below.</div>'}
+  `;
+  document.getElementById('dl').onclick=()=>{
+    const blob=new Blob([toCSV()],{type:'text/csv'});
+    const a=document.createElement('a');a.href=URL.createObjectURL(blob);
+    a.download='eventore_response.csv';a.click();
+  };
+  document.getElementById('cp').onclick=()=>{ navigator.clipboard.writeText(toCSV()); document.getElementById('cp').textContent='Copied!'; };
+  window.scrollTo(0,0);
+}
+
+renderIntro();
+</script>
+</body>
+</html>

@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"/>
+<title>Eventore — Vendor Survey</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&display=swap" rel="stylesheet"/>
+<style>
+:root{
+  --brand:#1F4E79;--brand-deep:#133A5C;--gold:#C9A227;--rose:#E11D48;--green:#059669;
+  --bg:#F4F1EB;--surface:#FFFFFF;--cream:#FBF9F4;--ink:#0F172A;--text:#1F2937;
+  --muted:#64748B;--faint:#94A3B8;--line:#E5E7EB;--line-strong:#CBD5E1;
+  --serif:'Fraunces',Georgia,serif;--sans:'Inter',-apple-system,system-ui,sans-serif;
+}
+*,*::before,*::after{box-sizing:border-box}
+html,body{margin:0;padding:0}
+body{font-family:var(--sans);background:var(--bg);color:var(--text);-webkit-font-smoothing:antialiased;line-height:1.5}
+.wrap{max-width:640px;margin:0 auto;padding:32px 20px 80px;min-height:100vh}
+.brand{font-family:var(--serif);font-weight:700;font-size:30px;color:var(--brand);letter-spacing:-.02em;margin:0}
+.brand-tag{font-style:italic;color:var(--gold);font-weight:600;font-size:14px;margin:2px 0 0}
+.progress-wrap{position:sticky;top:0;background:var(--bg);padding:18px 0 14px;z-index:10}
+.progress-track{height:6px;background:var(--line);border-radius:3px;overflow:hidden}
+.progress-fill{height:100%;background:var(--brand);border-radius:3px;width:0%;transition:width .3s ease}
+.progress-label{font-size:12px;color:var(--muted);margin-top:8px;font-weight:500}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:20px;padding:30px 28px;box-shadow:0 6px 18px rgba(15,23,42,.05);margin-top:8px}
+.section-title{font-family:var(--serif);font-size:24px;font-weight:600;color:var(--ink);margin:0 0 6px;letter-spacing:-.01em;line-height:1.2}
+.section-sub{color:var(--muted);font-size:14px;margin:0 0 22px;line-height:1.5}
+.q{margin-bottom:26px}
+.q:last-child{margin-bottom:0}
+.q-label{font-size:15px;font-weight:600;color:var(--ink);margin:0 0 4px;line-height:1.4}
+.q-label .req{color:var(--rose);margin-left:3px}
+.q-help{font-size:12.5px;color:var(--muted);margin:0 0 12px;line-height:1.5}
+.opt{display:flex;align-items:center;gap:10px;padding:12px 14px;border:1.5px solid var(--line-strong);border-radius:12px;margin-bottom:8px;cursor:pointer;font-size:14px;color:var(--text);transition:all .12s ease;background:var(--surface)}
+.opt:hover{border-color:var(--brand);background:var(--cream)}
+.opt.sel{border-color:var(--brand);background:#EAF1F8;font-weight:500}
+.opt .box{width:20px;height:20px;border:2px solid var(--line-strong);border-radius:50%;flex:0 0 20px;display:flex;align-items:center;justify-content:center;transition:all .12s}
+.opt.multi .box{border-radius:6px}
+.opt.sel .box{border-color:var(--brand);background:var(--brand)}
+.opt.sel .box::after{content:'';width:8px;height:8px;border-radius:50%;background:white}
+.opt.multi.sel .box::after{content:'\2713';color:white;font-size:12px;font-weight:700;width:auto;height:auto;background:none;border-radius:0}
+.scale{display:flex;gap:8px;flex-wrap:wrap}
+.scale-btn{flex:1;min-width:54px;padding:14px 6px;border:1.5px solid var(--line-strong);border-radius:12px;text-align:center;cursor:pointer;background:var(--surface);transition:all .12s}
+.scale-btn:hover{border-color:var(--brand)}
+.scale-btn.sel{border-color:var(--brand);background:var(--brand);color:white;font-weight:700}
+.scale-btn .num{font-size:18px;font-weight:700;display:block}
+.scale-btn .lbl{font-size:10px;color:var(--muted);display:block;margin-top:2px;line-height:1.2}
+.scale-btn.sel .lbl{color:rgba(255,255,255,.85)}
+.scale-ends{display:flex;justify-content:space-between;font-size:11px;color:var(--faint);margin-top:6px}
+input[type=text],input[type=email],textarea{width:100%;border:1.5px solid var(--line-strong);border-radius:12px;padding:13px 14px;font-size:14px;font-family:var(--sans);outline:none;color:var(--ink);background:var(--surface)}
+input[type=text]:focus,input[type=email]:focus,textarea:focus{border-color:var(--brand)}
+textarea{min-height:90px;resize:vertical}
+.nav{display:flex;gap:12px;margin-top:28px}
+.btn{font-family:var(--sans);font-weight:600;font-size:15px;border:none;border-radius:14px;padding:15px 22px;cursor:pointer;transition:all .12s}
+.btn-primary{background:var(--rose);color:white;flex:1;box-shadow:0 6px 16px rgba(225,29,72,.24)}
+.btn-primary:hover{background:#BE123C}
+.btn-primary:disabled{background:var(--line-strong);box-shadow:none;cursor:not-allowed}
+.btn-ghost{background:transparent;color:var(--brand);border:1.5px solid var(--line-strong)}
+.btn-ghost:hover{border-color:var(--brand)}
+.err{color:var(--rose);font-size:12.5px;margin-top:8px;font-weight:500;display:none}
+.err.show{display:block}
+/* intro + done screens */
+.hero{text-align:center;padding:30px 0 10px}
+.hero h1{font-family:var(--serif);font-size:34px;font-weight:600;color:var(--ink);margin:14px 0 10px;letter-spacing:-.01em;line-height:1.15}
+.hero p{color:var(--muted);font-size:15px;line-height:1.6;margin:0 auto 8px;max-width:520px}
+.hero .pill{display:inline-block;background:var(--cream);border:1px solid var(--line);border-radius:999px;padding:6px 14px;font-size:12.5px;color:var(--muted);font-weight:500;margin-top:8px}
+.done-ico{width:84px;height:84px;border-radius:50%;background:#ECFDF5;color:var(--green);display:flex;align-items:center;justify-content:center;font-size:38px;margin:20px auto}
+.export-row{display:flex;gap:10px;flex-wrap:wrap;justify-content:center;margin-top:22px}
+.export-row .btn{flex:0 1 auto}
+.resp-box{margin-top:20px;background:var(--cream);border:1px solid var(--line);border-radius:12px;padding:14px;font-family:'SF Mono',Menlo,monospace;font-size:11px;color:var(--muted);max-height:180px;overflow:auto;white-space:pre-wrap;text-align:left}
+.foot{text-align:center;color:var(--faint);font-size:12px;margin-top:30px}
+.config-note{background:#FFF9E6;border:1px solid #FDE68A;border-radius:10px;padding:12px 14px;font-size:12px;color:#92760a;margin-top:18px;line-height:1.5}
+
+/* ── Mobile-first responsive ────────────────────────────────────────────────── */
+@media (max-width: 480px) {
+  .wrap{padding:20px 14px 60px}
+  .brand{font-size:24px}
+  .hero h1{font-size:clamp(22px,6vw,34px)}
+  .hero p{font-size:14px}
+  .card{padding:22px 16px;border-radius:16px}
+  .section-title{font-size:clamp(18px,5vw,24px)}
+  .section-sub{font-size:13px}
+  .q-label{font-size:14px}
+  .opt{padding:14px 12px;font-size:15px}
+  .scale{gap:5px}
+  .scale-btn{min-width:42px;padding:12px 4px}
+  .scale-btn .num{font-size:16px}
+  .nav{flex-direction:column-reverse;gap:10px}
+  .btn{width:100%;padding:16px 18px;font-size:16px;border-radius:12px}
+  .btn-ghost{order:2}
+  .btn-primary{order:1}
+  .export-row{flex-direction:column}
+  .export-row .btn{width:100%}
+}
+input[type=text],input[type=email],textarea{font-size:16px!important;padding:14px 14px}
+textarea{min-height:100px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="progress-wrap" id="progressWrap" style="display:none">
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:10px">
+      <span class="brand" style="font-size:20px">Eventore</span>
+      <span class="progress-label" id="progressLabel">Step 1</span>
+    </div>
+    <div class="progress-track"><div class="progress-fill" id="progressFill"></div></div>
+  </div>
+  <div id="app"></div>
+  <div class="foot">Eventore &middot; Vendor validation survey · v1.0</div>
+</div>
+<script>
+// ============================================================
+// COLLECTION SETUP  (read Eventore_Survey_Setup_Guide for steps)
+// Paste your Google Apps Script Web App URL between the quotes below.
+// Every submission will then append a row to your Google Sheet,
+// which you can download as a CSV anytime.
+// Leave it as "" to fall back to manual Download/Copy.
+const FORM_ENDPOINT = "https://script.google.com/macros/s/AKfycbywOXzfe3xTW7BLqIpzbfBmdXIb-_JTm-BdCnanhd9hPBKgsCHawH7vEH5Ka3ueQonr/exec";
+const SURVEY_ID = "vendor";
+
+const SURVEY = {"intro": {"title": "Help us build the tool you actually want", "body": "If you're a vendor in Greater Vancouver — Surrey, Burnaby, Richmond, North Van, Coquitlam — you've probably felt it: chasing leads that go cold, paying platforms that don't deliver, and double-bookings that keep you up at night.\n\nEventore is a new marketplace that shows couples and hosts only vendors available on their exact date, budget, and area. No more fabricated leads. No $900/month contracts. You get a free calendar, a portfolio that pulls in your Instagram and Google reviews, and qualified inquiries landing in your inbox — from people who already match what you offer.\n\nBefore we build more, we want 4 minutes of your completely honest take. Your answers directly shape what we build first.", "time": "About 4 minutes · ~20 questions"}, "done": {"title": "Thank you — this is gold.", "body": "If you left your email, we'll reach out in the next 48 hours about the Founding Vendor program — 6 months of Pro free, your profile built for you, and leads from day one. No credit card. No commitment."}, "sections": [{"title": "Your business", "sub": "Tell us what you do and at what scale — this helps us make sure Eventore works for your specific category.", "questions": [{"id": "v_category", "type": "multi", "required": true, "label": "What do you offer?", "help": "Select all that apply.", "options": ["Catering", "Decor / Florals", "Photography", "Videography", "DJ / Music", "MC / Anchor / Host", "Venue", "Mehndi / Beauty", "Bartending", "Photo booth", "Other"]}, {"id": "v_years", "type": "single", "required": false, "label": "How long have you been in business?", "options": ["Less than 1 year", "1–3 years", "4–7 years", "8+ years"]}, {"id": "v_events", "type": "single", "required": true, "label": "Roughly how many events do you do per year?", "options": ["Fewer than 10", "10–30", "31–60", "61–100", "More than 100"]}, {"id": "v_team", "type": "single", "required": false, "label": "How big is your team?", "options": ["Just me", "2–5", "6–15", "16+"]}, {"id": "v_cultural", "type": "multi", "required": false, "label": "Which cultural communities do you primarily serve?", "help": "This helps us route the right clients to you.", "options": ["South Asian (Indian, Pakistani, Bangladeshi, Sri Lankan)", "East Asian (Chinese, Korean, Japanese, Filipino)", "Persian / Iranian", "West Indian / Caribbean", "African / Afro-Caribbean", "Latin / Hispanic", "Middle Eastern / Arab", "General / All communities"]}]}, {"title": "How you run things today", "sub": "We want to understand the real day-to-day before we build anything. No judgement — we've heard everything.", "questions": [{"id": "v_leads", "type": "multi", "required": true, "label": "Where do most of your leads come from today?", "help": "Select all that apply.", "options": ["Instagram DMs", "Word of mouth / referrals", "My website", "Google search", "WhatsApp", "Facebook", "Wedding directories (The Knot, WeddingWire, etc.)", "Paid ads (Meta, Google)", "Repeat clients"]}, {"id": "v_spend", "type": "single", "required": false, "label": "How much do you currently spend per month on lead platforms or ads?", "help": "Include The Knot, Thumbtack, Meta ads, Google ads, etc.", "options": ["$0 — word of mouth only", "Under $100", "$100–$300", "$300–$700", "$700–$1,500", "Over $1,500"]}, {"id": "v_calendar", "type": "single", "required": false, "label": "How do you manage your availability and bookings?", "options": ["In my head", "Paper / physical calendar", "Google / Apple Calendar", "A spreadsheet", "Booking software (HoneyBook, 17hats, etc.)", "I don't really track it"]}, {"id": "v_payments", "type": "single", "required": false, "label": "How do you handle deposits and payments?", "options": ["Cash / e-transfer", "Invoice software", "Stripe / Square / PayPal", "Booking platform handles it", "It's inconsistent"]}, {"id": "v_hours", "type": "single", "required": true, "label": "How many hours a week do you spend on lead replies, quotes, and scheduling?", "options": ["Under 2", "2–5", "6–10", "11–20", "More than 20"]}]}, {"title": "Your biggest headaches", "sub": "Be blunt — this is exactly what we want to fix. The more honest you are, the better the product.", "questions": [{"id": "v_pains", "type": "multi", "required": true, "label": "What's most painful about running your business?", "help": "Select up to three.", "options": ["Missing leads that come in at odd hours", "Risk of double-booking", "Spending on ads or directories that bring tire-kickers", "Quoting people who never book", "No professional way to show pricing", "Chasing deposits and payments", "Coordinating day-of logistics", "Standing out from other vendors", "Slow or painful client communication"]}, {"id": "v_doublebook", "type": "single", "required": false, "label": "Have you ever double-booked or missed a booking because of a scheduling mix-up?", "options": ["Yes, more than once", "Yes, once", "No, but I worry about it", "No"]}, {"id": "v_lost_leads", "type": "scale", "required": false, "label": "How often do you feel you lose business because a lead didn't get a fast enough reply?", "min": 1, "max": 5, "minLabel": "Never", "maxLabel": "Constantly"}, {"id": "v_knot", "type": "single", "required": false, "label": "Are you currently paying for leads through The Knot, WeddingWire, Thumbtack, or similar?", "options": ["Yes — and I'm happy with the ROI", "Yes — but the results are disappointing", "I tried it and cancelled", "No, never tried it", "Not applicable to my category"]}]}, {"title": "What Eventore would do for you", "sub": "Here's the concrete picture: your business listed on Eventore in Greater Vancouver — Surrey, Burnaby, Richmond, North Van, Coquitlam. When a couple searches for a caterer (or photographer, or DJ) available on a specific Saturday in Surrey with a $3,000 budget, you show up — filtered, qualified, ready to book. You get a lead inbox, an auto-blocking calendar, and a portfolio that pulls in your Instagram posts and Google reviews automatically. No monthly listing fee to start. You only pay a small commission on confirmed bookings.", "questions": [{"id": "v_likely", "type": "scale", "required": true, "label": "How likely would you be to list your business on Eventore?", "min": 1, "max": 5, "minLabel": "Never", "maxLabel": "Definitely"}, {"id": "v_disappointed", "type": "single", "required": true, "label": "If Eventore existed, launched in Vancouver, and then shut down — how would you feel?", "options": ["Very disappointed — I'd lose something genuinely useful", "Somewhat disappointed", "Not disappointed — I can manage without it", "Not sure yet"]}, {"id": "v_value", "type": "multi", "required": false, "label": "Which part of Eventore would be most valuable to your business?", "help": "Select up to two.", "options": ["More qualified, date-matched leads", "The free calendar — no more double-booking risk", "Looking professional to clients (portfolio + reviews)", "Getting paid faster and securely", "All reviews in one place", "Less admin time every week"]}, {"id": "v_concern", "type": "paragraph", "required": false, "label": "What's your biggest concern or hesitation about a platform like this?", "help": "Totally honest — this helps us fix the right things."}]}, {"title": "What it's worth", "sub": "We want to price this fairly — your answers directly set the numbers.", "questions": [{"id": "v_subscribe", "type": "single", "required": true, "label": "Would you pay a monthly subscription for qualified leads, an auto-blocking calendar, a portfolio, and secure payments in one place?", "options": ["Yes — if it reliably brings me bookings", "Yes — but only a small amount", "Only if the first months are free to try", "Only pay-per-booking, no subscription", "No"]}, {"id": "v_price", "type": "single", "required": true, "label": "What monthly price would feel fair for a tool that reliably brought you qualified leads?", "options": ["$0 — only take a cut of bookings", "Around $25", "Around $50", "Around $100", "$150+", "Depends entirely on results"]}, {"id": "v_commission", "type": "single", "required": false, "label": "On top of (or instead of) a subscription, what booking commission would feel acceptable?", "options": ["0% — subscription only", "Up to 3%", "Up to 5%", "Up to 8%", "Up to 10%", "No commission at all"]}]}, {"title": "Feature priorities", "sub": "Rate how much each feature would matter to your day-to-day business.", "questions": [{"id": "v_feat_calendar", "type": "scale", "required": false, "label": "Calendar that auto-blocks confirmed dates (no double-booking)", "min": 1, "max": 5, "minLabel": "Don't care", "maxLabel": "Must have"}, {"id": "v_feat_leads", "type": "scale", "required": false, "label": "A lead inbox of pre-qualified, date-matched inquiries", "min": 1, "max": 5, "minLabel": "Don't care", "maxLabel": "Must have"}, {"id": "v_feat_sync", "type": "scale", "required": false, "label": "Auto-import of Instagram posts + Google reviews to your profile", "min": 1, "max": 5, "minLabel": "Don't care", "maxLabel": "Must have"}, {"id": "v_feat_pay", "type": "scale", "required": false, "label": "Secure deposits and payouts handled automatically", "min": 1, "max": 5, "minLabel": "Don't care", "maxLabel": "Must have"}, {"id": "v_feat_backup", "type": "scale", "required": false, "label": "Backup vendor protection — platform finds a replacement if you cancel", "min": 1, "max": 5, "minLabel": "Don't care", "maxLabel": "Must have"}, {"id": "v_feat_cultural", "type": "scale", "required": false, "label": "Cultural filters on your profile (halal, kosher, dhol player, mehndi, etc.)", "min": 1, "max": 5, "minLabel": "Don't care", "maxLabel": "Must have"}, {"id": "v_missing", "type": "paragraph", "required": false, "label": "What would make this a no-brainer 'yes' for you?", "help": "One or two sentences is perfect."}]}, {"title": "Last bit", "sub": "Almost done — thank you for being this thorough.", "questions": [{"id": "v_city", "type": "text", "required": false, "label": "Where are you based?", "placeholder": "e.g. Surrey, Burnaby, Richmond…"}, {"id": "v_business", "type": "text", "required": false, "label": "Business name (so we can check out your work)", "placeholder": "Your business name or Instagram handle"}, {"id": "v_email", "type": "email", "required": false, "label": "Want first access to the Founding Vendor program? Leave your email.", "help": "6 months of Pro free, your profile built for you, leads from day one. No credit card. We'll reach out within 48 hours.", "placeholder": "your@email.com"}, {"id": "v_refer", "type": "paragraph", "required": false, "label": "Who's the best vendor you'd genuinely recommend in your area?", "help": "Name + category — we'll reach out to them too. This is how great vendor communities get built."}]}]};
+
+let current = -1; // -1 = intro
+const responses = {};
+
+const app = document.getElementById('app');
+const pw = document.getElementById('progressWrap');
+const pf = document.getElementById('progressFill');
+const pl = document.getElementById('progressLabel');
+
+function esc(s){return String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));}
+
+function renderIntro(){
+  pw.style.display='none';
+  app.innerHTML = `
+    <div class="hero">
+      <p class="brand">Eventore</p>
+      <p class="brand-tag">One stop. Every event.</p>
+      <h1>${esc(SURVEY.intro.title)}</h1>
+      <p>${esc(SURVEY.intro.body)}</p>
+      <span class="pill">${esc(SURVEY.intro.time)}</span>
+    </div>
+    <div class="nav"><button class="btn btn-primary" id="startBtn">Start &rarr;</button></div>`;
+  document.getElementById('startBtn').onclick=()=>{current=0;renderSection();};
+}
+
+function renderSection(){
+  const sec = SURVEY.sections[current];
+  pw.style.display='block';
+  const pct = Math.round(((current)/(SURVEY.sections.length))*100);
+  pf.style.width = pct + '%';
+  pl.textContent = `Section ${current+1} of ${SURVEY.sections.length}`;
+  let html = `<div class="card"><h2 class="section-title">${esc(sec.title)}</h2>`;
+  if(sec.sub) html += `<p class="section-sub">${esc(sec.sub)}</p>`;
+  sec.questions.forEach(q=>{ html += renderQ(q); });
+  html += `<div class="err" id="err">Please answer the required questions before continuing.</div>`;
+  html += `<div class="nav">`;
+  html += `<button class="btn btn-ghost" id="backBtn">${current===0?'&larr; Intro':'&larr; Back'}</button>`;
+  const last = current === SURVEY.sections.length-1;
+  html += `<button class="btn btn-primary" id="nextBtn">${last?'Submit':'Next &rarr;'}</button>`;
+  html += `</div></div>`;
+  app.innerHTML = html;
+  // restore + bind
+  sec.questions.forEach(q=>bindQ(q));
+  document.getElementById('backBtn').onclick=()=>{ if(current===0){current=-1;renderIntro();} else {current--;renderSection();} window.scrollTo(0,0); };
+  document.getElementById('nextBtn').onclick=()=>{ if(validate(sec)){ if(last){finish();} else {current++;renderSection();window.scrollTo(0,0);} } };
+  window.scrollTo(0,0);
+}
+
+function renderQ(q){
+  let h = `<div class="q" data-qid="${q.id}"><p class="q-label">${esc(q.label)}${q.required?'<span class="req">*</span>':''}</p>`;
+  if(q.help) h += `<p class="q-help">${esc(q.help)}</p>`;
+  if(q.type==='single'||q.type==='multi'){
+    q.options.forEach((o,i)=>{
+      h += `<div class="opt ${q.type==='multi'?'multi':''}" data-val="${esc(o)}"><span class="box"></span><span>${esc(o)}</span></div>`;
+    });
+  } else if(q.type==='scale'){
+    h += `<div class="scale">`;
+    for(let n=q.min;n<=q.max;n++){
+      const lbl = (n===q.min?q.minLabel:(n===q.max?q.maxLabel:''));
+      h += `<div class="scale-btn" data-val="${n}"><span class="num">${n}</span><span class="lbl">${esc(lbl||'')}</span></div>`;
+    }
+    h += `</div>`;
+  } else if(q.type==='text'){
+    h += `<input type="text" data-input="${q.id}" placeholder="${esc(q.placeholder||'')}"/>`;
+  } else if(q.type==='email'){
+    h += `<input type="email" data-input="${q.id}" placeholder="${esc(q.placeholder||'you@example.com')}"/>`;
+  } else if(q.type==='textarea'||q.type==='paragraph'){
+    h += `<textarea data-input="${q.id}" placeholder="${esc(q.placeholder||'')}"></textarea>`;
+  }
+  h += `</div>`;
+  return h;
+}
+
+function bindQ(q){
+  const el = document.querySelector(`.q[data-qid="${q.id}"]`);
+  if(!el) return;
+  if(q.type==='single'){
+    el.querySelectorAll('.opt').forEach(o=>{
+      if(responses[q.id]===o.dataset.val) o.classList.add('sel');
+      o.onclick=()=>{ el.querySelectorAll('.opt').forEach(x=>x.classList.remove('sel')); o.classList.add('sel'); responses[q.id]=o.dataset.val; };
+    });
+  } else if(q.type==='multi'){
+    const cur = responses[q.id]||[];
+    el.querySelectorAll('.opt').forEach(o=>{
+      if(cur.includes(o.dataset.val)) o.classList.add('sel');
+      o.onclick=()=>{ o.classList.toggle('sel'); let arr=responses[q.id]||[]; const v=o.dataset.val; if(o.classList.contains('sel')){if(!arr.includes(v))arr.push(v);} else {arr=arr.filter(x=>x!==v);} responses[q.id]=arr; };
+    });
+  } else if(q.type==='scale'){
+    el.querySelectorAll('.scale-btn').forEach(b=>{
+      if(String(responses[q.id])===b.dataset.val) b.classList.add('sel');
+      b.onclick=()=>{ el.querySelectorAll('.scale-btn').forEach(x=>x.classList.remove('sel')); b.classList.add('sel'); responses[q.id]=b.dataset.val; };
+    });
+  } else {
+    const inp = el.querySelector(`[data-input="${q.id}"]`);
+    if(responses[q.id]) inp.value=responses[q.id];
+    inp.oninput=()=>{ responses[q.id]=inp.value; };
+  }
+}
+
+function validate(sec){
+  let ok=true;
+  sec.questions.forEach(q=>{
+    if(q.required){
+      const v=responses[q.id];
+      if(v===undefined||v===''||(Array.isArray(v)&&v.length===0)) ok=false;
+    }
+  });
+  const e=document.getElementById('err');
+  if(!ok){ e.classList.add('show'); } else { e.classList.remove('show'); }
+  return ok;
+}
+
+function toCSV(){
+  const rows=[['question_id','question','answer']];
+  SURVEY.sections.forEach(sec=>sec.questions.forEach(q=>{
+    let a=responses[q.id]; if(Array.isArray(a)) a=a.join('; '); if(a===undefined)a='';
+    rows.push([q.id,q.label,a]);
+  }));
+  return rows.map(r=>r.map(c=>'"'+String(c).replace(/"/g,'""')+'"').join(',')).join('\n');
+}
+
+function finish(){
+  pf.style.width='100%';
+  // flatten responses to a labelled map for easy spreadsheet columns
+  const flat={};
+  SURVEY.sections.forEach(sec=>sec.questions.forEach(q=>{
+    let a=responses[q.id]; if(Array.isArray(a)) a=a.join('; '); if(a===undefined)a='';
+    flat[q.id]=a;
+  }));
+  const payload={survey:SURVEY_ID,submitted_at:new Date().toISOString(),answers:flat};
+  let submitted=false;
+  // Auto-submit to Google Apps Script (no-cors + text/plain avoids a CORS preflight)
+  if(FORM_ENDPOINT){
+    try{
+      fetch(FORM_ENDPOINT,{method:'POST',mode:'no-cors',headers:{'Content-Type':'text/plain;charset=utf-8'},body:JSON.stringify(payload)});
+      submitted=true;
+    }catch(e){ submitted=false; }
+  }
+  pw.style.display='none';
+  app.innerHTML = `
+    <div class="hero">
+      <div class="done-ico">&#10003;</div>
+      <h1>${esc(SURVEY.done.title)}</h1>
+      <p>${esc(SURVEY.done.body)}</p>
+    </div>
+    ${submitted?'<div class="config-note" style="background:#ECFDF5;border-color:#A7F3D0;color:#047857"><b>Saved.</b> Your response was sent to Eventore. You can also keep a copy below.</div>':''}
+    <div class="export-row">
+      <button class="btn btn-primary" id="dl">Download my answers (CSV)</button>
+      <button class="btn btn-ghost" id="cp">Copy answers</button>
+    </div>
+    <div class="resp-box" id="respBox">${esc(toCSV())}</div>
+    ${FORM_ENDPOINT?'':'<div class="config-note"><b>For the survey owner:</b> responses are not auto-saved yet. To collect every response into one Google Sheet (downloadable as CSV), follow Eventore_Survey_Setup_Guide and paste your Web App URL into the <code>FORM_ENDPOINT</code> variable near the top of the &lt;script&gt; block. Until then, ask respondents to tap Download or Copy and send you the file.</div>'}
+  `;
+  document.getElementById('dl').onclick=()=>{
+    const blob=new Blob([toCSV()],{type:'text/csv'});
+    const a=document.createElement('a');a.href=URL.createObjectURL(blob);
+    a.download='eventore_'+SURVEY_ID+'_response.csv';a.click();
+  };
+  document.getElementById('cp').onclick=()=>{ navigator.clipboard.writeText(toCSV()); document.getElementById('cp').textContent='Copied!'; };
+  window.scrollTo(0,0);
+}
+
+renderIntro();
+</script>
+</body>
+</html>

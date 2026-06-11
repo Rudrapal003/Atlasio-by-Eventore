@@ -1,0 +1,67 @@
+=== CATEGORY: VENUES ===
+info@vancouverconventioncentre.com
+events@rogersarena.com
+meetings@fairmontpacificrim.com
+sales@hyattvancouver.com
+events@vanaqua.org
+bookings@scienceworld.ca
+info@pipeshopvenue.com
+rentals@vanartgallery.bc.ca
+events@granvilleislandhotel.com
+bookings@steamworks.com
+info@hycroftmanor.ca
+events@yvrvenue.com
+hello@gastownloft.ca
+info@harbourviews.ca
+bookings@eventhallvancouver.com
+events@falsecreekevents.ca
+info@themodernvancouver.com
+sales@vancouverclub.ca
+events@stanleyparkpavilion.com
+info@brockhouse.ca
+rentals@roundhouse.ca
+events@richmondoval.ca
+info@ubcboathouse.com
+bookings@vancouverrowingclub.ca
+events@heritagehall.bc.ca
+info@shaughnessyrestaurant.com
+sales@marriottvancouver.com
+events@pinnaclehotel.ca
+info@rosewoodhotelgeorgia.com
+bookings@suttonplace.com
+events@panpacificvancouver.com
+info@westinvancouver.com
+sales@sheratonvancouver.com
+events@terminalcityclub.ca
+info@wallcentre.com
+bookings@parqvancouver.com
+events@jwmarriottvancouver.com
+info@douglasvancouver.com
+rentals@vancouverplayhouse.com
+events@orpheumtheatre.ca
+info@queenelizabeththeatre.ca
+bookings@commodoreballroom.com
+events@voguetheatre.com
+info@bcpavilion.com
+sales@vancouvermaritime.com
+events@museumofvancouver.ca
+info@hrmacmillanspacecentre.com
+bookings@vancouverbotanical.org
+events@bloedelconservatory.ca
+info@capilanosuspensionbridge.com
+
+--- DRAFT EMAIL: VENUES ---
+Subject: Booking your Vancouver venue through Eventore 🏰
+
+Hi [Name],
+
+Your venue is absolutely stunning and highly sought after in the Vancouver area. 
+
+We are launching Eventore, a premium marketplace connecting high-net-worth event planners with elite venues like yours. We do not charge upfront listing fees—we just bring you verified bookings from vetted planners, secured by Stripe Escrow.
+
+Would you be open to an invite to list your venue on our map for our private beta launch? 
+
+Best regards,
+[Your Name]
+Eventore Team
+
