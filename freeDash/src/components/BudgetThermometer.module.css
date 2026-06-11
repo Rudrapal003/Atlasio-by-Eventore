@@ -1,0 +1,40 @@
+.budgetCard {
+  min-width: 270px;
+  padding: 8px 14px 9px;
+  cursor: pointer;
+}
+.head {
+  display: flex; justify-content: space-between; align-items: baseline;
+  margin-bottom: 5px;
+}
+.label {
+  font: 600 10px "Inter Tight", sans-serif;
+  color: var(--muted);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+.amount {
+  font: 700 12px "Fraunces", serif;
+  color: var(--brand-deep);
+}
+.amount b { color: var(--text); font-size: 14px; }
+
+.bar {
+  position: relative;
+  height: 8px;
+  background: var(--cream-deep);
+  border-radius: var(--pill);
+  overflow: hidden;
+  display: flex;
+}
+.bar > span {
+  height: 100%;
+  transition: width 0.3s ease;
+}
+
+.foot {
+  display: flex; justify-content: space-between;
+  font-size: 10px; color: var(--muted);
+  margin-top: 4px;
+}
+.over { color: var(--rose); font-weight: 600; }

@@ -1,0 +1,1661 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>freeDash — by Eventore</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter+Tight:wght@400;500;600;700&display=swap" />
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+<style>
+  /* =========================================================
+     freeDash v0.2 — map-first, floating tools layout
+     Eventore palette + brighter category accents
+     ========================================================= */
+  :root {
+    --brand:        #1F4E79;
+    --brand-deep:   #133A5C;
+    --brand-bright: #2E6FB0;
+    --gold:         #C9A227;
+    --gold-bright:  #E8B931;
+    --rose:         #E11D48;
+    --green:        #059669;
+    --green-bright: #10B981;
+    --amber:        #D97706;
+
+    --bg:           #F4F1EB;
+    --surface:      #FFFFFF;
+    --cream:        #FBF9F4;
+    --cream-deep:   #EFE9DC;
+    --ink:          #0F172A;
+    --text:         #1F2937;
+    --muted:        #64748B;
+    --faint:        #94A3B8;
+    --line:         #E5E7EB;
+    --line-strong:  #CBD5E1;
+
+    --c-venue:      #1F4E79;
+    --c-photo:      #F59E0B;
+    --c-catering:   #E11D48;
+    --c-florals:    #10B981;
+    --c-dj:         #8B5CF6;
+    --c-planning:   #06B6D4;
+    --c-cake:       #EC4899;
+    --c-beauty:     #C9A227;
+    --c-officiant:  #6366F1;
+
+    --r-sm: 8px;
+    --r-md: 14px;
+    --r-lg: 20px;
+    --pill: 999px;
+
+    --shadow-sm: 0 1px 2px rgba(15, 23, 42, 0.06);
+    --shadow-md: 0 6px 18px rgba(15, 23, 42, 0.10);
+    --shadow-lg: 0 18px 40px rgba(15, 23, 42, 0.18);
+    --shadow-float: 0 10px 28px rgba(15, 23, 42, 0.12), 0 2px 6px rgba(15, 23, 42, 0.05);
+  }
+
+  * { box-sizing: border-box; }
+  html, body { height: 100%; margin: 0; }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: "Inter Tight", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    overflow: hidden;
+    position: relative;
+  }
+  .serif { font-family: "Fraunces", "Times New Roman", serif; letter-spacing: -0.01em; }
+
+  /* ------- Map fills the viewport ------- */
+  #map {
+    position: absolute; inset: 0;
+    background: #DDE6EC;
+    z-index: 1;
+  }
+
+  /* ------- Reusable floating-panel card ------- */
+  .float-card {
+    background: rgba(251, 249, 244, 0.94);
+    backdrop-filter: saturate(140%) blur(10px);
+    -webkit-backdrop-filter: saturate(140%) blur(10px);
+    border: 1px solid rgba(229, 231, 235, 0.85);
+    border-radius: var(--r-md);
+    box-shadow: var(--shadow-float);
+  }
+
+  /* =========================================================
+     TOP BAR — floating, sits above map
+     ========================================================= */
+  .topbar {
+    position: absolute;
+    top: 14px; left: 14px; right: 14px;
+    z-index: 600;
+    display: flex; align-items: center; gap: 10px;
+    pointer-events: none;
+  }
+  .topbar > * { pointer-events: auto; }
+
+  .brand-card {
+    display: flex; align-items: center; gap: 10px;
+    padding: 9px 14px 9px 12px;
+  }
+  .brand-mark {
+    font-family: "Fraunces", serif;
+    font-weight: 700; font-size: 21px;
+    color: var(--brand-deep);
+    letter-spacing: -0.02em;
+    line-height: 1;
+  }
+  .brand-mark .free { color: var(--gold); }
+  .brand-sub {
+    font-size: 10px;
+    color: var(--muted);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    border-left: 1px solid var(--line);
+    padding-left: 10px;
+  }
+
+  .loc-pill {
+    display: inline-flex; align-items: center; gap: 6px;
+    padding: 8px 14px;
+    border: 0;
+    border-radius: var(--pill);
+    font: 600 13px "Inter Tight", sans-serif;
+    color: var(--text);
+    cursor: pointer;
+  }
+  .loc-pill svg { width: 14px; height: 14px; color: var(--rose); }
+
+  .search-card {
+    flex: 1; max-width: 420px;
+    display: flex; align-items: center;
+    padding: 0 14px;
+    height: 42px;
+  }
+  .search-card input {
+    flex: 1; border: 0; outline: 0; background: transparent;
+    font: inherit; color: var(--text);
+    padding: 0 10px;
+  }
+  .search-card svg { width: 16px; height: 16px; color: var(--muted); }
+
+  /* ---- Budget thermometer ---- */
+  .budget-card {
+    min-width: 270px;
+    padding: 8px 14px 9px;
+    cursor: pointer;
+  }
+  .budget-head {
+    display: flex; justify-content: space-between; align-items: baseline;
+    margin-bottom: 5px;
+  }
+  .budget-label {
+    font: 600 10px "Inter Tight", sans-serif;
+    color: var(--muted);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+  .budget-amount {
+    font: 700 12px "Fraunces", serif;
+    color: var(--brand-deep);
+  }
+  .budget-amount b { color: var(--text); font-size: 14px; }
+  .budget-bar {
+    position: relative;
+    height: 8px;
+    background: var(--cream-deep);
+    border-radius: var(--pill);
+    overflow: hidden;
+    display: flex;
+  }
+  .budget-bar > span {
+    height: 100%;
+    transition: width 0.3s ease;
+  }
+  .budget-foot {
+    display: flex; justify-content: space-between;
+    font-size: 10px; color: var(--muted);
+    margin-top: 4px;
+  }
+  .budget-foot .over { color: var(--rose); font-weight: 600; }
+
+  .spacer { flex: 1; }
+
+  .plan-btn {
+    position: relative;
+    display: inline-flex; align-items: center; gap: 8px;
+    background: var(--brand);
+    color: #fff;
+    border: 0;
+    padding: 10px 16px 10px 14px;
+    border-radius: var(--pill);
+    font: 600 13px "Inter Tight", sans-serif;
+    cursor: pointer;
+    box-shadow: 0 4px 14px rgba(31, 78, 121, 0.32);
+    transition: transform 0.05s ease, background 0.15s ease;
+  }
+  .plan-btn:hover { background: var(--brand-bright); }
+  .plan-btn:active { transform: translateY(1px); }
+  .plan-btn .badge {
+    background: var(--gold-bright);
+    color: var(--brand-deep);
+    font-weight: 700;
+    font-size: 11px;
+    padding: 1px 7px;
+    border-radius: var(--pill);
+    min-width: 18px; text-align: center;
+  }
+
+  .avatar {
+    width: 42px; height: 42px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, var(--gold-bright), var(--gold));
+    color: var(--brand-deep);
+    display: flex; align-items: center; justify-content: center;
+    font: 700 14px "Fraunces", serif;
+    box-shadow: var(--shadow-float);
+    cursor: pointer;
+    border: 2px solid rgba(251, 249, 244, 0.95);
+    flex-shrink: 0;
+  }
+
+  /* =========================================================
+     LEFT PANEL — profile + event management + main functions
+     ========================================================= */
+  .side-panel {
+    position: absolute;
+    top: 76px; bottom: 14px;
+    width: 320px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    z-index: 500;
+  }
+  .left-panel { left: 14px; padding: 16px; }
+  .right-panel { right: 14px; padding: 14px; width: 300px; }
+
+  .panel-section { margin-bottom: 16px; }
+  .panel-section:last-child { margin-bottom: 0; }
+  .section-title {
+    font: 600 11px "Inter Tight", sans-serif;
+    color: var(--muted);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin: 0 0 9px;
+    display: flex; align-items: center; gap: 6px;
+  }
+  .section-title .count {
+    background: var(--cream-deep); color: var(--muted);
+    padding: 1px 7px; border-radius: var(--pill);
+    font-size: 10px;
+  }
+
+  /* ---- Profile card ---- */
+  .profile-block {
+    display: flex; align-items: center; gap: 12px;
+    padding: 12px;
+    background: linear-gradient(135deg, var(--surface) 0%, var(--cream) 100%);
+    border: 1px solid var(--line);
+    border-radius: var(--r-md);
+  }
+  .profile-block .pic {
+    width: 44px; height: 44px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, var(--gold-bright), var(--gold));
+    color: var(--brand-deep);
+    display: flex; align-items: center; justify-content: center;
+    font: 700 16px "Fraunces", serif;
+    flex-shrink: 0;
+  }
+  .profile-block .who { flex: 1; min-width: 0; }
+  .profile-block .who .nm {
+    font: 600 14px "Inter Tight", sans-serif;
+    color: var(--text);
+  }
+  .profile-block .who .sub {
+    font-size: 11px; color: var(--muted);
+    white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+  }
+  .profile-block .gear {
+    background: transparent; border: 0;
+    color: var(--muted); cursor: pointer;
+    padding: 4px;
+  }
+  .profile-block .gear:hover { color: var(--text); }
+
+  /* ---- Event card ---- */
+  .event-card-mini {
+    margin-top: 10px;
+    padding: 12px;
+    background: var(--brand);
+    color: #fff;
+    border-radius: var(--r-md);
+    position: relative;
+    overflow: hidden;
+  }
+  .event-card-mini::after {
+    content: "";
+    position: absolute; right: -20px; bottom: -20px;
+    width: 90px; height: 90px;
+    background: radial-gradient(circle, rgba(232, 185, 49, 0.35) 0%, transparent 70%);
+    pointer-events: none;
+  }
+  .event-card-mini .ttl {
+    font: 700 15px "Fraunces", serif;
+    margin-bottom: 2px;
+  }
+  .event-card-mini .meta {
+    font-size: 11px; color: rgba(255,255,255,0.78);
+    display: flex; gap: 8px; flex-wrap: wrap;
+  }
+  .event-stats {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 6px;
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px solid rgba(255,255,255,0.18);
+    position: relative; z-index: 1;
+  }
+  .event-stat {
+    text-align: center;
+  }
+  .event-stat .n {
+    font: 700 18px "Fraunces", serif;
+    color: var(--gold-bright);
+    line-height: 1.1;
+  }
+  .event-stat .l {
+    font-size: 9px; color: rgba(255,255,255,0.7);
+    letter-spacing: 0.08em; text-transform: uppercase;
+  }
+  .event-switcher {
+    font-size: 11px; color: rgba(255,255,255,0.85);
+    margin-top: 6px;
+    display: flex; justify-content: space-between; align-items: center;
+    position: relative; z-index: 1;
+  }
+  .event-switcher .switch-link {
+    color: var(--gold-bright); text-decoration: none; font-weight: 600;
+    cursor: pointer;
+  }
+
+  /* ---- Main function grid ---- */
+  .func-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+  }
+  .func-btn {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: var(--r-md);
+    padding: 12px 10px;
+    cursor: pointer;
+    text-align: left;
+    display: flex; flex-direction: column; gap: 6px;
+    transition: all 0.12s ease;
+    position: relative;
+  }
+  .func-btn:hover {
+    border-color: var(--line-strong);
+    transform: translateY(-1px);
+    box-shadow: var(--shadow-sm);
+  }
+  .func-btn .ico {
+    width: 30px; height: 30px;
+    border-radius: var(--r-sm);
+    display: flex; align-items: center; justify-content: center;
+    background: var(--cream-deep);
+    color: var(--brand);
+  }
+  .func-btn .lb {
+    font: 600 12px "Inter Tight", sans-serif;
+    color: var(--text);
+    line-height: 1.2;
+  }
+  .func-btn .sb {
+    font-size: 10px; color: var(--muted);
+  }
+  .func-btn .nub {
+    position: absolute; top: 8px; right: 8px;
+    background: var(--rose); color: #fff;
+    font: 700 9px "Inter Tight", sans-serif;
+    padding: 1px 6px; border-radius: var(--pill);
+  }
+  /* Tint the function icons by purpose */
+  .func-btn[data-c="brand"]    .ico { background: rgba(31,78,121,0.12);  color: var(--brand); }
+  .func-btn[data-c="gold"]     .ico { background: rgba(201,162,39,0.18); color: var(--gold); }
+  .func-btn[data-c="green"]    .ico { background: rgba(5,150,105,0.12);  color: var(--green); }
+  .func-btn[data-c="rose"]     .ico { background: rgba(225,29,72,0.12);  color: var(--rose); }
+  .func-btn[data-c="violet"]   .ico { background: rgba(139,92,246,0.15); color: var(--c-dj); }
+  .func-btn[data-c="cyan"]     .ico { background: rgba(6,182,212,0.15);  color: var(--c-planning); }
+
+  /* ---- Refinement filters on left ---- */
+  .refine-block {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: var(--r-md);
+    padding: 12px;
+  }
+  .refine-row { margin-bottom: 12px; }
+  .refine-row:last-child { margin-bottom: 0; }
+  .refine-lbl {
+    font: 600 10px "Inter Tight", sans-serif;
+    color: var(--muted);
+    text-transform: uppercase; letter-spacing: 0.1em;
+    margin-bottom: 6px;
+    display: flex; justify-content: space-between;
+  }
+  .refine-lbl b { color: var(--text); font-size: 11px; }
+  input[type="range"] {
+    width: 100%; accent-color: var(--brand);
+    margin: 0;
+  }
+  .price-tiers {
+    display: flex; gap: 5px;
+  }
+  .price-tier {
+    flex: 1;
+    background: var(--cream);
+    border: 1px solid var(--line);
+    border-radius: var(--r-sm);
+    padding: 6px 0;
+    text-align: center;
+    cursor: pointer;
+    font-weight: 600; font-size: 12px;
+    color: var(--muted);
+    transition: all 0.12s;
+  }
+  .price-tier:hover { border-color: var(--line-strong); color: var(--text); }
+  .price-tier.active { background: var(--brand); color: #fff; border-color: var(--brand); }
+
+  .reset-btn {
+    width: 100%; margin-top: 10px;
+    background: transparent;
+    border: 1px dashed var(--line-strong);
+    color: var(--muted);
+    padding: 7px;
+    border-radius: var(--r-sm);
+    font: 500 11px "Inter Tight", sans-serif;
+    cursor: pointer;
+  }
+  .reset-btn:hover { background: var(--cream); color: var(--text); }
+
+  /* =========================================================
+     RIGHT PANEL — Vendor types (categories)
+     ========================================================= */
+  .cat-list {
+    display: flex; flex-direction: column;
+    gap: 7px;
+  }
+  .cat-btn {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: var(--r-md);
+    padding: 10px 12px;
+    cursor: pointer;
+    display: flex; align-items: center; gap: 10px;
+    transition: all 0.12s ease;
+    text-align: left;
+    font-family: "Inter Tight", sans-serif;
+  }
+  .cat-btn:hover {
+    border-color: var(--line-strong);
+    transform: translateX(-2px);
+  }
+  .cat-btn .swatch {
+    width: 30px; height: 30px;
+    border-radius: var(--r-sm);
+    display: flex; align-items: center; justify-content: center;
+    color: #fff;
+    font: 700 12px "Inter Tight", sans-serif;
+    flex-shrink: 0;
+    box-shadow: inset 0 -2px 0 rgba(0,0,0,0.18);
+  }
+  .cat-btn .meta {
+    flex: 1; min-width: 0;
+  }
+  .cat-btn .nm {
+    font: 600 13px "Inter Tight", sans-serif;
+    color: var(--text);
+  }
+  .cat-btn .sub {
+    font-size: 10px; color: var(--muted);
+  }
+  .cat-btn .nm-count {
+    background: var(--cream-deep);
+    color: var(--muted);
+    font: 600 11px "Inter Tight", sans-serif;
+    padding: 2px 8px;
+    border-radius: var(--pill);
+  }
+  .cat-btn.active {
+    border-color: transparent;
+    background: var(--cream);
+    box-shadow: 0 0 0 2px var(--brand) inset, var(--shadow-sm);
+  }
+  .cat-btn.active .nm-count {
+    background: var(--brand); color: #fff;
+  }
+
+  .quick-toggle {
+    margin-top: 10px;
+    background: var(--cream);
+    border: 1px solid var(--line);
+    border-radius: var(--r-md);
+    padding: 10px 12px;
+    display: flex; justify-content: space-between; align-items: center;
+    cursor: pointer;
+  }
+  .quick-toggle .lb { font: 600 12px "Inter Tight", sans-serif; color: var(--text); }
+  .quick-toggle .sw {
+    width: 32px; height: 18px; border-radius: var(--pill);
+    background: var(--line-strong);
+    position: relative;
+    transition: background 0.15s;
+  }
+  .quick-toggle .sw::after {
+    content: ""; position: absolute;
+    top: 2px; left: 2px;
+    width: 14px; height: 14px; border-radius: 50%;
+    background: #fff;
+    transition: transform 0.15s;
+  }
+  .quick-toggle.on .sw { background: var(--green-bright); }
+  .quick-toggle.on .sw::after { transform: translateX(14px); }
+
+  /* =========================================================
+     MAP UI BITS (marker, legend, corner card)
+     ========================================================= */
+  .v-marker {
+    width: 30px; height: 30px; border-radius: 50%;
+    border: 3px solid #fff;
+    box-shadow: 0 2px 8px rgba(15,23,42,0.35);
+    color: #fff;
+    display: flex; align-items: center; justify-content: center;
+    font: 700 12px "Inter Tight", sans-serif;
+    cursor: pointer;
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+  }
+  .v-marker:hover { transform: scale(1.1); }
+  .v-marker.selected {
+    width: 40px; height: 40px; font-size: 14px;
+    box-shadow: 0 0 0 6px rgba(31, 78, 121, 0.22), 0 4px 14px rgba(15,23,42,0.45);
+  }
+  .v-marker.in-plan::after {
+    content: "✓";
+    position: absolute;
+    bottom: -2px; right: -2px;
+    background: var(--green); color: #fff;
+    width: 14px; height: 14px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    font: 700 9px "Inter Tight", sans-serif;
+    display: flex; align-items: center; justify-content: center;
+  }
+
+  .map-corner {
+    position: absolute; left: 350px; bottom: 18px;
+    z-index: 400;
+    padding: 8px 14px;
+    font-size: 12px;
+    color: var(--muted);
+  }
+  .map-corner b { color: var(--text); font-weight: 600; }
+
+  /* =========================================================
+     VENDOR CARD — floating bottom overlay
+     ========================================================= */
+  .vendor-overlay {
+    position: absolute;
+    left: 350px; bottom: 18px;
+    width: 410px;
+    max-height: calc(100vh - 110px);
+    z-index: 700;
+    border-radius: var(--r-lg);
+    overflow: hidden;
+    display: flex; flex-direction: column;
+    animation: slideUp 0.22s cubic-bezier(0.2, 0.8, 0.2, 1);
+  }
+  @keyframes slideUp {
+    from { opacity: 0; transform: translateY(20px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+  .vendor-overlay .close-x {
+    position: absolute; top: 12px; right: 12px;
+    background: rgba(255,255,255,0.92);
+    border: 0;
+    width: 30px; height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+    color: var(--text);
+    display: flex; align-items: center; justify-content: center;
+    z-index: 2;
+    box-shadow: var(--shadow-sm);
+  }
+  .vendor-overlay .close-x:hover { color: var(--rose); }
+
+  .vendor-hero {
+    position: relative;
+    height: 110px;
+    overflow: hidden;
+  }
+  .vendor-hero::before {
+    content: "";
+    position: absolute; inset: 0;
+    background: linear-gradient(135deg, var(--hero-c, var(--brand-bright)) 0%, var(--brand) 90%);
+    opacity: 0.95;
+  }
+  .vendor-hero .pattern {
+    position: absolute; inset: 0;
+    background-image:
+      radial-gradient(circle at 18% 20%, rgba(255,255,255,0.22) 0, transparent 28%),
+      radial-gradient(circle at 80% 70%, rgba(255,255,255,0.16) 0, transparent 32%);
+  }
+  .vendor-hero .cat-tag {
+    position: absolute; left: 14px; bottom: 12px;
+    background: rgba(255,255,255,0.96);
+    color: var(--text);
+    padding: 5px 10px;
+    border-radius: var(--pill);
+    font: 600 11px "Inter Tight", sans-serif;
+    display: flex; align-items: center; gap: 6px;
+  }
+  .vendor-hero .cat-tag .dot { width: 8px; height: 8px; border-radius: 50%; }
+  .vendor-hero .price-tag {
+    position: absolute; right: 14px; bottom: 12px;
+    background: var(--gold-bright);
+    color: var(--brand-deep);
+    padding: 5px 10px;
+    border-radius: var(--pill);
+    font: 700 11px "Inter Tight", sans-serif;
+  }
+
+  .vendor-body {
+    background: var(--cream);
+    padding: 14px 16px 16px;
+    overflow-y: auto;
+  }
+  .vendor-name {
+    font: 600 20px "Fraunces", serif;
+    color: var(--ink);
+    letter-spacing: -0.01em;
+    margin: 0 0 4px;
+  }
+  .vendor-meta {
+    display: flex; align-items: center; gap: 8px;
+    color: var(--muted);
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+  .vendor-meta .star { color: var(--gold); font-weight: 600; }
+  .vendor-brief {
+    color: var(--text);
+    font-size: 13px; line-height: 1.5;
+    margin: 0 0 14px;
+  }
+  .contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 7px;
+    margin-bottom: 14px;
+  }
+  .contact-cell {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: var(--r-md);
+    padding: 8px 10px;
+    font-size: 12px;
+  }
+  .contact-cell.full { grid-column: 1 / -1; }
+  .contact-cell .lbl { color: var(--muted); font-size: 9px; letter-spacing: 0.08em; text-transform: uppercase; }
+  .contact-cell .val { color: var(--text); font-weight: 500; word-break: break-all; }
+
+  .actions { display: flex; gap: 6px; margin-bottom: 14px; }
+  .btn-primary {
+    flex: 1;
+    background: var(--brand);
+    color: #fff;
+    border: 0;
+    padding: 10px;
+    border-radius: var(--r-md);
+    font: 600 13px "Inter Tight", sans-serif;
+    cursor: pointer;
+    transition: background 0.15s;
+  }
+  .btn-primary:hover { background: var(--brand-bright); }
+  .btn-primary.in-plan { background: var(--green); }
+  .btn-primary.in-plan:hover { background: var(--green-bright); }
+  .btn-secondary {
+    background: var(--surface);
+    color: var(--text);
+    border: 1px solid var(--line);
+    padding: 10px 12px;
+    border-radius: var(--r-md);
+    font: 600 13px "Inter Tight", sans-serif;
+    cursor: pointer;
+  }
+  .btn-secondary:hover { border-color: var(--line-strong); }
+
+  .quotes-mini { margin-top: 6px; }
+  .quotes-mini .qt {
+    background: linear-gradient(180deg, #FFFDF6 0%, #FBF6E7 100%);
+    border: 1px solid #F5E7B5;
+    border-radius: var(--r-md);
+    padding: 8px 10px;
+    margin-bottom: 5px;
+    font-size: 12px;
+    display: flex; justify-content: space-between; align-items: center;
+  }
+  .quotes-mini .qt .desc { color: var(--muted); }
+  .quotes-mini .qt .amt { font: 700 14px "Fraunces", serif; color: var(--brand-deep); }
+  .quotes-empty {
+    color: var(--muted); font-size: 12px; font-style: italic;
+    background: var(--surface);
+    border: 1px dashed var(--line);
+    border-radius: var(--r-md);
+    padding: 10px;
+    text-align: center;
+  }
+  .add-quote {
+    background: transparent; border: 0;
+    color: var(--brand); font: 600 11px "Inter Tight", sans-serif;
+    cursor: pointer; padding: 6px 0 0;
+  }
+  .add-quote:hover { color: var(--brand-bright); }
+
+  /* =========================================================
+     PLAN DRAWER — full-height right side, slides over right rail
+     ========================================================= */
+  .plan-drawer {
+    position: absolute;
+    top: 14px; right: 14px; bottom: 14px;
+    width: 380px;
+    z-index: 800;
+    border-radius: var(--r-lg);
+    overflow: hidden;
+    display: flex; flex-direction: column;
+    animation: slideInRight 0.22s cubic-bezier(0.2, 0.8, 0.2, 1);
+  }
+  @keyframes slideInRight {
+    from { opacity: 0; transform: translateX(20px); }
+    to   { opacity: 1; transform: translateX(0); }
+  }
+  .plan-head {
+    padding: 14px 18px;
+    background: var(--brand);
+    color: #fff;
+    display: flex; align-items: center; gap: 12px;
+  }
+  .plan-head h3 {
+    font: 600 16px "Fraunces", serif;
+    margin: 0;
+    flex: 1;
+  }
+  .plan-head .close-btn {
+    margin-left: auto;
+    background: rgba(255,255,255,0.15);
+    border: 0;
+    width: 30px; height: 30px;
+    border-radius: 50%;
+    cursor: pointer; color: #fff;
+    display: flex; align-items: center; justify-content: center;
+  }
+  .plan-head .close-btn:hover { background: rgba(255,255,255,0.28); }
+  .plan-body {
+    padding: 14px 16px;
+    overflow-y: auto;
+    flex: 1;
+    background: var(--cream);
+  }
+
+  .plan-stat-row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 7px;
+    margin-bottom: 14px;
+  }
+  .plan-stat {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: var(--r-md);
+    padding: 10px 6px;
+    text-align: center;
+  }
+  .plan-stat .n { font: 700 18px "Fraunces", serif; color: var(--brand-deep); }
+  .plan-stat .l { font-size: 9px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.08em; }
+
+  .plan-item {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: var(--r-md);
+    margin-bottom: 8px;
+    overflow: hidden;
+  }
+  .plan-item-head {
+    display: flex; align-items: center; gap: 10px;
+    padding: 10px 12px;
+    cursor: pointer;
+  }
+  .plan-item-head .strip {
+    width: 4px; align-self: stretch; border-radius: 4px;
+  }
+  .plan-item-head .titles { flex: 1; min-width: 0; }
+  .plan-item-head .titles .n {
+    font: 600 13px "Inter Tight", sans-serif;
+    color: var(--text);
+    white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+  }
+  .plan-item-head .titles .s {
+    font-size: 10px; color: var(--muted);
+    text-transform: uppercase; letter-spacing: 0.06em;
+  }
+  .plan-item-head .stage-pill {
+    background: var(--cream);
+    border: 1px solid var(--line);
+    color: var(--text);
+    font: 600 10px "Inter Tight", sans-serif;
+    padding: 3px 8px;
+    border-radius: var(--pill);
+  }
+  .plan-item-head .chev { color: var(--muted); transition: transform 0.18s; }
+  .plan-item.open .plan-item-head .chev { transform: rotate(90deg); }
+
+  .plan-checklist {
+    border-top: 1px solid var(--line);
+    padding: 8px 12px 12px;
+    display: none;
+    background: var(--cream);
+  }
+  .plan-item.open .plan-checklist { display: block; }
+  .check-row {
+    display: flex; align-items: center; gap: 10px;
+    padding: 5px 0;
+    font-size: 12px;
+    color: var(--text);
+    cursor: pointer;
+  }
+  .check-row .cbox {
+    width: 16px; height: 16px;
+    border: 2px solid var(--line-strong);
+    border-radius: 4px;
+    display: inline-flex; align-items: center; justify-content: center;
+    flex-shrink: 0;
+    background: var(--surface);
+  }
+  .check-row.done .cbox {
+    background: var(--green); border-color: var(--green);
+  }
+  .check-row.done .cbox::after {
+    content: "✓"; color: #fff; font-size: 11px; line-height: 1; font-weight: 700;
+  }
+  .check-row.done .label { color: var(--muted); text-decoration: line-through; }
+  .plan-notes {
+    width: 100%; border: 1px solid var(--line); border-radius: var(--r-md);
+    padding: 8px; margin-top: 8px;
+    font: inherit; font-size: 12px;
+    resize: vertical; min-height: 50px;
+    background: var(--surface);
+  }
+  .plan-notes:focus { outline: 2px solid var(--brand-bright); outline-offset: -1px; border-color: var(--brand-bright); }
+  .remove-btn {
+    background: transparent; border: 0;
+    color: var(--rose); font: 600 11px "Inter Tight", sans-serif;
+    cursor: pointer; padding: 6px 0 0;
+  }
+  .remove-btn:hover { text-decoration: underline; }
+
+  .plan-empty {
+    text-align: center;
+    padding: 60px 18px;
+    color: var(--muted);
+  }
+  .plan-empty .ico {
+    width: 56px; height: 56px;
+    border-radius: 50%;
+    background: var(--cream-deep);
+    color: var(--brand);
+    display: inline-flex; align-items: center; justify-content: center;
+    margin-bottom: 12px;
+  }
+  .plan-empty h3 { font: 600 17px "Fraunces", serif; color: var(--text); margin: 0 0 4px; }
+  .plan-empty p { font-size: 13px; margin: 0; }
+
+  /* =========================================================
+     SCROLLBARS
+     ========================================================= */
+  ::-webkit-scrollbar { width: 8px; height: 8px; }
+  ::-webkit-scrollbar-thumb { background: rgba(203, 213, 225, 0.6); border-radius: 6px; }
+  ::-webkit-scrollbar-thumb:hover { background: var(--line-strong); }
+  ::-webkit-scrollbar-track { background: transparent; }
+
+  /* ---------- Leaflet tweaks ---------- */
+  .leaflet-control-attribution {
+    font-size: 10px !important;
+    background: rgba(251,249,244,0.85) !important;
+    margin: 0 14px 6px 0 !important;
+  }
+  .leaflet-control-zoom {
+    border: none !important;
+    box-shadow: var(--shadow-float) !important;
+    margin-right: 14px !important;
+  }
+  .leaflet-control-zoom a {
+    background: rgba(251, 249, 244, 0.94) !important;
+    color: var(--brand-deep) !important;
+    border: 1px solid rgba(229, 231, 235, 0.85) !important;
+    font: 700 18px "Inter Tight" !important;
+  }
+  .leaflet-control-zoom a:hover { background: var(--cream) !important; }
+  .leaflet-container { font-family: "Inter Tight", sans-serif !important; }
+
+  /* Tooltip-ish hover info */
+  .marker-tip {
+    background: var(--cream);
+    color: var(--text);
+    border: 1px solid var(--line);
+    border-radius: var(--r-md);
+    padding: 6px 10px;
+    font: 600 12px "Inter Tight", sans-serif;
+    box-shadow: var(--shadow-md);
+  }
+</style>
+</head>
+<body>
+
+<!-- ============================================================
+     MAP (full viewport)
+     ============================================================ -->
+<div id="map"></div>
+
+<!-- ============================================================
+     TOP BAR — floating controls
+     ============================================================ -->
+<div class="topbar">
+  <div class="brand-card float-card">
+    <span class="brand-mark"><span class="free">free</span>Dash</span>
+    <span class="brand-sub">by Eventore</span>
+  </div>
+  <button class="loc-pill float-card" type="button" title="Change city">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-7.58 8-13a8 8 0 1 0-16 0c0 5.42 8 13 8 13z"/><circle cx="12" cy="9" r="2.5"/></svg>
+    Greater Vancouver
+  </button>
+  <div class="search-card float-card">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+    <input id="search-input" type="text" placeholder="Search vendors, areas, styles…" />
+  </div>
+
+  <!-- Budget thermometer -->
+  <div class="budget-card float-card" id="budget-card" title="Click to edit budget">
+    <div class="budget-head">
+      <span class="budget-label">Budget</span>
+      <span class="budget-amount"><b id="bud-spent">$18,400</b> <span id="bud-total">/ $25,000</span></span>
+    </div>
+    <div class="budget-bar" id="budget-bar"></div>
+    <div class="budget-foot">
+      <span id="bud-remaining">$6,600 remaining</span>
+      <span id="bud-pct">74%</span>
+    </div>
+  </div>
+
+  <div class="spacer"></div>
+
+  <button id="plan-toggle" class="plan-btn" type="button">
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M9 11l3 3 8-8"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
+    My Plan
+    <span id="plan-count" class="badge">0</span>
+  </button>
+  <div class="avatar" title="Rudra">R</div>
+</div>
+
+<!-- ============================================================
+     LEFT PANEL — profile + event management + filters
+     ============================================================ -->
+<aside class="side-panel left-panel float-card">
+
+  <!-- Profile block -->
+  <div class="panel-section">
+    <div class="profile-block">
+      <div class="pic">R</div>
+      <div class="who">
+        <div class="nm">Rudra</div>
+        <div class="sub">Planning 2 events · Free tier</div>
+      </div>
+      <button class="gear" title="Profile settings">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+      </button>
+    </div>
+
+    <!-- Active event card -->
+    <div class="event-card-mini">
+      <div class="ttl">Maya &amp; Sam — Wedding</div>
+      <div class="meta">
+        <span>📅 Sept 14, 2026</span>
+        <span>👥 110 guests</span>
+        <span>📍 Stanley Park</span>
+      </div>
+      <div class="event-stats">
+        <div class="event-stat"><div class="n" id="evt-days">95</div><div class="l">days to go</div></div>
+        <div class="event-stat"><div class="n" id="evt-vendors">0</div><div class="l">vendors</div></div>
+        <div class="event-stat"><div class="n" id="evt-booked">0</div><div class="l">booked</div></div>
+      </div>
+      <div class="event-switcher">
+        <span>Active event</span>
+        <a class="switch-link">Switch ›</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main functions -->
+  <div class="panel-section">
+    <div class="section-title">Event tools</div>
+    <div class="func-grid">
+      <button class="func-btn" data-c="brand">
+        <div class="ico"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg></div>
+        <div class="lb">Timeline</div>
+        <div class="sb">Day-of run sheet</div>
+      </button>
+      <button class="func-btn" data-c="rose">
+        <div class="ico"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
+        <div class="lb">Guest list</div>
+        <div class="sb">110 invited</div>
+      </button>
+      <button class="func-btn" data-c="violet">
+        <div class="ico"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></div>
+        <div class="lb">Messages</div>
+        <div class="sb">Vendor inquiries</div>
+        <span class="nub">3</span>
+      </button>
+      <button class="func-btn" data-c="gold">
+        <div class="ico"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6M16 13H8M16 17H8M10 9H8"/></svg></div>
+        <div class="lb">Documents</div>
+        <div class="sb">Contracts, IDs</div>
+      </button>
+      <button class="func-btn" data-c="green">
+        <div class="ico"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg></div>
+        <div class="lb">Budget</div>
+        <div class="sb">By category</div>
+      </button>
+      <button class="func-btn" data-c="cyan">
+        <div class="ico"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg></div>
+        <div class="lb">AI assistant</div>
+        <div class="sb">Plan with me</div>
+      </button>
+    </div>
+  </div>
+
+  <!-- Refinement filters -->
+  <div class="panel-section">
+    <div class="section-title">Refine search</div>
+    <div class="refine-block">
+      <div class="refine-row">
+        <div class="refine-lbl">Distance from city centre <b id="dist-val">25 km</b></div>
+        <input id="dist-range" type="range" min="1" max="50" value="25" />
+      </div>
+      <div class="refine-row">
+        <div class="refine-lbl">Price tier</div>
+        <div id="price-tiers" class="price-tiers">
+          <div class="price-tier" data-tier="1">$</div>
+          <div class="price-tier" data-tier="2">$$</div>
+          <div class="price-tier" data-tier="3">$$$</div>
+          <div class="price-tier" data-tier="4">$$$$</div>
+        </div>
+      </div>
+      <div class="refine-row">
+        <div class="refine-lbl">Minimum rating <b id="rating-val">any</b></div>
+        <input id="rating-range" type="range" min="0" max="5" step="0.5" value="0" />
+      </div>
+      <button id="reset-btn" class="reset-btn" type="button">Reset filters</button>
+    </div>
+  </div>
+
+</aside>
+
+<!-- ============================================================
+     RIGHT PANEL — vendor types
+     ============================================================ -->
+<aside class="side-panel right-panel float-card">
+  <div class="panel-section">
+    <div class="section-title">Vendor types <span class="count" id="results-count">0</span></div>
+    <div id="category-list" class="cat-list"></div>
+    <div class="quick-toggle on" id="in-plan-toggle">
+      <span class="lb">Show only my plan</span>
+      <span class="sw"></span>
+    </div>
+  </div>
+</aside>
+
+<!-- map-corner small counter -->
+<div class="map-corner float-card" id="map-counter">
+  <b id="map-count">0</b> vendors on map
+</div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+<script>
+/* =========================================================
+   freeDash v0.2 — interactive map-first dashboard
+   ========================================================= */
+
+const CATEGORIES = [
+  { id: 'venue',     label: 'Venues',         color: 'var(--c-venue)',     hex: '#1F4E79', letter: 'V' },
+  { id: 'photo',     label: 'Photography',    color: 'var(--c-photo)',     hex: '#F59E0B', letter: 'P' },
+  { id: 'catering',  label: 'Catering',       color: 'var(--c-catering)',  hex: '#E11D48', letter: 'C' },
+  { id: 'florals',   label: 'Florals',        color: 'var(--c-florals)',   hex: '#10B981', letter: 'F' },
+  { id: 'dj',        label: 'DJ / Music',     color: 'var(--c-dj)',        hex: '#8B5CF6', letter: 'D' },
+  { id: 'planning',  label: 'Planning',       color: 'var(--c-planning)',  hex: '#06B6D4', letter: 'L' },
+  { id: 'cake',      label: 'Cake / Dessert', color: 'var(--c-cake)',      hex: '#EC4899', letter: 'K' },
+  { id: 'beauty',    label: 'Hair / Makeup',  color: 'var(--c-beauty)',    hex: '#C9A227', letter: 'B' },
+  { id: 'officiant', label: 'Officiant',      color: 'var(--c-officiant)', hex: '#6366F1', letter: 'O' },
+];
+
+const VENDORS = [
+  { id: 'v01', name: 'Driftwood Pavilion',        cat: 'venue',     lat: 49.3010, lng: -123.1417, area: 'Stanley Park',  price: 4, rating: 4.8, brief: 'Open-air heritage pavilion with forest backdrop. Seats 140 indoors, 280 with tent.', email: 'events@driftwoodpavilion.ca', phone: '(604) 555-0117', web: 'driftwoodpavilion.ca', quotes: [{tier:'100 guests / full evening', amount:'$8,400'}] },
+  { id: 'v02', name: 'Brick & Birch',             cat: 'venue',     lat: 49.2750, lng: -123.1216, area: 'Yaletown',      price: 3, rating: 4.6, brief: 'Industrial-loft event space with exposed brick, original beams, and a long west-facing window wall.', email: 'hello@brickbirch.com', phone: '(604) 555-0132', web: 'brickbirch.com', quotes: [{tier:'80 guests / 6h', amount:'$5,200'}] },
+  { id: 'v03', name: 'The Glasshouse',            cat: 'venue',     lat: 49.2829, lng: -123.1107, area: 'Downtown',      price: 4, rating: 4.9, brief: 'Rooftop botanical conservatory with panoramic harbour views and on-site bar program.', email: 'bookings@glasshousevan.ca', phone: '(604) 555-0149', web: 'glasshousevan.ca', quotes: [] },
+  { id: 'v04', name: 'Cedar & Sea Estate',        cat: 'venue',     lat: 49.2535, lng: -123.2516, area: 'UBC',           price: 3, rating: 4.5, brief: 'Coastal estate near Wreck Beach. Garden ceremony plus tented reception lawn.', email: 'events@cedarsea.ca', phone: '(604) 555-0163', web: 'cedarsea.ca', quotes: [{tier:'120 guests / full day', amount:'$11,500'}] },
+  { id: 'v05', name: 'Aurora Frame Studio',       cat: 'photo',     lat: 49.2738, lng: -123.0950, area: 'Strathcona',    price: 3, rating: 4.9, brief: 'Documentary-style wedding and event photography, two-shooter teams.', email: 'studio@auroraframe.ca', phone: '(604) 555-0188', web: 'auroraframe.ca', quotes: [{tier:'8h coverage', amount:'$3,600'}] },
+  { id: 'v06', name: 'Ember & Oak Photo',         cat: 'photo',     lat: 49.2670, lng: -123.1530, area: 'Kitsilano',     price: 2, rating: 4.7, brief: 'Light-led portrait and editorial coverage. Includes engagement session.', email: 'hi@emberoak.co', phone: '(604) 555-0204', web: 'emberoak.co', quotes: [] },
+  { id: 'v07', name: 'Pacific Light Photography', cat: 'photo',     lat: 49.2630, lng: -123.0991, area: 'Mt Pleasant',   price: 3, rating: 4.8, brief: 'Editorial coverage with film + digital. Specializes in golden-hour ceremonies.', email: 'team@paclight.ca', phone: '(604) 555-0211', web: 'paclight.ca', quotes: [{tier:'10h + 2 shooters', amount:'$4,800'}] },
+  { id: 'v08', name: 'Saltwater Kitchen',         cat: 'catering',  lat: 49.2625, lng: -123.0840, area: 'East Van',      price: 3, rating: 4.7, brief: 'Coastal seasonal menus, in-house pastry, full bar program with BC-only wine list.', email: 'events@saltwaterkitchen.ca', phone: '(604) 555-0237', web: 'saltwaterkitchen.ca', quotes: [{tier:'plated / 100 guests', amount:'$11,200'}] },
+  { id: 'v09', name: 'Foragefire Catering',       cat: 'catering',  lat: 49.2831, lng: -123.1145, area: 'Downtown',      price: 4, rating: 4.9, brief: 'Open-fire and live-fire stations. Chef-driven seasonal tasting menus.', email: 'kitchen@foragefire.ca', phone: '(604) 555-0258', web: 'foragefire.ca', quotes: [{tier:'family-style / 120 guests', amount:'$14,800'}] },
+  { id: 'v10', name: 'Bloomline Florals',         cat: 'florals',   lat: 49.2671, lng: -123.1610, area: 'Kitsilano',     price: 3, rating: 4.8, brief: 'Locally-grown garden-style installations and ceremony arches.', email: 'hello@bloomline.ca', phone: '(604) 555-0269', web: 'bloomline.ca', quotes: [{tier:'ceremony + 10 centerpieces', amount:'$3,200'}] },
+  { id: 'v11', name: 'Wildgrove Flowers',         cat: 'florals',   lat: 49.2823, lng: -123.1050, area: 'Gastown',       price: 2, rating: 4.6, brief: 'Wild, foraged-style florals with emphasis on local growers and dried elements.', email: 'shop@wildgrove.ca', phone: '(604) 555-0277', web: 'wildgrove.ca', quotes: [] },
+  { id: 'v12', name: 'Marvel Sound DJ',           cat: 'dj',        lat: 49.2761, lng: -123.1230, area: 'Yaletown',      price: 2, rating: 4.7, brief: 'Open-format DJ, multilingual MC, full lighting + sub kit included.', email: 'book@marvelsound.ca', phone: '(604) 555-0282', web: 'marvelsound.ca', quotes: [{tier:'6h reception', amount:'$1,950'}] },
+  { id: 'v13', name: 'Tidal Audio Co.',           cat: 'dj',        lat: 49.2890, lng: -123.1227, area: 'Coal Harbour',  price: 3, rating: 4.8, brief: 'Live-band-meets-DJ hybrid sets, modular stage and live sax option.', email: 'events@tidalaudio.ca', phone: '(604) 555-0299', web: 'tidalaudio.ca', quotes: [] },
+  { id: 'v14', name: 'Maeve Lane Planning',       cat: 'planning',  lat: 49.2754, lng: -123.1281, area: 'Yaletown',      price: 4, rating: 4.9, brief: 'Full-service planning and design, average 12-month engagement.', email: 'studio@maevelane.ca', phone: '(604) 555-0301', web: 'maevelane.ca', quotes: [{tier:'full planning, 12 mo', amount:'$9,500'}] },
+  { id: 'v15', name: 'Coastal Curated Events',    cat: 'planning',  lat: 49.2697, lng: -123.1561, area: 'Kitsilano',     price: 3, rating: 4.6, brief: 'Partial planning + month-of coordination packages.', email: 'hello@coastalcurated.ca', phone: '(604) 555-0316', web: 'coastalcurated.ca', quotes: [] },
+  { id: 'v16', name: 'Powder & Petal Cakes',      cat: 'cake',      lat: 49.2826, lng: -123.1010, area: 'Gastown',       price: 2, rating: 4.8, brief: 'Floral-pressed butter-cream cakes, organic ingredients, gluten-free options.', email: 'hello@powderpetal.ca', phone: '(604) 555-0322', web: 'powderpetal.ca', quotes: [{tier:'3-tier / 80 servings', amount:'$680'}] },
+  { id: 'v17', name: 'Glow Bridal Beauty',        cat: 'beauty',    lat: 49.2789, lng: -123.1284, area: 'Yaletown',      price: 3, rating: 4.9, brief: 'On-location hair + airbrush makeup teams, available across the Lower Mainland.', email: 'team@glowbridal.ca', phone: '(604) 555-0339', web: 'glowbridal.ca', quotes: [{tier:'bride + 4 guests', amount:'$1,250'}] },
+  { id: 'v18', name: 'Rev. Sara Holm',            cat: 'officiant', lat: 49.2640, lng: -123.0991, area: 'Mt Pleasant',   price: 1, rating: 4.9, brief: 'Non-denominational and bilingual ceremonies, rehearsal included.', email: 'sara@holmceremonies.ca', phone: '(604) 555-0344', web: 'holmceremonies.ca', quotes: [{tier:'ceremony + rehearsal', amount:'$650'}] },
+];
+
+/* App state */
+const state = {
+  query: '',
+  selectedCats: new Set(),
+  priceTiers: new Set(),
+  minRating: 0,
+  distKm: 25,
+  showOnlyInPlan: false,
+  selectedVendorId: null,
+  panelMode: null,  // 'vendor' | 'plan' | null
+  plan: {},
+  budget: { total: 25000, spent: 18400 },
+};
+const STAGES = [
+  { id: 'researched', label: 'Researched' },
+  { id: 'contacted',  label: 'Contacted' },
+  { id: 'quoted',     label: 'Quote received' },
+  { id: 'booked',     label: 'Booked' },
+  { id: 'confirmed',  label: 'Final-confirm (7d out)' },
+];
+
+const $ = (sel) => document.querySelector(sel);
+const $$ = (sel) => Array.from(document.querySelectorAll(sel));
+const catOf = (id) => CATEGORIES.find(c => c.id === id);
+const fmt$ = (n) => '$' + n.toLocaleString('en-CA');
+function priceLabel(t) { return '$'.repeat(t); }
+function stars(n) { return '★'.repeat(Math.floor(n)) + (n % 1 ? '½' : '') + ' ' + n.toFixed(1); }
+
+/* =========================================================
+   Budget thermometer
+   ========================================================= */
+function renderBudget() {
+  const { total, spent } = state.budget;
+  $('#bud-spent').textContent = fmt$(spent);
+  $('#bud-total').textContent = '/ ' + fmt$(total);
+  const pct = Math.min(100, Math.round((spent / total) * 100));
+  const remaining = total - spent;
+  $('#bud-remaining').innerHTML = remaining >= 0
+    ? `${fmt$(remaining)} remaining`
+    : `<span class="over">${fmt$(-remaining)} over</span>`;
+  $('#bud-pct').textContent = pct + '%';
+
+  /* Category segments — proportional to plan's vendor count by category */
+  const bar = $('#budget-bar');
+  bar.innerHTML = '';
+  const planVendors = Object.keys(state.plan).map(id => VENDORS.find(v => v.id === id));
+  const byCat = {};
+  planVendors.forEach(v => { byCat[v.cat] = (byCat[v.cat] || 0) + (v.price * 1000); });
+  const sumPlan = Object.values(byCat).reduce((a,b) => a+b, 0);
+
+  if (sumPlan > 0) {
+    CATEGORIES.forEach(c => {
+      const v = byCat[c.id] || 0;
+      if (v > 0) {
+        const span = document.createElement('span');
+        span.style.width = (v / total * 100) + '%';
+        span.style.background = c.hex;
+        bar.appendChild(span);
+      }
+    });
+  } else {
+    /* Default fill represents prior spend allocation */
+    const span = document.createElement('span');
+    span.style.width = pct + '%';
+    span.style.background = pct > 90 ? 'var(--rose)' : pct > 75 ? 'var(--gold-bright)' : 'var(--green-bright)';
+    bar.appendChild(span);
+  }
+}
+
+$('#budget-card').addEventListener('click', () => {
+  const next = prompt('Edit total budget (CAD):', state.budget.total);
+  if (next == null) return;
+  const n = parseInt(next.toString().replace(/[^\d]/g, ''), 10);
+  if (!Number.isNaN(n) && n > 0) { state.budget.total = n; renderBudget(); }
+});
+
+/* =========================================================
+   Category list (right panel)
+   ========================================================= */
+function vendorCountByCat() {
+  const counts = {};
+  CATEGORIES.forEach(c => counts[c.id] = 0);
+  VENDORS.forEach(v => counts[v.cat]++);
+  return counts;
+}
+function renderCategoryList() {
+  const list = $('#category-list');
+  const counts = vendorCountByCat();
+  list.innerHTML = '';
+  CATEGORIES.forEach(c => {
+    const btn = document.createElement('button');
+    btn.className = 'cat-btn' + (state.selectedCats.has(c.id) ? ' active' : '');
+    btn.innerHTML = `
+      <div class="swatch" style="background:${c.hex};">${c.letter}</div>
+      <div class="meta">
+        <div class="nm">${c.label}</div>
+        <div class="sub">in Greater Vancouver</div>
+      </div>
+      <span class="nm-count">${counts[c.id]}</span>
+    `;
+    btn.onclick = () => {
+      if (state.selectedCats.has(c.id)) state.selectedCats.delete(c.id);
+      else state.selectedCats.add(c.id);
+      renderCategoryList();
+      refilter();
+    };
+    list.appendChild(btn);
+  });
+}
+
+$('#in-plan-toggle').addEventListener('click', () => {
+  const el = $('#in-plan-toggle');
+  state.showOnlyInPlan = !state.showOnlyInPlan;
+  el.classList.toggle('on', state.showOnlyInPlan);
+  refilter();
+});
+// Default: not toggled
+(function(){ $('#in-plan-toggle').classList.remove('on'); })();
+
+/* =========================================================
+   Price tier chips (left panel refine)
+   ========================================================= */
+function renderPriceTiers() {
+  $$('.price-tier').forEach(el => {
+    const tier = +el.dataset.tier;
+    el.classList.toggle('active', state.priceTiers.has(tier));
+    el.onclick = () => {
+      if (state.priceTiers.has(tier)) state.priceTiers.delete(tier);
+      else state.priceTiers.add(tier);
+      renderPriceTiers();
+      refilter();
+    };
+  });
+}
+
+/* =========================================================
+   Map setup + markers
+   ========================================================= */
+const map = L.map('map', {
+  zoomControl: true,
+  attributionControl: true,
+  zoomSnap: 0.5,
+}).setView([49.2790, -123.1207], 12);
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+  attribution: '© OpenStreetMap contributors',
+}).addTo(map);
+
+const markersById = {};
+function buildMarker(v) {
+  const c = catOf(v.cat);
+  const inPlan = !!state.plan[v.id];
+  const icon = L.divIcon({
+    className: '',
+    html: `<div class="v-marker ${inPlan ? 'in-plan' : ''}" style="background:${c.hex};position:relative;">${c.letter}</div>`,
+    iconSize: [30, 30],
+    iconAnchor: [15, 15],
+  });
+  const m = L.marker([v.lat, v.lng], { icon });
+  m.bindTooltip(v.name, { className: 'marker-tip', direction: 'top', offset: [0, -16] });
+  m.on('click', () => selectVendor(v.id));
+  return m;
+}
+function rebuildMarker(id) {
+  const v = VENDORS.find(x => x.id === id);
+  const m = markersById[id];
+  if (!m) return;
+  const c = catOf(v.cat);
+  const inPlan = !!state.plan[v.id];
+  const inner = m.getElement()?.querySelector('.v-marker');
+  if (!inner) return;
+  inner.classList.toggle('in-plan', inPlan);
+}
+
+VENDORS.forEach(v => {
+  const m = buildMarker(v);
+  m.addTo(map);
+  markersById[v.id] = m;
+});
+
+/* =========================================================
+   Filter + redraw markers
+   ========================================================= */
+function vendorMatches(v) {
+  if (state.showOnlyInPlan && !state.plan[v.id]) return false;
+  if (state.query) {
+    const q = state.query.toLowerCase();
+    if (!(v.name.toLowerCase().includes(q) || v.area.toLowerCase().includes(q) || catOf(v.cat).label.toLowerCase().includes(q))) return false;
+  }
+  if (state.selectedCats.size && !state.selectedCats.has(v.cat)) return false;
+  if (state.priceTiers.size && !state.priceTiers.has(v.price)) return false;
+  if (v.rating < state.minRating) return false;
+  const R = 6371;
+  const dLat = (v.lat - 49.279) * Math.PI / 180;
+  const dLng = (v.lng - -123.1207) * Math.PI / 180;
+  const a = Math.sin(dLat/2)**2 + Math.cos(v.lat*Math.PI/180) * Math.cos(49.279*Math.PI/180) * Math.sin(dLng/2)**2;
+  const km = 2 * R * Math.asin(Math.sqrt(a));
+  if (km > state.distKm) return false;
+  return true;
+}
+
+function refilter() {
+  let count = 0;
+  VENDORS.forEach(v => {
+    const m = markersById[v.id];
+    if (vendorMatches(v)) {
+      if (!map.hasLayer(m)) m.addTo(map);
+      count++;
+    } else {
+      if (map.hasLayer(m)) map.removeLayer(m);
+    }
+  });
+  $('#map-count').textContent = count;
+  $('#results-count').textContent = count;
+}
+
+/* =========================================================
+   Right panel: vendor card OR plan drawer (slide-in)
+   ========================================================= */
+function selectVendor(id) {
+  state.selectedVendorId = id;
+  state.panelMode = 'vendor';
+  Object.entries(markersById).forEach(([vid, m]) => {
+    const inner = m.getElement()?.querySelector('.v-marker');
+    if (!inner) return;
+    inner.classList.toggle('selected', vid === id);
+  });
+  const v = VENDORS.find(x => x.id === id);
+  if (v) map.panTo([v.lat, v.lng], { animate: true, duration: 0.3 });
+  renderOverlay();
+}
+
+function togglePlanDrawer() {
+  state.panelMode = (state.panelMode === 'plan') ? null : 'plan';
+  renderOverlay();
+}
+
+function closePanel() {
+  state.panelMode = null;
+  state.selectedVendorId = null;
+  Object.values(markersById).forEach(m => {
+    const inner = m.getElement()?.querySelector('.v-marker');
+    if (inner) inner.classList.remove('selected');
+  });
+  renderOverlay();
+}
+
+function renderOverlay() {
+  $('.vendor-overlay')?.remove();
+  $('.plan-drawer')?.remove();
+  if (state.panelMode === 'vendor') renderVendorOverlay();
+  else if (state.panelMode === 'plan') renderPlanDrawer();
+}
+
+function vendorPlanState(id) {
+  if (!state.plan[id]) {
+    state.plan[id] = {
+      stage: 'researched',
+      checks: {
+        'review-portfolio': true,
+        'send-inquiry': false,
+        'request-quote': false,
+        'compare-quote': false,
+        'sign-contract': false,
+        'deposit-paid': false,
+        'final-confirm': false,
+      },
+      notes: '',
+    };
+  }
+  return state.plan[id];
+}
+function updatePlanStage(id) {
+  const p = vendorPlanState(id);
+  const c = p.checks;
+  if (c['final-confirm']) p.stage = 'confirmed';
+  else if (c['deposit-paid'] || c['sign-contract']) p.stage = 'booked';
+  else if (c['compare-quote'] || c['request-quote']) p.stage = 'quoted';
+  else if (c['send-inquiry']) p.stage = 'contacted';
+  else p.stage = 'researched';
+}
+function stageLabel(id) { return STAGES.find(s => s.id === id)?.label || ''; }
+
+function renderVendorOverlay() {
+  const v = VENDORS.find(x => x.id === state.selectedVendorId);
+  if (!v) return;
+  const c = catOf(v.cat);
+  const inPlan = !!state.plan[v.id];
+  const el = document.createElement('div');
+  el.className = 'vendor-overlay float-card';
+  el.innerHTML = `
+    <button class="close-x" title="Close" aria-label="Close">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6L6 18M6 6l12 12"/></svg>
+    </button>
+    <div class="vendor-hero" style="--hero-c:${c.hex};">
+      <div class="pattern"></div>
+      <div class="cat-tag"><span class="dot" style="background:${c.hex}"></span>${c.label}</div>
+      <div class="price-tag">${priceLabel(v.price)}</div>
+    </div>
+    <div class="vendor-body">
+      <div class="vendor-name">${v.name}</div>
+      <div class="vendor-meta">
+        <span class="star">${stars(v.rating)}</span>
+        <span>·</span>
+        <span>${v.area}</span>
+      </div>
+      <p class="vendor-brief">${v.brief}</p>
+
+      <div class="contact-grid">
+        <div class="contact-cell"><div class="lbl">Email</div><div class="val">${v.email}</div></div>
+        <div class="contact-cell"><div class="lbl">Phone</div><div class="val">${v.phone}</div></div>
+        <div class="contact-cell full"><div class="lbl">Website</div><div class="val">${v.web}</div></div>
+      </div>
+
+      <div class="actions">
+        <button class="btn-primary ${inPlan ? 'in-plan' : ''}" data-act="plan">
+          ${inPlan ? '✓ In your plan' : 'Add to my plan'}
+        </button>
+        <button class="btn-secondary" data-act="copy">Copy</button>
+      </div>
+
+      <div class="section-title" style="margin: 8px 0 6px;">Known quotes</div>
+      <div class="quotes-mini">
+        ${v.quotes.length
+          ? v.quotes.map(q => `<div class="qt"><span class="desc">${q.tier}</span><span class="amt">${q.amount}</span></div>`).join('')
+          : `<div class="quotes-empty">No quotes yet. Log one anonymously once you receive one — it helps the next couple.</div>`}
+        <button class="add-quote">+ Log a quote</button>
+      </div>
+    </div>
+  `;
+  document.body.appendChild(el);
+  el.querySelector('.close-x').onclick = closePanel;
+  el.querySelector('[data-act="plan"]').onclick = () => {
+    if (state.plan[v.id]) delete state.plan[v.id];
+    else vendorPlanState(v.id);
+    rebuildMarker(v.id);
+    refreshPlanBadge();
+    refreshEventStats();
+    renderBudget();
+    renderVendorOverlay();
+  };
+  el.querySelector('[data-act="copy"]').onclick = (e) => {
+    const txt = `${v.name}\nEmail: ${v.email}\nPhone: ${v.phone}\nWeb: ${v.web}`;
+    navigator.clipboard?.writeText(txt);
+    e.target.textContent = 'Copied ✓';
+    setTimeout(() => e.target.textContent = 'Copy', 1400);
+  };
+}
+
+function renderPlanDrawer() {
+  const ids = Object.keys(state.plan);
+  const root = document.createElement('aside');
+  root.className = 'plan-drawer float-card';
+  const head = `
+    <div class="plan-head">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M9 11l3 3 8-8"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
+      <h3>My plan</h3>
+      <button class="close-btn" title="Close" aria-label="Close">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6L6 18M6 6l12 12"/></svg>
+      </button>
+    </div>
+  `;
+  if (ids.length === 0) {
+    root.innerHTML = head + `
+      <div class="plan-body">
+        <div class="plan-empty">
+          <div class="ico"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 11l3 3 8-8"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg></div>
+          <h3>Your plan is empty</h3>
+          <p>Click a vendor on the map and<br/>"Add to my plan" to start tracking.</p>
+        </div>
+      </div>`;
+    document.body.appendChild(root);
+    root.querySelector('.close-btn').onclick = closePanel;
+    return;
+  }
+  ids.forEach(updatePlanStage);
+  const counts = STAGES.reduce((acc, s) => (acc[s.id]=0, acc), {});
+  ids.forEach(id => counts[state.plan[id].stage]++);
+
+  const items = ids.map(id => {
+    const v = VENDORS.find(x => x.id === id);
+    const p = state.plan[id];
+    const c = catOf(v.cat);
+    const rows = [
+      ['review-portfolio', 'Reviewed portfolio'],
+      ['send-inquiry',     'Sent first inquiry'],
+      ['request-quote',    'Requested quote'],
+      ['compare-quote',    'Compared 1+ vendor'],
+      ['sign-contract',    'Contract signed'],
+      ['deposit-paid',     'Deposit paid'],
+      ['final-confirm',    'Final-confirm (7d out)'],
+    ].map(([k, label]) => `
+      <div class="check-row ${p.checks[k] ? 'done' : ''}" data-vid="${id}" data-key="${k}">
+        <span class="cbox"></span><span class="label">${label}</span>
+      </div>`).join('');
+    return `
+      <div class="plan-item" data-vid="${id}">
+        <div class="plan-item-head">
+          <div class="strip" style="background:${c.hex};"></div>
+          <div class="titles">
+            <div class="n">${v.name}</div>
+            <div class="s">${c.label} · ${v.area}</div>
+          </div>
+          <div class="stage-pill">${stageLabel(p.stage)}</div>
+          <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m9 6 6 6-6 6"/></svg>
+        </div>
+        <div class="plan-checklist">
+          ${rows}
+          <textarea class="plan-notes" data-vid="${id}" placeholder="Quotes, dates, follow-ups…">${p.notes}</textarea>
+          <button class="remove-btn" data-vid="${id}">Remove from plan</button>
+        </div>
+      </div>`;
+  }).join('');
+
+  root.innerHTML = head + `
+    <div class="plan-body">
+      <div class="plan-stat-row">
+        <div class="plan-stat"><div class="n">${ids.length}</div><div class="l">vendors</div></div>
+        <div class="plan-stat"><div class="n">${counts['booked'] + counts['confirmed']}</div><div class="l">booked</div></div>
+        <div class="plan-stat"><div class="n">${counts['researched'] + counts['contacted']}</div><div class="l">to do</div></div>
+      </div>
+      ${items}
+    </div>`;
+  document.body.appendChild(root);
+  root.querySelector('.close-btn').onclick = closePanel;
+  root.querySelectorAll('.plan-item-head').forEach(h => {
+    h.onclick = () => h.parentElement.classList.toggle('open');
+  });
+  root.querySelectorAll('.check-row').forEach(row => {
+    row.onclick = () => {
+      const vid = row.dataset.vid, key = row.dataset.key;
+      state.plan[vid].checks[key] = !state.plan[vid].checks[key];
+      updatePlanStage(vid);
+      rebuildMarker(vid);
+      refreshEventStats();
+      renderPlanDrawer();
+    };
+  });
+  root.querySelectorAll('.plan-notes').forEach(t => {
+    t.addEventListener('input', () => { state.plan[t.dataset.vid].notes = t.value; });
+  });
+  root.querySelectorAll('.remove-btn').forEach(b => {
+    b.onclick = () => {
+      const vid = b.dataset.vid;
+      delete state.plan[vid];
+      rebuildMarker(vid);
+      refreshPlanBadge();
+      refreshEventStats();
+      renderBudget();
+      renderPlanDrawer();
+    };
+  });
+}
+
+function refreshPlanBadge() {
+  $('#plan-count').textContent = Object.keys(state.plan).length;
+}
+
+function refreshEventStats() {
+  const ids = Object.keys(state.plan);
+  ids.forEach(updatePlanStage);
+  const booked = ids.filter(id => state.plan[id].stage === 'booked' || state.plan[id].stage === 'confirmed').length;
+  $('#evt-vendors').textContent = ids.length;
+  $('#evt-booked').textContent = booked;
+}
+
+/* =========================================================
+   Wire inputs
+   ========================================================= */
+$('#search-input').addEventListener('input', (e) => { state.query = e.target.value; refilter(); });
+$('#dist-range').addEventListener('input', (e) => {
+  state.distKm = +e.target.value;
+  $('#dist-val').textContent = state.distKm + ' km';
+  refilter();
+});
+$('#rating-range').addEventListener('input', (e) => {
+  state.minRating = +e.target.value;
+  $('#rating-val').textContent = state.minRating ? state.minRating + ' ★' : 'any';
+  refilter();
+});
+$('#reset-btn').addEventListener('click', () => {
+  state.query = ''; $('#search-input').value = '';
+  state.selectedCats = new Set();
+  state.priceTiers = new Set();
+  state.minRating = 0; $('#rating-range').value = 0; $('#rating-val').textContent = 'any';
+  state.distKm = 25; $('#dist-range').value = 25; $('#dist-val').textContent = '25 km';
+  state.showOnlyInPlan = false; $('#in-plan-toggle').classList.remove('on');
+  renderCategoryList(); renderPriceTiers(); refilter();
+});
+$('#plan-toggle').addEventListener('click', togglePlanDrawer);
+$$('.func-btn').forEach(b => {
+  b.addEventListener('click', () => {
+    const lb = b.querySelector('.lb').textContent;
+    alert(`"${lb}" — coming in v0.1 backend wiring.\nThis button will open the ${lb.toLowerCase()} view inside the dashboard.`);
+  });
+});
+
+/* Days-to-event countdown (Sept 14, 2026) */
+(function setCountdown(){
+  const eventDate = new Date('2026-09-14T00:00:00');
+  const today = new Date('2026-06-11T00:00:00');
+  const days = Math.max(0, Math.round((eventDate - today) / (1000 * 60 * 60 * 24)));
+  $('#evt-days').textContent = days;
+})();
+
+/* Boot */
+renderCategoryList();
+renderPriceTiers();
+renderBudget();
+refilter();
+
+/* Demo: pre-load one vendor and add 3 to plan so stats are populated */
+setTimeout(() => {
+  vendorPlanState('v03');     // Glasshouse (venue)
+  vendorPlanState('v05');     // Aurora Frame Studio (photo)
+  vendorPlanState('v17');     // Glow Bridal Beauty (beauty)
+  state.plan['v03'].checks['send-inquiry'] = true;
+  state.plan['v05'].checks['send-inquiry'] = true;
+  state.plan['v05'].checks['request-quote'] = true;
+  updatePlanStage('v03'); updatePlanStage('v05'); updatePlanStage('v17');
+  ['v03','v05','v17'].forEach(rebuildMarker);
+  refreshPlanBadge(); refreshEventStats(); renderBudget();
+  selectVendor('v03');
+}, 250);
+</script>
+</body>
+</html>

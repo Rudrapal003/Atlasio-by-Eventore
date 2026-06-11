@@ -1,0 +1,153 @@
+.drawer {
+  position: absolute;
+  top: 14px; right: 14px; bottom: 14px;
+  width: 380px;
+  z-index: 800;
+  border-radius: var(--r-lg);
+  overflow: hidden;
+  display: flex; flex-direction: column;
+  animation: slideInRight 0.22s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+@keyframes slideInRight {
+  from { opacity: 0; transform: translateX(20px); }
+  to   { opacity: 1; transform: translateX(0); }
+}
+
+.head {
+  padding: 14px 18px;
+  background: var(--brand);
+  color: #fff;
+  display: flex; align-items: center; gap: 12px;
+}
+.head h3 {
+  font: 600 16px "Fraunces", serif;
+  margin: 0;
+  flex: 1;
+}
+.closeBtn {
+  margin-left: auto;
+  background: rgba(255,255,255,0.15);
+  border: 0;
+  width: 30px; height: 30px;
+  border-radius: 50%;
+  color: #fff;
+  display: flex; align-items: center; justify-content: center;
+}
+.closeBtn:hover { background: rgba(255,255,255,0.28); }
+
+.body {
+  padding: 14px 16px;
+  overflow-y: auto;
+  flex: 1;
+  background: var(--cream);
+}
+
+.empty { text-align: center; padding: 60px 18px; color: var(--muted); }
+.emptyIco {
+  width: 56px; height: 56px;
+  border-radius: 50%;
+  background: var(--cream-deep);
+  color: var(--brand);
+  display: inline-flex; align-items: center; justify-content: center;
+  margin-bottom: 12px;
+}
+.empty h3 { font: 600 17px "Fraunces", serif; color: var(--text); margin: 0 0 4px; }
+.empty p { font-size: 13px; margin: 0; }
+
+.statRow {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 7px;
+  margin-bottom: 14px;
+}
+.stat {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--r-md);
+  padding: 10px 6px;
+  text-align: center;
+}
+.statN { font: 700 18px "Fraunces", serif; color: var(--brand-deep); }
+.statL { font-size: 9px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.08em; }
+
+.item {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--r-md);
+  margin-bottom: 8px;
+  overflow: hidden;
+}
+.itemHead {
+  display: flex; align-items: center; gap: 10px;
+  padding: 10px 12px;
+  cursor: pointer;
+}
+.strip { width: 4px; align-self: stretch; border-radius: 4px; }
+.titles { flex: 1; min-width: 0; }
+.titleN {
+  font: 600 13px "Inter Tight", sans-serif;
+  color: var(--text);
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+.titleS {
+  font-size: 10px; color: var(--muted);
+  text-transform: uppercase; letter-spacing: 0.06em;
+}
+.stagePill {
+  background: var(--cream);
+  border: 1px solid var(--line);
+  color: var(--text);
+  font: 600 10px "Inter Tight", sans-serif;
+  padding: 3px 8px;
+  border-radius: var(--pill);
+}
+.chev { color: var(--muted); transition: transform 0.18s; }
+.open .chev { transform: rotate(90deg); }
+
+.checklist {
+  border-top: 1px solid var(--line);
+  padding: 8px 12px 12px;
+  display: none;
+  background: var(--cream);
+}
+.open .checklist { display: block; }
+
+.checkRow {
+  display: flex; align-items: center; gap: 10px;
+  padding: 5px 0;
+  font-size: 12px;
+  color: var(--text);
+  cursor: pointer;
+}
+.cbox {
+  width: 16px; height: 16px;
+  border: 2px solid var(--line-strong);
+  border-radius: 4px;
+  display: inline-flex; align-items: center; justify-content: center;
+  flex-shrink: 0;
+  background: var(--surface);
+}
+.done .cbox {
+  background: var(--green); border-color: var(--green);
+}
+.done .cbox::after {
+  content: "✓"; color: #fff; font-size: 11px; line-height: 1; font-weight: 700;
+}
+.done .label { color: var(--muted); text-decoration: line-through; }
+.label { flex: 1; }
+
+.notes {
+  width: 100%; border: 1px solid var(--line); border-radius: var(--r-md);
+  padding: 8px; margin-top: 8px;
+  font: inherit; font-size: 12px;
+  resize: vertical; min-height: 50px;
+  background: var(--surface);
+}
+.notes:focus { outline: 2px solid var(--brand-bright); outline-offset: -1px; border-color: var(--brand-bright); }
+
+.remove {
+  background: transparent; border: 0;
+  color: var(--rose); font: 600 11px "Inter Tight", sans-serif;
+  padding: 6px 0 0;
+}
+.remove:hover { text-decoration: underline; }

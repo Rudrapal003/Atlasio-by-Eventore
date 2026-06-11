@@ -1,0 +1,13 @@
+.map {
+  position: absolute; inset: 0;
+  background: #DDE6EC;
+  z-index: 1;
+}
+.corner {
+  position: absolute; left: 350px; bottom: 18px;
+  z-index: 400;
+  padding: 8px 14px;
+  font-size: 12px;
+  color: var(--muted);
+}
+.corner b { color: var(--text); font-weight: 600; }

@@ -1,0 +1,103 @@
+.panel {
+  position: absolute;
+  top: 76px; bottom: 14px;
+  right: 14px;
+  width: 300px;
+  padding: 14px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  z-index: 500;
+}
+
+.section { margin-bottom: 16px; }
+
+.sectionTitle {
+  font: 600 11px "Inter Tight", sans-serif;
+  color: var(--muted);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin: 0 0 9px;
+  display: flex; align-items: center; gap: 6px;
+}
+.count {
+  background: var(--cream-deep); color: var(--muted);
+  padding: 1px 7px; border-radius: var(--pill);
+  font-size: 10px;
+}
+
+.list {
+  display: flex; flex-direction: column;
+  gap: 7px;
+}
+.catBtn {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--r-md);
+  padding: 10px 12px;
+  display: flex; align-items: center; gap: 10px;
+  transition: all 0.12s ease;
+  text-align: left;
+  font-family: "Inter Tight", sans-serif;
+}
+.catBtn:hover {
+  border-color: var(--line-strong);
+  transform: translateX(-2px);
+}
+.swatch {
+  width: 30px; height: 30px;
+  border-radius: var(--r-sm);
+  display: flex; align-items: center; justify-content: center;
+  color: #fff;
+  font: 700 12px "Inter Tight", sans-serif;
+  flex-shrink: 0;
+  box-shadow: inset 0 -2px 0 rgba(0,0,0,0.18);
+}
+.meta { flex: 1; min-width: 0; }
+.nm {
+  font: 600 13px "Inter Tight", sans-serif;
+  color: var(--text);
+}
+.sub {
+  font-size: 10px; color: var(--muted);
+}
+.nmCount {
+  background: var(--cream-deep);
+  color: var(--muted);
+  font: 600 11px "Inter Tight", sans-serif;
+  padding: 2px 8px;
+  border-radius: var(--pill);
+}
+.active {
+  border-color: transparent;
+  background: var(--cream);
+  box-shadow: 0 0 0 2px var(--brand) inset, var(--shadow-sm);
+}
+.active .nmCount {
+  background: var(--brand); color: #fff;
+}
+
+.quickToggle {
+  margin-top: 10px;
+  background: var(--cream);
+  border: 1px solid var(--line);
+  border-radius: var(--r-md);
+  padding: 10px 12px;
+  display: flex; justify-content: space-between; align-items: center;
+  cursor: pointer;
+}
+.lb { font: 600 12px "Inter Tight", sans-serif; color: var(--text); }
+.sw {
+  width: 32px; height: 18px; border-radius: var(--pill);
+  background: var(--line-strong);
+  position: relative;
+  transition: background 0.15s;
+}
+.sw::after {
+  content: ""; position: absolute;
+  top: 2px; left: 2px;
+  width: 14px; height: 14px; border-radius: 50%;
+  background: #fff;
+  transition: transform 0.15s;
+}
+.on .sw { background: var(--green-bright); }
+.on .sw::after { transform: translateX(14px); }
