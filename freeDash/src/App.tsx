@@ -1,15 +1,19 @@
 import { useCallback, useMemo, useState } from 'react';
 import vendorsJson from '@/data/vendors.json';
-import type { Vendor, UserProfile, ActiveEvent } from '@/types';
+import type { Vendor } from '@/types';
 import { TopBar } from '@/components/TopBar';
 import { LeftRail } from '@/components/LeftRail';
 import { RightRail } from '@/components/RightRail';
 import { MapCanvas } from '@/components/MapCanvas';
 import { VendorOverlay } from '@/components/VendorOverlay';
 import { PlanDrawer } from '@/components/PlanDrawer';
+import { SettingsDrawer, type SettingsTabId } from '@/components/SettingsDrawer';
 import { usePlan } from '@/hooks/usePlan';
 import { useFilters } from '@/hooks/useFilters';
 import { useBudget } from '@/hooks/useBudget';
+import { useProfile } from '@/hooks/useProfile';
+import { useEvents } from '@/hooks/useEvents';
+import { useBudgetCategories } from '@/hooks/useBudgetCategories';
 
 /* =========================================================
    freeDash — map-first event-planning dashboard.
@@ -18,28 +22,31 @@ import { useBudget } from '@/hooks/useBudget';
 
 const VENDORS = vendorsJson as Vendor[];
 
-const DEFAULT_PROFILE: UserProfile = {
-  name: 'Rudra',
-  initial: 'R',
-  eventCount: 2,
-};
-
-const DEFAULT_EVENT: ActiveEvent = {
-  title: 'Maya & Sam — Wedding',
-  date: '2026-09-14',
-  guestCount: 110,
-  locationLabel: 'Stanley Park',
-};
-
 type PanelMode = 'vendor' | 'plan' | null;
+
+/** Maps a function-tool id to the settings tab it should open. */
+const FUNCTION_TO_TAB: Record<string, SettingsTabId> = {
+  'profile-settings': 'profile',
+  'switch-event':     'events',
+  'budget':           'budget',
+  'timeline':         'events',
+  'guests':           'events',
+  'messages':         'profile',  // until messages screen lands
+  'docs':             'about',
+  'ai':               'about',
+};
 
 export default function App() {
   const plan = usePlan();
   const fl = useFilters();
-  const { budget, setTotal } = useBudget();
+  const { budget, setTotal, setSpent } = useBudget();
+  const { profile, setName, setEmail, setTone, reset: resetProfile } = useProfile();
+  const eventsApi = useEvents();
+  const { alloc, setCategoryBudget, clear: clearAlloc } = useBudgetCategories();
 
   const [selectedId, setSelectedId] = useState<string | null>(null);
   const [panelMode, setPanelMode] = useState<PanelMode>(null);
+  const [settingsTab, setSettingsTab] = useState<SettingsTabId | null>(null);
 
   /* Sort: sponsored first within their category, then by rating desc */
   const sortedVendors = useMemo(() => {
@@ -70,15 +77,37 @@ export default function App() {
     setSelectedId(null);
   }, []);
 
-  const handleFunction = useCallback((fn: string) => {
-    /* TODO: wire each function into its real surface in v1.1 */
-    alert(`"${fn}" — wiring up in v1.1.\nThis will open the ${fn.replace('-', ' ')} view.`);
+  const openSettings = useCallback((tab: SettingsTabId = 'profile') => {
+    setSettingsTab(tab);
   }, []);
+
+  const closeSettings = useCallback(() => setSettingsTab(null), []);
+
+  const handleFunction = useCallback((fn: string) => {
+    const tab = FUNCTION_TO_TAB[fn] ?? 'profile';
+    openSettings(tab);
+  }, [openSettings]);
+
+  const resetAllData = useCallback(() => {
+    /* Wipe every freeDash key. We only touch fd_* so the host page is safe. */
+    try {
+      const keys = Object.keys(localStorage).filter((k) => k.startsWith('fd_'));
+      keys.forEach((k) => localStorage.removeItem(k));
+    } catch {
+      /* private mode — ignore */
+    }
+    /* Reset in-memory state too so the user sees defaults immediately. */
+    resetProfile();
+    clearAlloc();
+    /* Hard reload picks up fresh defaults from every hook. */
+    window.location.reload();
+  }, [resetProfile, clearAlloc]);
 
   const vendorsBooked = plan.countsByStage.booked + plan.countsByStage.confirmed;
   const selectedVendor = selectedId
     ? VENDORS.find((v) => v.id === selectedId) ?? null
     : null;
+  const activeEvent = eventsApi.activeEvent;
 
   return (
     <>
@@ -95,54 +124,4 @@ export default function App() {
         onQuery={fl.setQuery}
         planCount={plan.count}
         onTogglePlan={togglePlanDrawer}
-        budget={budget}
-        plan={plan.plan}
-        vendors={VENDORS}
-        onBudgetTotal={setTotal}
-        userInitial={DEFAULT_PROFILE.initial}
-      />
-
-      <LeftRail
-        profile={DEFAULT_PROFILE}
-        activeEvent={DEFAULT_EVENT}
-        vendorsInPlan={plan.count}
-        vendorsBooked={vendorsBooked}
-        filters={fl.filters}
-        onDistKm={fl.setDistKm}
-        onMinRating={fl.setMinRating}
-        onTogglePriceTier={fl.togglePriceTier}
-        onResetFilters={fl.reset}
-        onFunction={handleFunction}
-      />
-
-      <RightRail
-        vendors={VENDORS}
-        filters={fl.filters}
-        matchedCount={visibleCount}
-        onToggleCat={fl.toggleCat}
-        onToggleInPlanOnly={() => fl.setShowOnlyInPlan(!fl.filters.showOnlyInPlan)}
-      />
-
-      {panelMode === 'vendor' && selectedVendor ? (
-        <VendorOverlay
-          vendor={selectedVendor}
-          inPlan={plan.has(selectedVendor.id)}
-          onClose={closePanel}
-          onTogglePlan={() => plan.toggle(selectedVendor.id)}
-        />
-      ) : null}
-
-      {panelMode === 'plan' ? (
-        <PlanDrawer
-          plan={plan.plan}
-          vendors={VENDORS}
-          onClose={closePanel}
-          onRemove={plan.remove}
-          onToggleCheck={plan.toggleCheck}
-          onNotes={plan.setNotes}
-          countsByStage={plan.countsByStage}
-        />
-      ) : null}
-    </>
-  );
-}
+    

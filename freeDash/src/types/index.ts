@@ -90,6 +90,8 @@ export interface BudgetState {
   spent: number;
 }
 
+export type BudgetCategoryAllocation = Partial<Record<CategoryId, number>>;
+
 export interface FilterState {
   query: string;
   selectedCats: CategoryId[];
@@ -99,16 +101,5 @@ export interface FilterState {
   showOnlyInPlan: boolean;
 }
 
-export interface UserProfile {
-  name: string;
-  initial: string;
-  eventCount: number;
-}
-
-export interface ActiveEvent {
-  title: string;
-  /** ISO date. */
-  date: string;
-  guestCount: number;
-  locationLabel: string;
-}
+/** Available avatar tints — pulled from Eventore palette. */
+export type AvatarTone = 'gold' | 'brand' | 'rose' | 'green' | 'violet' | 'amber';

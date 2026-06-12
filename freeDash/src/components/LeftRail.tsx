@@ -2,13 +2,14 @@ import { useMemo } from 'react';
 import {
   Calendar, Users, MessageSquare, FileText, DollarSign, Sparkles, Settings,
 } from 'lucide-react';
-import type { ActiveEvent, FilterState, UserProfile } from '@/types';
+import type { EventEntry, FilterState, UserProfile } from '@/types';
 import { daysUntil } from '@/lib/format';
 import styles from './LeftRail.module.css';
 
 interface Props {
   profile: UserProfile;
-  activeEvent: ActiveEvent;
+  activeEvent: EventEntry;
+  eventCount: number;
   vendorsInPlan: number;
   vendorsBooked: number;
   filters: FilterState;
@@ -22,12 +23,12 @@ interface Props {
 /* =========================================================
    Left rail — profile, active event card, function tools grid,
    and refine-search controls. The "function tools" buttons
-   are stubs for v1.1 — they fire onFunction(name).
+   open the relevant tab in the SettingsDrawer.
    ========================================================= */
 
 const FUNCTIONS = [
   { id: 'timeline',  label: 'Timeline',     sub: 'Day-of run sheet',  color: 'brand', Icon: Calendar      },
-  { id: 'guests',    label: 'Guest list',   sub: '110 invited',       color: 'rose',  Icon: Users         },
+  { id: 'guests',    label: 'Guest list',   sub: 'Invitees + RSVPs',  color: 'rose',  Icon: Users         },
   { id: 'messages',  label: 'Messages',     sub: 'Vendor inquiries',  color: 'violet', Icon: MessageSquare, badge: 3 },
   { id: 'docs',      label: 'Documents',    sub: 'Contracts, IDs',    color: 'gold',  Icon: FileText      },
   { id: 'budget',    label: 'Budget',       sub: 'By category',       color: 'green', Icon: DollarSign    },
@@ -35,7 +36,7 @@ const FUNCTIONS = [
 ] as const;
 
 export function LeftRail({
-  profile, activeEvent,
+  profile, activeEvent, eventCount,
   vendorsInPlan, vendorsBooked,
   filters,
   onDistKm, onMinRating, onTogglePriceTier, onResetFilters,
@@ -52,7 +53,7 @@ export function LeftRail({
           <div className={styles.who}>
             <div className={styles.nm}>{profile.name}</div>
             <div className={styles.sub}>
-              Planning {profile.eventCount} event{profile.eventCount === 1 ? '' : 's'} · Free tier
+              Planning {eventCount} event{eventCount === 1 ? '' : 's'} · Free tier
             </div>
           </div>
           <button
@@ -152,6 +153,4 @@ export function LeftRail({
           <button className={styles.resetBtn} onClick={onResetFilters}>Reset filters</button>
         </div>
       </section>
-    </aside>
-  );
-}
+    </asid
