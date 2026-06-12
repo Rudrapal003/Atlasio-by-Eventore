@@ -38,7 +38,7 @@ export function TopBar({
     <div className={styles.topbar}>
       <div className={`${styles.brandCard} floatCard`}>
         <span className={styles.brandMark}>
-          <span className={styles.free}>free</span>Dash
+          atlas<span className={styles.brandAccent}>io</span>
         </span>
         <span className={styles.brandSub}>by Eventore</span>
       </div>
@@ -53,5 +53,4 @@ export function TopBar({
         <input
           value={query}
           onChange={(e) => onQuery(e.target.value)}
-          placeholder="Search vendors, areas, styles…"
- 
+          placeholder="Search vendors, areas, styles

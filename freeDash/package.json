@@ -1,8 +1,8 @@
 {
-  "name": "freedash",
+  "name": "atlasio",
   "private": true,
-  "version": "0.1.0",
-  "description": "Free map-first event-planning dashboard for Greater Vancouver — top of funnel for Eventore",
+  "version": "0.2.0",
+  "description": "atlasio by Eventore — free map-first event-planning dashboard for Greater Vancouver; top of funnel for the Eventore marketplace",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -29,7 +29,4 @@
     "eslint": "^8.57.0",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.6",
-    "typescript": "^5.4.2",
-    "vite": "^5.2.0"
-  }
-}
+    "typescript": "

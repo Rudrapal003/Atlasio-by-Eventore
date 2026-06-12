@@ -2,7 +2,7 @@ import { createClient } from '@supabase/supabase-js';
 
 /* =========================================================
    Supabase client — shared schema with the main Eventore app.
-   freeDash uses tables prefixed fd_*.
+   atlasio uses tables prefixed fd_* (kept for git continuity).
    ========================================================= */
 
 const url = import.meta.env.VITE_SUPABASE_URL;
@@ -17,4 +17,4 @@ export const supabase = hasConfig
     })
   : null;
 
-export const supabaseReady = hasConfig;
+export const su

@@ -1,5 +1,5 @@
 /* =========================================================
-   freeDash — shared TypeScript types
+   atlasio — shared TypeScript types
    ========================================================= */
 
 export type CategoryId =
@@ -20,8 +20,10 @@ export interface Category {
   hex: string;
   /** CSS var fallback name. */
   cssVar: string;
-  /** Single-letter glyph shown on the map marker. */
+  /** Single-letter glyph (legacy; kept for fallback). */
   letter: string;
+  /** Emoji shown on the map marker + category buttons. */
+  emoji: string;
 }
 
 export interface VendorQuote {
@@ -102,4 +104,4 @@ export interface FilterState {
 }
 
 /** Available avatar tints — pulled from Eventore palette. */
-export type AvatarTone = 'gold' | 'brand' | 'rose' | 'green' | 'violet' | 'amber';
+exp

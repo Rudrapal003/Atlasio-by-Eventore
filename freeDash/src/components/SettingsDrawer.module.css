@@ -248,7 +248,7 @@
   border-radius: var(--r-sm);
   display: flex; align-items: center; justify-content: center;
   color: #fff;
-  font: 700 11px "Inter Tight", sans-serif;
+  font-size: 14px; line-height: 1;
   flex-shrink: 0;
 }
 .catName {
@@ -338,7 +338,7 @@
   font: 700 26px "Fraunces", serif;
   letter-spacing: -0.02em;
 }
-.aboutMarkFree { color: var(--gold-bright); }
+.aboutMarkAccent { color: var(--gold-bright); }
 .aboutTag {
   font: 500 13px "Inter Tight", sans-serif;
   color: rgba(255,255,255,0.85);
@@ -387,3 +387,4 @@
   from { opacity: 0; transform: translate(-50%, 6px); }
   to   { opacity: 1; transform: translate(-50%, 0); }
 }
+       

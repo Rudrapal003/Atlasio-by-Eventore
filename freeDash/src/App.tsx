@@ -16,7 +16,7 @@ import { useEvents } from '@/hooks/useEvents';
 import { useBudgetCategories } from '@/hooks/useBudgetCategories';
 
 /* =========================================================
-   freeDash — map-first event-planning dashboard.
+   atlasio — map-first event-planning dashboard, by Eventore.
    Layout: full-viewport map underneath, all controls float on top.
    ========================================================= */
 
@@ -89,7 +89,7 @@ export default function App() {
   }, [openSettings]);
 
   const resetAllData = useCallback(() => {
-    /* Wipe every freeDash key. We only touch fd_* so the host page is safe. */
+    /* Wipe every atlasio key. We only touch fd_* so the host page is safe. */
     try {
       const keys = Object.keys(localStorage).filter((k) => k.startsWith('fd_'));
       keys.forEach((k) => localStorage.removeItem(k));
@@ -123,5 +123,4 @@ export default function App() {
         query={fl.filters.query}
         onQuery={fl.setQuery}
         planCount={plan.count}
-        onTogglePlan={togglePlanDrawer}
-    
+        onTogglePlan={togglePlanD

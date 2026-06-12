@@ -124,7 +124,7 @@ export function SettingsDrawer(props: Props) {
 
         {tab === 'preferences' && (
           <PreferencesTab onReset={() => {
-            if (confirm('Clear all freeDash data on this device? This cannot be undone.')) {
+            if (confirm('Clear all atlasio data on this device? This cannot be undone.')) {
               props.onResetData();
               showToast('Done.');
             }
@@ -373,7 +373,7 @@ function BudgetTab({
       <div className={styles.catList}>
         {CATEGORIES.map((c) => (
           <div key={c.id} className={styles.catRow}>
-            <span className={styles.catSwatch} style={{ background: c.hex }}>{c.letter}</span>
+            <span className={styles.catSwatch} style={{ background: c.hex }}>{c.emoji}</span>
             <span className={styles.catName}>{c.label}</span>
             <CurrencyInput
               compact
@@ -428,7 +428,7 @@ function PreferencesTab({ onReset }: { onReset: () => void }) {
 
       <div className={styles.divider} />
 
-      <Field label="Reset all freeDash data" hint="Wipes plan, profile, events, and budget from this device.">
+      <Field label="Reset all atlasio data" hint="Wipes plan, profile, events, and budget from this device.">
         <button className={styles.dangerBtn} onClick={onReset}>
           <Trash2 size={13} /> Reset Everything
         </button>
@@ -444,7 +444,7 @@ function AboutTab() {
     <section className={styles.section}>
       <div className={styles.aboutCard}>
         <div className={styles.aboutMark}>
-          <span className={styles.aboutMarkFree}>free</span>Dash
+          atlas<span className={styles.aboutMarkAccent}>io</span>
         </div>
         <div className={styles.aboutTag}>One stop. Every event.</div>
         <div className={styles.aboutPub}>By Eventore · Made in Vancouver</div>
@@ -470,7 +470,7 @@ function AboutTab() {
         listings are not endorsements. Reviews are independent. Sponsored
         placements are marked with a gold "Featured" badge.
       </p>
-      <p className={styles.fineprint}>v0.6.0 · 2026-06-11</p>
+      <p className={styles.fineprint}>v0.7.0 · 2026-06-11</p>
     </section>
   );
 }
@@ -526,3 +526,4 @@ function Toggle({ on, onChange }: { on: boolean; onChange: (v: boolean) => void 
     </button>
   );
 }
+  

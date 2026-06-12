@@ -40,7 +40,9 @@ export function RightRail({
                 className={`${styles.catBtn} ${active ? styles.active : ''}`}
                 onClick={() => onToggleCat(c.id)}
               >
-                <div className={styles.swatch} style={{ background: c.hex }}>{c.letter}</div>
+                <div className={styles.swatch} style={{ background: c.hex }}>
+                  <span className={styles.swatchEmoji}>{c.emoji}</span>
+                </div>
                 <div className={styles.meta}>
                   <div className={styles.nm}>{c.label}</div>
                   <div className={styles.sub}>in Greater Vancouver</div>
@@ -56,9 +58,4 @@ export function RightRail({
           onClick={onToggleInPlanOnly}
         >
           <span className={styles.lb}>Show only my plan</span>
-          <span className={styles.sw} />
-        </div>
-      </div>
-    </aside>
-  );
-}
+          
