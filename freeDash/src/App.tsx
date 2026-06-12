@@ -7,6 +7,7 @@ import { RightRail } from '@/components/RightRail';
 import { MapCanvas } from '@/components/MapCanvas';
 import { VendorOverlay } from '@/components/VendorOverlay';
 import { PlanDrawer } from '@/components/PlanDrawer';
+import { MessagesDrawer } from '@/components/MessagesDrawer';
 import { SettingsDrawer, type SettingsTabId } from '@/components/SettingsDrawer';
 import { usePlan } from '@/hooks/usePlan';
 import { useFilters } from '@/hooks/useFilters';
@@ -22,16 +23,20 @@ import { useBudgetCategories } from '@/hooks/useBudgetCategories';
 
 const VENDORS = vendorsJson as Vendor[];
 
-type PanelMode = 'vendor' | 'plan' | null;
+type PanelMode = 'vendor' | 'plan' | 'messages' | null;
 
-/** Maps a function-tool id to the settings tab it should open. */
+/** Real messages backend is in v1.1; until then this stays 0 and the
+ *  Messages tile badge is hidden. */
+const UNREAD_MESSAGES = 0;
+
+/** Maps a function-tool id to the settings tab it should open.
+ *  'messages' is handled separately (it opens MessagesDrawer, not Settings). */
 const FUNCTION_TO_TAB: Record<string, SettingsTabId> = {
   'profile-settings': 'profile',
   'switch-event':     'events',
   'budget':           'budget',
   'timeline':         'events',
   'guests':           'events',
-  'messages':         'profile',  // until messages screen lands
   'docs':             'about',
   'ai':               'about',
 };
@@ -84,6 +89,10 @@ export default function App() {
   const closeSettings = useCallback(() => setSettingsTab(null), []);
 
   const handleFunction = useCallback((fn: string) => {
+    if (fn === 'messages') {
+      setPanelMode('messages');
+      return;
+    }
     const tab = FUNCTION_TO_TAB[fn] ?? 'profile';
     openSettings(tab);
   }, [openSettings]);
@@ -123,4 +132,92 @@ export default function App() {
         query={fl.filters.query}
         onQuery={fl.setQuery}
         planCount={plan.count}
-        onTogglePlan={togglePlanD
+        onTogglePlan={togglePlanDrawer}
+        budget={budget}
+        plan={plan.plan}
+        vendors={VENDORS}
+        onBudgetTotal={setTotal}
+        userInitial={profile.initial}
+        userTone={profile.tone}
+        onAvatarClick={() => openSettings('profile')}
+      />
+
+      <LeftRail
+        profile={profile}
+        activeEvent={activeEvent}
+        eventCount={eventsApi.events.length}
+        vendorsInPlan={plan.count}
+        vendorsBooked={vendorsBooked}
+        unreadMessages={UNREAD_MESSAGES}
+        filters={fl.filters}
+        onDistKm={fl.setDistKm}
+        onMinRating={fl.setMinRating}
+        onTogglePriceTier={fl.togglePriceTier}
+        onResetFilters={fl.reset}
+        onFunction={handleFunction}
+      />
+
+      <RightRail
+        vendors={VENDORS}
+        filters={fl.filters}
+        matchedCount={visibleCount}
+        onToggleCat={fl.toggleCat}
+        onToggleInPlanOnly={() => fl.setShowOnlyInPlan(!fl.filters.showOnlyInPlan)}
+      />
+
+      {panelMode === 'vendor' && selectedVendor ? (
+        <VendorOverlay
+          vendor={selectedVendor}
+          inPlan={plan.has(selectedVendor.id)}
+          onClose={closePanel}
+          onTogglePlan={() => plan.toggle(selectedVendor.id)}
+        />
+      ) : null}
+
+      {panelMode === 'plan' ? (
+        <PlanDrawer
+          plan={plan.plan}
+          vendors={VENDORS}
+          onClose={closePanel}
+          onRemove={plan.remove}
+          onToggleCheck={plan.toggleCheck}
+          onNotes={plan.setNotes}
+          countsByStage={plan.countsByStage}
+        />
+      ) : null}
+
+      {panelMode === 'messages' ? (
+        <MessagesDrawer
+          onClose={closePanel}
+          unreadCount={UNREAD_MESSAGES}
+          totalCount={0}
+          bookedCount={vendorsBooked}
+        />
+      ) : null}
+
+      {settingsTab ? (
+        <SettingsDrawer
+          key={settingsTab}
+          initialTab={settingsTab}
+          profile={profile}
+          events={eventsApi.events}
+          activeEventId={eventsApi.activeId}
+          budget={budget}
+          alloc={alloc}
+          onClose={closeSettings}
+          onSetName={setName}
+          onSetEmail={setEmail}
+          onSetTone={setTone}
+          onCreateEvent={eventsApi.createEvent}
+          onUpdateEvent={eventsApi.updateEvent}
+          onDeleteEvent={eventsApi.deleteEvent}
+          onSetActiveEvent={eventsApi.setActive}
+          onSetBudgetTotal={setTotal}
+          onSetBudgetSpent={setSpent}
+          onSetCategoryBudget={setCategoryBudget}
+          onResetData={resetAllData}
+        />
+      ) : null}
+    </>
+  );
+}

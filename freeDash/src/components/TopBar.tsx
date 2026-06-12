@@ -53,4 +53,34 @@ export function TopBar({
         <input
           value={query}
           onChange={(e) => onQuery(e.target.value)}
-          placeholder="Search vendors, areas, styles
+          placeholder="Search vendors, areas, styles…"
+          aria-label="Search vendors"
+        />
+      </div>
+
+      <BudgetThermometer
+        budget={budget}
+        plan={plan}
+        vendors={vendors}
+        onEditTotal={onBudgetTotal}
+      />
+
+      <div className={styles.spacer} />
+
+      <button className={styles.planBtn} onClick={onTogglePlan} type="button">
+        <CheckSquare size={14} />
+        My Plan
+        <span className={styles.badge}>{planCount}</span>
+      </button>
+
+      <button
+        className={styles.avatar}
+        onClick={onAvatarClick}
+        title="Open settings"
+        style={{ background: `linear-gradient(135deg, ${grad.from}, ${grad.to})` }}
+      >
+        {userInitial}
+      </button>
+    </div>
+  );
+}

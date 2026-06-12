@@ -14,4 +14,8 @@ export const CATEGORIES: Category[] = [
   { id: 'planning',  label: 'Planning',       hex: '#06B6D4', cssVar: '--c-planning',  letter: 'L', emoji: '📋' },
   { id: 'cake',      label: 'Cake / Dessert', hex: '#EC4899', cssVar: '--c-cake',      letter: 'K', emoji: '🎂' },
   { id: 'beauty',    label: 'Hair / Makeup',  hex: '#C9A227', cssVar: '--c-beauty',    letter: 'B', emoji: '💄' },
-  { id: 'officiant', label: 'Officiant',      hex: '#6366F1', cssVar: '--c
+  { id: 'officiant', label: 'Officiant',      hex: '#6366F1', cssVar: '--c-officiant', letter: 'O', emoji: '💍' },
+];
+
+export const catById = (id: string) =>
+  CATEGORIES.find((c) => c.id === id) ?? CATEGORIES[0];

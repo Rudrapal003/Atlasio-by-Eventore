@@ -12,6 +12,8 @@ interface Props {
   eventCount: number;
   vendorsInPlan: number;
   vendorsBooked: number;
+  /** Real unread-message count. 0 hides the badge entirely. */
+  unreadMessages: number;
   filters: FilterState;
   onDistKm: (n: number) => void;
   onMinRating: (n: number) => void;
@@ -26,23 +28,30 @@ interface Props {
    open the relevant tab in the SettingsDrawer.
    ========================================================= */
 
+/* Function-tool definitions. `badgeKey` names a prop on Props whose
+   value (if > 0) is rendered as a small red nub on the tile. */
 const FUNCTIONS = [
-  { id: 'timeline',  label: 'Timeline',     sub: 'Day-of run sheet',  color: 'brand', Icon: Calendar      },
-  { id: 'guests',    label: 'Guest list',   sub: 'Invitees + RSVPs',  color: 'rose',  Icon: Users         },
-  { id: 'messages',  label: 'Messages',     sub: 'Vendor inquiries',  color: 'violet', Icon: MessageSquare, badge: 3 },
-  { id: 'docs',      label: 'Documents',    sub: 'Contracts, IDs',    color: 'gold',  Icon: FileText      },
-  { id: 'budget',    label: 'Budget',       sub: 'By category',       color: 'green', Icon: DollarSign    },
-  { id: 'ai',        label: 'AI assistant', sub: 'Plan with me',      color: 'cyan',  Icon: Sparkles      },
+  { id: 'timeline',  label: 'Timeline',     sub: 'Day-of run sheet',  color: 'brand',  Icon: Calendar      },
+  { id: 'guests',    label: 'Guest list',   sub: 'Invitees + RSVPs',  color: 'rose',   Icon: Users         },
+  { id: 'messages',  label: 'Messages',     sub: 'Vendor inquiries',  color: 'violet', Icon: MessageSquare, badgeKey: 'unreadMessages' as const },
+  { id: 'docs',      label: 'Documents',    sub: 'Contracts, IDs',    color: 'gold',   Icon: FileText      },
+  { id: 'budget',    label: 'Budget',       sub: 'By category',       color: 'green',  Icon: DollarSign    },
+  { id: 'ai',        label: 'AI assistant', sub: 'Plan with me',      color: 'cyan',   Icon: Sparkles      },
 ] as const;
 
 export function LeftRail({
   profile, activeEvent, eventCount,
   vendorsInPlan, vendorsBooked,
+  unreadMessages,
   filters,
   onDistKm, onMinRating, onTogglePriceTier, onResetFilters,
   onFunction,
 }: Props) {
   const daysToEvent = useMemo(() => daysUntil(activeEvent.date), [activeEvent.date]);
+  const badgeFor = (key?: string): number => {
+    if (key === 'unreadMessages') return unreadMessages;
+    return 0;
+  };
 
   return (
     <aside className={`${styles.panel} floatCard`}>
@@ -98,19 +107,22 @@ export function LeftRail({
       <section className={styles.section}>
         <div className={styles.sectionTitle}>Event tools</div>
         <div className={styles.funcGrid}>
-          {FUNCTIONS.map(({ id, label, sub, color, Icon, ...rest }) => (
-            <button
-              key={id}
-              className={styles.funcBtn}
-              data-c={color}
-              onClick={() => onFunction(id)}
-            >
-              <div className={styles.funcIco}><Icon size={16} /></div>
-              <div className={styles.funcLb}>{label}</div>
-              <div className={styles.funcSb}>{sub}</div>
-              {'badge' in rest && rest.badge ? <span className={styles.funcNub}>{rest.badge}</span> : null}
-            </button>
-          ))}
+          {FUNCTIONS.map(({ id, label, sub, color, Icon, ...rest }) => {
+            const badge = 'badgeKey' in rest ? badgeFor(rest.badgeKey) : 0;
+            return (
+              <button
+                key={id}
+                className={styles.funcBtn}
+                data-c={color}
+                onClick={() => onFunction(id)}
+              >
+                <div className={styles.funcIco}><Icon size={16} /></div>
+                <div className={styles.funcLb}>{label}</div>
+                <div className={styles.funcSb}>{sub}</div>
+                {badge > 0 ? <span className={styles.funcNub}>{badge}</span> : null}
+              </button>
+            );
+          })}
         </div>
       </section>
 
@@ -153,4 +165,6 @@ export function LeftRail({
           <button className={styles.resetBtn} onClick={onResetFilters}>Reset filters</button>
         </div>
       </section>
-    </asid
+    </aside>
+  );
+}

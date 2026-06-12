@@ -58,4 +58,9 @@ export function RightRail({
           onClick={onToggleInPlanOnly}
         >
           <span className={styles.lb}>Show only my plan</span>
-          
+          <span className={styles.sw} />
+        </div>
+      </div>
+    </aside>
+  );
+}

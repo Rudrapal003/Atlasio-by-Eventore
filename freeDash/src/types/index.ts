@@ -104,4 +104,23 @@ export interface FilterState {
 }
 
 /** Available avatar tints — pulled from Eventore palette. */
-exp
+export type AvatarTone = 'gold' | 'brand' | 'rose' | 'green' | 'violet' | 'amber';
+
+export interface UserProfile {
+  name: string;
+  email: string;
+  /** Single-letter or two-letter glyph shown on the avatar. */
+  initial: string;
+  tone: AvatarTone;
+}
+
+export interface EventEntry {
+  id: string;
+  title: string;
+  /** ISO date (YYYY-MM-DD). */
+  date: string;
+  guestCount: number;
+  locationLabel: string;
+  notes: string;
+  createdAt: string;
+}

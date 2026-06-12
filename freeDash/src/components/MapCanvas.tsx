@@ -90,4 +90,41 @@ export function MapCanvas({
   const markers = useMemo(() => vendors.map((v) => {
     const icon = buildIcon(v, v.id === selectedId, isInPlan(v.id));
     return (
-      
+      <Marker
+        key={v.id + (v.id === selectedId ? '-sel' : '') + (isInPlan(v.id) ? '-ip' : '')}
+        position={[v.lat, v.lng]}
+        icon={icon}
+        eventHandlers={{ click: () => onSelectVendor(v.id) }}
+      >
+        <Tooltip direction="top" offset={[0, -16]} className="marker-tip">{v.name}</Tooltip>
+      </Marker>
+    );
+  }), [vendors, selectedId, isInPlan, onSelectVendor]);
+
+  return (
+    <>
+      <MapContainer
+        center={VANCOUVER}
+        zoom={12}
+        zoomSnap={0.5}
+        zoomControl={false}
+        ref={mapRef}
+        className={styles.map}
+      >
+        <TileLayer
+          url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+          attribution="&copy; OpenStreetMap contributors"
+          maxZoom={19}
+        />
+        {markers}
+        <PanToSelection vendors={vendors} selectedId={selectedId} />
+      </MapContainer>
+
+      <ZoomControls mapRef={mapRef} />
+
+      <div className={`${styles.corner} floatCard`}>
+        <b>{visibleCount}</b> vendors on map
+      </div>
+    </>
+  );
+}

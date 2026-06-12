@@ -17,4 +17,4 @@ export const supabase = hasConfig
     })
   : null;
 
-export const su
+export const supabaseReady = hasConfig;

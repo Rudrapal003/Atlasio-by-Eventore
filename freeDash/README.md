@@ -114,4 +114,28 @@ A third channel (NOT enabled now): newsletter capture + lead-gen handoff to Even
 - `index.html` ships Open Graph + Twitter + JSON-LD `WebApplication` structured data with the atlasio name.
 - Canonical URL points at `https://eventore.ca/` — update if/when you point the canonical at a dedicated `atlasio.*` apex.
 - Plausible script slot in `.env.example` (`VITE_ANALYTICS_SCRIPT`) — when set, can be injected from `index.html` or `main.tsx`.
-- Build emits a separate `leaflet` chunk so 
+- Build emits a separate `leaflet` chunk so the heavy mapping bundle caches independently.
+
+## Deploy
+
+Vercel (recommended, matches the main `application/` app):
+
+```bash
+# from this folder
+vercel --prod
+```
+
+Or Netlify with the `dist/` directory as publish target. Add a `_redirects` line for SPA routing if/when we add routes:
+```
+/*    /index.html    200
+```
+
+## What's NOT in v0.7 (the punch list to v1.0)
+
+1. **Mobile responsive** — the layout breaks below ~1100 px. Next milestone. Mobile gets a bottom-sheet vendor card and a hamburger left rail.
+2. **Vendor data swap-in** — `src/data/vendors.json` is still the 18 fictional seeds. Replace with the curated Vancouver set from `../Eventore_Vendor_Target_Tracker.xlsx` once the hygiene pass via `../outreach/` is done.
+3. **Authenticated sync** — guests work entirely on localStorage today. Magic-link signup that writes `fd_plans.data` is the easy next step.
+4. **Real budget editor extras** — total + per-category allocation already work in Settings; quote-driven actuals come in v1.1.
+5. **Quote logging UI** — the "+ Log a quote" button is a stub. v1.1 wires it to `fd_quotes_anon` insert + a moderation queue.
+6. **"Upgrade to Eventore" CTA** — appears at 2+ vendors in plan. Goes into v1.1 after the marketplace book flow is itself stable.
+7. **Featured-vendor admin surface** — pick which vendors get sponsored, set `sponsored_until`. Start with manual SQL until there's demand.

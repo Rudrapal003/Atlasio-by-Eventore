@@ -11,3 +11,34 @@
   color: var(--muted);
 }
 .corner b { color: var(--text); font-weight: 600; }
+
+/* ---------- Custom zoom control ----------
+   Floats just to the right edge of the LeftRail.
+   LeftRail = left:14 + width:320 → ends at 334px;
+   zoom sits at 348px so there's a 14px breathing strip. */
+.zoom {
+  position: absolute;
+  top: 90px;
+  left: 348px;
+  z-index: 500;
+  width: 42px;
+  border-radius: var(--r-md);
+  overflow: hidden;
+  display: flex; flex-direction: column;
+}
+.zoomBtn {
+  background: transparent;
+  border: 0;
+  width: 100%;
+  height: 36px;
+  color: var(--brand-deep);
+  display: flex; align-items: center; justify-content: center;
+  cursor: pointer;
+  transition: background 0.12s ease, color 0.12s ease;
+}
+.zoomBtn:hover { background: var(--cream); color: var(--brand); }
+.zoomBtn:active { background: var(--cream-deep); }
+.zoomDivider {
+  height: 1px;
+  background: var(--line);
+}

@@ -64,4 +64,9 @@ Product, brand, legal, and operational source-of-truth — versioned alongside t
 - **Product / engineering:** `Eventore_PRD.docx`, `Eventore_Engineering_Handbook.docx`
 - **Brand:** `Eventore_Brand_and_Content_Guidelines.docx`
 - **Operations:** `Eventore_Operations_Playbook.docx`
-- **Launch:** `Eventore_Launch_Plan.docx`, `Eventore_Positioning_Roadmap_Launch.docx`, `
+- **Launch:** `Eventore_Launch_Plan.docx`, `Eventore_Positioning_Roadmap_Launch.docx`, `Eventore_Positioning_Roadmap_Launch_v2.docx`
+- **Legal:** `Eventore_Terms_of_Service.docx`, `Eventore_Privacy_Policy.docx`, `Eventore_Community_Guidelines.docx`, `Eventore_Vendor_Agreement.docx`, `Eventore_Cancellation_and_Refund_Policy.docx`
+- **Vendor pipeline:** `Eventore_Vendor_Outreach_Plan.docx`, `Eventore_Vendor_Target_Tracker.xlsx`, `Eventore_Outreach_Contact_List.xlsx`
+- **Survey:** `Eventore_Survey_Setup_Guide.docx` / `.md`, `Eventore_Survey_Vendors.html`, `Eventore_Survey_Collector.gs`
+- **Prototype / mockups:** `Eventore_Prototype_v1.html`, `Eventore_UI_Mockups_v1.html`
+- **Investor:** `investor_pitch_deck.md` (source) + `.docx` (handout)
