@@ -52,8 +52,8 @@ export interface Vendor {
   sponsored?: boolean;
   /** ISO date — auto-clear sponsored flag when expired. */
   sponsoredUntil?: string;
-  /** Monetization (b) — affiliate-tracked outbound URL. If absent, fall back to `web`. */
-  outboundUrl?: string;
+  /** Monetization (b) — affiliate-tracked outbound URL. If absent or null, fall back to `web`. */
+  outboundUrl?: string | null;
 }
 
 export type StageId =

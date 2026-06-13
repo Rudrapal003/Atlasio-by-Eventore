@@ -13,6 +13,17 @@
   to   { opacity: 1; transform: translateX(0); }
 }
 
+@media (max-width: 768px) {
+  .drawer {
+    top: 0; left: 0; right: 0; bottom: 0;
+    width: 100%;
+    border-radius: 0;
+    z-index: 950;
+  }
+  .tab span { display: none; }
+  .tab { padding: 10px 4px; }
+}
+
 /* ---------- Header ---------- */
 .head {
   padding: 14px 18px;

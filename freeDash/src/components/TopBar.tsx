@@ -1,4 +1,4 @@
-import { CheckSquare, MapPin, Search } from 'lucide-react';
+import { CheckSquare, MapPin, Menu, Search, SlidersHorizontal } from 'lucide-react';
 import type { AvatarTone, BudgetState } from '@/types';
 import { BudgetThermometer } from './BudgetThermometer';
 import styles from './TopBar.module.css';
@@ -15,6 +15,9 @@ interface Props {
   userInitial: string;
   userTone: AvatarTone;
   onAvatarClick: () => void;
+  /** Mobile-only triggers. */
+  onMenu: () => void;
+  onFilter: () => void;
 }
 
 /* Avatar gradient pairs match the tones offered in SettingsDrawer. */
@@ -32,10 +35,20 @@ export function TopBar({
   planCount, onTogglePlan,
   budget, spentByCategory, totalSpent, onBudgetTotal,
   userInitial, userTone, onAvatarClick,
+  onMenu, onFilter,
 }: Props) {
   const grad = TONE_GRADIENT[userTone] ?? TONE_GRADIENT.gold;
   return (
     <div className={styles.topbar}>
+      {/* Mobile-only menu trigger */}
+      <button
+        className={`${styles.iconBtn} ${styles.mobileOnly} floatCard`}
+        onClick={onMenu}
+        aria-label="Open menu"
+      >
+        <Menu size={18} />
+      </button>
+
       <div className={`${styles.brandCard} floatCard`}>
         <span className={styles.brandMark}>
           atlas<span className={styles.brandAccent}>io</span>
@@ -43,7 +56,7 @@ export function TopBar({
         <span className={styles.brandSub}>by Eventore</span>
       </div>
 
-      <button className={`${styles.locPill} floatCard`} type="button" title="Change city">
+      <button className={`${styles.locPill} floatCard ${styles.desktopOnly}`} type="button" title="Change city">
         <MapPin size={14} color="var(--rose)" />
         Greater Vancouver
       </button>
@@ -53,23 +66,34 @@ export function TopBar({
         <input
           value={query}
           onChange={(e) => onQuery(e.target.value)}
-          placeholder="Search vendors, areas, styles…"
+          placeholder="Search vendors, areas…"
           aria-label="Search vendors"
         />
       </div>
 
-      <BudgetThermometer
-        budget={budget}
-        spentByCategory={spentByCategory}
-        totalSpent={totalSpent}
-        onEditTotal={onBudgetTotal}
-      />
+      <div className={styles.desktopOnly}>
+        <BudgetThermometer
+          budget={budget}
+          spentByCategory={spentByCategory}
+          totalSpent={totalSpent}
+          onEditTotal={onBudgetTotal}
+        />
+      </div>
 
       <div className={styles.spacer} />
 
+      {/* Mobile-only filter trigger */}
+      <button
+        className={`${styles.iconBtn} ${styles.mobileOnly} floatCard`}
+        onClick={onFilter}
+        aria-label="Open filters"
+      >
+        <SlidersHorizontal size={18} />
+      </button>
+
       <button className={styles.planBtn} onClick={onTogglePlan} type="button">
         <CheckSquare size={14} />
-        My Plan
+        <span className={styles.planLbl}>My Plan</span>
         <span className={styles.badge}>{planCount}</span>
       </button>
 

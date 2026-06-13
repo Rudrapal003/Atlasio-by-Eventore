@@ -1,3 +1,4 @@
+import { X } from 'lucide-react';
 import { CATEGORIES } from '@/data/categories';
 import type { CategoryId, Vendor, FilterState } from '@/types';
 import styles from './RightRail.module.css';
@@ -6,6 +7,9 @@ interface Props {
   vendors: Vendor[];
   filters: FilterState;
   matchedCount: number;
+  /** Mobile-only — when true the rail slides in over the map with a backdrop. */
+  mobileOpen: boolean;
+  onCloseMobile: () => void;
   onToggleCat: (id: CategoryId) => void;
   onToggleInPlanOnly: () => void;
 }
@@ -19,6 +23,7 @@ interface Props {
 
 export function RightRail({
   vendors, filters, matchedCount,
+  mobileOpen, onCloseMobile,
   onToggleCat, onToggleInPlanOnly,
 }: Props) {
   const counts: Record<string, number> = {};
@@ -26,7 +31,12 @@ export function RightRail({
   vendors.forEach((v) => { counts[v.cat] = (counts[v.cat] ?? 0) + 1; });
 
   return (
-    <aside className={`${styles.panel} floatCard`}>
+    <>
+      {mobileOpen && <div className={styles.backdrop} onClick={onCloseMobile} />}
+      <aside className={`${styles.panel} floatCard ${mobileOpen ? styles.mobileOpen : ''}`}>
+        <button className={styles.mobileClose} onClick={onCloseMobile} aria-label="Close filters">
+          <X size={16} />
+        </button>
       <div className={styles.section}>
         <div className={styles.sectionTitle}>
           Vendor types <span className={styles.count}>{matchedCount}</span>
@@ -61,6 +71,7 @@ export function RightRail({
           <span className={styles.sw} />
         </div>
       </div>
-    </aside>
+      </aside>
+    </>
   );
 }

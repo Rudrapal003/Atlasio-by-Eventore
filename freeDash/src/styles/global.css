@@ -72,6 +72,11 @@ input, textarea, select { font: inherit; }
   position: relative;
 }
 .v-marker:hover { transform: scale(1.1); }
+
+/* Hide focus rings on touch */
+@media (hover: none) {
+  .v-marker:hover { transform: none; }
+}
 .v-marker.selected {
   width: 42px; height: 42px;
   font-size: 21px;

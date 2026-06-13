@@ -26,6 +26,25 @@
   overflow: hidden;
   display: flex; flex-direction: column;
 }
+
+/* On tablet/mobile the left rail isn't there by default, so float the
+   zoom over the map's right edge where it's reachable with a thumb. */
+@media (max-width: 1023px) {
+  .zoom {
+    top: auto;
+    bottom: 90px;
+    left: auto;
+    right: 12px;
+  }
+  .corner {
+    left: auto;
+    right: 12px;
+    bottom: 12px;
+  }
+}
+@media (max-width: 640px) {
+  .corner { display: none; }
+}
 .zoomBtn {
   background: transparent;
   border: 0;

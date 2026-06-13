@@ -1,6 +1,6 @@
 import { useMemo } from 'react';
 import {
-  Calendar, Users, MessageSquare, FileText, DollarSign, Sparkles, Settings,
+  Calendar, Users, MessageSquare, FileText, DollarSign, Sparkles, Settings, X,
 } from 'lucide-react';
 import type { EventEntry, FilterState, UserProfile } from '@/types';
 import { daysUntil } from '@/lib/format';
@@ -15,6 +15,9 @@ interface Props {
   /** Real unread-message count. 0 hides the badge entirely. */
   unreadMessages: number;
   filters: FilterState;
+  /** Mobile-only — when true, the rail slides in over the map with a backdrop. */
+  mobileOpen: boolean;
+  onCloseMobile: () => void;
   onDistKm: (n: number) => void;
   onMinRating: (n: number) => void;
   onResetFilters: () => void;
@@ -43,6 +46,7 @@ export function LeftRail({
   vendorsInPlan, vendorsBooked,
   unreadMessages,
   filters,
+  mobileOpen, onCloseMobile,
   onDistKm, onMinRating, onResetFilters,
   onFunction,
 }: Props) {
@@ -53,7 +57,12 @@ export function LeftRail({
   };
 
   return (
-    <aside className={`${styles.panel} floatCard`}>
+    <>
+      {mobileOpen && <div className={styles.backdrop} onClick={onCloseMobile} />}
+      <aside className={`${styles.panel} floatCard ${mobileOpen ? styles.mobileOpen : ''}`}>
+        <button className={styles.mobileClose} onClick={onCloseMobile} aria-label="Close menu">
+          <X size={16} />
+        </button>
       {/* Profile */}
       <section className={styles.section}>
         <div className={styles.profileBlock}>
@@ -150,6 +159,7 @@ export function LeftRail({
           <button className={styles.resetBtn} onClick={onResetFilters}>Reset filters</button>
         </div>
       </section>
-    </aside>
+      </aside>
+    </>
   );
 }

@@ -1,3 +1,4 @@
+// atlasio app entry — wires every hook + component
 import { useCallback, useMemo, useState } from 'react';
 import vendorsJson from '@/data/vendors.json';
 import type { Vendor } from '@/types';
@@ -55,6 +56,12 @@ export default function App() {
   const [selectedId, setSelectedId] = useState<string | null>(null);
   const [panelMode, setPanelMode] = useState<PanelMode>(null);
   const [settingsTab, setSettingsTab] = useState<SettingsTabId | null>(null);
+  const [leftRailOpen, setLeftRailOpen] = useState(false);
+  const [rightRailOpen, setRightRailOpen] = useState(false);
+  const closeMobileRails = useCallback(() => {
+    setLeftRailOpen(false);
+    setRightRailOpen(false);
+  }, []);
 
   /* Sort: sponsored first within their category, then by rating desc */
   const sortedVendors = useMemo(() => {
@@ -88,11 +95,13 @@ export default function App() {
   const selectVendor = useCallback((id: string) => {
     setSelectedId(id);
     setPanelMode('vendor');
-  }, []);
+    closeMobileRails();
+  }, [closeMobileRails]);
 
   const togglePlanDrawer = useCallback(() => {
     setPanelMode((m) => (m === 'plan' ? null : 'plan'));
-  }, []);
+    closeMobileRails();
+  }, [closeMobileRails]);
 
   const closePanel = useCallback(() => {
     setPanelMode(null);
@@ -101,18 +110,20 @@ export default function App() {
 
   const openSettings = useCallback((tab: SettingsTabId = 'profile') => {
     setSettingsTab(tab);
-  }, []);
+    closeMobileRails();
+  }, [closeMobileRails]);
 
   const closeSettings = useCallback(() => setSettingsTab(null), []);
 
   const handleFunction = useCallback((fn: string) => {
     if (fn === 'messages') {
       setPanelMode('messages');
+      closeMobileRails();
       return;
     }
     const tab = FUNCTION_TO_TAB[fn] ?? 'profile';
     openSettings(tab);
-  }, [openSettings]);
+  }, [openSettings, closeMobileRails]);
 
   /* When an expense is added locally, also fire the anonymous beacon
      so we slowly accumulate crowdsourced pricing data that feeds vendor
@@ -165,6 +176,8 @@ export default function App() {
         userInitial={profile.initial}
         userTone={profile.tone}
         onAvatarClick={() => openSettings('profile')}
+        onMenu={() => { setLeftRailOpen(true); setRightRailOpen(false); }}
+        onFilter={() => { setRightRailOpen(true); setLeftRailOpen(false); }}
       />
 
       <LeftRail
@@ -175,6 +188,8 @@ export default function App() {
         vendorsBooked={vendorsBooked}
         unreadMessages={UNREAD_MESSAGES}
         filters={fl.filters}
+        mobileOpen={leftRailOpen}
+        onCloseMobile={() => setLeftRailOpen(false)}
         onDistKm={fl.setDistKm}
         onMinRating={fl.setMinRating}
         onResetFilters={fl.reset}
@@ -185,6 +200,8 @@ export default function App() {
         vendors={VENDORS}
         filters={fl.filters}
         matchedCount={visibleCount}
+        mobileOpen={rightRailOpen}
+        onCloseMobile={() => setRightRailOpen(false)}
         onToggleCat={fl.toggleCat}
         onToggleInPlanOnly={() => fl.setShowOnlyInPlan(!fl.filters.showOnlyInPlan)}
       />
