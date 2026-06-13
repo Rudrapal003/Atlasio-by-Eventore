@@ -17,7 +17,6 @@ interface Props {
   filters: FilterState;
   onDistKm: (n: number) => void;
   onMinRating: (n: number) => void;
-  onTogglePriceTier: (t: number) => void;
   onResetFilters: () => void;
   onFunction: (fn: string) => void;
 }
@@ -44,7 +43,7 @@ export function LeftRail({
   vendorsInPlan, vendorsBooked,
   unreadMessages,
   filters,
-  onDistKm, onMinRating, onTogglePriceTier, onResetFilters,
+  onDistKm, onMinRating, onResetFilters,
   onFunction,
 }: Props) {
   const daysToEvent = useMemo(() => daysUntil(activeEvent.date), [activeEvent.date]);
@@ -126,7 +125,7 @@ export function LeftRail({
         </div>
       </section>
 
-      {/* Refine */}
+      {/* Refine — price tier omitted; we don't pretend to know vendor pricing. */}
       <section className={styles.section}>
         <div className={styles.sectionTitle}>Refine search</div>
         <div className={styles.refineBlock}>
@@ -138,20 +137,6 @@ export function LeftRail({
               type="range" min={1} max={50} value={filters.distKm}
               onChange={(e) => onDistKm(+e.target.value)}
             />
-          </div>
-          <div className={styles.refineRow}>
-            <div className={styles.refineLbl}>Price tier</div>
-            <div className={styles.priceTiers}>
-              {[1, 2, 3, 4].map((t) => (
-                <div
-                  key={t}
-                  className={`${styles.priceTier} ${filters.priceTiers.includes(t) ? styles.active : ''}`}
-                  onClick={() => onTogglePriceTier(t)}
-                >
-                  {'$'.repeat(t)}
-                </div>
-              ))}
-            </div>
           </div>
           <div className={styles.refineRow}>
             <div className={styles.refineLbl}>

@@ -76,6 +76,41 @@ create table if not exists public.fd_outbound_clicks (
 create index if not exists fd_clicks_vendor_idx on public.fd_outbound_clicks (vendor_id, created_at desc);
 create index if not exists fd_clicks_sponsored_idx on public.fd_outbound_clicks (sponsored, created_at desc);
 
+-- ---------- Crowdsourced expense logs ----------
+-- Each row is one expense a planner logged against a vendor in their plan.
+-- Aggregated for the "average spent here" stats on vendor cards + as
+-- leverage when atlasio later approaches vendors directly ("here's what
+-- your real customers paid this year"). Never tied to a known user — only
+-- visitor_id (random localStorage value) ever leaves the device.
+create table if not exists public.fd_vendor_expenses (
+  id          bigserial primary key,
+  visitor_id  text not null,
+  vendor_id   text not null references public.fd_vendors(id) on delete cascade,
+  amount      numeric(12,2) not null check (amount > 0),
+  label       text not null check (label in (
+                 'deposit','progress-payment','final-payment','tasting',
+                 'consultation','travel-fee','add-on','other')),
+  spent_on    date,
+  created_at  timestamptz not null default now()
+);
+create index if not exists fd_exp_vendor_idx on public.fd_vendor_expenses (vendor_id, created_at desc);
+create index if not exists fd_exp_label_idx  on public.fd_vendor_expenses (vendor_id, label);
+
+-- View: average + median spent per vendor, broken out by label,
+-- safe to expose to the client because no individual rows leak.
+create or replace view public.fd_vendor_expense_summary as
+  select
+    vendor_id,
+    label,
+    count(*)            as entries,
+    round(avg(amount))  as avg_amount,
+    percentile_cont(0.5) within group (order by amount) as median_amount,
+    min(amount)         as min_amount,
+    max(amount)         as max_amount
+  from public.fd_vendor_expenses
+  group by vendor_id, label
+  having count(*) >= 3;  -- privacy floor — never expose stats based on < 3 entries
+
 -- ---------- Authenticated user plans (for signed-in sync; guests use localStorage) ----------
 create table if not exists public.fd_plans (
   user_id     uuid primary key references auth.users(id) on delete cascade,
@@ -87,6 +122,7 @@ create table if not exists public.fd_plans (
 alter table public.fd_vendors           enable row level security;
 alter table public.fd_quotes_anon       enable row level security;
 alter table public.fd_outbound_clicks   enable row level security;
+alter table public.fd_vendor_expenses   enable row level security;
 alter table public.fd_plans             enable row level security;
 
 -- Vendors: anyone can read 'active'; only service role can write
@@ -106,6 +142,12 @@ create policy fd_quotes_read on public.fd_quotes_anon
 -- Outbound clicks: anyone can insert; only service role can read
 drop policy if exists fd_clicks_insert on public.fd_outbound_clicks;
 create policy fd_clicks_insert on public.fd_outbound_clicks
+  for insert with check (true);
+
+-- Expense logs: anyone can insert their own log; the raw table is not
+-- readable from the client (only the aggregated view is).
+drop policy if exists fd_exp_insert on public.fd_vendor_expenses;
+create policy fd_exp_insert on public.fd_vendor_expenses
   for insert with check (true);
 
 -- Plans: only the owning user can read/write their own row

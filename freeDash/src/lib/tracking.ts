@@ -45,6 +45,39 @@ export async function trackOutboundClick(ev: OutboundEvent): Promise<void> {
   }
 }
 
+interface ExpenseLogEvent {
+  vendorId: string;
+  amount: number;
+  label: string;
+  spentOn: string;
+}
+
+/**
+ * Crowdsourced pricing beacon. Each planner-logged expense becomes
+ * one anonymous row that feeds the "average paid here" stats we'll
+ * eventually surface on vendor cards — and the leverage we'll bring
+ * to vendor outreach later ("here's what your customers actually
+ * spent through us this year").
+ *
+ * Fire-and-forget. Never blocks the UI.
+ */
+export async function trackExpenseLog(ev: ExpenseLogEvent): Promise<void> {
+  const enabled = import.meta.env.VITE_ENABLE_OUTBOUND_TRACKING !== 'false';
+  if (!enabled) return;
+  try {
+    if (!supabase) return;
+    await supabase.from('fd_vendor_expenses').insert({
+      visitor_id: getVisitorId(),
+      vendor_id: ev.vendorId,
+      amount: ev.amount,
+      label: ev.label,
+      spent_on: ev.spentOn,
+    });
+  } catch (err) {
+    if (import.meta.env.DEV) console.warn('[fd:trackExpense]', err);
+  }
+}
+
 /**
  * Normalize a vendor's outbound URL.
  * - If outboundUrl is present, use it (affiliate-tracked link).

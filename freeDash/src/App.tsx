@@ -15,6 +15,8 @@ import { useBudget } from '@/hooks/useBudget';
 import { useProfile } from '@/hooks/useProfile';
 import { useEvents } from '@/hooks/useEvents';
 import { useBudgetCategories } from '@/hooks/useBudgetCategories';
+import { useExpenses, type AddExpenseInput } from '@/hooks/useExpenses';
+import { trackExpenseLog } from '@/lib/tracking';
 
 /* =========================================================
    atlasio — map-first event-planning dashboard, by Eventore.
@@ -44,10 +46,11 @@ const FUNCTION_TO_TAB: Record<string, SettingsTabId> = {
 export default function App() {
   const plan = usePlan();
   const fl = useFilters();
-  const { budget, setTotal, setSpent } = useBudget();
+  const { budget, setTotal } = useBudget();
   const { profile, setName, setEmail, setTone, reset: resetProfile } = useProfile();
   const eventsApi = useEvents();
   const { alloc, setCategoryBudget, clear: clearAlloc } = useBudgetCategories();
+  const expensesApi = useExpenses();
 
   const [selectedId, setSelectedId] = useState<string | null>(null);
   const [panelMode, setPanelMode] = useState<PanelMode>(null);
@@ -67,6 +70,20 @@ export default function App() {
   );
 
   const visibleCount = visibleVendors.length;
+
+  /* Aggregate planner expenses by vendor category (used by the top-bar
+     thermometer). Single source of truth: real logged amounts. */
+  const spentByCategory = useMemo<Record<string, number>>(() => {
+    const map: Record<string, number> = {};
+    expensesApi.expenses.forEach((e) => {
+      const v = VENDORS.find((x) => x.id === e.vendorId);
+      if (!v) return;
+      map[v.cat] = (map[v.cat] ?? 0) + e.amount;
+    });
+    return map;
+  }, [expensesApi.expenses]);
+
+  const totalSpent = expensesApi.total;
 
   const selectVendor = useCallback((id: string) => {
     setSelectedId(id);
@@ -97,18 +114,26 @@ export default function App() {
     openSettings(tab);
   }, [openSettings]);
 
+  /* When an expense is added locally, also fire the anonymous beacon
+     so we slowly accumulate crowdsourced pricing data that feeds vendor
+     averages and informs future vendor outreach. Fire-and-forget. */
+  const handleAddExpense = useCallback((input: AddExpenseInput) => {
+    expensesApi.add(input);
+    void trackExpenseLog({
+      vendorId: input.vendorId,
+      amount: input.amount,
+      label: input.label,
+      spentOn: input.spentOn,
+    });
+  }, [expensesApi]);
+
   const resetAllData = useCallback(() => {
-    /* Wipe every atlasio key. We only touch fd_* so the host page is safe. */
     try {
       const keys = Object.keys(localStorage).filter((k) => k.startsWith('fd_'));
       keys.forEach((k) => localStorage.removeItem(k));
-    } catch {
-      /* private mode — ignore */
-    }
-    /* Reset in-memory state too so the user sees defaults immediately. */
+    } catch { /* private mode — ignore */ }
     resetProfile();
     clearAlloc();
-    /* Hard reload picks up fresh defaults from every hook. */
     window.location.reload();
   }, [resetProfile, clearAlloc]);
 
@@ -134,8 +159,8 @@ export default function App() {
         planCount={plan.count}
         onTogglePlan={togglePlanDrawer}
         budget={budget}
-        plan={plan.plan}
-        vendors={VENDORS}
+        spentByCategory={spentByCategory}
+        totalSpent={totalSpent}
         onBudgetTotal={setTotal}
         userInitial={profile.initial}
         userTone={profile.tone}
@@ -152,7 +177,6 @@ export default function App() {
         filters={fl.filters}
         onDistKm={fl.setDistKm}
         onMinRating={fl.setMinRating}
-        onTogglePriceTier={fl.togglePriceTier}
         onResetFilters={fl.reset}
         onFunction={handleFunction}
       />
@@ -169,6 +193,8 @@ export default function App() {
         <VendorOverlay
           vendor={selectedVendor}
           inPlan={plan.has(selectedVendor.id)}
+          spent={expensesApi.totalForVendor(selectedVendor.id)}
+          expenseCount={expensesApi.byVendor(selectedVendor.id).length}
           onClose={closePanel}
           onTogglePlan={() => plan.toggle(selectedVendor.id)}
         />
@@ -183,6 +209,10 @@ export default function App() {
           onToggleCheck={plan.toggleCheck}
           onNotes={plan.setNotes}
           countsByStage={plan.countsByStage}
+          expensesByVendor={expensesApi.byVendor}
+          totalForVendor={expensesApi.totalForVendor}
+          onAddExpense={handleAddExpense}
+          onRemoveExpense={expensesApi.remove}
         />
       ) : null}
 
@@ -204,6 +234,7 @@ export default function App() {
           activeEventId={eventsApi.activeId}
           budget={budget}
           alloc={alloc}
+          totalSpent={totalSpent}
           onClose={closeSettings}
           onSetName={setName}
           onSetEmail={setEmail}
@@ -213,7 +244,6 @@ export default function App() {
           onDeleteEvent={eventsApi.deleteEvent}
           onSetActiveEvent={eventsApi.setActive}
           onSetBudgetTotal={setTotal}
-          onSetBudgetSpent={setSpent}
           onSetCategoryBudget={setCategoryBudget}
           onResetData={resetAllData}
         />

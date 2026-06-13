@@ -99,15 +99,29 @@ The name fits the surface — `atlas` for the map-first vendor discovery, `io` f
 
 **Voice + tone** follow [`../Eventore_Brand_and_Content_Guidelines.docx`](../Eventore_Brand_and_Content_Guidelines.docx) — Title Case for buttons + headings, sentence case for body, "All set." / "Done." / "Got it." confirmations with periods, no exclamation marks in support copy.
 
-## Monetization model (already wired into the data layer)
+## Launch model (the reason we can ship without vendor reach-out)
 
-Two channels go live with v1 — both invisible to users so they don't compromise the "actually free and clean" positioning:
+atlasio is a **directory + planner**, not a marketplace, at launch. Vendor profiles show only public business info — name, address, phone, website, area, category. No vendor consent is needed to display public info, the same posture Yelp and Google Maps operate from. This lets us launch with curated Greater Vancouver coverage without the chicken-and-egg cold-outreach problem.
 
-**(a) Sponsored placement.** Each vendor has a `sponsored: boolean` + `sponsored_until` field. Sponsored vendors sort first within their category and get a brighter gold "★ Featured" badge on the vendor card hero and a star on their map marker. Set `sponsored: true` in the DB when a vendor pays — the badge appears automatically. Use `sponsored_until` so a daily job (`fd_clear_expired_sponsored()` in schema.sql) auto-clears expired placements.
+Critically, we **don't display approximate per-vendor pricing**. The vendor card has no $ tier or fake quote — we don't claim to know what an individual vendor charges. The price-tier filter is gone too.
 
-**(b) Affiliate-tracked outbound links.** Each vendor has an `outbound_url` field that, when set, replaces the bare website link. The "Visit" button on the vendor card fires a `fd_outbound_clicks` insert (visitor_id + vendor_id + url + surface + sponsored flag) before navigating — fire-and-forget, never blocks the click. Use the partner's tracked URL there; their attribution layer credits you.
+Instead, atlasio runs a **crowdsourced-expense flywheel**:
 
-A third channel (NOT enabled now): newsletter capture + lead-gen handoff to Eventore for "managed booking" upgrade once a couple has 2+ vendors in their plan.
+1. Planners add vendors to their plan and use **+ Add Expense** to log what they actually spent (deposit / final payment / tasting / etc.) with an amount and a date.
+2. Each logged expense fires `trackExpenseLog()` — an anonymous beacon to `fd_vendor_expenses` (visitor_id + vendor_id + amount + label + spent_on).
+3. The `fd_vendor_expense_summary` view aggregates these (with a privacy floor of `count(*) >= 3` before any vendor's stats are exposed) into average / median / range, broken out by expense label.
+4. Once each vendor has ≥ 3 entries, vendor cards start showing "Average paid here: $X (N planners)" — real market data, sourced from real bookings.
+5. That same dataset becomes leverage in vendor outreach later: *"here's what your customers actually paid through atlasio this year — want to claim your profile and offer a transparent quote tier?"*
+
+## Monetization channels (already wired into the data layer)
+
+Two channels, both invisible to users so the "actually free and clean" positioning isn't compromised:
+
+**(a) Sponsored placement.** Each vendor has a `sponsored: boolean` + `sponsored_until` field. Sponsored vendors sort first within their category and get a gold "★ Featured" badge on the vendor card hero plus a star on their map marker. SQL function `fd_clear_expired_sponsored()` auto-clears expired flags on a cron.
+
+**(b) Affiliate-tracked outbound links.** Each vendor can carry an `outbound_url` that replaces the bare website link. The "Visit" button on the vendor card fires a `fd_outbound_clicks` insert (visitor_id + vendor_id + url + surface + sponsored flag) before navigating — fire-and-forget, never blocks the click.
+
+A third channel (not live yet): newsletter capture + lead-gen handoff to the main Eventore marketplace for "managed booking" upgrade once a couple has 2+ vendors in their plan.
 
 ## SEO + analytics
 
@@ -130,12 +144,12 @@ Or Netlify with the `dist/` directory as publish target. Add a `_redirects` line
 /*    /index.html    200
 ```
 
-## What's NOT in v0.7 (the punch list to v1.0)
+## What's NOT in v0.8 (the punch list to v1.0)
 
 1. **Mobile responsive** — the layout breaks below ~1100 px. Next milestone. Mobile gets a bottom-sheet vendor card and a hamburger left rail.
-2. **Vendor data swap-in** — `src/data/vendors.json` is still the 18 fictional seeds. Replace with the curated Vancouver set from `../Eventore_Vendor_Target_Tracker.xlsx` once the hygiene pass via `../outreach/` is done.
+2. **Vendor data swap-in** — `src/data/vendors.json` is still the 18 fictional seeds. Replace with the curated Vancouver set from `../Eventore_Vendor_Target_Tracker.xlsx` once the hygiene pass via `../outreach/` is done. Only public-info fields populate; pricing comes from the crowdsourced flywheel.
 3. **Authenticated sync** — guests work entirely on localStorage today. Magic-link signup that writes `fd_plans.data` is the easy next step.
-4. **Real budget editor extras** — total + per-category allocation already work in Settings; quote-driven actuals come in v1.1.
-5. **Quote logging UI** — the "+ Log a quote" button is a stub. v1.1 wires it to `fd_quotes_anon` insert + a moderation queue.
+4. **"Average paid here" surface on vendor cards** — query `fd_vendor_expense_summary` once a vendor crosses the 3-entry floor and render the number on the vendor overlay. The data layer is ready; just needs the read path + a small display.
+5. **In-app messaging** — `MessagesDrawer` shipped as a proper empty-state inbox; v1.1 wires the real backend (`fd_messages` + `fd_threads`) and a composer.
 6. **"Upgrade to Eventore" CTA** — appears at 2+ vendors in plan. Goes into v1.1 after the marketplace book flow is itself stable.
 7. **Featured-vendor admin surface** — pick which vendors get sponsored, set `sponsored_until`. Start with manual SQL until there's demand.

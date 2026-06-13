@@ -2,13 +2,17 @@ import { useState } from 'react';
 import { X, ExternalLink } from 'lucide-react';
 import type { Vendor } from '@/types';
 import { catById } from '@/data/categories';
-import { priceLabel, stars } from '@/lib/format';
+import { fmtCAD, stars } from '@/lib/format';
 import { resolveOutboundUrl, trackOutboundClick } from '@/lib/tracking';
 import styles from './VendorOverlay.module.css';
 
 interface Props {
   vendor: Vendor;
   inPlan: boolean;
+  /** Total CAD the planner has actually logged for this vendor. */
+  spent: number;
+  /** How many separate expense rows have been logged for this vendor. */
+  expenseCount: number;
   onClose: () => void;
   onTogglePlan: () => void;
 }
@@ -19,7 +23,7 @@ interface Props {
    navigates — both invisible to the user.
    ========================================================= */
 
-export function VendorOverlay({ vendor, inPlan, onClose, onTogglePlan }: Props) {
+export function VendorOverlay({ vendor, inPlan, spent, expenseCount, onClose, onTogglePlan }: Props) {
   const c = catById(vendor.cat);
   const [copyState, setCopyState] = useState<'idle' | 'copied'>('idle');
 
@@ -54,7 +58,9 @@ export function VendorOverlay({ vendor, inPlan, onClose, onTogglePlan }: Props) 
           <span className={styles.dot} style={{ background: c.hex }} />
           {c.label}
         </div>
-        <div className={styles.priceTag}>{priceLabel(vendor.price)}</div>
+        {/* Price tier deliberately omitted — we only show what we actually
+            know about a vendor. Real spend appears once the planner logs
+            it in My Plan. */}
       </div>
 
       <div className={styles.body}>
@@ -97,21 +103,22 @@ export function VendorOverlay({ vendor, inPlan, onClose, onTogglePlan }: Props) 
           </button>
         </div>
 
-        <div className={styles.sectionTitle}>Known quotes</div>
+        <div className={styles.sectionTitle}>Your Spend Here</div>
         <div className={styles.quotes}>
-          {vendor.quotes.length ? (
-            vendor.quotes.map((q, i) => (
-              <div key={i} className={styles.qt}>
-                <span className={styles.desc}>{q.tier}</span>
-                <span className={styles.amt}>{q.amount}</span>
-              </div>
-            ))
+          {spent > 0 ? (
+            <div className={styles.qt}>
+              <span className={styles.desc}>
+                {expenseCount} entr{expenseCount === 1 ? 'y' : 'ies'} logged
+              </span>
+              <span className={styles.amt}>{fmtCAD(spent)}</span>
+            </div>
           ) : (
             <div className={styles.quotesEmpty}>
-              No quotes yet. Log one anonymously once you receive one — it helps the next couple.
+              No expenses logged yet. Add this vendor to your plan, then use{' '}
+              <b>+ Add Expense</b> to track what you actually paid. Your entries are anonymous and
+              feed the average-spend numbers we'll show other planners.
             </div>
           )}
-          <button className={styles.addQuote}>+ Log a quote</button>
         </div>
       </div>
     </div>

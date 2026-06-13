@@ -1,5 +1,5 @@
 import { CheckSquare, MapPin, Search } from 'lucide-react';
-import type { AvatarTone, BudgetState, Plan, Vendor } from '@/types';
+import type { AvatarTone, BudgetState } from '@/types';
 import { BudgetThermometer } from './BudgetThermometer';
 import styles from './TopBar.module.css';
 
@@ -9,8 +9,8 @@ interface Props {
   planCount: number;
   onTogglePlan: () => void;
   budget: BudgetState;
-  plan: Plan;
-  vendors: Vendor[];
+  spentByCategory: Record<string, number>;
+  totalSpent: number;
   onBudgetTotal: (n: number) => void;
   userInitial: string;
   userTone: AvatarTone;
@@ -30,7 +30,7 @@ const TONE_GRADIENT: Record<AvatarTone, { from: string; to: string }> = {
 export function TopBar({
   query, onQuery,
   planCount, onTogglePlan,
-  budget, plan, vendors, onBudgetTotal,
+  budget, spentByCategory, totalSpent, onBudgetTotal,
   userInitial, userTone, onAvatarClick,
 }: Props) {
   const grad = TONE_GRADIENT[userTone] ?? TONE_GRADIENT.gold;
@@ -60,8 +60,8 @@ export function TopBar({
 
       <BudgetThermometer
         budget={budget}
-        plan={plan}
-        vendors={vendors}
+        spentByCategory={spentByCategory}
+        totalSpent={totalSpent}
         onEditTotal={onBudgetTotal}
       />
 

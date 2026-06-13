@@ -18,6 +18,8 @@ interface Props {
   activeEventId: string;
   budget: BudgetState;
   alloc: BudgetCategoryAllocation;
+  /** Sum of all planner-logged expenses (auto, read-only). */
+  totalSpent: number;
   initialTab?: SettingsTabId;
   onClose: () => void;
   onSetName: (name: string) => void;
@@ -28,7 +30,6 @@ interface Props {
   onDeleteEvent: (id: string) => void;
   onSetActiveEvent: (id: string) => void;
   onSetBudgetTotal: (n: number) => void;
-  onSetBudgetSpent: (n: number) => void;
   onSetCategoryBudget: (cat: CategoryId, amount: number) => void;
   onResetData: () => void;
 }
@@ -116,8 +117,8 @@ export function SettingsDrawer(props: Props) {
           <BudgetTab
             budget={props.budget}
             alloc={props.alloc}
+            totalSpent={props.totalSpent}
             onSetTotal={(n) => { props.onSetBudgetTotal(n); showToast('All set.'); }}
-            onSetSpent={(n) => { props.onSetBudgetSpent(n); }}
             onSetCat={(c, n) => { props.onSetCategoryBudget(c, n); }}
           />
         )}
@@ -337,13 +338,13 @@ function EventsTab({
 /* ---------- Budget tab ---------- */
 
 function BudgetTab({
-  budget, alloc,
-  onSetTotal, onSetSpent, onSetCat,
+  budget, alloc, totalSpent,
+  onSetTotal, onSetCat,
 }: {
   budget: BudgetState;
   alloc: BudgetCategoryAllocation;
+  totalSpent: number;
   onSetTotal: (n: number) => void;
-  onSetSpent: (n: number) => void;
   onSetCat: (cat: CategoryId, n: number) => void;
 }) {
   const allocatedSum = (Object.values(alloc) as number[]).reduce((a, b) => a + (b || 0), 0);
@@ -355,12 +356,17 @@ function BudgetTab({
         <CurrencyInput value={budget.total} onChange={onSetTotal} />
       </Field>
 
-      <Field label="Amount already spent" hint="Logged manually until quote tracking is wired up.">
-        <CurrencyInput value={budget.spent} onChange={onSetSpent} />
+      <Field
+        label="Spent so far"
+        hint="Auto-calculated from expenses you've logged on vendors in My Plan."
+      >
+        <div className={styles.readOnlyAmount}>
+          {fmtCAD(totalSpent)}
+        </div>
       </Field>
 
       <div className={styles.allocHeader}>
-        <div className={styles.allocLbl}>By category</div>
+        <div className={styles.allocLbl}>Planned by category</div>
         <div className={styles.allocRight}>
           <span className={styles.allocSub}>Allocated</span>
           <span className={styles.allocNum}>{fmtCAD(allocatedSum)}</span>
@@ -385,8 +391,8 @@ function BudgetTab({
       </div>
 
       <p className={styles.fineprint}>
-        Per-category amounts feed into the top-bar thermometer when set. Leave blank to fall back to a rough
-        plan-based estimate.
+        Per-category amounts are your planned ceilings. Actual spend is what you log in My Plan;
+        the top-bar thermometer shows the real total in colored segments.
       </p>
     </section>
   );

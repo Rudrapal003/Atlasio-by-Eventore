@@ -124,3 +124,27 @@ export interface EventEntry {
   notes: string;
   createdAt: string;
 }
+
+/** Pre-set expense labels — keeps category data clean for aggregation. */
+export type ExpenseLabel =
+  | 'deposit'
+  | 'progress-payment'
+  | 'final-payment'
+  | 'tasting'
+  | 'consultation'
+  | 'travel-fee'
+  | 'add-on'
+  | 'other';
+
+export interface ExpenseEntry {
+  id: string;
+  vendorId: string;
+  /** Whole CAD dollars (we don't track cents in v1). */
+  amount: number;
+  label: ExpenseLabel;
+  /** ISO date (YYYY-MM-DD). */
+  spentOn: string;
+  /** Free-form one-liner. */
+  note: string;
+  createdAt: string;
+}
