@@ -23639,5 +23639,335 @@
         "amount": "$1,260"
       }
     ]
+  },
+  {
+    "id": "ven_atlanta_planner",
+    "name": "Atlanta Wedding Planners",
+    "cat": "planner",
+    "lat": 33.749,
+    "lng": -84.388,
+    "area": "Atlanta",
+    "price": 3,
+    "rating": 4.9,
+    "brief": "ATL's most connected wedding planning team — Piedmont Park ceremonies, Beltline chic, and Buckhead luxury estate connections.",
+    "email": "hello@atlantaweddingplanners.com",
+    "phone": "404-555-5010",
+    "web": "https://atlantaweddingplanners.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Day-Of Coordination",
+        "amount": "$2,000"
+      },
+      {
+        "tier": "Partial Planning",
+        "amount": "$5,000"
+      },
+      {
+        "tier": "Full Planning",
+        "amount": "$11,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_atlanta_hair",
+    "name": "Atlanta Bridal Hair Studio",
+    "cat": "hair",
+    "lat": 33.749,
+    "lng": -84.388,
+    "area": "Atlanta",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "ATL on-location bridal stylists — diverse expertise across African-American, South Asian, and Western bridal traditions with Georgia's best artists.",
+    "email": "book@atlantabridalhair.com",
+    "phone": "404-555-5011",
+    "web": "https://atlantabridalhair.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Bridal Hair",
+        "amount": "$340"
+      },
+      {
+        "tier": "Bridal + 2 Guests",
+        "amount": "$720"
+      },
+      {
+        "tier": "Full Bridal Party",
+        "amount": "$1,340"
+      }
+    ]
+  },
+  {
+    "id": "ven_atlanta_attire",
+    "name": "Atlanta Bridal Attire",
+    "cat": "attire",
+    "lat": 33.749,
+    "lng": -84.388,
+    "area": "Atlanta",
+    "price": 3,
+    "rating": 4.8,
+    "brief": "Buckhead's premier bridal boutique — Southern belles and modern minimalists both find their perfect gown in ATL's finest bridal collection.",
+    "email": "hello@atlantabridalattire.com",
+    "phone": "404-555-5012",
+    "web": "https://atlantabridalattire.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Sample Sale",
+        "amount": "$900"
+      },
+      {
+        "tier": "Designer Collection",
+        "amount": "$2,600"
+      },
+      {
+        "tier": "Custom Order",
+        "amount": "$6,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_dallas_planner",
+    "name": "Dallas Wedding Planners",
+    "cat": "planner",
+    "lat": 32.7767,
+    "lng": -96.797,
+    "area": "Dallas",
+    "price": 3,
+    "rating": 4.8,
+    "brief": "Big D's premier wedding planning firm — Uptown luxury events, Bishop Arts creative receptions, and Plano estate celebrations.",
+    "email": "hello@dallasweddingplanners.com",
+    "phone": "214-555-5010",
+    "web": "https://dallasweddingplanners.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Day-Of Coordination",
+        "amount": "$2,000"
+      },
+      {
+        "tier": "Partial Planning",
+        "amount": "$5,000"
+      },
+      {
+        "tier": "Full Planning",
+        "amount": "$11,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_dallas_hair",
+    "name": "Dallas Bridal Hair Studio",
+    "cat": "hair",
+    "lat": 32.7767,
+    "lng": -96.797,
+    "area": "Dallas",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "Dallas on-location bridal stylists — big Texas hair and sleek modern elegance both perfected by Uptown's top hair artists.",
+    "email": "book@dallasbridalhair.com",
+    "phone": "214-555-5011",
+    "web": "https://dallasbridalhair.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Bridal Hair",
+        "amount": "$330"
+      },
+      {
+        "tier": "Bridal + 2 Guests",
+        "amount": "$700"
+      },
+      {
+        "tier": "Full Bridal Party",
+        "amount": "$1,300"
+      }
+    ]
+  },
+  {
+    "id": "ven_dallas_attire",
+    "name": "Dallas Bridal Attire",
+    "cat": "attire",
+    "lat": 32.7767,
+    "lng": -96.797,
+    "area": "Dallas",
+    "price": 3,
+    "rating": 4.8,
+    "brief": "Highland Park's most exclusive bridal boutique — European designers, Texas-sized selection, and custom alterations for Dallas's most stylish brides.",
+    "email": "hello@dallasbridalattire.com",
+    "phone": "214-555-5012",
+    "web": "https://dallasbridalattire.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Sample Sale",
+        "amount": "$950"
+      },
+      {
+        "tier": "Designer Collection",
+        "amount": "$2,800"
+      },
+      {
+        "tier": "Custom Order",
+        "amount": "$6,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_phoenix_attire",
+    "name": "Phoenix Bridal Attire",
+    "cat": "attire",
+    "lat": 33.4484,
+    "lng": -112.074,
+    "area": "Phoenix",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "Scottsdale bridal boutique offering desert-appropriate light fabrics, bohemian silhouettes, and elegant gowns for Arizona's year-round wedding season.",
+    "email": "hello@phoenixbridalattire.com",
+    "phone": "480-555-5012",
+    "web": "https://phoenixbridalattire.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Sample Sale",
+        "amount": "$700"
+      },
+      {
+        "tier": "Designer Collection",
+        "amount": "$2,200"
+      },
+      {
+        "tier": "Custom Order",
+        "amount": "$5,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_seattle_attire",
+    "name": "Seattle Bridal Attire",
+    "cat": "attire",
+    "lat": 47.6062,
+    "lng": -122.3321,
+    "area": "Seattle",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "Capitol Hill boutique — PNW-inspired sustainable gowns, global designer collections, and inclusive sizing for Seattle's diverse modern brides.",
+    "email": "hello@seattlebridalattire.com",
+    "phone": "206-555-5013",
+    "web": "https://seattlebridalattire.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Sample Sale",
+        "amount": "$800"
+      },
+      {
+        "tier": "Designer Collection",
+        "amount": "$2,400"
+      },
+      {
+        "tier": "Custom Order",
+        "amount": "$5,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_denver_attire",
+    "name": "Denver Bridal Attire",
+    "cat": "attire",
+    "lat": 39.7392,
+    "lng": -104.9903,
+    "area": "Denver",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "Cherry Creek bridal boutique — mountain-modern aesthetic, boho chic, and classic ballgowns for Colorado's adventure-loving and refined brides.",
+    "email": "hello@denverbridalattire.com",
+    "phone": "720-555-5012",
+    "web": "https://denverbridalattire.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Sample Sale",
+        "amount": "$800"
+      },
+      {
+        "tier": "Designer Collection",
+        "amount": "$2,400"
+      },
+      {
+        "tier": "Custom Order",
+        "amount": "$5,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_nashville_attire",
+    "name": "Nashville Bridal Attire",
+    "cat": "attire",
+    "lat": 36.1627,
+    "lng": -86.7816,
+    "area": "Nashville",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "12 South boutique offering country-chic lace, bohemian florals, and sophisticated ballgowns for Music City's most stylish country and modern brides.",
+    "email": "hello@nashvillebridalattire.com",
+    "phone": "615-555-5012",
+    "web": "https://nashvillebridalattire.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Sample Sale",
+        "amount": "$850"
+      },
+      {
+        "tier": "Designer Collection",
+        "amount": "$2,500"
+      },
+      {
+        "tier": "Custom Order",
+        "amount": "$5,800"
+      }
+    ]
+  },
+  {
+    "id": "ven_austin_attire",
+    "name": "Austin Bridal Attire",
+    "cat": "attire",
+    "lat": 30.2672,
+    "lng": -97.7431,
+    "area": "Austin",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "South Congress Avenue boutique — eclectic designer curation, boho-Texas fusion, and modern minimalism for Austin's free-spirited brides.",
+    "email": "hello@austinbridalattire.com",
+    "phone": "512-555-5012",
+    "web": "https://austinbridalattire.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Sample Sale",
+        "amount": "$800"
+      },
+      {
+        "tier": "Designer Collection",
+        "amount": "$2,400"
+      },
+      {
+        "tier": "Custom Order",
+        "amount": "$5,500"
+      }
+    ]
   }
 ]
