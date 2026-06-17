@@ -3069,5 +3069,455 @@
         "amount": "$5,500"
       }
     ]
+  },
+  {
+    "id": "ven_langley_manor_estate",
+    "name": "Langley Manor Estate",
+    "cat": "venue",
+    "lat": 49.1044,
+    "lng": -122.6604,
+    "area": "Langley",
+    "price": 3,
+    "rating": 4.9,
+    "brief": "A stunning heritage manor on 5 acres of manicured gardens — Langley's most sought-after wedding venue for up to 300 guests.",
+    "email": "events@langleymanor.ca",
+    "phone": "604-555-3001",
+    "web": "https://langleymanor.ca",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Ceremony Only",
+        "amount": "$2,500"
+      },
+      {
+        "tier": "Full Day Rental",
+        "amount": "$5,200"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$8,900"
+      }
+    ]
+  },
+  {
+    "id": "ven_fraser_valley_florist",
+    "name": "Fraser Valley Florals",
+    "cat": "florist",
+    "lat": 49.1042,
+    "lng": -122.6571,
+    "area": "Langley",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "Award-winning floral design studio specialising in garden-style and wildflower arrangements for Fraser Valley weddings.",
+    "email": "hello@fraservalleyflorals.ca",
+    "phone": "604-555-3002",
+    "web": "https://fraservalleyflorals.ca",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Bridal Bouquet Set",
+        "amount": "$450"
+      },
+      {
+        "tier": "Ceremony Flowers",
+        "amount": "$1,050"
+      },
+      {
+        "tier": "Full Floral Design",
+        "amount": "$2,200"
+      }
+    ]
+  },
+  {
+    "id": "ven_meadowbrook_catering_langley",
+    "name": "Meadowbrook Catering",
+    "cat": "catering",
+    "lat": 49.0998,
+    "lng": -122.6512,
+    "area": "Langley",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "Farm-fresh catering grown from our own fields — seasonal menus that bring the best of the Fraser Valley to your table.",
+    "email": "info@meadowbrookcatering.ca",
+    "phone": "604-555-3003",
+    "web": "https://meadowbrookcatering.ca",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Buffet for 50",
+        "amount": "$1,300"
+      },
+      {
+        "tier": "Plated Dinner 100",
+        "amount": "$3,200"
+      },
+      {
+        "tier": "Full-Service Gala",
+        "amount": "$6,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_abkhazi_garden_venue",
+    "name": "Abkhazi Garden Events",
+    "cat": "venue",
+    "lat": 48.4284,
+    "lng": -123.3656,
+    "area": "Victoria",
+    "price": 3,
+    "rating": 4.9,
+    "brief": "A National Historic Site with century-old Japanese-inspired gardens — intimate ceremonies and cocktail receptions for up to 80.",
+    "email": "events@abkhazigarden.ca",
+    "phone": "250-555-4001",
+    "web": "https://abkhazigarden.ca",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Ceremony Only",
+        "amount": "$2,800"
+      },
+      {
+        "tier": "Ceremony + Cocktail",
+        "amount": "$5,500"
+      },
+      {
+        "tier": "Full Day",
+        "amount": "$9,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_victoria_photo_arts",
+    "name": "Victoria Photo Arts",
+    "cat": "photo",
+    "lat": 48.4284,
+    "lng": -123.3656,
+    "area": "Victoria",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "Victoria's premier wedding photography studio — natural light specialists with a fine-art approach to telling your love story.",
+    "email": "hello@victoriaphotoarts.ca",
+    "phone": "250-555-4002",
+    "web": "https://victoriaphotoarts.ca",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "$950"
+      },
+      {
+        "tier": "Full Day Coverage",
+        "amount": "$2,300"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "$4,600"
+      }
+    ]
+  },
+  {
+    "id": "ven_harbour_air_catering_vic",
+    "name": "Harbour Catering Victoria",
+    "cat": "catering",
+    "lat": 48.4261,
+    "lng": -123.3692,
+    "area": "Victoria",
+    "price": 3,
+    "rating": 4.8,
+    "brief": "Upscale Victoria catering collective delivering west coast fine dining experiences for weddings and private events.",
+    "email": "info@harbourcateringvic.ca",
+    "phone": "250-555-4003",
+    "web": "https://harbourcateringvic.ca",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Buffet for 50",
+        "amount": "$2,000"
+      },
+      {
+        "tier": "Plated Dinner 100",
+        "amount": "$4,800"
+      },
+      {
+        "tier": "Full-Service Gala",
+        "amount": "$9,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_victoria_planner_house",
+    "name": "The Planner House Victoria",
+    "cat": "planner",
+    "lat": 48.4319,
+    "lng": -123.3693,
+    "area": "Victoria",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "Victoria's most reviewed wedding planning studio — full planning, partial, and day-of coordination with a personal touch.",
+    "email": "hello@theplannerhouse.ca",
+    "phone": "250-555-4004",
+    "web": "https://theplannerhouse.ca",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Day-Of Coordination",
+        "amount": "$1,400"
+      },
+      {
+        "tier": "Partial Planning",
+        "amount": "$3,500"
+      },
+      {
+        "tier": "Full Planning",
+        "amount": "$7,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_island_strings_quartet",
+    "name": "Island Strings Quartet",
+    "cat": "music",
+    "lat": 48.426,
+    "lng": -123.3595,
+    "area": "Victoria",
+    "price": 2,
+    "rating": 4.9,
+    "brief": "Victoria's beloved chamber ensemble available for ceremonies, cocktail hours, and dinner receptions on Vancouver Island.",
+    "email": "book@islandstrings.ca",
+    "phone": "250-555-4005",
+    "web": "https://islandstrings.ca",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Ceremony (45 min)",
+        "amount": "$700"
+      },
+      {
+        "tier": "Ceremony + Cocktail",
+        "amount": "$1,400"
+      },
+      {
+        "tier": "Full Evening",
+        "amount": "$2,600"
+      }
+    ]
+  },
+  {
+    "id": "ven_mission_hill_events",
+    "name": "Mission Hill Event Space",
+    "cat": "venue",
+    "lat": 49.8645,
+    "lng": -119.5985,
+    "area": "Kelowna",
+    "price": 4,
+    "rating": 4.9,
+    "brief": "Iconic Okanagan vineyard venue with barrel-vaulted cellars and sweeping valley views — weddings of legendary beauty.",
+    "email": "events@missionhillevents.ca",
+    "phone": "250-555-5001",
+    "web": "https://missionhillevents.ca",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Ceremony Only",
+        "amount": "$5,500"
+      },
+      {
+        "tier": "Full Day Rental",
+        "amount": "$11,000"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$19,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_okanagan_lens_photo",
+    "name": "Okanagan Lens Photography",
+    "cat": "photo",
+    "lat": 49.8878,
+    "lng": -119.496,
+    "area": "Kelowna",
+    "price": 3,
+    "rating": 4.9,
+    "brief": "Fine-art wedding photographers capturing the golden light of the Okanagan — vineyard, lakeside, and mountain specialists.",
+    "email": "hello@okanaganlensphotography.ca",
+    "phone": "250-555-5002",
+    "web": "https://okanaganlensphotography.ca",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "$1,100"
+      },
+      {
+        "tier": "Full Day Coverage",
+        "amount": "$2,800"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "$5,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_vineyard_table_catering",
+    "name": "Vineyard Table Catering",
+    "cat": "catering",
+    "lat": 49.88,
+    "lng": -119.49,
+    "area": "Kelowna",
+    "price": 3,
+    "rating": 4.8,
+    "brief": "Okanagan farm-to-table catering featuring estate wines and locally grown produce for unforgettable vineyard wedding feasts.",
+    "email": "info@vineyardtable.ca",
+    "phone": "250-555-5003",
+    "web": "https://vineyardtable.ca",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Buffet for 50",
+        "amount": "$2,200"
+      },
+      {
+        "tier": "Plated Dinner 100",
+        "amount": "$5,500"
+      },
+      {
+        "tier": "Full-Service Gala",
+        "amount": "$10,800"
+      }
+    ]
+  },
+  {
+    "id": "ven_abbotsford_bridal_house",
+    "name": "Abbotsford Bridal House",
+    "cat": "attire",
+    "lat": 49.0504,
+    "lng": -122.3045,
+    "area": "Abbotsford",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "Fraser Valley's largest bridal boutique with 500+ gowns, tuxedos, and accessories — expert alterations in-house.",
+    "email": "hello@abbotsfordbridalhouse.ca",
+    "phone": "604-555-6001",
+    "web": "https://abbotsfordbridalhouse.ca",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Dress Rental",
+        "amount": "$550"
+      },
+      {
+        "tier": "Bridal Gown",
+        "amount": "$1,500"
+      },
+      {
+        "tier": "Designer Gown Package",
+        "amount": "$3,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_sumas_mountain_venue",
+    "name": "Sumas Mountain Estate",
+    "cat": "venue",
+    "lat": 49.0702,
+    "lng": -122.1562,
+    "area": "Abbotsford",
+    "price": 3,
+    "rating": 4.8,
+    "brief": "Private mountain estate with panoramic Fraser Valley views — rustic-chic barn and outdoor ceremony space for up to 200 guests.",
+    "email": "events@sumasmountain.ca",
+    "phone": "604-555-6002",
+    "web": "https://sumasmountain.ca",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Ceremony Only",
+        "amount": "$2,000"
+      },
+      {
+        "tier": "Full Day Rental",
+        "amount": "$4,200"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$7,200"
+      }
+    ]
+  },
+  {
+    "id": "ven_anvil_centre_events",
+    "name": "Anvil Centre Events",
+    "cat": "venue",
+    "lat": 49.2057,
+    "lng": -122.9109,
+    "area": "New Westminster",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "Modern riverside event centre in the heart of New West — flexible event spaces with stunning Fraser River views for up to 400.",
+    "email": "events@anvilcentre.ca",
+    "phone": "604-555-7001",
+    "web": "https://anvilcentre.ca",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Half-Day Rental",
+        "amount": "$1,000"
+      },
+      {
+        "tier": "Full-Day Rental",
+        "amount": "$2,300"
+      },
+      {
+        "tier": "Weekend Package",
+        "amount": "$4,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_queens_park_photo",
+    "name": "Queen's Park Photography",
+    "cat": "photo",
+    "lat": 49.2106,
+    "lng": -122.9095,
+    "area": "New Westminster",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "New West wedding photographers known for capturing genuine moments in the city's beautiful heritage parks and venues.",
+    "email": "hello@queensparkphoto.ca",
+    "phone": "604-555-7002",
+    "web": "https://queensparkphoto.ca",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "$800"
+      },
+      {
+        "tier": "Full Day Coverage",
+        "amount": "$1,900"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "$3,800"
+      }
+    ]
   }
 ]
