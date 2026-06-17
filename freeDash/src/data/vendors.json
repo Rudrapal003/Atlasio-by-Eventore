@@ -19529,5 +19529,365 @@
         "amount": "$15,000"
       }
     ]
+  },
+  {
+    "id": "ven_quebeccity_venue",
+    "name": "Québec City Wedding Venues",
+    "cat": "venue",
+    "lat": 46.8139,
+    "lng": -71.208,
+    "area": "Québec City",
+    "price": 3,
+    "rating": 4.9,
+    "brief": "Old World romance — Château Frontenac castle ceremonies, fortification walls, and Plains of Abraham vistas for historic celebrations.",
+    "email": "hello@quebeccityvenues.com",
+    "phone": "418-555-1010",
+    "web": "https://quebeccityvenues.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Half-Day Venue",
+        "amount": "$2,500"
+      },
+      {
+        "tier": "Full Day Venue",
+        "amount": "$5,000"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$9,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_quebeccity_photo",
+    "name": "Québec City Wedding Photography",
+    "cat": "photo",
+    "lat": 46.8139,
+    "lng": -71.208,
+    "area": "Québec City",
+    "price": 2,
+    "rating": 4.9,
+    "brief": "Vieux-Québec romance — cobblestone rue du Trésor portraits, Château Frontenac grandeur, and Saint Lawrence River winter magic.",
+    "email": "hello@quebeccityweddingphoto.com",
+    "phone": "418-555-1011",
+    "web": "https://quebeccityweddingphoto.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "$1,300"
+      },
+      {
+        "tier": "Full Day",
+        "amount": "$3,000"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "$5,300"
+      }
+    ]
+  },
+  {
+    "id": "ven_halifax_venue",
+    "name": "Halifax Wedding Venues",
+    "cat": "venue",
+    "lat": 44.6488,
+    "lng": -63.5752,
+    "area": "Halifax",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "Maritime wedding venues — Halifax Harbour waterfront, Citadel Hill historic backdrop, and Annapolis Valley wine country estates.",
+    "email": "hello@halifaxvenues.com",
+    "phone": "902-555-1010",
+    "web": "https://halifaxvenues.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Half-Day Venue",
+        "amount": "$1,500"
+      },
+      {
+        "tier": "Full Day Venue",
+        "amount": "$3,000"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$5,800"
+      }
+    ]
+  },
+  {
+    "id": "ven_halifax_photo",
+    "name": "Halifax Wedding Photography",
+    "cat": "photo",
+    "lat": 44.6488,
+    "lng": -63.5752,
+    "area": "Halifax",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "Nova Scotia wedding photographers — Peggy's Cove lighthouse elopements, Halifax Harbour sunsets, and Lunenburg coloured-house charm.",
+    "email": "hello@halifaxweddingphoto.com",
+    "phone": "902-555-1011",
+    "web": "https://halifaxweddingphoto.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "$1,100"
+      },
+      {
+        "tier": "Full Day",
+        "amount": "$2,600"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "$4,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_halifax_catering",
+    "name": "Halifax Wedding Catering",
+    "cat": "catering",
+    "lat": 44.6488,
+    "lng": -63.5752,
+    "area": "Halifax",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "East Coast wedding catering — Nova Scotia lobster, Digby scallops, and Maritime seafood menus for Halifax's finest celebrations.",
+    "email": "hello@halifaxcatering.com",
+    "phone": "902-555-1012",
+    "web": "https://halifaxcatering.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Buffet (50 guests)",
+        "amount": "$3,200"
+      },
+      {
+        "tier": "Plated Dinner (100 guests)",
+        "amount": "$7,800"
+      },
+      {
+        "tier": "Full Service (150 guests)",
+        "amount": "$15,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_victoria_planner",
+    "name": "Victoria BC Wedding Planners",
+    "cat": "planner",
+    "lat": 48.4284,
+    "lng": -123.3656,
+    "area": "Victoria BC",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "Vancouver Island wedding planning specialists — Butchart Gardens ceremony packages, Inner Harbour galas, and Gulf Islands destination weddings.",
+    "email": "hello@victoriaweddingplanners.com",
+    "phone": "250-555-5010",
+    "web": "https://victoriaweddingplanners.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Day-Of Coordination",
+        "amount": "$1,800"
+      },
+      {
+        "tier": "Partial Planning",
+        "amount": "$4,500"
+      },
+      {
+        "tier": "Full Planning",
+        "amount": "$9,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_victoria_music",
+    "name": "Victoria BC Wedding Music",
+    "cat": "music",
+    "lat": 48.4284,
+    "lng": -123.3656,
+    "area": "Victoria BC",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "Vancouver Island wedding musicians — Celtic harpists, Victoria Symphony violinists, and acoustic folk artists for intimate garden ceremonies.",
+    "email": "book@victoriaweddingmusic.com",
+    "phone": "250-555-5011",
+    "web": "https://victoriaweddingmusic.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Ceremony Harpist",
+        "amount": "$700"
+      },
+      {
+        "tier": "Cocktail Trio",
+        "amount": "$1,400"
+      },
+      {
+        "tier": "Full Day Live Music",
+        "amount": "$3,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_kelowna_planner",
+    "name": "Kelowna Wedding Planners",
+    "cat": "planner",
+    "lat": 49.888,
+    "lng": -119.496,
+    "area": "Kelowna BC",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "Okanagan wine country wedding planning — Mission Hill winery galas, Okanagan Lake sunset ceremonies, and orchard harvest celebrations.",
+    "email": "hello@kelownaweddingplanners.com",
+    "phone": "250-555-4010",
+    "web": "https://kelownaweddingplanners.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Day-Of Coordination",
+        "amount": "$1,600"
+      },
+      {
+        "tier": "Partial Planning",
+        "amount": "$4,000"
+      },
+      {
+        "tier": "Full Planning",
+        "amount": "$8,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_kelowna_decor",
+    "name": "Kelowna Wedding Décor",
+    "cat": "decor",
+    "lat": 49.888,
+    "lng": -119.496,
+    "area": "Kelowna BC",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "Okanagan wedding décor — vineyard tablescapes, dried Okanagan lavender installations, and lake-view alfresco ceremony transformations.",
+    "email": "hello@kelownaweddingdecor.com",
+    "phone": "250-555-4011",
+    "web": "https://kelownaweddingdecor.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Ceremony Setup",
+        "amount": "$1,200"
+      },
+      {
+        "tier": "Reception Package",
+        "amount": "$3,000"
+      },
+      {
+        "tier": "Full Venue Styling",
+        "amount": "$6,200"
+      }
+    ]
+  },
+  {
+    "id": "ven_saskatoon_venue",
+    "name": "Saskatoon Wedding Venues",
+    "cat": "venue",
+    "lat": 52.1332,
+    "lng": -106.67,
+    "area": "Saskatoon",
+    "price": 1,
+    "rating": 4.6,
+    "brief": "Paris of the Prairies wedding venues — South Saskatchewan River bridges, Waskesiu lakeside retreats, and Besborough Hotel grandeur.",
+    "email": "hello@saskatoonvenues.com",
+    "phone": "306-555-1010",
+    "web": "https://saskatoonvenues.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Half-Day Venue",
+        "amount": "$1,100"
+      },
+      {
+        "tier": "Full Day Venue",
+        "amount": "$2,200"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$4,200"
+      }
+    ]
+  },
+  {
+    "id": "ven_saskatoon_photo",
+    "name": "Saskatoon Wedding Photography",
+    "cat": "photo",
+    "lat": 52.1332,
+    "lng": -106.67,
+    "area": "Saskatoon",
+    "price": 1,
+    "rating": 4.7,
+    "brief": "Saskatchewan wedding photographers — South Saskatchewan River valley light, big prairie skies, and Waskesiu Lodge destination sessions.",
+    "email": "hello@saskatoonweddingphoto.com",
+    "phone": "306-555-1011",
+    "web": "https://saskatoonweddingphoto.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "$950"
+      },
+      {
+        "tier": "Full Day",
+        "amount": "$2,200"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "$3,800"
+      }
+    ]
+  },
+  {
+    "id": "ven_saskatoon_catering",
+    "name": "Saskatoon Wedding Catering",
+    "cat": "catering",
+    "lat": 52.1332,
+    "lng": -106.67,
+    "area": "Saskatoon",
+    "price": 1,
+    "rating": 4.6,
+    "brief": "Saskatchewan farm-fresh wedding catering — prairie-raised beef, local pulse grain dishes, and Northern Lights wild blueberry desserts.",
+    "email": "hello@saskatooncatering.com",
+    "phone": "306-555-1012",
+    "web": "https://saskatooncatering.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Buffet (50 guests)",
+        "amount": "$2,800"
+      },
+      {
+        "tier": "Plated Dinner (100 guests)",
+        "amount": "$6,800"
+      },
+      {
+        "tier": "Full Service (150 guests)",
+        "amount": "$13,000"
+      }
+    ]
   }
 ]
