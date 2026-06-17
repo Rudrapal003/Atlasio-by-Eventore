@@ -23309,5 +23309,335 @@
         "amount": "$1,180"
       }
     ]
+  },
+  {
+    "id": "ven_nyc_planner",
+    "name": "New York City Wedding Planners",
+    "cat": "planner",
+    "lat": 40.7128,
+    "lng": -74.006,
+    "area": "New York City",
+    "price": 4,
+    "rating": 4.9,
+    "brief": "Manhattan's most sought-after wedding planning firm — Central Park elopements, rooftop skyline galas, and iconic venue connections across all five boroughs.",
+    "email": "hello@nycweddingplanners.com",
+    "phone": "212-555-5010",
+    "web": "https://nycweddingplanners.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Day-Of Coordination",
+        "amount": "$3,500"
+      },
+      {
+        "tier": "Partial Planning",
+        "amount": "$9,000"
+      },
+      {
+        "tier": "Full Planning",
+        "amount": "$20,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_nyc_hair",
+    "name": "NYC Bridal Hair Studio",
+    "cat": "hair",
+    "lat": 40.7128,
+    "lng": -74.006,
+    "area": "New York City",
+    "price": 4,
+    "rating": 4.9,
+    "brief": "New York City on-location bridal hair artists — runway-ready editorial looks, classic Park Avenue elegance, and Brooklyn bohemian romance.",
+    "email": "book@nycbridalhair.com",
+    "phone": "212-555-5011",
+    "web": "https://nycbridalhair.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Bridal Hair",
+        "amount": "$550"
+      },
+      {
+        "tier": "Bridal + 2 Guests",
+        "amount": "$1,150"
+      },
+      {
+        "tier": "Full Bridal Party",
+        "amount": "$2,200"
+      }
+    ]
+  },
+  {
+    "id": "ven_nyc_attire",
+    "name": "NYC Bridal Attire",
+    "cat": "attire",
+    "lat": 40.755,
+    "lng": -73.984,
+    "area": "New York City",
+    "price": 4,
+    "rating": 4.9,
+    "brief": "Midtown Manhattan's premier bridal boutique — runway couture, heritage designer labels, and made-to-measure gowns for New York's most fashionable brides.",
+    "email": "hello@nycbridalattire.com",
+    "phone": "212-555-5012",
+    "web": "https://nycbridalattire.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Sample Sale Gown",
+        "amount": "$1,200"
+      },
+      {
+        "tier": "Off-the-Rack Designer",
+        "amount": "$3,500"
+      },
+      {
+        "tier": "Custom Couture",
+        "amount": "$12,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_chicago_planner",
+    "name": "Chicago Wedding Planners",
+    "cat": "planner",
+    "lat": 41.8781,
+    "lng": -87.6298,
+    "area": "Chicago",
+    "price": 3,
+    "rating": 4.9,
+    "brief": "Windy City's top wedding planning team — Millennium Park iconic backdrop, rooftop Lake Michigan ceremonies, and Gold Coast ballroom receptions.",
+    "email": "hello@chicagoweddingplanners.com",
+    "phone": "312-555-5010",
+    "web": "https://chicagoweddingplanners.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Day-Of Coordination",
+        "amount": "$2,200"
+      },
+      {
+        "tier": "Partial Planning",
+        "amount": "$5,500"
+      },
+      {
+        "tier": "Full Planning",
+        "amount": "$12,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_chicago_hair",
+    "name": "Chicago Bridal Hair Studio",
+    "cat": "hair",
+    "lat": 41.8781,
+    "lng": -87.6298,
+    "area": "Chicago",
+    "price": 3,
+    "rating": 4.8,
+    "brief": "Chicago on-location bridal stylists — Magnificent Mile elegance, Logan Square boho chic, and lakefront-inspired beachy waves for every bride.",
+    "email": "book@chicagobridalhair.com",
+    "phone": "312-555-5011",
+    "web": "https://chicagobridalhair.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Bridal Hair",
+        "amount": "$380"
+      },
+      {
+        "tier": "Bridal + 2 Guests",
+        "amount": "$800"
+      },
+      {
+        "tier": "Full Bridal Party",
+        "amount": "$1,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_chicago_attire",
+    "name": "Chicago Bridal Attire",
+    "cat": "attire",
+    "lat": 41.8827,
+    "lng": -87.6233,
+    "area": "Chicago",
+    "price": 3,
+    "rating": 4.8,
+    "brief": "Chicago's beloved bridal boutique — international designer collections, trunk shows, and bespoke alterations for the modern Chicago bride.",
+    "email": "hello@chicagobridalattire.com",
+    "phone": "312-555-5012",
+    "web": "https://chicagobridalattire.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Sample Sale",
+        "amount": "$900"
+      },
+      {
+        "tier": "Designer Collection",
+        "amount": "$2,800"
+      },
+      {
+        "tier": "Custom Order",
+        "amount": "$6,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_la_planner",
+    "name": "Los Angeles Wedding Planners",
+    "cat": "planner",
+    "lat": 34.0522,
+    "lng": -118.2437,
+    "area": "Los Angeles",
+    "price": 4,
+    "rating": 4.9,
+    "brief": "Hollywood's premier wedding planning team — Malibu cliffside ceremonies, Beverly Hills Hotel pool galas, and iconic LA venue connections.",
+    "email": "hello@laweddingplanners.com",
+    "phone": "310-555-5010",
+    "web": "https://laweddingplanners.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Day-Of Coordination",
+        "amount": "$3,000"
+      },
+      {
+        "tier": "Partial Planning",
+        "amount": "$8,000"
+      },
+      {
+        "tier": "Full Planning",
+        "amount": "$18,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_la_hair",
+    "name": "Los Angeles Bridal Hair",
+    "cat": "hair",
+    "lat": 34.0522,
+    "lng": -118.2437,
+    "area": "Los Angeles",
+    "price": 3,
+    "rating": 4.9,
+    "brief": "Hollywood on-location bridal stylists — celebrity-adjacent red carpet glam, Malibu beachy waves, and Silver Lake boho-chic wedding artistry.",
+    "email": "book@labridalhair.com",
+    "phone": "310-555-5011",
+    "web": "https://labridalhair.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Bridal Hair",
+        "amount": "$450"
+      },
+      {
+        "tier": "Bridal + 2 Guests",
+        "amount": "$950"
+      },
+      {
+        "tier": "Full Bridal Party",
+        "amount": "$1,800"
+      }
+    ]
+  },
+  {
+    "id": "ven_la_attire",
+    "name": "Los Angeles Bridal Attire",
+    "cat": "attire",
+    "lat": 34.0522,
+    "lng": -118.2437,
+    "area": "Los Angeles",
+    "price": 3,
+    "rating": 4.9,
+    "brief": "West Hollywood's most exclusive bridal boutique — couture designers, vintage finds, and sustainably-made modern gowns for the LA bride.",
+    "email": "hello@labridalattire.com",
+    "phone": "310-555-5012",
+    "web": "https://labridalattire.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Sample Sale",
+        "amount": "$1,000"
+      },
+      {
+        "tier": "Designer Collection",
+        "amount": "$3,200"
+      },
+      {
+        "tier": "Custom Order",
+        "amount": "$9,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_houston_planner",
+    "name": "Houston Wedding Planners",
+    "cat": "planner",
+    "lat": 29.7604,
+    "lng": -95.3698,
+    "area": "Houston",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "H-Town's most connected wedding planning team — Museum District galas, River Oaks estate soirées, and Space Center Houston-adjacent celebrations.",
+    "email": "hello@houstonweddingplanners.com",
+    "phone": "713-555-5010",
+    "web": "https://houstonweddingplanners.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Day-Of Coordination",
+        "amount": "$1,800"
+      },
+      {
+        "tier": "Partial Planning",
+        "amount": "$4,500"
+      },
+      {
+        "tier": "Full Planning",
+        "amount": "$9,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_houston_hair",
+    "name": "Houston Bridal Hair Studio",
+    "cat": "hair",
+    "lat": 29.7604,
+    "lng": -95.3698,
+    "area": "Houston",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "H-Town on-location bridal stylists — diverse expertise in Latina, South Asian, Middle Eastern, and classic American bridal traditions.",
+    "email": "book@houstonbridalhair.com",
+    "phone": "713-555-5011",
+    "web": "https://houstonbridalhair.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Bridal Hair",
+        "amount": "$320"
+      },
+      {
+        "tier": "Bridal + 2 Guests",
+        "amount": "$680"
+      },
+      {
+        "tier": "Full Bridal Party",
+        "amount": "$1,260"
+      }
+    ]
   }
 ]
