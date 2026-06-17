@@ -11789,5 +11789,425 @@
         "amount": "$8,000"
       }
     ]
+  },
+  {
+    "id": "ven_umstead_hotel_raleigh",
+    "name": "Umstead Hotel Events Raleigh",
+    "cat": "venue",
+    "lat": 35.8801,
+    "lng": -78.7667,
+    "area": "Raleigh",
+    "price": 3,
+    "rating": 4.9,
+    "brief": "AAA Five Diamond luxury resort amid 150 acres of pine forest — North Carolina's most refined wedding destination.",
+    "email": "events@theumstead.com",
+    "phone": "919-555-1001",
+    "web": "https://theumstead.com/weddings",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Ceremony Only",
+        "amount": "$3,000"
+      },
+      {
+        "tier": "Full Day Rental",
+        "amount": "$6,500"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$12,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_raleigh_wedding_photo",
+    "name": "Raleigh Wedding Photography",
+    "cat": "photo",
+    "lat": 35.7796,
+    "lng": -78.6382,
+    "area": "Raleigh",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "Triangle area wedding photographers — Duke Chapel spires, NC State's Centennial Campus, and the Carolina pines in every golden frame.",
+    "email": "hello@raleighweddingphoto.com",
+    "phone": "919-555-1002",
+    "web": "https://raleighweddingphoto.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "$900"
+      },
+      {
+        "tier": "Full Day Coverage",
+        "amount": "$2,200"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "$4,400"
+      }
+    ]
+  },
+  {
+    "id": "ven_maymont_richmond_events",
+    "name": "Maymont Richmond Events",
+    "cat": "venue",
+    "lat": 37.5335,
+    "lng": -77.4721,
+    "area": "Richmond",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "A 100-acre Gilded Age estate with Italian and Japanese gardens — Richmond's most beloved and picturesque wedding grounds.",
+    "email": "events@maymont.org",
+    "phone": "804-555-2001",
+    "web": "https://maymont.org/weddings",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Ceremony Only",
+        "amount": "$1,800"
+      },
+      {
+        "tier": "Full Day Rental",
+        "amount": "$4,000"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$7,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_richmond_va_wedding_films",
+    "name": "Richmond VA Wedding Films",
+    "cat": "video",
+    "lat": 37.5407,
+    "lng": -77.436,
+    "area": "Richmond",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "RVA wedding videographers capturing cobblestone Shockoe Bottom, James River rock-hops, and Virginia's rolling countryside.",
+    "email": "hello@richmondweddingfilms.com",
+    "phone": "804-555-2002",
+    "web": "https://richmondweddingfilms.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Highlight Reel",
+        "amount": "$1,000"
+      },
+      {
+        "tier": "Full Day + Edit",
+        "amount": "$2,500"
+      },
+      {
+        "tier": "Cinematic + Drone",
+        "amount": "$4,800"
+      }
+    ]
+  },
+  {
+    "id": "ven_tampa_riverwalk_venue",
+    "name": "Tampa Riverwalk Events",
+    "cat": "venue",
+    "lat": 27.9477,
+    "lng": -82.4584,
+    "area": "Tampa",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "A sleek waterfront event space along the Hillsborough River — modern Tampa as your backdrop for up to 300 guests.",
+    "email": "events@tampariverwalkevents.com",
+    "phone": "813-555-3001",
+    "web": "https://tampariverwalkevents.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Half-Day Rental",
+        "amount": "$1,500"
+      },
+      {
+        "tier": "Full-Day Rental",
+        "amount": "$3,200"
+      },
+      {
+        "tier": "Weekend Package",
+        "amount": "$5,800"
+      }
+    ]
+  },
+  {
+    "id": "ven_tampa_wedding_photo",
+    "name": "Tampa Wedding Photography",
+    "cat": "photo",
+    "lat": 27.9506,
+    "lng": -82.4572,
+    "area": "Tampa",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "Tampa Bay wedding photographers — Bayshore Boulevard sunsets, Ybor City brick streets, and Clearwater Beach coastal magic.",
+    "email": "hello@tampaweddingphoto.com",
+    "phone": "813-555-3002",
+    "web": "https://tampaweddingphoto.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "$900"
+      },
+      {
+        "tier": "Full Day Coverage",
+        "amount": "$2,200"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "$4,400"
+      }
+    ]
+  },
+  {
+    "id": "ven_casa_feliz_orlando",
+    "name": "Casa Feliz Historic Home",
+    "cat": "venue",
+    "lat": 28.5904,
+    "lng": -81.3478,
+    "area": "Orlando",
+    "price": 2,
+    "rating": 4.9,
+    "brief": "A 1932 Spanish farmhouse in Winter Park — Old Florida charm, lush garden courtyard, and twinkling lights for intimate weddings.",
+    "email": "events@casafeliz.us",
+    "phone": "407-555-4001",
+    "web": "https://casafeliz.us",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Ceremony Only",
+        "amount": "$1,500"
+      },
+      {
+        "tier": "Full Day Rental",
+        "amount": "$3,200"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$5,800"
+      }
+    ]
+  },
+  {
+    "id": "ven_orlando_wedding_films",
+    "name": "Orlando Wedding Films",
+    "cat": "video",
+    "lat": 28.5383,
+    "lng": -81.3792,
+    "area": "Orlando",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "Central Florida wedding cinematographers — theme park magic, lakeside sunsets, and the tropical lushness of the Sunshine State.",
+    "email": "hello@orlandoweddingfilms.com",
+    "phone": "407-555-4002",
+    "web": "https://orlandoweddingfilms.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Highlight Reel",
+        "amount": "$1,100"
+      },
+      {
+        "tier": "Full Day + Edit",
+        "amount": "$2,700"
+      },
+      {
+        "tier": "Cinematic + Drone",
+        "amount": "$5,200"
+      }
+    ]
+  },
+  {
+    "id": "ven_snowbasin_resort_events",
+    "name": "Snowbasin Resort Events",
+    "cat": "venue",
+    "lat": 41.216,
+    "lng": -111.8574,
+    "area": "Salt Lake City",
+    "price": 3,
+    "rating": 4.9,
+    "brief": "A world-class ski resort with year-round alpine grandeur — Wasatch Mountain ceremonies with panoramic Utah wilderness views.",
+    "email": "events@snowbasin.com",
+    "phone": "801-555-5001",
+    "web": "https://snowbasin.com/weddings",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Ceremony Only",
+        "amount": "$2,800"
+      },
+      {
+        "tier": "Full Day Rental",
+        "amount": "$6,000"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$11,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_slc_wedding_photo",
+    "name": "Salt Lake City Wedding Photography",
+    "cat": "photo",
+    "lat": 40.7608,
+    "lng": -111.891,
+    "area": "Salt Lake City",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "Utah wedding photographers celebrating the Great Salt Lake, red rock canyons, and snow-capped Wasatch peaks in every season.",
+    "email": "hello@slcweddingphoto.com",
+    "phone": "801-555-5002",
+    "web": "https://slcweddingphoto.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "$900"
+      },
+      {
+        "tier": "Full Day Coverage",
+        "amount": "$2,200"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "$4,400"
+      }
+    ]
+  },
+  {
+    "id": "ven_nelson_atkins_kc_events",
+    "name": "Nelson-Atkins Museum Events",
+    "cat": "venue",
+    "lat": 39.0459,
+    "lng": -94.5796,
+    "area": "Kansas City",
+    "price": 3,
+    "rating": 4.9,
+    "brief": "One of America's finest art museums with a stunning sculpture garden — Kansas City's most prestigious and beautiful wedding venue.",
+    "email": "events@nelson-atkins.org",
+    "phone": "816-555-6001",
+    "web": "https://nelson-atkins.org/weddings",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Ceremony Only",
+        "amount": "$3,000"
+      },
+      {
+        "tier": "Full Day Rental",
+        "amount": "$6,500"
+      },
+      {
+        "tier": "Exclusive Evening",
+        "amount": "$12,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_kc_wedding_catering",
+    "name": "Kansas City BBQ Catering",
+    "cat": "catering",
+    "lat": 39.0997,
+    "lng": -94.5786,
+    "area": "Kansas City",
+    "price": 2,
+    "rating": 4.9,
+    "brief": "World-famous KC BBQ elevated for weddings — brisket carving stations, burnt end sliders, and Kansas City's legendary smoke rings.",
+    "email": "info@kcbbqcatering.com",
+    "phone": "816-555-6002",
+    "web": "https://kcbbqcatering.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Buffet for 50",
+        "amount": "$1,500"
+      },
+      {
+        "tier": "Plated Dinner 100",
+        "amount": "$3,800"
+      },
+      {
+        "tier": "Full-Service Gala",
+        "amount": "$7,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_missouri_botanical_garden",
+    "name": "Missouri Botanical Garden Events",
+    "cat": "venue",
+    "lat": 38.6126,
+    "lng": -90.2593,
+    "area": "St. Louis",
+    "price": 3,
+    "rating": 4.9,
+    "brief": "158 acres of breathtaking gardens with the iconic Climatron greenhouse — St. Louis's most stunning and romantic wedding destination.",
+    "email": "events@mobot.org",
+    "phone": "314-555-7001",
+    "web": "https://mobot.org/weddings",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Ceremony Only",
+        "amount": "$2,800"
+      },
+      {
+        "tier": "Full Day Rental",
+        "amount": "$6,000"
+      },
+      {
+        "tier": "Exclusive Evening",
+        "amount": "$11,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_stlouis_wedding_photo",
+    "name": "St. Louis Wedding Photography",
+    "cat": "photo",
+    "lat": 38.627,
+    "lng": -90.1994,
+    "area": "St. Louis",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "Gateway Arch reflections, Forest Park grandeur, and the Missouri River at golden hour — St. Louis wedding photographers who see it all.",
+    "email": "hello@stlouisweddingphoto.com",
+    "phone": "314-555-7002",
+    "web": "https://stlouisweddingphoto.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "$850"
+      },
+      {
+        "tier": "Full Day Coverage",
+        "amount": "$2,100"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "$4,200"
+      }
+    ]
   }
 ]
