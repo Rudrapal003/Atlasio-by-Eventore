@@ -3969,5 +3969,455 @@
         "amount": "$11,000"
       }
     ]
+  },
+  {
+    "id": "ven_nita_lake_lodge_events",
+    "name": "Nita Lake Lodge Events",
+    "cat": "venue",
+    "lat": 50.1163,
+    "lng": -122.9574,
+    "area": "Whistler",
+    "price": 4,
+    "rating": 4.9,
+    "brief": "A secluded lakeside mountain lodge with ski-in ceremony options and panoramic alpine views — Whistler's finest wedding venue.",
+    "email": "events@nitalake.ca",
+    "phone": "604-555-6101",
+    "web": "https://nitalake.ca",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Ceremony Only",
+        "amount": "$5,000"
+      },
+      {
+        "tier": "Full Day Rental",
+        "amount": "$10,500"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$18,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_whistler_mountain_photo",
+    "name": "Whistler Mountain Photography",
+    "cat": "photo",
+    "lat": 50.1153,
+    "lng": -122.9547,
+    "area": "Whistler",
+    "price": 3,
+    "rating": 4.9,
+    "brief": "Alpine wedding specialists — heli-assisted summit shoots, glacier ceremonies, and après-ski receptions across the Sea to Sky corridor.",
+    "email": "hello@whistlermountainphoto.ca",
+    "phone": "604-555-6102",
+    "web": "https://whistlermountainphoto.ca",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "$1,400"
+      },
+      {
+        "tier": "Full Day Coverage",
+        "amount": "$3,500"
+      },
+      {
+        "tier": "Full Day + Heli Shoot",
+        "amount": "$7,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_araxi_catering_whistler",
+    "name": "Araxi Catering Whistler",
+    "cat": "catering",
+    "lat": 50.1161,
+    "lng": -122.9536,
+    "area": "Whistler",
+    "price": 4,
+    "rating": 4.9,
+    "brief": "World-class mountain cuisine from Whistler's legendary Araxi kitchen team — farm-fresh, locally sourced, utterly unforgettable.",
+    "email": "catering@araxi.ca",
+    "phone": "604-555-6103",
+    "web": "https://araxi.ca",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Buffet for 50",
+        "amount": "$3,500"
+      },
+      {
+        "tier": "Plated Dinner 100",
+        "amount": "$8,500"
+      },
+      {
+        "tier": "Full-Service Gala",
+        "amount": "$17,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_chateau_laurier_events",
+    "name": "Château Laurier Events",
+    "cat": "venue",
+    "lat": 45.4256,
+    "lng": -75.6968,
+    "area": "Ottawa",
+    "price": 4,
+    "rating": 4.9,
+    "brief": "Canada's grandest railway hotel — Gothic Revival grandeur, Parliament Hill views, and timeless elegance for up to 600 guests.",
+    "email": "events@chateaulaurier.ca",
+    "phone": "613-555-7001",
+    "web": "https://chateaulaurier.ca",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Ceremony Only",
+        "amount": "$5,500"
+      },
+      {
+        "tier": "Full Day Rental",
+        "amount": "$11,500"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$20,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_ottawa_wedding_photo",
+    "name": "Ottawa Wedding Photography",
+    "cat": "photo",
+    "lat": 45.4215,
+    "lng": -75.6972,
+    "area": "Ottawa",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "ByWard Market based wedding photographers capturing Ottawa's blend of historic architecture and natural riverside beauty.",
+    "email": "hello@ottawaweddingphoto.ca",
+    "phone": "613-555-7002",
+    "web": "https://ottawaweddingphoto.ca",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "$950"
+      },
+      {
+        "tier": "Full Day Coverage",
+        "amount": "$2,300"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "$4,600"
+      }
+    ]
+  },
+  {
+    "id": "ven_rideau_catering_ottawa",
+    "name": "Rideau Catering Co.",
+    "cat": "catering",
+    "lat": 45.4231,
+    "lng": -75.69,
+    "area": "Ottawa",
+    "price": 3,
+    "rating": 4.8,
+    "brief": "Ottawa's premier bilingual catering service — classic French-Canadian and modern fusion menus for government galas and weddings.",
+    "email": "info@rideaucatering.ca",
+    "phone": "613-555-7003",
+    "web": "https://rideaucatering.ca",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Buffet for 50",
+        "amount": "$1,900"
+      },
+      {
+        "tier": "Plated Dinner 100",
+        "amount": "$4,700"
+      },
+      {
+        "tier": "Full-Service Gala",
+        "amount": "$9,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_assiniboine_park_venue",
+    "name": "Assiniboine Park Events",
+    "cat": "venue",
+    "lat": 49.8826,
+    "lng": -97.2397,
+    "area": "Winnipeg",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "A beloved Winnipeg landmark venue nestled in lush park grounds — ceremonies, receptions, and garden parties for up to 250.",
+    "email": "events@assiniboinepark.ca",
+    "phone": "204-555-8001",
+    "web": "https://assiniboinepark.ca",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Ceremony Only",
+        "amount": "$1,800"
+      },
+      {
+        "tier": "Full Day Rental",
+        "amount": "$3,800"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$6,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_prairie_sky_films",
+    "name": "Prairie Sky Films",
+    "cat": "video",
+    "lat": 49.8954,
+    "lng": -97.1385,
+    "area": "Winnipeg",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "Winnipeg wedding cinematographers known for big Prairie skies, wide-open landscapes, and intimate family stories.",
+    "email": "hello@prairieskeyfilms.ca",
+    "phone": "204-555-8002",
+    "web": "https://prairieskyfilms.ca",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Highlight Reel",
+        "amount": "$1,000"
+      },
+      {
+        "tier": "Full Day + Edit",
+        "amount": "$2,500"
+      },
+      {
+        "tier": "Cinematic Feature",
+        "amount": "$4,800"
+      }
+    ]
+  },
+  {
+    "id": "ven_winnipeg_bloom_florist",
+    "name": "Winnipeg Bloom",
+    "cat": "florist",
+    "lat": 49.89,
+    "lng": -97.14,
+    "area": "Winnipeg",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "Manitoba's favourite wedding florist — vibrant seasonal arrangements grown and sourced locally for every budget.",
+    "email": "hello@winnipegbloom.ca",
+    "phone": "204-555-8003",
+    "web": "https://winnipegbloom.ca",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Bridal Bouquet Set",
+        "amount": "$380"
+      },
+      {
+        "tier": "Ceremony Flowers",
+        "amount": "$900"
+      },
+      {
+        "tier": "Full Floral Design",
+        "amount": "$1,900"
+      }
+    ]
+  },
+  {
+    "id": "ven_the_plaza_nyc_events",
+    "name": "The Plaza NYC Events",
+    "cat": "venue",
+    "lat": 40.7645,
+    "lng": -73.9744,
+    "area": "New York City",
+    "price": 4,
+    "rating": 4.9,
+    "brief": "The world's most iconic wedding venue — Central Park South grandeur, gold-leaf ceilings, and unmatched NYC skyline moments.",
+    "email": "events@theplazany.com",
+    "phone": "212-555-9001",
+    "web": "https://theplazany.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Ceremony Only",
+        "amount": "$8,000"
+      },
+      {
+        "tier": "Full Day Rental",
+        "amount": "$18,000"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$32,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_brooklyn_wedding_films",
+    "name": "Brooklyn Wedding Films",
+    "cat": "video",
+    "lat": 40.6782,
+    "lng": -73.9442,
+    "area": "New York City",
+    "price": 3,
+    "rating": 4.9,
+    "brief": "Brooklyn's most celebrated wedding cinematographers — editorial, raw, and honest films capturing NYC love stories since 2012.",
+    "email": "hello@brooklynweddingfilms.com",
+    "phone": "718-555-9002",
+    "web": "https://brooklynweddingfilms.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Highlight Reel",
+        "amount": "$2,500"
+      },
+      {
+        "tier": "Full Day + Edit",
+        "amount": "$6,000"
+      },
+      {
+        "tier": "Cinematic Feature",
+        "amount": "$11,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_nyc_bloom_floral_studio",
+    "name": "NYC Bloom Floral Studio",
+    "cat": "florist",
+    "lat": 40.7549,
+    "lng": -73.984,
+    "area": "New York City",
+    "price": 4,
+    "rating": 4.9,
+    "brief": "Manhattan's elite floral atelier — sculptural, larger-than-life installations for luxury weddings at the city's top venues.",
+    "email": "hello@nycbloom.com",
+    "phone": "212-555-9003",
+    "web": "https://nycbloom.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Bridal Bouquet Set",
+        "amount": "$1,200"
+      },
+      {
+        "tier": "Ceremony Flowers",
+        "amount": "$3,500"
+      },
+      {
+        "tier": "Full Floral Design",
+        "amount": "$8,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_nyc_catering_collective",
+    "name": "NYC Catering Collective",
+    "cat": "catering",
+    "lat": 40.7484,
+    "lng": -73.9967,
+    "area": "New York City",
+    "price": 4,
+    "rating": 4.8,
+    "brief": "Michelin-trained chefs bringing restaurant-quality multi-course dining to New York's most exclusive wedding venues.",
+    "email": "info@nyccateringcollective.com",
+    "phone": "212-555-9004",
+    "web": "https://nyccateringcollective.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Buffet for 50",
+        "amount": "$4,500"
+      },
+      {
+        "tier": "Plated Dinner 100",
+        "amount": "$11,000"
+      },
+      {
+        "tier": "Full-Service Gala",
+        "amount": "$22,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_nyc_bridal_atelier",
+    "name": "NYC Bridal Atelier",
+    "cat": "attire",
+    "lat": 40.758,
+    "lng": -73.9855,
+    "area": "New York City",
+    "price": 4,
+    "rating": 4.9,
+    "brief": "Fifth Avenue bridal couture atelier — bespoke gowns and ready-to-wear from the world's leading bridal designers.",
+    "email": "appointments@nycbridalatelier.com",
+    "phone": "212-555-9005",
+    "web": "https://nycbridalatelier.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Sample Sale Gown",
+        "amount": "$2,500"
+      },
+      {
+        "tier": "Designer Gown",
+        "amount": "$8,000"
+      },
+      {
+        "tier": "Bespoke Couture",
+        "amount": "$18,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_manhattan_planner_group",
+    "name": "Manhattan Planner Group",
+    "cat": "planner",
+    "lat": 40.7549,
+    "lng": -73.984,
+    "area": "New York City",
+    "price": 4,
+    "rating": 4.9,
+    "brief": "New York's premier full-service wedding planning agency — 500+ weddings across the five boroughs and destination events worldwide.",
+    "email": "hello@manhattanplannergroup.com",
+    "phone": "212-555-9006",
+    "web": "https://manhattanplannergroup.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Day-Of Coordination",
+        "amount": "$3,500"
+      },
+      {
+        "tier": "Partial Planning",
+        "amount": "$8,500"
+      },
+      {
+        "tier": "Full Planning",
+        "amount": "$18,000"
+      }
+    ]
   }
 ]
