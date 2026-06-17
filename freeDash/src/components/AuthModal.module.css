@@ -136,3 +136,32 @@
   text-align: center;
   line-height: 1.5;
 }
+
+.row {
+  display: flex;
+  gap: 12px;
+}
+.row > * {
+  flex: 1;
+}
+
+.toggleText {
+  font-size: 13px;
+  color: var(--muted);
+  text-align: center;
+  margin-top: 16px;
+}
+
+.toggleBtn {
+  background: transparent;
+  border: none;
+  color: var(--brand);
+  font-weight: 600;
+  margin-left: 6px;
+  cursor: pointer;
+  padding: 0;
+  text-decoration: underline;
+}
+.toggleBtn:hover {
+  color: var(--brand-deep);
+}
