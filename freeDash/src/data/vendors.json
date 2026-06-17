@@ -23009,5 +23009,305 @@
         "amount": "$4,200"
       }
     ]
+  },
+  {
+    "id": "ven_columbia_venue",
+    "name": "Columbia SC Wedding Venues",
+    "cat": "venue",
+    "lat": 34.0007,
+    "lng": -81.0348,
+    "area": "Columbia SC",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "Famously Hot city wedding venues — Vista District warehouse lofts, Congaree National Park proximity, and USC campus elegance.",
+    "email": "hello@columbiascvenues.com",
+    "phone": "803-555-1010",
+    "web": "https://columbiascvenues.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Half-Day Venue",
+        "amount": "$1,300"
+      },
+      {
+        "tier": "Full Day Venue",
+        "amount": "$2,600"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$5,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_columbia_photo",
+    "name": "Columbia SC Wedding Photography",
+    "cat": "photo",
+    "lat": 34.0007,
+    "lng": -81.0348,
+    "area": "Columbia SC",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "South Carolina midlands wedding photographers — Congaree swamp moss magic, Riverbanks Zoo garden sessions, and Saluda River golden hours.",
+    "email": "hello@columbiascweddingphoto.com",
+    "phone": "803-555-1011",
+    "web": "https://columbiascweddingphoto.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "$1,000"
+      },
+      {
+        "tier": "Full Day",
+        "amount": "$2,400"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "$4,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_myrtlebeach_venue",
+    "name": "Myrtle Beach Wedding Venues",
+    "cat": "venue",
+    "lat": 33.6891,
+    "lng": -78.8867,
+    "area": "Myrtle Beach",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "Grand Strand beach wedding venues — beachfront ceremony packages, Myrtle Beach Boardwalk oceanside receptions, and Pawleys Island marsh estates.",
+    "email": "hello@myrtlebeachvenues.com",
+    "phone": "843-555-2010",
+    "web": "https://myrtlebeachvenues.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Half-Day Venue",
+        "amount": "$1,300"
+      },
+      {
+        "tier": "Full Day Venue",
+        "amount": "$2,600"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$5,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_myrtlebeach_photo",
+    "name": "Myrtle Beach Wedding Photography",
+    "cat": "photo",
+    "lat": 33.6891,
+    "lng": -78.8867,
+    "area": "Myrtle Beach",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "Grand Strand wedding photographers — Atlantic Ocean sunrise beach sessions, Huntington Beach State Park nature, and Brookgreen Gardens blooms.",
+    "email": "hello@myrtlebeachweddingphoto.com",
+    "phone": "843-555-2011",
+    "web": "https://myrtlebeachweddingphoto.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "$1,000"
+      },
+      {
+        "tier": "Full Day",
+        "amount": "$2,400"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "$4,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_orlando_planner",
+    "name": "Orlando Wedding Planners",
+    "cat": "planner",
+    "lat": 28.5383,
+    "lng": -81.3792,
+    "area": "Orlando",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "Central Florida's most connected wedding planning team — Disney Resort ceremonies, Universal Studios events, and Lake Nona luxury celebrations.",
+    "email": "hello@orlandoweddingplanners.com",
+    "phone": "407-555-5010",
+    "web": "https://orlandoweddingplanners.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Day-Of Coordination",
+        "amount": "$1,700"
+      },
+      {
+        "tier": "Partial Planning",
+        "amount": "$4,200"
+      },
+      {
+        "tier": "Full Planning",
+        "amount": "$9,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_orlando_hair",
+    "name": "Orlando Bridal Hair",
+    "cat": "hair",
+    "lat": 28.5383,
+    "lng": -81.3792,
+    "area": "Orlando",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "Theme park city on-location bridal stylists — Disney-inspired princess looks, modern glam, and beachy waves for Central Florida weddings.",
+    "email": "book@orlandobridalhair.com",
+    "phone": "407-555-5011",
+    "web": "https://orlandobridalhair.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Bridal Hair",
+        "amount": "$310"
+      },
+      {
+        "tier": "Bridal + 2 Guests",
+        "amount": "$660"
+      },
+      {
+        "tier": "Full Bridal Party",
+        "amount": "$1,220"
+      }
+    ]
+  },
+  {
+    "id": "ven_miami_planner",
+    "name": "Miami Wedding Planners",
+    "cat": "planner",
+    "lat": 25.7617,
+    "lng": -80.1918,
+    "area": "Miami",
+    "price": 3,
+    "rating": 4.9,
+    "brief": "Magic City's ultimate wedding planning team — South Beach Art Deco celebrations, Brickell rooftop galas, and private Fisher Island luxury receptions.",
+    "email": "hello@miamiweddingplanners.com",
+    "phone": "305-555-5010",
+    "web": "https://miamiweddingplanners.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Day-Of Coordination",
+        "amount": "$2,500"
+      },
+      {
+        "tier": "Partial Planning",
+        "amount": "$6,500"
+      },
+      {
+        "tier": "Full Planning",
+        "amount": "$15,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_miami_hair",
+    "name": "Miami Bridal Hair & Beauty",
+    "cat": "hair",
+    "lat": 25.7617,
+    "lng": -80.1918,
+    "area": "Miami",
+    "price": 3,
+    "rating": 4.9,
+    "brief": "South Beach on-location bridal glamour — Afro-Latina elegance, Caribbean-inspired updos, and Miami Art Deco-era Old Hollywood glam.",
+    "email": "book@miamibridalhair.com",
+    "phone": "305-555-5011",
+    "web": "https://miamibridalhair.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Bridal Hair",
+        "amount": "$420"
+      },
+      {
+        "tier": "Bridal + 2 Guests",
+        "amount": "$880"
+      },
+      {
+        "tier": "Full Bridal Party",
+        "amount": "$1,650"
+      }
+    ]
+  },
+  {
+    "id": "ven_tampa_planner",
+    "name": "Tampa Wedding Planners",
+    "cat": "planner",
+    "lat": 27.9506,
+    "lng": -82.4572,
+    "area": "Tampa",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "Bay Area wedding planning experts — Ybor City historic venues, St. Pete Beach oceanfront events, and upscale Hyde Park celebrations.",
+    "email": "hello@tampaweddingplanners.com",
+    "phone": "813-555-5010",
+    "web": "https://tampaweddingplanners.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Day-Of Coordination",
+        "amount": "$1,600"
+      },
+      {
+        "tier": "Partial Planning",
+        "amount": "$4,000"
+      },
+      {
+        "tier": "Full Planning",
+        "amount": "$8,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_tampa_hair",
+    "name": "Tampa Bridal Hair Studio",
+    "cat": "hair",
+    "lat": 27.9506,
+    "lng": -82.4572,
+    "area": "Tampa",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "Tampa Bay on-location bridal stylists — tropical beach waves, elegant chignons, and sultry Tampa evening glamour for every bride.",
+    "email": "book@tampabridalhair.com",
+    "phone": "813-555-5011",
+    "web": "https://tampabridalhair.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Bridal Hair",
+        "amount": "$300"
+      },
+      {
+        "tier": "Bridal + 2 Guests",
+        "amount": "$640"
+      },
+      {
+        "tier": "Full Bridal Party",
+        "amount": "$1,180"
+      }
+    ]
   }
 ]
