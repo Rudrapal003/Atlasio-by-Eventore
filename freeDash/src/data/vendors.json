@@ -16109,5 +16109,395 @@
         "amount": "$11,000"
       }
     ]
+  },
+  {
+    "id": "ven_anchorage_venue",
+    "name": "Anchorage Wedding Venues",
+    "cat": "venue",
+    "lat": 61.2181,
+    "lng": -149.9003,
+    "area": "Anchorage",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "Alaska wedding magic — midnight sun ceremonies, glacial lake backdrops, and Chugach Mountain panoramas for unforgettable celebrations.",
+    "email": "hello@anchoragevenues.com",
+    "phone": "907-555-1010",
+    "web": "https://anchoragevenues.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Half-Day Venue",
+        "amount": "$1,400"
+      },
+      {
+        "tier": "Full Day Venue",
+        "amount": "$2,800"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$5,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_anchorage_photo",
+    "name": "Anchorage Wedding Photography",
+    "cat": "photo",
+    "lat": 61.2181,
+    "lng": -149.9003,
+    "area": "Anchorage",
+    "price": 2,
+    "rating": 4.9,
+    "brief": "Alaska's premier wedding photographers — midnight sun golden light, glacial tidewater portraits, and Aurora Borealis elopement magic.",
+    "email": "hello@anchorageweddingphoto.com",
+    "phone": "907-555-1011",
+    "web": "https://anchorageweddingphoto.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "$1,200"
+      },
+      {
+        "tier": "Full Day",
+        "amount": "$2,800"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "$5,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_spokane_venue",
+    "name": "Spokane Wedding Venues",
+    "cat": "venue",
+    "lat": 47.6588,
+    "lng": -117.426,
+    "area": "Spokane",
+    "price": 1,
+    "rating": 4.6,
+    "brief": "Inland Empire wedding venues — Spokane Falls waterfront, Eastern Washington wine country estates, and historic downtown ballrooms.",
+    "email": "hello@spokanevenues.com",
+    "phone": "509-555-1010",
+    "web": "https://spokanevenues.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Half-Day Venue",
+        "amount": "$1,100"
+      },
+      {
+        "tier": "Full Day Venue",
+        "amount": "$2,200"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$4,200"
+      }
+    ]
+  },
+  {
+    "id": "ven_spokane_photo",
+    "name": "Spokane Wedding Photography",
+    "cat": "photo",
+    "lat": 47.6588,
+    "lng": -117.426,
+    "area": "Spokane",
+    "price": 1,
+    "rating": 4.7,
+    "brief": "Eastern Washington wedding photographers — Spokane River gorge portraits, Palouse rolling wheat field backdrops, and city skyline magic.",
+    "email": "hello@spokaneweddingphoto.com",
+    "phone": "509-555-1011",
+    "web": "https://spokaneweddingphoto.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "$900"
+      },
+      {
+        "tier": "Full Day",
+        "amount": "$2,100"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "$3,600"
+      }
+    ]
+  },
+  {
+    "id": "ven_tacoma_venue",
+    "name": "Tacoma Wedding Venues",
+    "cat": "venue",
+    "lat": 47.2529,
+    "lng": -122.4443,
+    "area": "Tacoma",
+    "price": 2,
+    "rating": 4.6,
+    "brief": "City of Destiny wedding venues — Puget Sound waterfront spaces, glass museum-adjacent lofts, and Mount Rainier panorama estates.",
+    "email": "hello@tacomavenues.com",
+    "phone": "253-555-1010",
+    "web": "https://tacomavenues.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Half-Day Venue",
+        "amount": "$1,200"
+      },
+      {
+        "tier": "Full Day Venue",
+        "amount": "$2,500"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$4,800"
+      }
+    ]
+  },
+  {
+    "id": "ven_tacoma_photo",
+    "name": "Tacoma Wedding Photography",
+    "cat": "photo",
+    "lat": 47.2529,
+    "lng": -122.4443,
+    "area": "Tacoma",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "Pierce County wedding photographers — Mount Rainier dramatic backdrops, Commencement Bay waterfront, and Puget Sound island magic.",
+    "email": "hello@tacomaweddingphoto.com",
+    "phone": "253-555-1011",
+    "web": "https://tacomaweddingphoto.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "$950"
+      },
+      {
+        "tier": "Full Day",
+        "amount": "$2,200"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "$3,800"
+      }
+    ]
+  },
+  {
+    "id": "ven_eugene_venue",
+    "name": "Eugene Wedding Venues",
+    "cat": "venue",
+    "lat": 44.0521,
+    "lng": -123.0868,
+    "area": "Eugene",
+    "price": 1,
+    "rating": 4.6,
+    "brief": "Emerald Valley wedding venues — Willamette River waterfront, University of Oregon campus-adjacent spaces, and Lane County wine estates.",
+    "email": "hello@eugenevenues.com",
+    "phone": "541-555-1010",
+    "web": "https://eugenevenues.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Half-Day Venue",
+        "amount": "$1,000"
+      },
+      {
+        "tier": "Full Day Venue",
+        "amount": "$2,000"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$3,800"
+      }
+    ]
+  },
+  {
+    "id": "ven_eugene_photo",
+    "name": "Eugene Wedding Photography",
+    "cat": "photo",
+    "lat": 44.0521,
+    "lng": -123.0868,
+    "area": "Eugene",
+    "price": 1,
+    "rating": 4.7,
+    "brief": "Oregon wedding photographers — PNW forest light, Willamette Valley vineyard backdrops, and Cascade Mountain elopement sessions.",
+    "email": "hello@eugeneweddingphoto.com",
+    "phone": "541-555-1012",
+    "web": "https://eugeneweddingphoto.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "$850"
+      },
+      {
+        "tier": "Full Day",
+        "amount": "$2,000"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "$3,400"
+      }
+    ]
+  },
+  {
+    "id": "ven_bend_venue",
+    "name": "Bend Wedding Venues",
+    "cat": "venue",
+    "lat": 44.0582,
+    "lng": -121.3153,
+    "area": "Bend",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "Central Oregon adventure wedding venues — volcanic Cascade backdrops, Deschutes River meadows, and boutique mountain lodge receptions.",
+    "email": "hello@bendvenues.com",
+    "phone": "541-555-2010",
+    "web": "https://bendvenues.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Half-Day Venue",
+        "amount": "$1,500"
+      },
+      {
+        "tier": "Full Day Venue",
+        "amount": "$3,000"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$5,800"
+      }
+    ]
+  },
+  {
+    "id": "ven_bend_photo",
+    "name": "Bend Wedding Photography",
+    "cat": "photo",
+    "lat": 44.0582,
+    "lng": -121.3153,
+    "area": "Bend",
+    "price": 2,
+    "rating": 4.9,
+    "brief": "Central Oregon's finest wedding photographers — South Sister volcano backdrops, old growth juniper forests, and Cascade lake magic.",
+    "email": "hello@bendweddingphoto.com",
+    "phone": "541-555-2011",
+    "web": "https://bendweddingphoto.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "$1,100"
+      },
+      {
+        "tier": "Full Day",
+        "amount": "$2,600"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "$4,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_reno_venue",
+    "name": "Reno Wedding Venues",
+    "cat": "venue",
+    "lat": 39.5296,
+    "lng": -119.8138,
+    "area": "Reno",
+    "price": 1,
+    "rating": 4.6,
+    "brief": "Biggest Little City wedding venues — Lake Tahoe proximity, Sierra Nevada mountain backdrops, and downtown Reno skyline celebrations.",
+    "email": "hello@renovenues.com",
+    "phone": "775-555-1010",
+    "web": "https://renovenues.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Half-Day Venue",
+        "amount": "$1,100"
+      },
+      {
+        "tier": "Full Day Venue",
+        "amount": "$2,200"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$4,200"
+      }
+    ]
+  },
+  {
+    "id": "ven_reno_photo",
+    "name": "Reno Wedding Photography",
+    "cat": "photo",
+    "lat": 39.5296,
+    "lng": -119.8138,
+    "area": "Reno",
+    "price": 1,
+    "rating": 4.7,
+    "brief": "Nevada wedding photographers — Lake Tahoe crystal waters, Sierra Nevada alpine meadows, and Truckee River valley portraits.",
+    "email": "hello@renoweddingphoto.com",
+    "phone": "775-555-1011",
+    "web": "https://renoweddingphoto.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "$900"
+      },
+      {
+        "tier": "Full Day",
+        "amount": "$2,100"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "$3,600"
+      }
+    ]
+  },
+  {
+    "id": "ven_reno_catering",
+    "name": "Reno Wedding Catering",
+    "cat": "catering",
+    "lat": 39.5296,
+    "lng": -119.8138,
+    "area": "Reno",
+    "price": 1,
+    "rating": 4.6,
+    "brief": "Northern Nevada wedding catering — Sierra Nevada trout, Carson Valley farm produce, and Pacific-fusion menus for Reno celebrations.",
+    "email": "hello@renocatering.com",
+    "phone": "775-555-1012",
+    "web": "https://renocatering.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Buffet (50 guests)",
+        "amount": "$2,300"
+      },
+      {
+        "tier": "Plated Dinner (100 guests)",
+        "amount": "$5,500"
+      },
+      {
+        "tier": "Full Service (150 guests)",
+        "amount": "$10,500"
+      }
+    ]
   }
 ]
