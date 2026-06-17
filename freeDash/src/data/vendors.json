@@ -22019,5 +22019,335 @@
         "amount": "$10,600"
       }
     ]
+  },
+  {
+    "id": "ven_annarbor_venue",
+    "name": "Ann Arbor Wedding Venues",
+    "cat": "venue",
+    "lat": 42.2808,
+    "lng": -83.743,
+    "area": "Ann Arbor",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "University of Michigan campus elegance, Michigan Theater Art Deco grandeur, and Gallup Park Huron River waterfront celebrations.",
+    "email": "hello@annarborvenues.com",
+    "phone": "734-555-1010",
+    "web": "https://annarborvenues.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Half-Day Venue",
+        "amount": "$1,400"
+      },
+      {
+        "tier": "Full Day Venue",
+        "amount": "$2,800"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$5,400"
+      }
+    ]
+  },
+  {
+    "id": "ven_annarbor_photo",
+    "name": "Ann Arbor Wedding Photography",
+    "cat": "photo",
+    "lat": 42.2808,
+    "lng": -83.743,
+    "area": "Ann Arbor",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "Washtenaw County wedding photographers — U of M stadium backdrops, Nichols Arboretum blooms, and Michigan Ave urban charm.",
+    "email": "hello@annarborweddingphoto.com",
+    "phone": "734-555-1011",
+    "web": "https://annarborweddingphoto.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "$1,050"
+      },
+      {
+        "tier": "Full Day",
+        "amount": "$2,500"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "$4,200"
+      }
+    ]
+  },
+  {
+    "id": "ven_lansing_venue",
+    "name": "Lansing Wedding Venues",
+    "cat": "venue",
+    "lat": 42.7325,
+    "lng": -84.5555,
+    "area": "Lansing",
+    "price": 1,
+    "rating": 4.6,
+    "brief": "Michigan capital wedding venues — State Capitol grounds, MSU campus elegance, and Grand River waterfront park ceremonies.",
+    "email": "hello@lansingvenues.com",
+    "phone": "517-555-1010",
+    "web": "https://lansingvenues.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Half-Day Venue",
+        "amount": "$1,000"
+      },
+      {
+        "tier": "Full Day Venue",
+        "amount": "$2,000"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$3,800"
+      }
+    ]
+  },
+  {
+    "id": "ven_flint_venue",
+    "name": "Flint Wedding Venues",
+    "cat": "venue",
+    "lat": 43.0125,
+    "lng": -83.6875,
+    "area": "Flint",
+    "price": 1,
+    "rating": 4.4,
+    "brief": "Vehicle City wedding venues — Sloan Museum elegance, Flint Cultural Center campus events, and Flint River countryside estate ceremonies.",
+    "email": "hello@flintvenues.com",
+    "phone": "810-555-1010",
+    "web": "https://flintvenues.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Half-Day Venue",
+        "amount": "$800"
+      },
+      {
+        "tier": "Full Day Venue",
+        "amount": "$1,600"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$3,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_manchester_venue",
+    "name": "Manchester NH Wedding Venues",
+    "cat": "venue",
+    "lat": 42.9956,
+    "lng": -71.4548,
+    "area": "Manchester NH",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "Queen City of New Hampshire wedding venues — historic Millyard industrial lofts, Derryfield Park estate, and Massabesic Lake waterfront.",
+    "email": "hello@manchesternhvenues.com",
+    "phone": "603-555-1010",
+    "web": "https://manchesternhvenues.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Half-Day Venue",
+        "amount": "$1,300"
+      },
+      {
+        "tier": "Full Day Venue",
+        "amount": "$2,600"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$5,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_manchester_photo",
+    "name": "Manchester NH Wedding Photography",
+    "cat": "photo",
+    "lat": 42.9956,
+    "lng": -71.4548,
+    "area": "Manchester NH",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "New Hampshire wedding photographers — White Mountains elopements, Lake Winnipesaukee dock portraits, and autumn New England foliage magic.",
+    "email": "hello@manchesternhweddingphoto.com",
+    "phone": "603-555-1011",
+    "web": "https://manchesternhweddingphoto.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "$1,000"
+      },
+      {
+        "tier": "Full Day",
+        "amount": "$2,400"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "$4,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_concordnh_venue",
+    "name": "Concord NH Wedding Venues",
+    "cat": "venue",
+    "lat": 43.2081,
+    "lng": -71.5376,
+    "area": "Concord NH",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "New Hampshire capital wedding venues — State House grounds, Concord's Broken Ground countryside estates, and Merrimack River waterfront.",
+    "email": "hello@concordnhvenues.com",
+    "phone": "603-555-2010",
+    "web": "https://concordnhvenues.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Half-Day Venue",
+        "amount": "$1,300"
+      },
+      {
+        "tier": "Full Day Venue",
+        "amount": "$2,600"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$5,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_bangor_venue",
+    "name": "Bangor Wedding Venues",
+    "cat": "venue",
+    "lat": 44.8016,
+    "lng": -68.7712,
+    "area": "Bangor",
+    "price": 1,
+    "rating": 4.6,
+    "brief": "Queen City of the East wedding venues — Penobscot River waterfront, Mount Hope Cemetery Victorian grounds, and Acadia gateway destination events.",
+    "email": "hello@bangorvenues.com",
+    "phone": "207-555-2010",
+    "web": "https://bangorvenues.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Half-Day Venue",
+        "amount": "$1,000"
+      },
+      {
+        "tier": "Full Day Venue",
+        "amount": "$2,000"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$3,800"
+      }
+    ]
+  },
+  {
+    "id": "ven_bangor_photo",
+    "name": "Bangor Wedding Photography",
+    "cat": "photo",
+    "lat": 44.8016,
+    "lng": -68.7712,
+    "area": "Bangor",
+    "price": 1,
+    "rating": 4.7,
+    "brief": "Maine wilderness wedding photographers — Acadia National Park carriage road sessions, Penobscot Bay islands, and Bar Harbor destination elopements.",
+    "email": "hello@bangorweddingphoto.com",
+    "phone": "207-555-2011",
+    "web": "https://bangorweddingphoto.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "$950"
+      },
+      {
+        "tier": "Full Day",
+        "amount": "$2,200"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "$3,800"
+      }
+    ]
+  },
+  {
+    "id": "ven_rapidcity_venue",
+    "name": "Rapid City Wedding Venues",
+    "cat": "venue",
+    "lat": 44.0805,
+    "lng": -103.231,
+    "area": "Rapid City",
+    "price": 1,
+    "rating": 4.7,
+    "brief": "Gateway to Mount Rushmore wedding venues — Black Hills panoramas, Crazy Horse Memorial proximity, and Badlands National Park adventure ceremonies.",
+    "email": "hello@rapidcityvenues.com",
+    "phone": "605-555-2010",
+    "web": "https://rapidcityvenues.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Half-Day Venue",
+        "amount": "$1,000"
+      },
+      {
+        "tier": "Full Day Venue",
+        "amount": "$2,000"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$3,800"
+      }
+    ]
+  },
+  {
+    "id": "ven_rapidcity_photo",
+    "name": "Rapid City Wedding Photography",
+    "cat": "photo",
+    "lat": 44.0805,
+    "lng": -103.231,
+    "area": "Rapid City",
+    "price": 1,
+    "rating": 4.8,
+    "brief": "Black Hills wedding photographers — Mount Rushmore silhouette sessions, Badlands moody landscape portraits, and Spearfish Canyon waterfall magic.",
+    "email": "hello@rapidcityweddingphoto.com",
+    "phone": "605-555-2011",
+    "web": "https://rapidcityweddingphoto.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "$900"
+      },
+      {
+        "tier": "Full Day",
+        "amount": "$2,100"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "$3,600"
+      }
+    ]
   }
 ]
