@@ -25889,5 +25889,305 @@
         "amount": "$5,000"
       }
     ]
+  },
+  {
+    "id": "ven_seattle_florist",
+    "name": "Seattle Wedding Florist",
+    "cat": "florist",
+    "lat": 47.6062,
+    "lng": -122.3321,
+    "area": "Seattle",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "PNW wedding florists — Pacific Northwest ferns, Cascades wildflowers, and Pike Place Market seasonal blooms for Emerald City celebrations.",
+    "email": "hello@seattleweddingflorist.com",
+    "phone": "206-555-5015",
+    "web": "https://seattleweddingflorist.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Bridal Bouquet Set",
+        "amount": "$580"
+      },
+      {
+        "tier": "Ceremony Flowers",
+        "amount": "$1,500"
+      },
+      {
+        "tier": "Full Floral Design",
+        "amount": "$3,800"
+      }
+    ]
+  },
+  {
+    "id": "ven_denver_florist",
+    "name": "Denver Wedding Florist",
+    "cat": "florist",
+    "lat": 39.7392,
+    "lng": -104.9903,
+    "area": "Denver",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "Mile High wedding florists — Colorado wildflowers, aspen leaf accents, and Rocky Mountain botanical installations for Denver celebrations.",
+    "email": "hello@denverweddingflorist.com",
+    "phone": "720-555-5016",
+    "web": "https://denverweddingflorist.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Bridal Bouquet Set",
+        "amount": "$520"
+      },
+      {
+        "tier": "Ceremony Flowers",
+        "amount": "$1,350"
+      },
+      {
+        "tier": "Full Floral Design",
+        "amount": "$3,400"
+      }
+    ]
+  },
+  {
+    "id": "ven_phoenix_florist_co",
+    "name": "Phoenix Wedding Florals",
+    "cat": "florist",
+    "lat": 33.4484,
+    "lng": -112.074,
+    "area": "Phoenix",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "Arizona desert floral design — Saguaro cactus flower accents, succulent centrepieces, and tropical-meets-desert arrangements for Phoenix weddings.",
+    "email": "hello@phoenixweddingflorals.com",
+    "phone": "480-555-5015",
+    "web": "https://phoenixweddingflorals.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Bridal Bouquet Set",
+        "amount": "$480"
+      },
+      {
+        "tier": "Ceremony Flowers",
+        "amount": "$1,250"
+      },
+      {
+        "tier": "Full Floral Design",
+        "amount": "$3,100"
+      }
+    ]
+  },
+  {
+    "id": "ven_nashville_florist",
+    "name": "Nashville Wedding Florist",
+    "cat": "florist",
+    "lat": 36.1627,
+    "lng": -86.7816,
+    "area": "Nashville",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "Music City florals — Tennessee wildflowers, lush garden roses, and country-chic barn arrangements for Nashville's most celebrated weddings.",
+    "email": "hello@nashvilleweddingflorist.com",
+    "phone": "615-555-5015",
+    "web": "https://nashvilleweddingflorist.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Bridal Bouquet Set",
+        "amount": "$500"
+      },
+      {
+        "tier": "Ceremony Flowers",
+        "amount": "$1,300"
+      },
+      {
+        "tier": "Full Floral Design",
+        "amount": "$3,200"
+      }
+    ]
+  },
+  {
+    "id": "ven_austin_florist",
+    "name": "Austin Wedding Florist",
+    "cat": "florist",
+    "lat": 30.2672,
+    "lng": -97.7431,
+    "area": "Austin",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "Texas Hill Country wedding florals — bluebonnets, wildflower meadow arrangements, and bohemian garden installations for ATX celebrations.",
+    "email": "hello@austinweddingflorist.com",
+    "phone": "512-555-5014",
+    "web": "https://austinweddingflorist.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Bridal Bouquet Set",
+        "amount": "$500"
+      },
+      {
+        "tier": "Ceremony Flowers",
+        "amount": "$1,300"
+      },
+      {
+        "tier": "Full Floral Design",
+        "amount": "$3,200"
+      }
+    ]
+  },
+  {
+    "id": "ven_boston_florist",
+    "name": "Boston Wedding Florist",
+    "cat": "florist",
+    "lat": 42.3601,
+    "lng": -71.0589,
+    "area": "Boston",
+    "price": 3,
+    "rating": 4.8,
+    "brief": "New England wedding florals — spring lilac, autumn hydrangea, and heritage garden arrangements for Back Bay and Beacon Hill celebrations.",
+    "email": "hello@bostonweddingflorist.com",
+    "phone": "617-555-5016",
+    "web": "https://bostonweddingflorist.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Bridal Bouquet Set",
+        "amount": "$650"
+      },
+      {
+        "tier": "Ceremony Flowers",
+        "amount": "$1,700"
+      },
+      {
+        "tier": "Full Floral Design",
+        "amount": "$4,200"
+      }
+    ]
+  },
+  {
+    "id": "ven_portland_florist",
+    "name": "Portland Wedding Florist",
+    "cat": "florist",
+    "lat": 45.5231,
+    "lng": -122.6765,
+    "area": "Portland",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "Rose City wedding florals — PNW garden roses, dahlia farms, and seasonal Oregon blooms for environmentally-conscious Portland celebrations.",
+    "email": "hello@portlandweddingflorist.com",
+    "phone": "503-555-5014",
+    "web": "https://portlandweddingflorist.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Bridal Bouquet Set",
+        "amount": "$500"
+      },
+      {
+        "tier": "Ceremony Flowers",
+        "amount": "$1,300"
+      },
+      {
+        "tier": "Full Floral Design",
+        "amount": "$3,200"
+      }
+    ]
+  },
+  {
+    "id": "ven_sandiego_florist",
+    "name": "San Diego Wedding Florist",
+    "cat": "florist",
+    "lat": 32.7157,
+    "lng": -117.1611,
+    "area": "San Diego",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "SoCal wedding florals — California native plants, tropical beach arrangements, and lush garden designs for San Diego coastal celebrations.",
+    "email": "hello@sandiegoweddingflorist.com",
+    "phone": "619-555-5014",
+    "web": "https://sandiegoweddingflorist.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Bridal Bouquet Set",
+        "amount": "$500"
+      },
+      {
+        "tier": "Ceremony Flowers",
+        "amount": "$1,300"
+      },
+      {
+        "tier": "Full Floral Design",
+        "amount": "$3,200"
+      }
+    ]
+  },
+  {
+    "id": "ven_lasvegas_music",
+    "name": "Las Vegas Wedding Music",
+    "cat": "music",
+    "lat": 36.1699,
+    "lng": -115.1398,
+    "area": "Las Vegas",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "Vegas wedding DJs and entertainers — EDM drops, retro show-stopping playlists, live tribute acts, and high-energy DJ services for Strip celebrations.",
+    "email": "book@lasvegasweddingmusic.com",
+    "phone": "702-555-5014",
+    "web": "https://lasvegasweddingmusic.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "DJ 4 Hours",
+        "amount": "$1,200"
+      },
+      {
+        "tier": "DJ Full Night",
+        "amount": "$2,400"
+      },
+      {
+        "tier": "DJ + Entertainer",
+        "amount": "$4,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_sandiego_music",
+    "name": "San Diego Wedding Music",
+    "cat": "music",
+    "lat": 32.7157,
+    "lng": -117.1611,
+    "area": "San Diego",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "SoCal wedding DJs and musicians — beach acoustic sets, Latin fusion live bands, and high-energy DJ services for San Diego coastal celebrations.",
+    "email": "book@sandiegoweddingmusic.com",
+    "phone": "619-555-5015",
+    "web": "https://sandiegoweddingmusic.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "DJ 4 Hours",
+        "amount": "$950"
+      },
+      {
+        "tier": "DJ Full Night",
+        "amount": "$1,900"
+      },
+      {
+        "tier": "Live Band",
+        "amount": "$4,000"
+      }
+    ]
   }
 ]
