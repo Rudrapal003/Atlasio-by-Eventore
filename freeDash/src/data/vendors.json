@@ -1171,7 +1171,7 @@
   },
   {
     "id": "v848682fa34",
-    "name": "Divine DÃÂ©cor",
+    "name": "Divine DÃÂÃÂ©cor",
     "cat": "florals",
     "lat": 49.16731,
     "lng": -123.13311,
@@ -2113,7 +2113,7 @@
     "area": "Downtown Vancouver",
     "price": 3,
     "rating": 4.8,
-    "brief": "A rooftop urban loft with panoramic city views â perfect for intimate weddings and galas up to 120 guests.",
+    "brief": "A rooftop urban loft with panoramic city views Ã¢ÂÂ perfect for intimate weddings and galas up to 120 guests.",
     "email": "hello@loftonrobson.com",
     "phone": "604-555-0101",
     "web": "https://loftonrobson.com",
@@ -2136,7 +2136,7 @@
   },
   {
     "id": "ven_lumiere_photography",
-    "name": "LumiÃ¨re Photography",
+    "name": "LumiÃÂ¨re Photography",
     "cat": "photo",
     "lat": 49.28,
     "lng": -123.119,
@@ -2256,14 +2256,14 @@
   },
   {
     "id": "ven_bloom_and_branch_decor",
-    "name": "Bloom & Branch DÃ©cor",
+    "name": "Bloom & Branch DÃÂ©cor",
     "cat": "decor",
     "lat": 49.2812,
     "lng": -123.1182,
     "area": "Yaletown",
     "price": 2,
     "rating": 4.7,
-    "brief": "Lush, organic dÃ©cor installations that transform any venue into a botanical dream, from ceremony arches to centrepieces.",
+    "brief": "Lush, organic dÃÂ©cor installations that transform any venue into a botanical dream, from ceremony arches to centrepieces.",
     "email": "hello@bloomandbranch.ca",
     "phone": "604-555-0808",
     "web": "https://bloomandbranch.ca",
@@ -2323,7 +2323,7 @@
     "area": "Kitsilano",
     "price": 2,
     "rating": 4.9,
-    "brief": "Lush, garden-gathered arrangements with a romantic, slightly untamed aesthetic â every bouquet tells a story.",
+    "brief": "Lush, garden-gathered arrangements with a romantic, slightly untamed aesthetic Ã¢ÂÂ every bouquet tells a story.",
     "email": "hello@wildpetal.ca",
     "phone": "604-555-1010",
     "web": "https://wildpetal.ca",
@@ -2413,7 +2413,7 @@
     "area": "North Vancouver",
     "price": 2,
     "rating": 4.8,
-    "brief": "Documentary-style wedding storytellers who turn your day into a cinematic love story â mountains and ocean optional.",
+    "brief": "Documentary-style wedding storytellers who turn your day into a cinematic love story Ã¢ÂÂ mountains and ocean optional.",
     "email": "book@pacificlens.ca",
     "phone": "604-555-0404",
     "web": "https://pacificlens.ca",
@@ -2443,7 +2443,7 @@
     "area": "Gastown",
     "price": 2,
     "rating": 4.7,
-    "brief": "A converted heritage building blending industrial chic with rotating gallery walls â unforgettable receptions for up to 200.",
+    "brief": "A converted heritage building blending industrial chic with rotating gallery walls Ã¢ÂÂ unforgettable receptions for up to 200.",
     "email": "events@bafound.org",
     "phone": "604-555-0202",
     "web": "https://bafound.org",
@@ -2473,7 +2473,7 @@
     "area": "North Vancouver",
     "price": 2,
     "rating": 4.8,
-    "brief": "Boutique wedding planners specialising in outdoor and forest ceremonies â they'll handle every pinecone and petal.",
+    "brief": "Boutique wedding planners specialising in outdoor and forest ceremonies Ã¢ÂÂ they'll handle every pinecone and petal.",
     "email": "hello@cedarandsea.ca",
     "phone": "604-555-1313",
     "web": "https://cedarandsea.ca",
@@ -2503,7 +2503,7 @@
     "area": "Richmond",
     "price": 3,
     "rating": 4.9,
-    "brief": "Elevated multicultural menus designed for modern celebrations â blending West Coast and Asian Pacific flavours beautifully.",
+    "brief": "Elevated multicultural menus designed for modern celebrations Ã¢ÂÂ blending West Coast and Asian Pacific flavours beautifully.",
     "email": "hello@goldenhourcatering.ca",
     "phone": "604-555-1414",
     "web": "https://goldenhourcatering.ca",
@@ -2629,7 +2629,7 @@
     "area": "Burnaby",
     "price": 2,
     "rating": 4.7,
-    "brief": "Spacious modern event hall steps from Metrotown — versatile layouts for weddings and galas up to 300 guests.",
+    "brief": "Spacious modern event hall steps from Metrotown â versatile layouts for weddings and galas up to 300 guests.",
     "email": "bookings@metroeventshall.ca",
     "phone": "604-555-2001",
     "web": "https://metroeventshall.ca",
@@ -2689,7 +2689,7 @@
     "area": "Burnaby",
     "price": 2,
     "rating": 4.7,
-    "brief": "Contemporary fusion catering for weddings and corporate events — locally sourced menus by classically trained chefs.",
+    "brief": "Contemporary fusion catering for weddings and corporate events â locally sourced menus by classically trained chefs.",
     "email": "info@highgatecatering.ca",
     "phone": "604-555-2003",
     "web": "https://highgatecatering.ca",
@@ -2719,7 +2719,7 @@
     "area": "Richmond",
     "price": 3,
     "rating": 4.8,
-    "brief": "Stunning waterfront pavilion overlooking the Fraser River — elegant indoor/outdoor spaces for weddings up to 250.",
+    "brief": "Stunning waterfront pavilion overlooking the Fraser River â elegant indoor/outdoor spaces for weddings up to 250.",
     "email": "events@riverrockpavilion.ca",
     "phone": "604-555-2101",
     "web": "https://riverrockpavilion.ca",
@@ -2749,7 +2749,7 @@
     "area": "Richmond",
     "price": 2,
     "rating": 4.9,
-    "brief": "Renowned Chinese banquet catering with 30+ years of experience — exquisite multi-course wedding banquets.",
+    "brief": "Renowned Chinese banquet catering with 30+ years of experience â exquisite multi-course wedding banquets.",
     "email": "banquet@jadedynasty.ca",
     "phone": "604-555-2102",
     "web": "https://jadedynasty.ca",
@@ -2809,7 +2809,7 @@
     "area": "Surrey",
     "price": 3,
     "rating": 4.8,
-    "brief": "Rolling hilltop estate with mountain panoramas — breathtaking backdrop for outdoor ceremonies and tented receptions up to 350.",
+    "brief": "Rolling hilltop estate with mountain panoramas â breathtaking backdrop for outdoor ceremonies and tented receptions up to 350.",
     "email": "events@panoramaridge.ca",
     "phone": "604-555-2201",
     "web": "https://panoramaridge.ca",
@@ -2869,7 +2869,7 @@
     "area": "Surrey",
     "price": 2,
     "rating": 4.7,
-    "brief": "South Vancouver's favourite bridal boutique — 400+ gowns in stock with same-day alterations and accessories.",
+    "brief": "South Vancouver's favourite bridal boutique â 400+ gowns in stock with same-day alterations and accessories.",
     "email": "hello@blushbridalsurrey.ca",
     "phone": "604-555-2203",
     "web": "https://blushbridalsurrey.ca",
@@ -2899,7 +2899,7 @@
     "area": "Coquitlam",
     "price": 2,
     "rating": 4.6,
-    "brief": "Full-service event venue in the heart of Coquitlam — customisable spaces for weddings and milestone celebrations.",
+    "brief": "Full-service event venue in the heart of Coquitlam â customisable spaces for weddings and milestone celebrations.",
     "email": "bookings@coqeventcentre.ca",
     "phone": "604-555-2301",
     "web": "https://coqeventcentre.ca",
@@ -2959,7 +2959,7 @@
     "area": "West Vancouver",
     "price": 4,
     "rating": 4.9,
-    "brief": "Luxury cliffside terrace with unobstructed ocean and mountain views — the most coveted wedding setting in Metro Vancouver.",
+    "brief": "Luxury cliffside terrace with unobstructed ocean and mountain views â the most coveted wedding setting in Metro Vancouver.",
     "email": "events@lighthouseterrace.ca",
     "phone": "604-555-2401",
     "web": "https://lighthouseterrace.ca",
@@ -2989,7 +2989,7 @@
     "area": "West Vancouver",
     "price": 3,
     "rating": 4.9,
-    "brief": "Luxury wedding planning for discerning couples — specialising in destination-style West Coast weddings with zero-stress execution.",
+    "brief": "Luxury wedding planning for discerning couples â specialising in destination-style West Coast weddings with zero-stress execution.",
     "email": "hello@westcoastplannerco.ca",
     "phone": "604-555-2402",
     "web": "https://westcoastplannerco.ca",
@@ -3019,7 +3019,7 @@
     "area": "West Vancouver",
     "price": 3,
     "rating": 4.8,
-    "brief": "Award-winning bridal hair and beauty team serving luxury weddings across Greater Vancouver — on-location specialists.",
+    "brief": "Award-winning bridal hair and beauty team serving luxury weddings across Greater Vancouver â on-location specialists.",
     "email": "hello@seawallhair.ca",
     "phone": "604-555-2403",
     "web": "https://seawallhair.ca",
@@ -3042,14 +3042,14 @@
   },
   {
     "id": "ven_cedar_grove_decor",
-    "name": "Cedar Grove Décor",
+    "name": "Cedar Grove DÃ©cor",
     "cat": "decor",
     "lat": 49.3312,
     "lng": -123.0788,
     "area": "North Vancouver",
     "price": 3,
     "rating": 4.8,
-    "brief": "Nature-inspired décor studio blending Pacific Northwest materials — driftwood, cedar, and wildflowers — into stunning event spaces.",
+    "brief": "Nature-inspired dÃ©cor studio blending Pacific Northwest materials â driftwood, cedar, and wildflowers â into stunning event spaces.",
     "email": "hello@cedargrovedecor.ca",
     "phone": "604-555-2501",
     "web": "https://cedargrovedecor.ca",
@@ -3079,7 +3079,7 @@
     "area": "Langley",
     "price": 3,
     "rating": 4.9,
-    "brief": "A stunning heritage manor on 5 acres of manicured gardens — Langley's most sought-after wedding venue for up to 300 guests.",
+    "brief": "A stunning heritage manor on 5 acres of manicured gardens â Langley's most sought-after wedding venue for up to 300 guests.",
     "email": "events@langleymanor.ca",
     "phone": "604-555-3001",
     "web": "https://langleymanor.ca",
@@ -3139,7 +3139,7 @@
     "area": "Langley",
     "price": 2,
     "rating": 4.7,
-    "brief": "Farm-fresh catering grown from our own fields — seasonal menus that bring the best of the Fraser Valley to your table.",
+    "brief": "Farm-fresh catering grown from our own fields â seasonal menus that bring the best of the Fraser Valley to your table.",
     "email": "info@meadowbrookcatering.ca",
     "phone": "604-555-3003",
     "web": "https://meadowbrookcatering.ca",
@@ -3169,7 +3169,7 @@
     "area": "Victoria",
     "price": 3,
     "rating": 4.9,
-    "brief": "A National Historic Site with century-old Japanese-inspired gardens — intimate ceremonies and cocktail receptions for up to 80.",
+    "brief": "A National Historic Site with century-old Japanese-inspired gardens â intimate ceremonies and cocktail receptions for up to 80.",
     "email": "events@abkhazigarden.ca",
     "phone": "250-555-4001",
     "web": "https://abkhazigarden.ca",
@@ -3199,7 +3199,7 @@
     "area": "Victoria",
     "price": 2,
     "rating": 4.8,
-    "brief": "Victoria's premier wedding photography studio — natural light specialists with a fine-art approach to telling your love story.",
+    "brief": "Victoria's premier wedding photography studio â natural light specialists with a fine-art approach to telling your love story.",
     "email": "hello@victoriaphotoarts.ca",
     "phone": "250-555-4002",
     "web": "https://victoriaphotoarts.ca",
@@ -3259,7 +3259,7 @@
     "area": "Victoria",
     "price": 2,
     "rating": 4.8,
-    "brief": "Victoria's most reviewed wedding planning studio — full planning, partial, and day-of coordination with a personal touch.",
+    "brief": "Victoria's most reviewed wedding planning studio â full planning, partial, and day-of coordination with a personal touch.",
     "email": "hello@theplannerhouse.ca",
     "phone": "250-555-4004",
     "web": "https://theplannerhouse.ca",
@@ -3319,7 +3319,7 @@
     "area": "Kelowna",
     "price": 4,
     "rating": 4.9,
-    "brief": "Iconic Okanagan vineyard venue with barrel-vaulted cellars and sweeping valley views — weddings of legendary beauty.",
+    "brief": "Iconic Okanagan vineyard venue with barrel-vaulted cellars and sweeping valley views â weddings of legendary beauty.",
     "email": "events@missionhillevents.ca",
     "phone": "250-555-5001",
     "web": "https://missionhillevents.ca",
@@ -3349,7 +3349,7 @@
     "area": "Kelowna",
     "price": 3,
     "rating": 4.9,
-    "brief": "Fine-art wedding photographers capturing the golden light of the Okanagan — vineyard, lakeside, and mountain specialists.",
+    "brief": "Fine-art wedding photographers capturing the golden light of the Okanagan â vineyard, lakeside, and mountain specialists.",
     "email": "hello@okanaganlensphotography.ca",
     "phone": "250-555-5002",
     "web": "https://okanaganlensphotography.ca",
@@ -3409,7 +3409,7 @@
     "area": "Abbotsford",
     "price": 2,
     "rating": 4.7,
-    "brief": "Fraser Valley's largest bridal boutique with 500+ gowns, tuxedos, and accessories — expert alterations in-house.",
+    "brief": "Fraser Valley's largest bridal boutique with 500+ gowns, tuxedos, and accessories â expert alterations in-house.",
     "email": "hello@abbotsfordbridalhouse.ca",
     "phone": "604-555-6001",
     "web": "https://abbotsfordbridalhouse.ca",
@@ -3439,7 +3439,7 @@
     "area": "Abbotsford",
     "price": 3,
     "rating": 4.8,
-    "brief": "Private mountain estate with panoramic Fraser Valley views — rustic-chic barn and outdoor ceremony space for up to 200 guests.",
+    "brief": "Private mountain estate with panoramic Fraser Valley views â rustic-chic barn and outdoor ceremony space for up to 200 guests.",
     "email": "events@sumasmountain.ca",
     "phone": "604-555-6002",
     "web": "https://sumasmountain.ca",
@@ -3469,7 +3469,7 @@
     "area": "New Westminster",
     "price": 2,
     "rating": 4.7,
-    "brief": "Modern riverside event centre in the heart of New West — flexible event spaces with stunning Fraser River views for up to 400.",
+    "brief": "Modern riverside event centre in the heart of New West â flexible event spaces with stunning Fraser River views for up to 400.",
     "email": "events@anvilcentre.ca",
     "phone": "604-555-7001",
     "web": "https://anvilcentre.ca",
@@ -3522,14 +3522,14 @@
   },
   {
     "id": "ven_river_cafe_calgary",
-    "name": "River Café Calgary",
+    "name": "River CafÃ© Calgary",
     "cat": "venue",
     "lat": 51.0501,
     "lng": -114.0634,
     "area": "Calgary",
     "price": 3,
     "rating": 4.9,
-    "brief": "A romantic island retreat in the heart of Calgary's Prince's Island Park — iconic river views and farm-to-table dining.",
+    "brief": "A romantic island retreat in the heart of Calgary's Prince's Island Park â iconic river views and farm-to-table dining.",
     "email": "events@rivercafe.ca",
     "phone": "403-555-1001",
     "web": "https://rivercafe.ca",
@@ -3589,7 +3589,7 @@
     "area": "Calgary",
     "price": 3,
     "rating": 4.8,
-    "brief": "Alberta's premier wedding caterer — Alberta beef, local game, and Rocky Mountain-inspired menus for elevated celebrations.",
+    "brief": "Alberta's premier wedding caterer â Alberta beef, local game, and Rocky Mountain-inspired menus for elevated celebrations.",
     "email": "info@tastecatering.ca",
     "phone": "403-555-1003",
     "web": "https://tastecatering.ca",
@@ -3619,7 +3619,7 @@
     "area": "Edmonton",
     "price": 4,
     "rating": 4.8,
-    "brief": "Edmonton's grandest historic ballroom — gilded ceilings and river valley views make every wedding feel like royalty.",
+    "brief": "Edmonton's grandest historic ballroom â gilded ceilings and river valley views make every wedding feel like royalty.",
     "email": "events@macdonaldballroom.ca",
     "phone": "780-555-2001",
     "web": "https://macdonaldballroom.ca",
@@ -3649,7 +3649,7 @@
     "area": "Edmonton",
     "price": 2,
     "rating": 4.8,
-    "brief": "Cinematic wedding videographers telling love stories across Alberta — feature-length films and social media highlight cuts.",
+    "brief": "Cinematic wedding videographers telling love stories across Alberta â feature-length films and social media highlight cuts.",
     "email": "hello@edmontonfilmco.ca",
     "phone": "780-555-2002",
     "web": "https://edmontonfilmco.ca",
@@ -3679,7 +3679,7 @@
     "area": "Edmonton",
     "price": 2,
     "rating": 4.7,
-    "brief": "Edmonton's go-to wedding florist — lush, prairie-inspired arrangements using locally grown and sustainably sourced flowers.",
+    "brief": "Edmonton's go-to wedding florist â lush, prairie-inspired arrangements using locally grown and sustainably sourced flowers.",
     "email": "hello@prairiebloom.ca",
     "phone": "780-555-2003",
     "web": "https://prairiebloom.ca",
@@ -3709,7 +3709,7 @@
     "area": "Toronto",
     "price": 3,
     "rating": 4.9,
-    "brief": "Iconic Victorian industrial venue in the Distillery District — cobblestones, exposed brick, and European charm for up to 500.",
+    "brief": "Iconic Victorian industrial venue in the Distillery District â cobblestones, exposed brick, and European charm for up to 500.",
     "email": "events@distilleryevents.ca",
     "phone": "416-555-3001",
     "web": "https://distilleryevents.ca",
@@ -3739,7 +3739,7 @@
     "area": "Toronto",
     "price": 3,
     "rating": 4.9,
-    "brief": "Award-winning Toronto cinematographers with a dozen international wedding film awards — your day deserves cinematic excellence.",
+    "brief": "Award-winning Toronto cinematographers with a dozen international wedding film awards â your day deserves cinematic excellence.",
     "email": "hello@torontoweddingfilms.ca",
     "phone": "416-555-3002",
     "web": "https://torontoweddingfilms.ca",
@@ -3769,7 +3769,7 @@
     "area": "Toronto",
     "price": 3,
     "rating": 4.8,
-    "brief": "Toronto's most awarded full-service wedding planning studio — from intimate elopements to 500-guest grand affairs.",
+    "brief": "Toronto's most awarded full-service wedding planning studio â from intimate elopements to 500-guest grand affairs.",
     "email": "hello@weddingstudiotoronto.ca",
     "phone": "416-555-3003",
     "web": "https://weddingstudiotoronto.ca",
@@ -3799,7 +3799,7 @@
     "area": "Toronto",
     "price": 3,
     "rating": 4.9,
-    "brief": "Lush, maximalist floral installations that have graced the pages of Vogue Weddings — Toronto's most Instagram-worthy florist.",
+    "brief": "Lush, maximalist floral installations that have graced the pages of Vogue Weddings â Toronto's most Instagram-worthy florist.",
     "email": "hello@bloomtoronto.ca",
     "phone": "416-555-3004",
     "web": "https://bloomtoronto.ca",
@@ -3829,7 +3829,7 @@
     "area": "Montreal",
     "price": 4,
     "rating": 4.9,
-    "brief": "A magnificent Beaux-Arts landmark in the heart of downtown Montreal — grand ballrooms and terrace garden for timeless weddings.",
+    "brief": "A magnificent Beaux-Arts landmark in the heart of downtown Montreal â grand ballrooms and terrace garden for timeless weddings.",
     "email": "events@lewindsor.ca",
     "phone": "514-555-4001",
     "web": "https://lewindsor.ca",
@@ -3852,14 +3852,14 @@
   },
   {
     "id": "ven_montreal_photo_atelier",
-    "name": "Atelier Photo Montréal",
+    "name": "Atelier Photo MontrÃ©al",
     "cat": "photo",
     "lat": 45.5048,
     "lng": -73.5747,
     "area": "Montreal",
     "price": 3,
     "rating": 4.9,
-    "brief": "Fine-art wedding photography infused with Montréal's joie de vivre — bilingual team serving French and English couples.",
+    "brief": "Fine-art wedding photography infused with MontrÃ©al's joie de vivre â bilingual team serving French and English couples.",
     "email": "bonjour@atelierphotomtl.ca",
     "phone": "514-555-4002",
     "web": "https://atelierphotomtl.ca",
@@ -3889,7 +3889,7 @@
     "area": "Seattle",
     "price": 4,
     "rating": 4.9,
-    "brief": "Breathtaking event space surrounded by world-famous glass sculptures — Seattle's most magical wedding backdrop.",
+    "brief": "Breathtaking event space surrounded by world-famous glass sculptures â Seattle's most magical wedding backdrop.",
     "email": "events@chihulygardenevents.com",
     "phone": "206-555-5001",
     "web": "https://chihulygardenevents.com",
@@ -3949,7 +3949,7 @@
     "area": "Seattle",
     "price": 3,
     "rating": 4.8,
-    "brief": "Market-fresh Pacific Northwest catering — sourced daily from Pike Place vendors for weddings that taste as good as they look.",
+    "brief": "Market-fresh Pacific Northwest catering â sourced daily from Pike Place vendors for weddings that taste as good as they look.",
     "email": "info@pikeplacecetering.com",
     "phone": "206-555-5003",
     "web": "https://pikeplacecetering.com",
@@ -3979,7 +3979,7 @@
     "area": "Whistler",
     "price": 4,
     "rating": 4.9,
-    "brief": "A secluded lakeside mountain lodge with ski-in ceremony options and panoramic alpine views — Whistler's finest wedding venue.",
+    "brief": "A secluded lakeside mountain lodge with ski-in ceremony options and panoramic alpine views â Whistler's finest wedding venue.",
     "email": "events@nitalake.ca",
     "phone": "604-555-6101",
     "web": "https://nitalake.ca",
@@ -4009,7 +4009,7 @@
     "area": "Whistler",
     "price": 3,
     "rating": 4.9,
-    "brief": "Alpine wedding specialists — heli-assisted summit shoots, glacier ceremonies, and après-ski receptions across the Sea to Sky corridor.",
+    "brief": "Alpine wedding specialists â heli-assisted summit shoots, glacier ceremonies, and aprÃ¨s-ski receptions across the Sea to Sky corridor.",
     "email": "hello@whistlermountainphoto.ca",
     "phone": "604-555-6102",
     "web": "https://whistlermountainphoto.ca",
@@ -4039,7 +4039,7 @@
     "area": "Whistler",
     "price": 4,
     "rating": 4.9,
-    "brief": "World-class mountain cuisine from Whistler's legendary Araxi kitchen team — farm-fresh, locally sourced, utterly unforgettable.",
+    "brief": "World-class mountain cuisine from Whistler's legendary Araxi kitchen team â farm-fresh, locally sourced, utterly unforgettable.",
     "email": "catering@araxi.ca",
     "phone": "604-555-6103",
     "web": "https://araxi.ca",
@@ -4062,14 +4062,14 @@
   },
   {
     "id": "ven_chateau_laurier_events",
-    "name": "Château Laurier Events",
+    "name": "ChÃ¢teau Laurier Events",
     "cat": "venue",
     "lat": 45.4256,
     "lng": -75.6968,
     "area": "Ottawa",
     "price": 4,
     "rating": 4.9,
-    "brief": "Canada's grandest railway hotel — Gothic Revival grandeur, Parliament Hill views, and timeless elegance for up to 600 guests.",
+    "brief": "Canada's grandest railway hotel â Gothic Revival grandeur, Parliament Hill views, and timeless elegance for up to 600 guests.",
     "email": "events@chateaulaurier.ca",
     "phone": "613-555-7001",
     "web": "https://chateaulaurier.ca",
@@ -4129,7 +4129,7 @@
     "area": "Ottawa",
     "price": 3,
     "rating": 4.8,
-    "brief": "Ottawa's premier bilingual catering service — classic French-Canadian and modern fusion menus for government galas and weddings.",
+    "brief": "Ottawa's premier bilingual catering service â classic French-Canadian and modern fusion menus for government galas and weddings.",
     "email": "info@rideaucatering.ca",
     "phone": "613-555-7003",
     "web": "https://rideaucatering.ca",
@@ -4159,7 +4159,7 @@
     "area": "Winnipeg",
     "price": 2,
     "rating": 4.8,
-    "brief": "A beloved Winnipeg landmark venue nestled in lush park grounds — ceremonies, receptions, and garden parties for up to 250.",
+    "brief": "A beloved Winnipeg landmark venue nestled in lush park grounds â ceremonies, receptions, and garden parties for up to 250.",
     "email": "events@assiniboinepark.ca",
     "phone": "204-555-8001",
     "web": "https://assiniboinepark.ca",
@@ -4219,7 +4219,7 @@
     "area": "Winnipeg",
     "price": 2,
     "rating": 4.7,
-    "brief": "Manitoba's favourite wedding florist — vibrant seasonal arrangements grown and sourced locally for every budget.",
+    "brief": "Manitoba's favourite wedding florist â vibrant seasonal arrangements grown and sourced locally for every budget.",
     "email": "hello@winnipegbloom.ca",
     "phone": "204-555-8003",
     "web": "https://winnipegbloom.ca",
@@ -4249,7 +4249,7 @@
     "area": "New York City",
     "price": 4,
     "rating": 4.9,
-    "brief": "The world's most iconic wedding venue — Central Park South grandeur, gold-leaf ceilings, and unmatched NYC skyline moments.",
+    "brief": "The world's most iconic wedding venue â Central Park South grandeur, gold-leaf ceilings, and unmatched NYC skyline moments.",
     "email": "events@theplazany.com",
     "phone": "212-555-9001",
     "web": "https://theplazany.com",
@@ -4279,7 +4279,7 @@
     "area": "New York City",
     "price": 3,
     "rating": 4.9,
-    "brief": "Brooklyn's most celebrated wedding cinematographers — editorial, raw, and honest films capturing NYC love stories since 2012.",
+    "brief": "Brooklyn's most celebrated wedding cinematographers â editorial, raw, and honest films capturing NYC love stories since 2012.",
     "email": "hello@brooklynweddingfilms.com",
     "phone": "718-555-9002",
     "web": "https://brooklynweddingfilms.com",
@@ -4309,7 +4309,7 @@
     "area": "New York City",
     "price": 4,
     "rating": 4.9,
-    "brief": "Manhattan's elite floral atelier — sculptural, larger-than-life installations for luxury weddings at the city's top venues.",
+    "brief": "Manhattan's elite floral atelier â sculptural, larger-than-life installations for luxury weddings at the city's top venues.",
     "email": "hello@nycbloom.com",
     "phone": "212-555-9003",
     "web": "https://nycbloom.com",
@@ -4369,7 +4369,7 @@
     "area": "New York City",
     "price": 4,
     "rating": 4.9,
-    "brief": "Fifth Avenue bridal couture atelier — bespoke gowns and ready-to-wear from the world's leading bridal designers.",
+    "brief": "Fifth Avenue bridal couture atelier â bespoke gowns and ready-to-wear from the world's leading bridal designers.",
     "email": "appointments@nycbridalatelier.com",
     "phone": "212-555-9005",
     "web": "https://nycbridalatelier.com",
@@ -4399,7 +4399,7 @@
     "area": "New York City",
     "price": 4,
     "rating": 4.9,
-    "brief": "New York's premier full-service wedding planning agency — 500+ weddings across the five boroughs and destination events worldwide.",
+    "brief": "New York's premier full-service wedding planning agency â 500+ weddings across the five boroughs and destination events worldwide.",
     "email": "hello@manhattanplannergroup.com",
     "phone": "212-555-9006",
     "web": "https://manhattanplannergroup.com",
@@ -4429,7 +4429,7 @@
     "area": "Los Angeles",
     "price": 4,
     "rating": 4.9,
-    "brief": "A legendary Beverly Hills estate with manicured terraces, reflecting pools, and old-world grandeur — LA's most iconic wedding backdrop.",
+    "brief": "A legendary Beverly Hills estate with manicured terraces, reflecting pools, and old-world grandeur â LA's most iconic wedding backdrop.",
     "email": "events@greystonemansion.com",
     "phone": "310-555-1001",
     "web": "https://greystonemansion.com",
@@ -4459,7 +4459,7 @@
     "area": "Los Angeles",
     "price": 3,
     "rating": 4.9,
-    "brief": "Hollywood-adjacent wedding filmmakers with feature-film production values — your wedding deserves a cinematic epic.",
+    "brief": "Hollywood-adjacent wedding filmmakers with feature-film production values â your wedding deserves a cinematic epic.",
     "email": "hello@laweddingcinema.com",
     "phone": "310-555-1002",
     "web": "https://laweddingcinema.com",
@@ -4489,7 +4489,7 @@
     "area": "Los Angeles",
     "price": 3,
     "rating": 4.8,
-    "brief": "West Hollywood's most celebrated wedding florist — lush tropical and garden-style designs for indoor and outdoor LA weddings.",
+    "brief": "West Hollywood's most celebrated wedding florist â lush tropical and garden-style designs for indoor and outdoor LA weddings.",
     "email": "hello@labeloomfloral.com",
     "phone": "310-555-1003",
     "web": "https://labloomfloral.com",
@@ -4519,7 +4519,7 @@
     "area": "Chicago",
     "price": 3,
     "rating": 4.9,
-    "brief": "A breathtaking Beaux-Arts landmark with Tiffany glass domes — Chicago's most spectacular event space for up to 400 guests.",
+    "brief": "A breathtaking Beaux-Arts landmark with Tiffany glass domes â Chicago's most spectacular event space for up to 400 guests.",
     "email": "events@chicagoculturalcenter.com",
     "phone": "312-555-2001",
     "web": "https://chicagoculturalcenter.com",
@@ -4549,7 +4549,7 @@
     "area": "Chicago",
     "price": 3,
     "rating": 4.8,
-    "brief": "Chicago's go-to documentary wedding photographers — authentic, unposed storytelling in the city's most iconic locations.",
+    "brief": "Chicago's go-to documentary wedding photographers â authentic, unposed storytelling in the city's most iconic locations.",
     "email": "hello@chicagophotosociety.com",
     "phone": "312-555-2002",
     "web": "https://chicagophotosociety.com",
@@ -4579,7 +4579,7 @@
     "area": "Chicago",
     "price": 3,
     "rating": 4.8,
-    "brief": "Modern American catering with a Chicago twist — deep dish to fine dining, always locally sourced and impeccably served.",
+    "brief": "Modern American catering with a Chicago twist â deep dish to fine dining, always locally sourced and impeccably served.",
     "email": "info@chicagoeats.com",
     "phone": "312-555-2003",
     "web": "https://chicagoeats.com",
@@ -4609,7 +4609,7 @@
     "area": "Miami",
     "price": 4,
     "rating": 4.9,
-    "brief": "A Renaissance-style villa on Biscayne Bay — lush Italian gardens and opulent interiors for the most lavish Miami weddings.",
+    "brief": "A Renaissance-style villa on Biscayne Bay â lush Italian gardens and opulent interiors for the most lavish Miami weddings.",
     "email": "events@vizcayamuseum.org",
     "phone": "305-555-3001",
     "web": "https://vizcayamuseum.org",
@@ -4669,7 +4669,7 @@
     "area": "Miami",
     "price": 3,
     "rating": 4.8,
-    "brief": "Luxury wedding planning for South Florida's most glamorous celebrations — bilingual English/Spanish team with destination expertise.",
+    "brief": "Luxury wedding planning for South Florida's most glamorous celebrations â bilingual English/Spanish team with destination expertise.",
     "email": "hello@miamiplannerco.com",
     "phone": "305-555-3003",
     "web": "https://miamiplannerco.com",
@@ -4729,7 +4729,7 @@
     "area": "Austin",
     "price": 2,
     "rating": 4.9,
-    "brief": "Live music capital delivers — Austin's most in-demand wedding band blending country, rock, and soul for unforgettable dance floors.",
+    "brief": "Live music capital delivers â Austin's most in-demand wedding band blending country, rock, and soul for unforgettable dance floors.",
     "email": "book@austinweddingband.com",
     "phone": "512-555-4002",
     "web": "https://austinweddingband.com",
@@ -4759,7 +4759,7 @@
     "area": "Austin",
     "price": 2,
     "rating": 4.8,
-    "brief": "Wildflower-inspired Austin florist bringing the Texas Hill Country indoors — bluebonnets, sunflowers, and seasonal blooms.",
+    "brief": "Wildflower-inspired Austin florist bringing the Texas Hill Country indoors â bluebonnets, sunflowers, and seasonal blooms.",
     "email": "hello@texasbloomflorals.com",
     "phone": "512-555-4003",
     "web": "https://texasbloomflorals.com",
@@ -4789,7 +4789,7 @@
     "area": "Denver",
     "price": 3,
     "rating": 4.8,
-    "brief": "Stunning mountain-view manor just outside Denver — rustic elegance meets Colorado grandeur for weddings up to 250 guests.",
+    "brief": "Stunning mountain-view manor just outside Denver â rustic elegance meets Colorado grandeur for weddings up to 250 guests.",
     "email": "events@rockymountainmanor.com",
     "phone": "303-555-5001",
     "web": "https://rockymountainmanor.com",
@@ -4849,7 +4849,7 @@
     "area": "Denver",
     "price": 2,
     "rating": 4.7,
-    "brief": "Colorado's most loved bridal shop — curated selection of boho, romantic, and classic gowns for every Rocky Mountain bride.",
+    "brief": "Colorado's most loved bridal shop â curated selection of boho, romantic, and classic gowns for every Rocky Mountain bride.",
     "email": "hello@denverbridalboutique.com",
     "phone": "303-555-5003",
     "web": "https://denverbridalboutique.com",
@@ -5967,6 +5967,2196 @@
       {
         "tier": "Heavy Appetizers / 100 Guests",
         "amount": "$5,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_city_hall_sf_events",
+    "name": "SF City Hall Events",
+    "cat": "venue",
+    "lat": 37.7793,
+    "lng": -122.4193,
+    "area": "San Francisco",
+    "price": 3,
+    "rating": 4.9,
+    "brief": "San Francisco's most iconic Beaux-Arts landmark — grand rotunda ceremonies under the breathtaking dome for up to 200 guests.",
+    "email": "events@sfcityhall.com",
+    "phone": "415-555-1001",
+    "web": "https://sfcityhall.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Ceremony Only",
+        "amount": "$3,500"
+      },
+      {
+        "tier": "Full Day Rental",
+        "amount": "$7,000"
+      },
+      {
+        "tier": "Exclusive Evening",
+        "amount": "$12,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_sf_wedding_photo_co",
+    "name": "SF Wedding Photo Co.",
+    "cat": "photo",
+    "lat": 37.7749,
+    "lng": -122.4194,
+    "area": "San Francisco",
+    "price": 3,
+    "rating": 4.9,
+    "brief": "Bay Area wedding photographers blending Golden Gate vistas, fog-draped hills, and intimate documentary storytelling.",
+    "email": "hello@sfweddingphoto.com",
+    "phone": "415-555-1002",
+    "web": "https://sfweddingphoto.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "$1,200"
+      },
+      {
+        "tier": "Full Day Coverage",
+        "amount": "$3,000"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "$6,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_napa_table_catering",
+    "name": "Napa Table Catering",
+    "cat": "catering",
+    "lat": 37.786,
+    "lng": -122.408,
+    "area": "San Francisco",
+    "price": 4,
+    "rating": 4.9,
+    "brief": "Wine country catering brought to the city — estate-sourced ingredients, Michelin-trained chefs, and impeccable Napa hospitality.",
+    "email": "info@napatablecatering.com",
+    "phone": "415-555-1003",
+    "web": "https://napatablecatering.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Buffet for 50",
+        "amount": "$3,800"
+      },
+      {
+        "tier": "Plated Dinner 100",
+        "amount": "$9,500"
+      },
+      {
+        "tier": "Full-Service Gala",
+        "amount": "$19,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_castaway_portland_events",
+    "name": "Castaway Portland Events",
+    "cat": "venue",
+    "lat": 45.5231,
+    "lng": -122.6765,
+    "area": "Portland",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "Dramatic converted industrial venue in NW Portland — exposed steel, soaring ceilings, and a blank canvas for up to 500 guests.",
+    "email": "events@castawayportland.com",
+    "phone": "503-555-2001",
+    "web": "https://castawayportland.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Half-Day Rental",
+        "amount": "$1,500"
+      },
+      {
+        "tier": "Full-Day Rental",
+        "amount": "$3,200"
+      },
+      {
+        "tier": "Weekend Package",
+        "amount": "$5,800"
+      }
+    ]
+  },
+  {
+    "id": "ven_portland_wedding_photo",
+    "name": "Portland Wedding Photography",
+    "cat": "photo",
+    "lat": 45.5051,
+    "lng": -122.675,
+    "area": "Portland",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "Moody Pacific Northwest wedding photography — old growth forests, Columbia Gorge, and Portland's vibrant neighbourhoods.",
+    "email": "hello@portlandweddingphoto.com",
+    "phone": "503-555-2002",
+    "web": "https://portlandweddingphoto.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "$950"
+      },
+      {
+        "tier": "Full Day Coverage",
+        "amount": "$2,300"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "$4,600"
+      }
+    ]
+  },
+  {
+    "id": "ven_portland_hair_collective",
+    "name": "Portland Hair Collective",
+    "cat": "hair",
+    "lat": 45.5231,
+    "lng": -122.6765,
+    "area": "Portland",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "Eco-conscious bridal hair and makeup collective using clean beauty products — on-location specialists serving greater Portland.",
+    "email": "book@portlandhaircollective.com",
+    "phone": "503-555-2003",
+    "web": "https://portlandhaircollective.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Bridal Hair",
+        "amount": "$280"
+      },
+      {
+        "tier": "Bridal + 2 Guests",
+        "amount": "$600"
+      },
+      {
+        "tier": "Full Bridal Party",
+        "amount": "$1,100"
+      }
+    ]
+  },
+  {
+    "id": "ven_noelle_nashville_events",
+    "name": "Noelle Nashville Events",
+    "cat": "venue",
+    "lat": 36.1627,
+    "lng": -86.7816,
+    "area": "Nashville",
+    "price": 3,
+    "rating": 4.9,
+    "brief": "A boutique hotel with rooftop views of downtown Nashville — honky-tonk charm meets refined elegance for up to 300 guests.",
+    "email": "events@noellenashville.com",
+    "phone": "615-555-3001",
+    "web": "https://noellenashville.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Ceremony Only",
+        "amount": "$3,000"
+      },
+      {
+        "tier": "Full Day Rental",
+        "amount": "$6,500"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$11,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_nashville_wedding_band",
+    "name": "Nashville Wedding Band",
+    "cat": "music",
+    "lat": 36.1612,
+    "lng": -86.7775,
+    "area": "Nashville",
+    "price": 3,
+    "rating": 4.9,
+    "brief": "World-class live music from Music City — session musicians turned wedding entertainers delivering unforgettable country and rock sets.",
+    "email": "book@nashvilleweddingband.com",
+    "phone": "615-555-3002",
+    "web": "https://nashvilleweddingband.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Set",
+        "amount": "$2,500"
+      },
+      {
+        "tier": "6-Hour Set",
+        "amount": "$3,800"
+      },
+      {
+        "tier": "Full Night + DJ",
+        "amount": "$5,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_tennessee_blooms_florist",
+    "name": "Tennessee Blooms",
+    "cat": "florist",
+    "lat": 36.1537,
+    "lng": -86.7923,
+    "area": "Nashville",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "Nashville's beloved wedding florist — magnolias, peonies, and garden roses styled into lush Southern-romantic arrangements.",
+    "email": "hello@tennesseeblooms.com",
+    "phone": "615-555-3003",
+    "web": "https://tennesseeblooms.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Bridal Bouquet Set",
+        "amount": "$600"
+      },
+      {
+        "tier": "Ceremony Flowers",
+        "amount": "$1,500"
+      },
+      {
+        "tier": "Full Floral Design",
+        "amount": "$3,200"
+      }
+    ]
+  },
+  {
+    "id": "ven_el_chorro_lodge_events",
+    "name": "El Chorro Lodge Events",
+    "cat": "venue",
+    "lat": 33.5679,
+    "lng": -111.9598,
+    "area": "Phoenix",
+    "price": 3,
+    "rating": 4.8,
+    "brief": "A historic Scottsdale lodge surrounded by saguaro cacti and mountain views — desert elegance at its most romantic.",
+    "email": "events@elchorro.com",
+    "phone": "480-555-4001",
+    "web": "https://elchorro.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Ceremony Only",
+        "amount": "$2,800"
+      },
+      {
+        "tier": "Full Day Rental",
+        "amount": "$6,000"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$10,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_arizona_wedding_films",
+    "name": "Arizona Wedding Films",
+    "cat": "video",
+    "lat": 33.4484,
+    "lng": -112.074,
+    "area": "Phoenix",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "Desert sunset wedding cinematographers — saguaro silhouettes, golden light, and drone shots that capture Arizona's breathtaking scale.",
+    "email": "hello@arizonaweddingfilms.com",
+    "phone": "602-555-4002",
+    "web": "https://arizonaweddingfilms.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Highlight Reel",
+        "amount": "$1,100"
+      },
+      {
+        "tier": "Full Day + Edit",
+        "amount": "$2,800"
+      },
+      {
+        "tier": "Cinematic + Drone",
+        "amount": "$5,200"
+      }
+    ]
+  },
+  {
+    "id": "ven_desert_bloom_phoenix",
+    "name": "Desert Bloom Florals",
+    "cat": "florist",
+    "lat": 33.4609,
+    "lng": -112.0654,
+    "area": "Phoenix",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "Phoenix's top wedding florist specialising in desert-inspired arrangements — succulents, protea, and tropical blooms.",
+    "email": "hello@desertbloomphoenix.com",
+    "phone": "602-555-4003",
+    "web": "https://desertbloomphoenix.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Bridal Bouquet Set",
+        "amount": "$520"
+      },
+      {
+        "tier": "Ceremony Flowers",
+        "amount": "$1,200"
+      },
+      {
+        "tier": "Full Floral Design",
+        "amount": "$2,600"
+      }
+    ]
+  },
+  {
+    "id": "ven_boston_harbor_hotel_events",
+    "name": "Boston Harbor Hotel Events",
+    "cat": "venue",
+    "lat": 42.3568,
+    "lng": -71.051,
+    "area": "Boston",
+    "price": 4,
+    "rating": 4.9,
+    "brief": "A waterfront landmark with sweeping Boston Harbor views — grand ballrooms and cobblestone courtyards for up to 500 guests.",
+    "email": "events@bostonharborhotel.com",
+    "phone": "617-555-5001",
+    "web": "https://bostonharborhotel.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Ceremony Only",
+        "amount": "$5,000"
+      },
+      {
+        "tier": "Full Day Rental",
+        "amount": "$11,000"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$19,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_boston_wedding_photo",
+    "name": "Boston Wedding Photography",
+    "cat": "photo",
+    "lat": 42.3601,
+    "lng": -71.0589,
+    "area": "Boston",
+    "price": 3,
+    "rating": 4.8,
+    "brief": "New England wedding photographers celebrating Boston's historic charm — cobblestone streets, autumn foliage, and harbour sunsets.",
+    "email": "hello@bostonweddingphoto.com",
+    "phone": "617-555-5002",
+    "web": "https://bostonweddingphoto.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "$1,100"
+      },
+      {
+        "tier": "Full Day Coverage",
+        "amount": "$2,700"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "$5,400"
+      }
+    ]
+  },
+  {
+    "id": "ven_boston_catering_co",
+    "name": "Boston Catering Co.",
+    "cat": "catering",
+    "lat": 42.3554,
+    "lng": -71.0641,
+    "area": "Boston",
+    "price": 3,
+    "rating": 4.8,
+    "brief": "Classic New England catering with a modern twist — lobster bakes, chowder stations, and plated fine dining for memorable celebrations.",
+    "email": "info@bostoncateringco.com",
+    "phone": "617-555-5003",
+    "web": "https://bostoncateringco.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Buffet for 50",
+        "amount": "$2,300"
+      },
+      {
+        "tier": "Plated Dinner 100",
+        "amount": "$5,800"
+      },
+      {
+        "tier": "Full-Service Gala",
+        "amount": "$11,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_bellagio_events_lv",
+    "name": "Bellagio Garden Events",
+    "cat": "venue",
+    "lat": 36.1126,
+    "lng": -115.1767,
+    "area": "Las Vegas",
+    "price": 4,
+    "rating": 4.9,
+    "brief": "The world's most famous hotel garden — botanical conservatory ceremonies with dancing fountains and Strip skyline views.",
+    "email": "events@bellagio.com",
+    "phone": "702-555-1001",
+    "web": "https://bellagio.com/weddings",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Ceremony Only",
+        "amount": "$6,000"
+      },
+      {
+        "tier": "Full Day Rental",
+        "amount": "$14,000"
+      },
+      {
+        "tier": "Exclusive Package",
+        "amount": "$25,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_vegas_wedding_films",
+    "name": "Vegas Wedding Films",
+    "cat": "video",
+    "lat": 36.1699,
+    "lng": -115.1398,
+    "area": "Las Vegas",
+    "price": 3,
+    "rating": 4.8,
+    "brief": "Las Vegas wedding cinematographers capturing Strip sunsets, neon glow, and the electric energy of Vegas celebrations.",
+    "email": "hello@vegasweddingfilms.com",
+    "phone": "702-555-1002",
+    "web": "https://vegasweddingfilms.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Highlight Reel",
+        "amount": "$1,800"
+      },
+      {
+        "tier": "Full Day + Edit",
+        "amount": "$4,500"
+      },
+      {
+        "tier": "Cinematic Feature",
+        "amount": "$8,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_vegas_bloom_florals",
+    "name": "Vegas Bloom Florals",
+    "cat": "florist",
+    "lat": 36.114,
+    "lng": -115.1728,
+    "area": "Las Vegas",
+    "price": 3,
+    "rating": 4.8,
+    "brief": "Luxury wedding floral design for Strip venues and resort weddings — over-the-top installations that match Vegas energy.",
+    "email": "hello@vegasbloom.com",
+    "phone": "702-555-1003",
+    "web": "https://vegasbloom.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Bridal Bouquet Set",
+        "amount": "$800"
+      },
+      {
+        "tier": "Ceremony Flowers",
+        "amount": "$2,200"
+      },
+      {
+        "tier": "Full Floral Design",
+        "amount": "$5,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_lodge_at_torrey_pines",
+    "name": "Lodge at Torrey Pines Events",
+    "cat": "venue",
+    "lat": 32.902,
+    "lng": -117.2514,
+    "area": "San Diego",
+    "price": 4,
+    "rating": 4.9,
+    "brief": "A Craftsman masterpiece perched above the Pacific — ocean cliffs, sage-scented air, and timeless Arts & Crafts architecture.",
+    "email": "events@lodgetorreypines.com",
+    "phone": "858-555-2001",
+    "web": "https://lodgetorreypines.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Ceremony Only",
+        "amount": "$5,500"
+      },
+      {
+        "tier": "Full Day Rental",
+        "amount": "$12,000"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$21,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_san_diego_wedding_photo",
+    "name": "San Diego Wedding Photo",
+    "cat": "photo",
+    "lat": 32.7157,
+    "lng": -117.1611,
+    "area": "San Diego",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "Southern California wedding photographers blending sunny Pacific beach light with San Diego's vibrant Gaslamp Quarter backdrop.",
+    "email": "hello@sandiegoweddingphoto.com",
+    "phone": "619-555-2002",
+    "web": "https://sandiegoweddingphoto.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "$1,000"
+      },
+      {
+        "tier": "Full Day Coverage",
+        "amount": "$2,500"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "$5,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_san_diego_catering_co",
+    "name": "San Diego Catering Co.",
+    "cat": "catering",
+    "lat": 32.7303,
+    "lng": -117.1553,
+    "area": "San Diego",
+    "price": 3,
+    "rating": 4.8,
+    "brief": "Farm-fresh California cuisine for San Diego weddings — fish tacos to plated fine dining, always made with local ingredients.",
+    "email": "info@sandiegocateringco.com",
+    "phone": "619-555-2003",
+    "web": "https://sandiegocateringco.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Buffet for 50",
+        "amount": "$2,000"
+      },
+      {
+        "tier": "Plated Dinner 100",
+        "amount": "$5,000"
+      },
+      {
+        "tier": "Full-Service Gala",
+        "amount": "$10,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_fox_theatre_atlanta_events",
+    "name": "Fox Theatre Atlanta Events",
+    "cat": "venue",
+    "lat": 33.7724,
+    "lng": -84.386,
+    "area": "Atlanta",
+    "price": 4,
+    "rating": 4.9,
+    "brief": "Atlanta's legendary Moorish-Egyptian theatre — gilded ceilings, atmospheric lighting, and jaw-dropping grandeur for 200–800 guests.",
+    "email": "events@foxtheatreatlanta.com",
+    "phone": "404-555-3001",
+    "web": "https://foxtheatreatlanta.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Ceremony Only",
+        "amount": "$6,500"
+      },
+      {
+        "tier": "Full Day Rental",
+        "amount": "$14,000"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$25,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_atlanta_wedding_photo",
+    "name": "Atlanta Wedding Photography",
+    "cat": "photo",
+    "lat": 33.749,
+    "lng": -84.388,
+    "area": "Atlanta",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "Georgia wedding photographers capturing Atlanta's Southern charm — Piedmont Park blooms, Beltline murals, and golden Georgia light.",
+    "email": "hello@atlantaweddingphoto.com",
+    "phone": "404-555-3002",
+    "web": "https://atlantaweddingphoto.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "$950"
+      },
+      {
+        "tier": "Full Day Coverage",
+        "amount": "$2,300"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "$4,600"
+      }
+    ]
+  },
+  {
+    "id": "ven_peach_tree_catering_atl",
+    "name": "Peach Tree Catering",
+    "cat": "catering",
+    "lat": 33.755,
+    "lng": -84.39,
+    "area": "Atlanta",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "Southern hospitality catering at its finest — peach glazed pork, shrimp and grits, and low-country boils for Atlanta celebrations.",
+    "email": "info@peachtreecatering.com",
+    "phone": "404-555-3003",
+    "web": "https://peachtreecatering.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Buffet for 50",
+        "amount": "$1,600"
+      },
+      {
+        "tier": "Plated Dinner 100",
+        "amount": "$4,000"
+      },
+      {
+        "tier": "Full-Service Gala",
+        "amount": "$8,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_butler_house_dallas",
+    "name": "Butler House Dallas",
+    "cat": "venue",
+    "lat": 32.7767,
+    "lng": -96.797,
+    "area": "Dallas",
+    "price": 3,
+    "rating": 4.8,
+    "brief": "A beautifully restored 1920s mansion in Uptown Dallas — Texan elegance with wraparound verandas and lush garden grounds.",
+    "email": "events@butlerhouse.com",
+    "phone": "214-555-4001",
+    "web": "https://butlerhouse.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Ceremony Only",
+        "amount": "$2,800"
+      },
+      {
+        "tier": "Full Day Rental",
+        "amount": "$6,000"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$10,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_dallas_wedding_films",
+    "name": "Dallas Wedding Films",
+    "cat": "video",
+    "lat": 32.7831,
+    "lng": -96.8067,
+    "area": "Dallas",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "DFW's go-to wedding videographers — wide-open Texas skies, golden hour portraits, and emotional storytelling across North Texas.",
+    "email": "hello@dallasweddingfilms.com",
+    "phone": "214-555-4002",
+    "web": "https://dallasweddingfilms.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Highlight Reel",
+        "amount": "$1,200"
+      },
+      {
+        "tier": "Full Day + Edit",
+        "amount": "$3,000"
+      },
+      {
+        "tier": "Cinematic + Drone",
+        "amount": "$5,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_lone_star_florals_dallas",
+    "name": "Lone Star Florals",
+    "cat": "florist",
+    "lat": 32.79,
+    "lng": -96.8003,
+    "area": "Dallas",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "Dallas wedding florist bringing Texas-scale drama — bluebonnets, magnolias, and statement centrepieces for every style.",
+    "email": "hello@lonestarflorals.com",
+    "phone": "214-555-4003",
+    "web": "https://lonestarflorals.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Bridal Bouquet Set",
+        "amount": "$550"
+      },
+      {
+        "tier": "Ceremony Flowers",
+        "amount": "$1,300"
+      },
+      {
+        "tier": "Full Floral Design",
+        "amount": "$2,800"
+      }
+    ]
+  },
+  {
+    "id": "ven_aria_minneapolis_events",
+    "name": "Aria Minneapolis Events",
+    "cat": "venue",
+    "lat": 44.9778,
+    "lng": -93.265,
+    "area": "Minneapolis",
+    "price": 3,
+    "rating": 4.8,
+    "brief": "A stunning Minneapolis venue blending modern luxury with historic elegance — soaring ceilings and city views for up to 400 guests.",
+    "email": "events@ariaminneapolis.com",
+    "phone": "612-555-5001",
+    "web": "https://ariaminneapolis.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Half-Day Rental",
+        "amount": "$2,000"
+      },
+      {
+        "tier": "Full-Day Rental",
+        "amount": "$4,500"
+      },
+      {
+        "tier": "Weekend Package",
+        "amount": "$8,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_twin_cities_wedding_photo",
+    "name": "Twin Cities Wedding Photo",
+    "cat": "photo",
+    "lat": 44.98,
+    "lng": -93.2638,
+    "area": "Minneapolis",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "Minneapolis–St. Paul wedding photographers capturing Midwest warmth — frozen lakes, autumn maples, and urban skyline charm.",
+    "email": "hello@twincitiesweddingphoto.com",
+    "phone": "612-555-5002",
+    "web": "https://twincitiesweddingphoto.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "$900"
+      },
+      {
+        "tier": "Full Day Coverage",
+        "amount": "$2,200"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "$4,400"
+      }
+    ]
+  },
+  {
+    "id": "ven_north_star_catering_mpls",
+    "name": "North Star Catering",
+    "cat": "catering",
+    "lat": 44.974,
+    "lng": -93.271,
+    "area": "Minneapolis",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "Minnesota farm-to-table catering celebrating the bounty of the Great Lakes region — wild rice, walleye, and hearty Midwest classics.",
+    "email": "info@northstarcatering.com",
+    "phone": "612-555-5003",
+    "web": "https://northstarcatering.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Buffet for 50",
+        "amount": "$1,500"
+      },
+      {
+        "tier": "Plated Dinner 100",
+        "amount": "$3,700"
+      },
+      {
+        "tier": "Full-Service Gala",
+        "amount": "$7,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_brennans_new_orleans",
+    "name": "Brennan's Garden Events",
+    "cat": "venue",
+    "lat": 29.9574,
+    "lng": -90.0654,
+    "area": "New Orleans",
+    "price": 3,
+    "rating": 4.9,
+    "brief": "A legendary French Quarter courtyard venue dripping with Southern romance — wrought iron, magnolias, and Creole grandeur.",
+    "email": "events@brennansno.com",
+    "phone": "504-555-1001",
+    "web": "https://brennansno.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Ceremony Only",
+        "amount": "$3,200"
+      },
+      {
+        "tier": "Full Day Rental",
+        "amount": "$7,000"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$12,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_nola_wedding_photo",
+    "name": "NOLA Wedding Photography",
+    "cat": "photo",
+    "lat": 29.9511,
+    "lng": -90.0715,
+    "area": "New Orleans",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "New Orleans wedding photographers celebrating the city's jazz-fuelled magic — second lines, Bourbon Street, and bayou sunsets.",
+    "email": "hello@nolaweddingphoto.com",
+    "phone": "504-555-1002",
+    "web": "https://nolaweddingphoto.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "$950"
+      },
+      {
+        "tier": "Full Day Coverage",
+        "amount": "$2,300"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "$4,600"
+      }
+    ]
+  },
+  {
+    "id": "ven_creole_catering_nola",
+    "name": "Creole Catering Co.",
+    "cat": "catering",
+    "lat": 29.9499,
+    "lng": -90.0701,
+    "area": "New Orleans",
+    "price": 2,
+    "rating": 4.9,
+    "brief": "Authentic Louisiana cooking for weddings — jambalaya, crawfish étouffée, and beignet stations that keep guests coming back.",
+    "email": "info@creolecatering.com",
+    "phone": "504-555-1003",
+    "web": "https://creolecatering.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Buffet for 50",
+        "amount": "$1,700"
+      },
+      {
+        "tier": "Plated Dinner 100",
+        "amount": "$4,200"
+      },
+      {
+        "tier": "Full-Service Gala",
+        "amount": "$8,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_national_portrait_gallery_dc",
+    "name": "National Portrait Gallery Events",
+    "cat": "venue",
+    "lat": 38.8979,
+    "lng": -77.0231,
+    "area": "Washington DC",
+    "price": 4,
+    "rating": 4.9,
+    "brief": "America's most prestigious event venue — neoclassical grandeur, historic galleries, and a stunning glass-roofed courtyard.",
+    "email": "events@npgevents.com",
+    "phone": "202-555-2001",
+    "web": "https://npgevents.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Ceremony Only",
+        "amount": "$6,000"
+      },
+      {
+        "tier": "Full Day Rental",
+        "amount": "$13,000"
+      },
+      {
+        "tier": "Exclusive Evening",
+        "amount": "$22,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_dc_wedding_films",
+    "name": "DC Wedding Films",
+    "cat": "video",
+    "lat": 38.9072,
+    "lng": -77.0369,
+    "area": "Washington DC",
+    "price": 3,
+    "rating": 4.8,
+    "brief": "Washington DC wedding cinematographers featuring iconic monuments, cherry blossoms, and the Potomac at golden hour.",
+    "email": "hello@dcweddingfilms.com",
+    "phone": "202-555-2002",
+    "web": "https://dcweddingfilms.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Highlight Reel",
+        "amount": "$1,800"
+      },
+      {
+        "tier": "Full Day + Edit",
+        "amount": "$4,500"
+      },
+      {
+        "tier": "Cinematic Feature",
+        "amount": "$8,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_dc_planner_group",
+    "name": "DC Planner Group",
+    "cat": "planner",
+    "lat": 38.9101,
+    "lng": -77.0147,
+    "area": "Washington DC",
+    "price": 3,
+    "rating": 4.9,
+    "brief": "Washington DC's premier wedding planning firm — from intimate Georgetown townhouse soirées to grand Capitol Hill receptions.",
+    "email": "hello@dcplannergroup.com",
+    "phone": "202-555-2003",
+    "web": "https://dcplannergroup.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Day-Of Coordination",
+        "amount": "$2,200"
+      },
+      {
+        "tier": "Partial Planning",
+        "amount": "$5,500"
+      },
+      {
+        "tier": "Full Planning",
+        "amount": "$11,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_cescaphe_philly_events",
+    "name": "Cescaphe Philadelphia",
+    "cat": "venue",
+    "lat": 39.9526,
+    "lng": -75.1652,
+    "area": "Philadelphia",
+    "price": 3,
+    "rating": 4.9,
+    "brief": "Philadelphia's most beloved wedding venue group — historic mansions, waterfront lofts, and rooftop terraces across the city.",
+    "email": "events@cescaphe.com",
+    "phone": "215-555-3001",
+    "web": "https://cescaphe.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Ceremony Only",
+        "amount": "$3,000"
+      },
+      {
+        "tier": "Full Day Rental",
+        "amount": "$6,500"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$11,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_philly_wedding_photo",
+    "name": "Philadelphia Wedding Photo",
+    "cat": "photo",
+    "lat": 39.949,
+    "lng": -75.1503,
+    "area": "Philadelphia",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "Philly wedding photographers capturing cobblestone charm, LOVE Park romance, and the city's incredible mosaic street art.",
+    "email": "hello@phillyweddingphoto.com",
+    "phone": "215-555-3002",
+    "web": "https://phillyweddingphoto.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "$950"
+      },
+      {
+        "tier": "Full Day Coverage",
+        "amount": "$2,300"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "$4,600"
+      }
+    ]
+  },
+  {
+    "id": "ven_liberty_catering_philly",
+    "name": "Liberty Catering Co.",
+    "cat": "catering",
+    "lat": 39.9526,
+    "lng": -75.158,
+    "area": "Philadelphia",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "Philly catering with local pride — cheesesteak stations, pretzel bars, and elevated New American menus for city celebrations.",
+    "email": "info@libertycatering.com",
+    "phone": "215-555-3003",
+    "web": "https://libertycatering.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Buffet for 50",
+        "amount": "$1,600"
+      },
+      {
+        "tier": "Plated Dinner 100",
+        "amount": "$4,000"
+      },
+      {
+        "tier": "Full-Service Gala",
+        "amount": "$8,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_la_cantera_resort_events",
+    "name": "La Cantera Resort Events",
+    "cat": "venue",
+    "lat": 29.6006,
+    "lng": -98.6143,
+    "area": "San Antonio",
+    "price": 3,
+    "rating": 4.8,
+    "brief": "A luxurious Hill Country resort overlooking San Antonio — outdoor terraces, lush grounds, and stunning Texas sunset ceremonies.",
+    "email": "events@lacanteraresort.com",
+    "phone": "210-555-4001",
+    "web": "https://lacanteraresort.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Ceremony Only",
+        "amount": "$2,800"
+      },
+      {
+        "tier": "Full Day Rental",
+        "amount": "$6,200"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$11,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_san_antonio_wedding_photo",
+    "name": "San Antonio Wedding Photo",
+    "cat": "photo",
+    "lat": 29.4241,
+    "lng": -98.4936,
+    "area": "San Antonio",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "Texas wedding photographers capturing the romance of the River Walk, Spanish missions, and Hill Country wildflower fields.",
+    "email": "hello@sanantonioweddingphoto.com",
+    "phone": "210-555-4002",
+    "web": "https://sanantonioweddingphoto.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "$850"
+      },
+      {
+        "tier": "Full Day Coverage",
+        "amount": "$2,100"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "$4,200"
+      }
+    ]
+  },
+  {
+    "id": "ven_vizcaino_estate_sacramento",
+    "name": "Vizcaino Estate Sacramento",
+    "cat": "venue",
+    "lat": 38.5816,
+    "lng": -121.4944,
+    "area": "Sacramento",
+    "price": 3,
+    "rating": 4.8,
+    "brief": "A stunning Gold Rush-era estate in the heart of California's capital — vine-draped courtyard and grand ballroom for up to 300.",
+    "email": "events@vizcainoestate.com",
+    "phone": "916-555-5001",
+    "web": "https://vizcainoestate.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Ceremony Only",
+        "amount": "$2,500"
+      },
+      {
+        "tier": "Full Day Rental",
+        "amount": "$5,500"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$9,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_farm_table_catering_sac",
+    "name": "Farm Table Catering Sacramento",
+    "cat": "catering",
+    "lat": 38.578,
+    "lng": -121.492,
+    "area": "Sacramento",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "California's farm-to-fork capital delivers — Sacramento wedding catering sourced directly from Central Valley farms daily.",
+    "email": "info@farmtablecatering.com",
+    "phone": "916-555-5002",
+    "web": "https://farmtablecatering.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Buffet for 50",
+        "amount": "$1,800"
+      },
+      {
+        "tier": "Plated Dinner 100",
+        "amount": "$4,500"
+      },
+      {
+        "tier": "Full-Service Gala",
+        "amount": "$9,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_sacramento_wedding_films",
+    "name": "Sacramento Wedding Films",
+    "cat": "video",
+    "lat": 38.5758,
+    "lng": -121.4789,
+    "area": "Sacramento",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "NorCal wedding cinematographers — vineyard ceremonies, Sacramento Delta sunsets, and downtown loft receptions captured beautifully.",
+    "email": "hello@sacramentoweddingfilms.com",
+    "phone": "916-555-5003",
+    "web": "https://sacramentoweddingfilms.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Highlight Reel",
+        "amount": "$1,100"
+      },
+      {
+        "tier": "Full Day + Edit",
+        "amount": "$2,800"
+      },
+      {
+        "tier": "Cinematic + Drone",
+        "amount": "$5,200"
+      }
+    ]
+  },
+  {
+    "id": "ven_sacramento_bloom_florals",
+    "name": "Sacramento Bloom Florals",
+    "cat": "florist",
+    "lat": 38.5822,
+    "lng": -121.5005,
+    "area": "Sacramento",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "Farm-fresh wedding florals grown in the Sacramento Valley — seasonal garden arrangements at unbeatable California prices.",
+    "email": "hello@sacramentobloom.com",
+    "phone": "916-555-5004",
+    "web": "https://sacramentobloom.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Bridal Bouquet Set",
+        "amount": "$420"
+      },
+      {
+        "tier": "Ceremony Flowers",
+        "amount": "$980"
+      },
+      {
+        "tier": "Full Floral Design",
+        "amount": "$2,100"
+      }
+    ]
+  },
+  {
+    "id": "ven_kensington_palace_events",
+    "name": "Kensington Palace Events",
+    "cat": "venue",
+    "lat": 51.505,
+    "lng": -0.1877,
+    "area": "London",
+    "price": 4,
+    "rating": 4.9,
+    "brief": "Wed in a royal palace — Kensington's gilded State Apartments and lush gardens offer unrivalled grandeur for up to 500 guests.",
+    "email": "events@kensingtonpalace.co.uk",
+    "phone": "+44-20-555-1001",
+    "web": "https://kensingtonpalace.co.uk/events",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Ceremony Only",
+        "amount": "£8,000"
+      },
+      {
+        "tier": "Full Day Rental",
+        "amount": "£18,000"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "£32,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_london_wedding_photo",
+    "name": "London Wedding Photography",
+    "cat": "photo",
+    "lat": 51.5074,
+    "lng": -0.1278,
+    "area": "London",
+    "price": 3,
+    "rating": 4.9,
+    "brief": "Award-winning London wedding photographers — Thames sunsets, cobblestone mews, and timeless British elegance captured beautifully.",
+    "email": "hello@londonweddingphoto.co.uk",
+    "phone": "+44-20-555-1002",
+    "web": "https://londonweddingphoto.co.uk",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "£1,400"
+      },
+      {
+        "tier": "Full Day Coverage",
+        "amount": "£3,500"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "£7,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_ritz_catering_london",
+    "name": "Ritz Catering London",
+    "cat": "catering",
+    "lat": 51.5071,
+    "lng": -0.1416,
+    "area": "London",
+    "price": 4,
+    "rating": 4.9,
+    "brief": "The gold standard of London wedding catering — Ritz-trained chefs delivering white-glove service and exquisite British-French menus.",
+    "email": "catering@theritz.co.uk",
+    "phone": "+44-20-555-1003",
+    "web": "https://theritz.co.uk/weddings",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Afternoon Tea for 50",
+        "amount": "£3,500"
+      },
+      {
+        "tier": "Plated Dinner 100",
+        "amount": "£9,000"
+      },
+      {
+        "tier": "Full-Service Gala",
+        "amount": "£18,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_chateau_de_versailles_events",
+    "name": "Château de Versailles Events",
+    "cat": "venue",
+    "lat": 48.8049,
+    "lng": 2.1204,
+    "area": "Paris",
+    "price": 4,
+    "rating": 4.9,
+    "brief": "The most magnificent wedding venue on earth — Hall of Mirrors, grand fountains, and centuries of royal love stories as your backdrop.",
+    "email": "events@versailles.fr",
+    "phone": "+33-1-555-2001",
+    "web": "https://versailles.fr/en/weddings",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Garden Ceremony",
+        "amount": "€10,000"
+      },
+      {
+        "tier": "Full Day Rental",
+        "amount": "€22,000"
+      },
+      {
+        "tier": "Exclusive Evening",
+        "amount": "€40,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_paris_wedding_photo",
+    "name": "Paris Wedding Photography",
+    "cat": "photo",
+    "lat": 48.8566,
+    "lng": 2.3522,
+    "area": "Paris",
+    "price": 3,
+    "rating": 4.9,
+    "brief": "Parisian fine-art wedding photographers — Eiffel Tower at dawn, hidden courtyards, and the golden light of the City of Love.",
+    "email": "bonjour@parisweddingphoto.fr",
+    "phone": "+33-1-555-2002",
+    "web": "https://parisweddingphoto.fr",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "€1,600"
+      },
+      {
+        "tier": "Full Day Coverage",
+        "amount": "€4,000"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "€8,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_le_cordon_bleu_catering",
+    "name": "Le Cordon Bleu Catering",
+    "cat": "catering",
+    "lat": 48.8462,
+    "lng": 2.3143,
+    "area": "Paris",
+    "price": 4,
+    "rating": 4.9,
+    "brief": "The world's most famous culinary school offers exquisite wedding catering — classical French technique meets modern elegance.",
+    "email": "catering@cordonbleu.edu",
+    "phone": "+33-1-555-2003",
+    "web": "https://cordonbleu.edu/weddings",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Cocktail Reception 50",
+        "amount": "€4,000"
+      },
+      {
+        "tier": "Plated Dinner 100",
+        "amount": "€10,000"
+      },
+      {
+        "tier": "Full-Service Gala",
+        "amount": "€20,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_opera_house_sydney_events",
+    "name": "Sydney Opera House Events",
+    "cat": "venue",
+    "lat": -33.8568,
+    "lng": 151.2153,
+    "area": "Sydney",
+    "price": 4,
+    "rating": 4.9,
+    "brief": "The world's most iconic building as your wedding backdrop — harbour views, architectural splendour, and Australian grandeur.",
+    "email": "events@sydneyoperahouse.com",
+    "phone": "+61-2-555-3001",
+    "web": "https://sydneyoperahouse.com/weddings",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Ceremony Only",
+        "amount": "A$7,000"
+      },
+      {
+        "tier": "Full Day Rental",
+        "amount": "A$16,000"
+      },
+      {
+        "tier": "Exclusive Evening",
+        "amount": "A$28,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_sydney_wedding_photo",
+    "name": "Sydney Wedding Photography",
+    "cat": "photo",
+    "lat": -33.8688,
+    "lng": 151.2093,
+    "area": "Sydney",
+    "price": 3,
+    "rating": 4.9,
+    "brief": "Harbour Bridge backdrops, Bondi Beach sunsets, and the Blue Mountains at golden hour — Sydney's finest wedding photographers.",
+    "email": "hello@sydneyweddingphoto.com.au",
+    "phone": "+61-2-555-3002",
+    "web": "https://sydneyweddingphoto.com.au",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "A$1,300"
+      },
+      {
+        "tier": "Full Day Coverage",
+        "amount": "A$3,200"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "A$6,400"
+      }
+    ]
+  },
+  {
+    "id": "ven_sydney_catering_collective",
+    "name": "Sydney Catering Collective",
+    "cat": "catering",
+    "lat": -33.8674,
+    "lng": 151.207,
+    "area": "Sydney",
+    "price": 3,
+    "rating": 4.8,
+    "brief": "Modern Australian wedding catering celebrating native ingredients — finger lime, wattleseed, and Moreton Bay bugs on every menu.",
+    "email": "info@sydneycateringco.com.au",
+    "phone": "+61-2-555-3003",
+    "web": "https://sydneycateringco.com.au",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Buffet for 50",
+        "amount": "A$2,500"
+      },
+      {
+        "tier": "Plated Dinner 100",
+        "amount": "A$6,000"
+      },
+      {
+        "tier": "Full-Service Gala",
+        "amount": "A$12,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_burj_al_arab_events",
+    "name": "Burj Al Arab Events",
+    "cat": "venue",
+    "lat": 25.1412,
+    "lng": 55.1853,
+    "area": "Dubai",
+    "price": 4,
+    "rating": 4.9,
+    "brief": "The world's most luxurious hotel — ultra-exclusive wedding packages in the iconic sail-shaped tower with private beach ceremonies.",
+    "email": "events@burjalarab.com",
+    "phone": "+971-4-555-4001",
+    "web": "https://jumeirah.com/burjalarab/weddings",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Ceremony Only",
+        "amount": "AED 40,000"
+      },
+      {
+        "tier": "Full Day Package",
+        "amount": "AED 90,000"
+      },
+      {
+        "tier": "Exclusive Wedding",
+        "amount": "AED 175,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_dubai_wedding_photo",
+    "name": "Dubai Wedding Photography",
+    "cat": "photo",
+    "lat": 25.2048,
+    "lng": 55.2708,
+    "area": "Dubai",
+    "price": 3,
+    "rating": 4.9,
+    "brief": "Dubai wedding photographers — desert dunes at sunset, Marina skylines, and Burj Khalifa reflections captured in stunning detail.",
+    "email": "hello@dubaiweddingphoto.com",
+    "phone": "+971-4-555-4002",
+    "web": "https://dubaiweddingphoto.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "AED 3,500"
+      },
+      {
+        "tier": "Full Day Coverage",
+        "amount": "AED 8,500"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "AED 17,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_grand_hyatt_tokyo_events",
+    "name": "Grand Hyatt Tokyo Events",
+    "cat": "venue",
+    "lat": 35.6604,
+    "lng": 139.7292,
+    "area": "Tokyo",
+    "price": 4,
+    "rating": 4.9,
+    "brief": "Roppongi Hills luxury with sweeping Tokyo skyline views — Japanese precision hospitality and stunning modern wedding spaces.",
+    "email": "events@grandhyatttokyo.com",
+    "phone": "+81-3-555-5001",
+    "web": "https://grandhyatttokyo.com/weddings",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Ceremony Only",
+        "amount": "¥500,000"
+      },
+      {
+        "tier": "Full Day Package",
+        "amount": "¥1,200,000"
+      },
+      {
+        "tier": "Exclusive Wedding",
+        "amount": "¥2,200,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_tokyo_wedding_photo",
+    "name": "Tokyo Wedding Photography",
+    "cat": "photo",
+    "lat": 35.6762,
+    "lng": 139.6503,
+    "area": "Tokyo",
+    "price": 3,
+    "rating": 4.9,
+    "brief": "Tokyo wedding photographers blending traditional shrine ceremonies with modern urban backdrops — cherry blossoms to neon skylines.",
+    "email": "hello@tokyoweddingphoto.jp",
+    "phone": "+81-3-555-5002",
+    "web": "https://tokyoweddingphoto.jp",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "¥150,000"
+      },
+      {
+        "tier": "Full Day Coverage",
+        "amount": "¥380,000"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "¥750,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_tokyo_ikebana_florals",
+    "name": "Tokyo Ikebana Florals",
+    "cat": "florist",
+    "lat": 35.6895,
+    "lng": 139.6917,
+    "area": "Tokyo",
+    "price": 3,
+    "rating": 4.9,
+    "brief": "Japanese ikebana masters crafting breathtaking minimalist and maximalist wedding florals — cherry blossom, orchid, and wisteria specialists.",
+    "email": "hello@tokyoikebana.jp",
+    "phone": "+81-3-555-5003",
+    "web": "https://tokyoikebana.jp",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Bridal Bouquet Set",
+        "amount": "¥80,000"
+      },
+      {
+        "tier": "Ceremony Flowers",
+        "amount": "¥200,000"
+      },
+      {
+        "tier": "Full Floral Design",
+        "amount": "¥450,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_palau_de_la_musica_events",
+    "name": "Palau de la Música Events",
+    "cat": "venue",
+    "lat": 41.3875,
+    "lng": 2.1752,
+    "area": "Barcelona",
+    "price": 4,
+    "rating": 4.9,
+    "brief": "A UNESCO World Heritage concert hall with Gaudí-inspired stained glass — Barcelona's most breathtaking and romantic event space.",
+    "email": "events@palaumusica.cat",
+    "phone": "+34-93-555-1001",
+    "web": "https://palaumusica.cat/en/weddings",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Ceremony Only",
+        "amount": "€8,000"
+      },
+      {
+        "tier": "Full Evening",
+        "amount": "€18,000"
+      },
+      {
+        "tier": "Exclusive Gala",
+        "amount": "€35,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_barcelona_wedding_photo",
+    "name": "Barcelona Wedding Photography",
+    "cat": "photo",
+    "lat": 41.3851,
+    "lng": 2.1734,
+    "area": "Barcelona",
+    "price": 3,
+    "rating": 4.9,
+    "brief": "Catalonian wedding photographers — Gothic Quarter alleys, beach sunsets, and Gaudí architecture as your love story's backdrop.",
+    "email": "hola@barcelonaweddingphoto.es",
+    "phone": "+34-93-555-1002",
+    "web": "https://barcelonaweddingphoto.es",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "€1,400"
+      },
+      {
+        "tier": "Full Day Coverage",
+        "amount": "€3,500"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "€7,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_catalan_cuisine_catering",
+    "name": "Catalan Cuisine Catering",
+    "cat": "catering",
+    "lat": 41.3784,
+    "lng": 2.1925,
+    "area": "Barcelona",
+    "price": 3,
+    "rating": 4.8,
+    "brief": "Authentic Catalan wedding catering — pa amb tomàquet, fideuà, and crema catalana reimagined for modern wedding celebrations.",
+    "email": "info@catalancuisine.es",
+    "phone": "+34-93-555-1003",
+    "web": "https://catalancuisine.es",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Cocktail for 50",
+        "amount": "€2,500"
+      },
+      {
+        "tier": "Plated Dinner 100",
+        "amount": "€6,500"
+      },
+      {
+        "tier": "Full-Service Gala",
+        "amount": "€13,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_villa_borghese_events",
+    "name": "Villa Borghese Events",
+    "cat": "venue",
+    "lat": 41.9141,
+    "lng": 12.4922,
+    "area": "Rome",
+    "price": 4,
+    "rating": 4.9,
+    "brief": "A Renaissance garden estate in the heart of Rome — ancient fountains, pine-lined avenues, and breathtaking Baroque splendour.",
+    "email": "events@villaborghese.it",
+    "phone": "+39-06-555-2001",
+    "web": "https://villaborghese.it/weddings",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Ceremony Only",
+        "amount": "€9,000"
+      },
+      {
+        "tier": "Full Day Rental",
+        "amount": "€20,000"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "€38,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_rome_wedding_photo",
+    "name": "Rome Wedding Photography",
+    "cat": "photo",
+    "lat": 41.9028,
+    "lng": 12.4964,
+    "area": "Rome",
+    "price": 3,
+    "rating": 4.9,
+    "brief": "Roman wedding photographers — Colosseum at dawn, Trevi Fountain twilight, and hidden cobblestone piazzas no tourist ever finds.",
+    "email": "ciao@romeweddingphoto.it",
+    "phone": "+39-06-555-2002",
+    "web": "https://romeweddingphoto.it",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "€1,500"
+      },
+      {
+        "tier": "Full Day Coverage",
+        "amount": "€3,800"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "€7,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_rijksmuseum_events",
+    "name": "Rijksmuseum Events Amsterdam",
+    "cat": "venue",
+    "lat": 52.36,
+    "lng": 4.8852,
+    "area": "Amsterdam",
+    "price": 4,
+    "rating": 4.9,
+    "brief": "Wed among Rembrandt and Vermeer masterpieces — the Rijksmuseum's grand atrium offers a wedding backdrop unlike any other on earth.",
+    "email": "events@rijksmuseum.nl",
+    "phone": "+31-20-555-3001",
+    "web": "https://rijksmuseum.nl/en/weddings",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Ceremony Only",
+        "amount": "€7,500"
+      },
+      {
+        "tier": "Full Evening",
+        "amount": "€17,000"
+      },
+      {
+        "tier": "Exclusive Gala",
+        "amount": "€30,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_amsterdam_wedding_photo",
+    "name": "Amsterdam Wedding Photography",
+    "cat": "photo",
+    "lat": 52.3676,
+    "lng": 4.9041,
+    "area": "Amsterdam",
+    "price": 3,
+    "rating": 4.8,
+    "brief": "Dutch wedding photographers capturing canal house reflections, tulip fields, and the windmill-dotted countryside in golden light.",
+    "email": "hello@amsterdamweddingphoto.nl",
+    "phone": "+31-20-555-3002",
+    "web": "https://amsterdamweddingphoto.nl",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "€1,200"
+      },
+      {
+        "tier": "Full Day Coverage",
+        "amount": "€3,000"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "€6,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_dutch_bloom_florals",
+    "name": "Dutch Bloom Florals",
+    "cat": "florist",
+    "lat": 52.3702,
+    "lng": 4.8952,
+    "area": "Amsterdam",
+    "price": 3,
+    "rating": 4.8,
+    "brief": "Amsterdam floral designers sourcing directly from Aalsmeer flower auction — the world's freshest tulips, roses, and peonies.",
+    "email": "hello@dutchbloom.nl",
+    "phone": "+31-20-555-3003",
+    "web": "https://dutchbloom.nl",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Bridal Bouquet Set",
+        "amount": "€600"
+      },
+      {
+        "tier": "Ceremony Flowers",
+        "amount": "€1,600"
+      },
+      {
+        "tier": "Full Floral Design",
+        "amount": "€4,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_como_uma_ubud_events",
+    "name": "COMO Uma Ubud Events",
+    "cat": "venue",
+    "lat": -8.5069,
+    "lng": 115.2625,
+    "area": "Bali",
+    "price": 4,
+    "rating": 4.9,
+    "brief": "A clifftop rainforest retreat in Ubud — rice terrace views, jungle ceremonies, and Balinese spiritual traditions woven into every detail.",
+    "email": "events@comohotels.com/ubud",
+    "phone": "+62-361-555-4001",
+    "web": "https://comohotels.com/umaubud",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Ceremony Only",
+        "amount": "$3,500"
+      },
+      {
+        "tier": "Full Day Package",
+        "amount": "$8,500"
+      },
+      {
+        "tier": "Exclusive Wedding",
+        "amount": "$18,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_bali_wedding_photo",
+    "name": "Bali Wedding Photography",
+    "cat": "photo",
+    "lat": -8.4095,
+    "lng": 115.1889,
+    "area": "Bali",
+    "price": 2,
+    "rating": 4.9,
+    "brief": "Bali's most celebrated wedding photographers — rice paddies, temple gates, volcano sunrises, and Seminyak beach bonfires.",
+    "email": "hello@baliweddingphoto.com",
+    "phone": "+62-361-555-4002",
+    "web": "https://baliweddingphoto.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "$700"
+      },
+      {
+        "tier": "Full Day Coverage",
+        "amount": "$1,800"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "$3,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_bali_bloom_florals",
+    "name": "Bali Bloom Florals",
+    "cat": "florist",
+    "lat": -8.6705,
+    "lng": 115.2126,
+    "area": "Bali",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "Tropical floral artistry rooted in Balinese ceremony — frangipani garlands, lotus installations, and exotic jungle florals.",
+    "email": "hello@balibloomflorals.com",
+    "phone": "+62-361-555-4003",
+    "web": "https://balibloomflorals.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Bridal Bouquet Set",
+        "amount": "$250"
+      },
+      {
+        "tier": "Ceremony Flowers",
+        "amount": "$700"
+      },
+      {
+        "tier": "Full Floral Design",
+        "amount": "$1,800"
+      }
+    ]
+  },
+  {
+    "id": "ven_babylonstoren_events",
+    "name": "Babylonstoren Farm Events",
+    "cat": "venue",
+    "lat": -33.838,
+    "lng": 18.8355,
+    "area": "Cape Town",
+    "price": 4,
+    "rating": 4.9,
+    "brief": "A 300-year-old Cape Dutch farm estate in the Franschhoek Valley — mountain backdrops, heritage gardens, and world-class wine.",
+    "email": "events@babylonstoren.com",
+    "phone": "+27-21-555-5001",
+    "web": "https://babylonstoren.com/events",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Ceremony Only",
+        "amount": "R 25,000"
+      },
+      {
+        "tier": "Full Day Rental",
+        "amount": "R 60,000"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "R 110,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_cape_town_wedding_photo",
+    "name": "Cape Town Wedding Photography",
+    "cat": "photo",
+    "lat": -33.9249,
+    "lng": 18.4241,
+    "area": "Cape Town",
+    "price": 3,
+    "rating": 4.9,
+    "brief": "South African wedding photographers blending Table Mountain drama, Boulders Beach penguins, and Cape Winelands golden light.",
+    "email": "hello@capetownweddingphoto.co.za",
+    "phone": "+27-21-555-5002",
+    "web": "https://capetownweddingphoto.co.za",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "R 8,000"
+      },
+      {
+        "tier": "Full Day Coverage",
+        "amount": "R 20,000"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "R 40,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_cape_malay_catering",
+    "name": "Cape Malay Catering Co.",
+    "cat": "catering",
+    "lat": -33.9352,
+    "lng": 18.4172,
+    "area": "Cape Town",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "Authentic Cape Malay wedding catering — fragrant spices, braai stations, and the rich multicultural flavours of the Cape.",
+    "email": "info@capemalycatering.co.za",
+    "phone": "+27-21-555-5003",
+    "web": "https://capemalaycatering.co.za",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Buffet for 50",
+        "amount": "R 9,000"
+      },
+      {
+        "tier": "Plated Dinner 100",
+        "amount": "R 22,000"
+      },
+      {
+        "tier": "Full-Service Gala",
+        "amount": "R 45,000"
       }
     ]
   }
