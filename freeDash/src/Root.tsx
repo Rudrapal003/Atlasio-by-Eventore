@@ -36,7 +36,7 @@ export function Root() {
   if (session || guestMode) {
     return (
       <>
-        <App isGuest={!session} onRequireAuth={() => setShowAuth(true)} />
+        <App isGuest={!session} onRequireAuth={() => setShowAuth(true)} session={session} />
         {showAuth && !session && <AuthModal onClose={() => setShowAuth(false)} />}
       </>
     );

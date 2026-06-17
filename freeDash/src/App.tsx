@@ -1,5 +1,5 @@
 // atlasio app entry — wires every hook + component
-import { useCallback, useMemo, useState } from 'react';
+import { useCallback, useMemo, useState, useEffect } from 'react';
 import vendorsJson from '@/data/vendors.json';
 import type { Vendor } from '@/types';
 import { TopBar } from '@/components/TopBar';
@@ -47,9 +47,10 @@ const FUNCTION_TO_TAB: Record<string, SettingsTabId> = {
 interface AppProps {
   isGuest: boolean;
   onRequireAuth: () => void;
+  session?: any;
 }
 
-export default function App({ isGuest, onRequireAuth }: AppProps) {
+export default function App({ isGuest, onRequireAuth, session }: AppProps) {
   const plan = usePlan();
   const fl = useFilters();
   const { budget, setTotal } = useBudget();
@@ -57,6 +58,15 @@ export default function App({ isGuest, onRequireAuth }: AppProps) {
   const eventsApi = useEvents();
   const { alloc, setCategoryBudget, clear: clearAlloc } = useBudgetCategories();
   const expensesApi = useExpenses();
+
+  useEffect(() => {
+    if (session?.user?.user_metadata?.full_name) {
+      setName(session.user.user_metadata.full_name);
+    }
+    if (session?.user?.email) {
+      setEmail(session.user.email);
+    }
+  }, [session, setName, setEmail]);
 
   const [selectedId, setSelectedId] = useState<string | null>(null);
   const [panelMode, setPanelMode] = useState<PanelMode>(null);
