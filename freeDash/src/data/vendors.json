@@ -18809,5 +18809,365 @@
         "amount": "$6,000"
       }
     ]
+  },
+  {
+    "id": "ven_boulder_venue",
+    "name": "Boulder Wedding Venues",
+    "cat": "venue",
+    "lat": 40.015,
+    "lng": -105.2705,
+    "area": "Boulder",
+    "price": 3,
+    "rating": 4.9,
+    "brief": "Flatirons backdrop wedding venues — Pearl Street boutique celebrations, Chautauqua Park mountain ceremonies, and Flagstaff Mountain estates.",
+    "email": "hello@bouldervenues.com",
+    "phone": "303-555-2010",
+    "web": "https://bouldervenues.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Half-Day Venue",
+        "amount": "$2,000"
+      },
+      {
+        "tier": "Full Day Venue",
+        "amount": "$4,000"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$7,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_boulder_photo",
+    "name": "Boulder Wedding Photography",
+    "cat": "photo",
+    "lat": 40.015,
+    "lng": -105.2705,
+    "area": "Boulder",
+    "price": 2,
+    "rating": 4.9,
+    "brief": "Colorado wedding photographers — Flatirons silhouette magic, NCAR trails at sunset, and Rocky Mountain alpine meadow elopements.",
+    "email": "hello@boulderweddingphoto.com",
+    "phone": "303-555-2011",
+    "web": "https://boulderweddingphoto.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "$1,200"
+      },
+      {
+        "tier": "Full Day",
+        "amount": "$2,800"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "$4,800"
+      }
+    ]
+  },
+  {
+    "id": "ven_toronto_planner",
+    "name": "Toronto Wedding Planners",
+    "cat": "planner",
+    "lat": 43.6532,
+    "lng": -79.3832,
+    "area": "Toronto",
+    "price": 3,
+    "rating": 4.8,
+    "brief": "Canada's premier wedding planning team — Distillery District romance, CN Tower views, and Muskoka lakehouse weekend celebrations.",
+    "email": "hello@torontoweddingplanners.com",
+    "phone": "416-555-5010",
+    "web": "https://torontoweddingplanners.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Day-Of Coordination",
+        "amount": "$2,000"
+      },
+      {
+        "tier": "Partial Planning",
+        "amount": "$5,000"
+      },
+      {
+        "tier": "Full Planning",
+        "amount": "$11,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_toronto_hair_co",
+    "name": "Toronto Bridal Hair Studio",
+    "cat": "hair",
+    "lat": 43.6532,
+    "lng": -79.3832,
+    "area": "Toronto",
+    "price": 3,
+    "rating": 4.9,
+    "brief": "Toronto on-location bridal stylists — diverse expertise across South Asian, Caribbean, European, and East Asian bridal traditions.",
+    "email": "book@torontobridalhair.com",
+    "phone": "416-555-5011",
+    "web": "https://torontobridalhair.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Bridal Hair",
+        "amount": "$350"
+      },
+      {
+        "tier": "Bridal + 2 Guests",
+        "amount": "$740"
+      },
+      {
+        "tier": "Full Bridal Party",
+        "amount": "$1,400"
+      }
+    ]
+  },
+  {
+    "id": "ven_toronto_music",
+    "name": "Toronto Wedding Music",
+    "cat": "music",
+    "lat": 43.6532,
+    "lng": -79.3832,
+    "area": "Toronto",
+    "price": 3,
+    "rating": 4.8,
+    "brief": "Toronto's finest live wedding music — jazz quartets for cocktail hour, string ensembles for ceremony, and DJ/live fusion receptions.",
+    "email": "book@torontoweddingmusic.com",
+    "phone": "416-555-5012",
+    "web": "https://torontoweddingmusic.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Ceremony String Duo",
+        "amount": "$900"
+      },
+      {
+        "tier": "Cocktail Hour Quartet",
+        "amount": "$1,800"
+      },
+      {
+        "tier": "Full Day Live + DJ",
+        "amount": "$5,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_vancouver_planner",
+    "name": "Vancouver Wedding Planners",
+    "cat": "planner",
+    "lat": 49.2827,
+    "lng": -123.1207,
+    "area": "Vancouver",
+    "price": 3,
+    "rating": 4.9,
+    "brief": "Metro Vancouver wedding planning leaders — mountain-ocean ceremonies, Capilano Canyon retreats, and Gastown heritage venue expertise.",
+    "email": "hello@vancouverweddingplanners.com",
+    "phone": "604-555-5010",
+    "web": "https://vancouverweddingplanners.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Day-Of Coordination",
+        "amount": "$2,200"
+      },
+      {
+        "tier": "Partial Planning",
+        "amount": "$5,500"
+      },
+      {
+        "tier": "Full Planning",
+        "amount": "$12,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_vancouver_music",
+    "name": "Vancouver Wedding Music",
+    "cat": "music",
+    "lat": 49.2827,
+    "lng": -123.1207,
+    "area": "Vancouver",
+    "price": 3,
+    "rating": 4.8,
+    "brief": "BC wedding musicians — acoustic duos, jazz ensembles, string quartets, and hybrid live DJ shows for every Vancouver celebration.",
+    "email": "book@vancouverweddingmusic.com",
+    "phone": "604-555-5011",
+    "web": "https://vancouverweddingmusic.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Ceremony String Duo",
+        "amount": "$800"
+      },
+      {
+        "tier": "Cocktail Hour Trio",
+        "amount": "$1,600"
+      },
+      {
+        "tier": "Full Day Live + DJ",
+        "amount": "$4,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_montreal_venue",
+    "name": "Montreal Wedding Venues",
+    "cat": "venue",
+    "lat": 45.5017,
+    "lng": -73.5673,
+    "area": "Montréal",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "La Belle Province wedding venues — Old Montreal cobblestone charm, Mount Royal terrace ceremonies, and Plateau boutique loft receptions.",
+    "email": "hello@montrealvenues.com",
+    "phone": "514-555-1010",
+    "web": "https://montrealvenues.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Half-Day Venue",
+        "amount": "$1,800"
+      },
+      {
+        "tier": "Full Day Venue",
+        "amount": "$3,600"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$7,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_montreal_photo",
+    "name": "Montréal Wedding Photography",
+    "cat": "photo",
+    "lat": 45.5017,
+    "lng": -73.5673,
+    "area": "Montréal",
+    "price": 2,
+    "rating": 4.9,
+    "brief": "Québec wedding photographers — Old Montreal stone-arch romance, Mount Royal panoramas, and Saint Lawrence River golden light.",
+    "email": "hello@montrealweddingphoto.com",
+    "phone": "514-555-1011",
+    "web": "https://montrealweddingphoto.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "$1,200"
+      },
+      {
+        "tier": "Full Day",
+        "amount": "$2,800"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "$5,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_montreal_catering",
+    "name": "Montréal Wedding Catering",
+    "cat": "catering",
+    "lat": 45.5017,
+    "lng": -73.5673,
+    "area": "Montréal",
+    "price": 3,
+    "rating": 4.8,
+    "brief": "Québec culinary artistry — poutine elegance, French-Canadian cuisine, and world-class European-trained chefs for Montreal celebrations.",
+    "email": "hello@montrealcatering.com",
+    "phone": "514-555-1012",
+    "web": "https://montrealcatering.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Buffet (50 guests)",
+        "amount": "$4,000"
+      },
+      {
+        "tier": "Plated Dinner (100 guests)",
+        "amount": "$9,500"
+      },
+      {
+        "tier": "Full Service (150 guests)",
+        "amount": "$18,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_montreal_florist",
+    "name": "Montréal Wedding Florist",
+    "cat": "florist",
+    "lat": 45.5017,
+    "lng": -73.5673,
+    "area": "Montréal",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "Québec floral artisans — French-inspired romantic arrangements, lush garden installations, and seasonal Québec blooms for every wedding.",
+    "email": "hello@montrealweddingflorist.com",
+    "phone": "514-555-1013",
+    "web": "https://montrealweddingflorist.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Bridal Bouquet Set",
+        "amount": "$650"
+      },
+      {
+        "tier": "Ceremony Flowers",
+        "amount": "$1,700"
+      },
+      {
+        "tier": "Full Floral Design",
+        "amount": "$4,200"
+      }
+    ]
+  },
+  {
+    "id": "ven_montreal_decor",
+    "name": "Montréal Wedding Décor",
+    "cat": "decor",
+    "lat": 45.5017,
+    "lng": -73.5673,
+    "area": "Montréal",
+    "price": 3,
+    "rating": 4.8,
+    "brief": "Old Montreal wedding décor — European grandeur, stone wall draping, crystal chandeliers, and intimate candlelit loft transformations.",
+    "email": "hello@montrealweddingdecor.com",
+    "phone": "514-555-1014",
+    "web": "https://montrealweddingdecor.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Ceremony Setup",
+        "amount": "$1,800"
+      },
+      {
+        "tier": "Reception Package",
+        "amount": "$4,500"
+      },
+      {
+        "tier": "Full Venue Styling",
+        "amount": "$9,500"
+      }
+    ]
   }
 ]
