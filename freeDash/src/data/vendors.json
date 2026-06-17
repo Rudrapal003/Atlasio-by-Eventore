@@ -13079,5 +13079,455 @@
         "amount": "$3,800"
       }
     ]
+  },
+  {
+    "id": "ven_nyc_hair_glam",
+    "name": "NYC Bridal Glam Studio",
+    "cat": "hair",
+    "lat": 40.7549,
+    "lng": -73.984,
+    "area": "New York City",
+    "price": 3,
+    "rating": 4.9,
+    "brief": "Midtown Manhattan's elite bridal beauty team — runway-ready hair and makeup for New York's most glamorous weddings.",
+    "email": "book@nycbridalglam.com",
+    "phone": "212-555-9010",
+    "web": "https://nycbridalglam.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Bridal Hair",
+        "amount": "$500"
+      },
+      {
+        "tier": "Bridal + 2 Guests",
+        "amount": "$1,100"
+      },
+      {
+        "tier": "Full Bridal Party",
+        "amount": "$2,200"
+      }
+    ]
+  },
+  {
+    "id": "ven_nyc_decor_studio",
+    "name": "NYC Event Décor Studio",
+    "cat": "decor",
+    "lat": 40.7484,
+    "lng": -73.9967,
+    "area": "New York City",
+    "price": 4,
+    "rating": 4.9,
+    "brief": "Manhattan's most sought-after event design firm — transforming ballrooms and rooftops into immersive world-class environments.",
+    "email": "hello@nycdecorstudio.com",
+    "phone": "212-555-9011",
+    "web": "https://nycdecorstudio.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Ceremony Setup",
+        "amount": "$3,500"
+      },
+      {
+        "tier": "Reception Package",
+        "amount": "$9,000"
+      },
+      {
+        "tier": "Full Venue Styling",
+        "amount": "$20,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_nyc_dj_collective",
+    "name": "NYC DJ Collective",
+    "cat": "music",
+    "lat": 40.7549,
+    "lng": -73.984,
+    "area": "New York City",
+    "price": 4,
+    "rating": 4.9,
+    "brief": "New York's most in-demand wedding DJs — rooftop parties, ballroom galas, and Brooklyn warehouse receptions all mastered.",
+    "email": "book@nycdj.com",
+    "phone": "212-555-9012",
+    "web": "https://nycdj.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "DJ 4 Hours",
+        "amount": "$1,800"
+      },
+      {
+        "tier": "DJ Full Night",
+        "amount": "$3,500"
+      },
+      {
+        "tier": "Live Band + DJ",
+        "amount": "$8,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_nyc_video_studio",
+    "name": "NYC Wedding Video Studio",
+    "cat": "video",
+    "lat": 40.758,
+    "lng": -73.9855,
+    "area": "New York City",
+    "price": 4,
+    "rating": 4.9,
+    "brief": "Feature-film-quality wedding videography from a team of former Hollywood cinematographers — your NYC love story, cinematic forever.",
+    "email": "hello@nycweddingvideostudio.com",
+    "phone": "212-555-9013",
+    "web": "https://nycweddingvideostudio.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Highlight Reel",
+        "amount": "$3,000"
+      },
+      {
+        "tier": "Full Day + Edit",
+        "amount": "$7,500"
+      },
+      {
+        "tier": "Cinematic Feature",
+        "amount": "$14,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_la_planner_co",
+    "name": "LA Wedding Planner Co.",
+    "cat": "planner",
+    "lat": 34.0522,
+    "lng": -118.2437,
+    "area": "Los Angeles",
+    "price": 3,
+    "rating": 4.8,
+    "brief": "Hollywood's go-to full-service wedding planners — celebrity-adjacent taste on every scale from Malibu elopements to Beverly Hills galas.",
+    "email": "hello@laweddingplanner.com",
+    "phone": "310-555-1010",
+    "web": "https://laweddingplanner.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Day-Of Coordination",
+        "amount": "$2,500"
+      },
+      {
+        "tier": "Partial Planning",
+        "amount": "$6,500"
+      },
+      {
+        "tier": "Full Planning",
+        "amount": "$14,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_la_hair_beauty",
+    "name": "LA Bridal Beauty Lounge",
+    "cat": "hair",
+    "lat": 34.0195,
+    "lng": -118.4912,
+    "area": "Los Angeles",
+    "price": 3,
+    "rating": 4.8,
+    "brief": "West Hollywood's celebrity bridal beauty team — sun-kissed waves, flawless skin, and effortless California glamour.",
+    "email": "book@labridalbeauty.com",
+    "phone": "310-555-1011",
+    "web": "https://labridalbeauty.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Bridal Hair",
+        "amount": "$450"
+      },
+      {
+        "tier": "Bridal + 2 Guests",
+        "amount": "$950"
+      },
+      {
+        "tier": "Full Bridal Party",
+        "amount": "$1,800"
+      }
+    ]
+  },
+  {
+    "id": "ven_la_decor_house",
+    "name": "LA Event Décor House",
+    "cat": "decor",
+    "lat": 34.0522,
+    "lng": -118.2437,
+    "area": "Los Angeles",
+    "price": 3,
+    "rating": 4.8,
+    "brief": "LA's premier wedding décor specialists — tropical lush, modern minimal, and maximalist glam for every Southern California venue.",
+    "email": "hello@laeventdecor.com",
+    "phone": "310-555-1012",
+    "web": "https://laeventdecor.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Ceremony Setup",
+        "amount": "$2,000"
+      },
+      {
+        "tier": "Reception Package",
+        "amount": "$5,500"
+      },
+      {
+        "tier": "Full Venue Styling",
+        "amount": "$12,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_la_catering_studio",
+    "name": "LA Catering Studio",
+    "cat": "catering",
+    "lat": 34.0522,
+    "lng": -118.2437,
+    "area": "Los Angeles",
+    "price": 3,
+    "rating": 4.8,
+    "brief": "Farm-to-table California catering with an LA twist — avocado bars, poke stations, and elegant plated dinners for studio-lot events.",
+    "email": "info@lacateringstudio.com",
+    "phone": "310-555-1013",
+    "web": "https://lacateringstudio.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Buffet for 50",
+        "amount": "$2,800"
+      },
+      {
+        "tier": "Plated Dinner 100",
+        "amount": "$7,000"
+      },
+      {
+        "tier": "Full-Service Gala",
+        "amount": "$14,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_chicago_hair_studio",
+    "name": "Chicago Bridal Hair Studio",
+    "cat": "hair",
+    "lat": 41.8781,
+    "lng": -87.6298,
+    "area": "Chicago",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "Chicago's most booked bridal hair team — sleek city updos, boho braids, and Old Hollywood waves for Windy City brides.",
+    "email": "book@chicagobridalhair.com",
+    "phone": "312-555-2010",
+    "web": "https://chicagobridalhair.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Bridal Hair",
+        "amount": "$320"
+      },
+      {
+        "tier": "Bridal + 2 Guests",
+        "amount": "$680"
+      },
+      {
+        "tier": "Full Bridal Party",
+        "amount": "$1,250"
+      }
+    ]
+  },
+  {
+    "id": "ven_chicago_decor_co",
+    "name": "Chicago Wedding Décor Co.",
+    "cat": "decor",
+    "lat": 41.8836,
+    "lng": -87.6249,
+    "area": "Chicago",
+    "price": 3,
+    "rating": 4.8,
+    "brief": "Chicago's leading event design company — transforming Millennium Park venues and historic warehouse lofts into breathtaking spaces.",
+    "email": "hello@chicagoweddingdecor.com",
+    "phone": "312-555-2011",
+    "web": "https://chicagoweddingdecor.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Ceremony Setup",
+        "amount": "$1,600"
+      },
+      {
+        "tier": "Reception Package",
+        "amount": "$4,000"
+      },
+      {
+        "tier": "Full Venue Styling",
+        "amount": "$8,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_chicago_dj_empire",
+    "name": "Chicago DJ Empire",
+    "cat": "music",
+    "lat": 41.8827,
+    "lng": -87.6233,
+    "area": "Chicago",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "House music capital of the world — Chicago DJs who know exactly how to build a dance floor from first dance to last call.",
+    "email": "book@chicagodjempire.com",
+    "phone": "312-555-2012",
+    "web": "https://chicagodjempire.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "DJ 4 Hours",
+        "amount": "$900"
+      },
+      {
+        "tier": "DJ Full Night",
+        "amount": "$1,800"
+      },
+      {
+        "tier": "DJ + Lighting",
+        "amount": "$2,800"
+      }
+    ]
+  },
+  {
+    "id": "ven_miami_decor_studio",
+    "name": "Miami Wedding Décor Studio",
+    "cat": "decor",
+    "lat": 25.7617,
+    "lng": -80.1918,
+    "area": "Miami",
+    "price": 3,
+    "rating": 4.8,
+    "brief": "Tropical maximalist wedding décor for South Florida events — palm canopies, neon installations, and Cuban-inspired centrepieces.",
+    "email": "hello@miamiweddingdecor.com",
+    "phone": "305-555-3010",
+    "web": "https://miamiweddingdecor.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Ceremony Setup",
+        "amount": "$1,800"
+      },
+      {
+        "tier": "Reception Package",
+        "amount": "$4,500"
+      },
+      {
+        "tier": "Full Venue Styling",
+        "amount": "$9,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_miami_hair_beauty",
+    "name": "Miami Bridal Beauty",
+    "cat": "hair",
+    "lat": 25.7617,
+    "lng": -80.1918,
+    "area": "Miami",
+    "price": 3,
+    "rating": 4.8,
+    "brief": "South Beach bridal beauty experts — bronzed skin, beachy waves, and Latin-influenced glamour for Miami's most stylish weddings.",
+    "email": "book@miamibridalbeauty.com",
+    "phone": "305-555-3011",
+    "web": "https://miamibridalbeauty.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Bridal Hair",
+        "amount": "$380"
+      },
+      {
+        "tier": "Bridal + 2 Guests",
+        "amount": "$800"
+      },
+      {
+        "tier": "Full Bridal Party",
+        "amount": "$1,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_miami_dj_collective",
+    "name": "Miami DJ Collective",
+    "cat": "music",
+    "lat": 25.7743,
+    "lng": -80.1937,
+    "area": "Miami",
+    "price": 3,
+    "rating": 4.9,
+    "brief": "EDM-capital DJ collective bringing world-class open format sets to Miami weddings — Latin, house, reggaeton, and top-40 mastered.",
+    "email": "book@miamidj.com",
+    "phone": "305-555-3012",
+    "web": "https://miamidj.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "DJ 4 Hours",
+        "amount": "$1,200"
+      },
+      {
+        "tier": "DJ Full Night",
+        "amount": "$2,500"
+      },
+      {
+        "tier": "DJ + Production",
+        "amount": "$5,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_miami_florals",
+    "name": "Miami Wedding Florals",
+    "cat": "florist",
+    "lat": 25.7617,
+    "lng": -80.1918,
+    "area": "Miami",
+    "price": 3,
+    "rating": 4.8,
+    "brief": "Tropical luxury florist for South Florida weddings — birds of paradise, orchids, anthuriums, and lush jungle installations.",
+    "email": "hello@miamiweddingflorals.com",
+    "phone": "305-555-3013",
+    "web": "https://miamiweddingflorals.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Bridal Bouquet Set",
+        "amount": "$750"
+      },
+      {
+        "tier": "Ceremony Flowers",
+        "amount": "$2,000"
+      },
+      {
+        "tier": "Full Floral Design",
+        "amount": "$5,000"
+      }
+    ]
   }
 ]
