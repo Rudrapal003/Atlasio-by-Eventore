@@ -4419,5 +4419,455 @@
         "amount": "$18,000"
       }
     ]
+  },
+  {
+    "id": "ven_greystone_mansion_la",
+    "name": "Greystone Mansion Events",
+    "cat": "venue",
+    "lat": 34.081,
+    "lng": -118.399,
+    "area": "Los Angeles",
+    "price": 4,
+    "rating": 4.9,
+    "brief": "A legendary Beverly Hills estate with manicured terraces, reflecting pools, and old-world grandeur — LA's most iconic wedding backdrop.",
+    "email": "events@greystonemansion.com",
+    "phone": "310-555-1001",
+    "web": "https://greystonemansion.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Ceremony Only",
+        "amount": "$7,000"
+      },
+      {
+        "tier": "Full Day Rental",
+        "amount": "$15,000"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$28,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_la_wedding_cinema",
+    "name": "LA Wedding Cinema",
+    "cat": "video",
+    "lat": 34.0522,
+    "lng": -118.2437,
+    "area": "Los Angeles",
+    "price": 3,
+    "rating": 4.9,
+    "brief": "Hollywood-adjacent wedding filmmakers with feature-film production values — your wedding deserves a cinematic epic.",
+    "email": "hello@laweddingcinema.com",
+    "phone": "310-555-1002",
+    "web": "https://laweddingcinema.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Highlight Reel",
+        "amount": "$2,200"
+      },
+      {
+        "tier": "Full Day + Edit",
+        "amount": "$5,500"
+      },
+      {
+        "tier": "Cinematic Feature",
+        "amount": "$10,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_la_bloom_floral",
+    "name": "LA Bloom Floral",
+    "cat": "florist",
+    "lat": 34.0195,
+    "lng": -118.4912,
+    "area": "Los Angeles",
+    "price": 3,
+    "rating": 4.8,
+    "brief": "West Hollywood's most celebrated wedding florist — lush tropical and garden-style designs for indoor and outdoor LA weddings.",
+    "email": "hello@labeloomfloral.com",
+    "phone": "310-555-1003",
+    "web": "https://labloomfloral.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Bridal Bouquet Set",
+        "amount": "$900"
+      },
+      {
+        "tier": "Ceremony Flowers",
+        "amount": "$2,500"
+      },
+      {
+        "tier": "Full Floral Design",
+        "amount": "$6,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_chicago_cultural_center",
+    "name": "Chicago Cultural Center Events",
+    "cat": "venue",
+    "lat": 41.8836,
+    "lng": -87.6249,
+    "area": "Chicago",
+    "price": 3,
+    "rating": 4.9,
+    "brief": "A breathtaking Beaux-Arts landmark with Tiffany glass domes — Chicago's most spectacular event space for up to 400 guests.",
+    "email": "events@chicagoculturalcenter.com",
+    "phone": "312-555-2001",
+    "web": "https://chicagoculturalcenter.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Ceremony Only",
+        "amount": "$3,500"
+      },
+      {
+        "tier": "Full Day Rental",
+        "amount": "$7,500"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$13,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_chicago_photo_society",
+    "name": "Chicago Photo Society",
+    "cat": "photo",
+    "lat": 41.8781,
+    "lng": -87.6298,
+    "area": "Chicago",
+    "price": 3,
+    "rating": 4.8,
+    "brief": "Chicago's go-to documentary wedding photographers — authentic, unposed storytelling in the city's most iconic locations.",
+    "email": "hello@chicagophotosociety.com",
+    "phone": "312-555-2002",
+    "web": "https://chicagophotosociety.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "$1,100"
+      },
+      {
+        "tier": "Full Day Coverage",
+        "amount": "$2,700"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "$5,400"
+      }
+    ]
+  },
+  {
+    "id": "ven_chicago_eats_catering",
+    "name": "Chicago Eats Catering",
+    "cat": "catering",
+    "lat": 41.8827,
+    "lng": -87.6233,
+    "area": "Chicago",
+    "price": 3,
+    "rating": 4.8,
+    "brief": "Modern American catering with a Chicago twist — deep dish to fine dining, always locally sourced and impeccably served.",
+    "email": "info@chicagoeats.com",
+    "phone": "312-555-2003",
+    "web": "https://chicagoeats.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Buffet for 50",
+        "amount": "$2,500"
+      },
+      {
+        "tier": "Plated Dinner 100",
+        "amount": "$6,000"
+      },
+      {
+        "tier": "Full-Service Gala",
+        "amount": "$12,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_vizcaya_museum_events",
+    "name": "Vizcaya Museum Events",
+    "cat": "venue",
+    "lat": 25.7444,
+    "lng": -80.2418,
+    "area": "Miami",
+    "price": 4,
+    "rating": 4.9,
+    "brief": "A Renaissance-style villa on Biscayne Bay — lush Italian gardens and opulent interiors for the most lavish Miami weddings.",
+    "email": "events@vizcayamuseum.org",
+    "phone": "305-555-3001",
+    "web": "https://vizcayamuseum.org",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Ceremony Only",
+        "amount": "$6,000"
+      },
+      {
+        "tier": "Full Day Rental",
+        "amount": "$13,000"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$24,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_miami_wedding_photo",
+    "name": "Miami Wedding Photography",
+    "cat": "photo",
+    "lat": 25.7617,
+    "lng": -80.1918,
+    "area": "Miami",
+    "price": 3,
+    "rating": 4.8,
+    "brief": "South Beach wedding photographers capturing golden sunsets, tropical blooms, and the vibrant energy of Miami love stories.",
+    "email": "hello@miamiweddingphoto.com",
+    "phone": "305-555-3002",
+    "web": "https://miamiweddingphoto.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "$1,100"
+      },
+      {
+        "tier": "Full Day Coverage",
+        "amount": "$2,700"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "$5,400"
+      }
+    ]
+  },
+  {
+    "id": "ven_miami_planner_co",
+    "name": "Miami Planner Co.",
+    "cat": "planner",
+    "lat": 25.7743,
+    "lng": -80.1937,
+    "area": "Miami",
+    "price": 3,
+    "rating": 4.8,
+    "brief": "Luxury wedding planning for South Florida's most glamorous celebrations — bilingual English/Spanish team with destination expertise.",
+    "email": "hello@miamiplannerco.com",
+    "phone": "305-555-3003",
+    "web": "https://miamiplannerco.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Day-Of Coordination",
+        "amount": "$2,200"
+      },
+      {
+        "tier": "Partial Planning",
+        "amount": "$5,500"
+      },
+      {
+        "tier": "Full Planning",
+        "amount": "$11,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_barton_creek_resort_events",
+    "name": "Barton Creek Resort Events",
+    "cat": "venue",
+    "lat": 30.296,
+    "lng": -97.839,
+    "area": "Austin",
+    "price": 3,
+    "rating": 4.8,
+    "brief": "Texas Hill Country resort with championship golf course backdrops and sweeping Austin skyline views for up to 400 guests.",
+    "email": "events@bartoncreekresort.com",
+    "phone": "512-555-4001",
+    "web": "https://bartoncreekresort.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Ceremony Only",
+        "amount": "$3,000"
+      },
+      {
+        "tier": "Full Day Rental",
+        "amount": "$6,500"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$12,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_austin_wedding_band",
+    "name": "Austin Wedding Band",
+    "cat": "music",
+    "lat": 30.2672,
+    "lng": -97.7431,
+    "area": "Austin",
+    "price": 2,
+    "rating": 4.9,
+    "brief": "Live music capital delivers — Austin's most in-demand wedding band blending country, rock, and soul for unforgettable dance floors.",
+    "email": "book@austinweddingband.com",
+    "phone": "512-555-4002",
+    "web": "https://austinweddingband.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Set",
+        "amount": "$2,000"
+      },
+      {
+        "tier": "6-Hour Set",
+        "amount": "$3,000"
+      },
+      {
+        "tier": "Full Night + DJ Handoff",
+        "amount": "$4,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_texas_bloom_florals",
+    "name": "Texas Bloom Florals",
+    "cat": "florist",
+    "lat": 30.2685,
+    "lng": -97.7498,
+    "area": "Austin",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "Wildflower-inspired Austin florist bringing the Texas Hill Country indoors — bluebonnets, sunflowers, and seasonal blooms.",
+    "email": "hello@texasbloomflorals.com",
+    "phone": "512-555-4003",
+    "web": "https://texasbloomflorals.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Bridal Bouquet Set",
+        "amount": "$550"
+      },
+      {
+        "tier": "Ceremony Flowers",
+        "amount": "$1,300"
+      },
+      {
+        "tier": "Full Floral Design",
+        "amount": "$2,800"
+      }
+    ]
+  },
+  {
+    "id": "ven_rocky_mountain_venue",
+    "name": "Rocky Mountain Manor",
+    "cat": "venue",
+    "lat": 39.7392,
+    "lng": -104.9903,
+    "area": "Denver",
+    "price": 3,
+    "rating": 4.8,
+    "brief": "Stunning mountain-view manor just outside Denver — rustic elegance meets Colorado grandeur for weddings up to 250 guests.",
+    "email": "events@rockymountainmanor.com",
+    "phone": "303-555-5001",
+    "web": "https://rockymountainmanor.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Ceremony Only",
+        "amount": "$2,500"
+      },
+      {
+        "tier": "Full Day Rental",
+        "amount": "$5,500"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$9,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_denver_wedding_films",
+    "name": "Denver Wedding Films",
+    "cat": "video",
+    "lat": 39.7508,
+    "lng": -104.9997,
+    "area": "Denver",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "Colorado wedding videographers specialising in mountain ceremonies, golden hour portraits, and ski resort receptions.",
+    "email": "hello@denverweddingfilms.com",
+    "phone": "303-555-5002",
+    "web": "https://denverweddingfilms.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Highlight Reel",
+        "amount": "$1,400"
+      },
+      {
+        "tier": "Full Day + Edit",
+        "amount": "$3,500"
+      },
+      {
+        "tier": "Cinematic + Drone",
+        "amount": "$6,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_denver_bridal_boutique",
+    "name": "Denver Bridal Boutique",
+    "cat": "attire",
+    "lat": 39.7392,
+    "lng": -104.9847,
+    "area": "Denver",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "Colorado's most loved bridal shop — curated selection of boho, romantic, and classic gowns for every Rocky Mountain bride.",
+    "email": "hello@denverbridalboutique.com",
+    "phone": "303-555-5003",
+    "web": "https://denverbridalboutique.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Dress Rental",
+        "amount": "$650"
+      },
+      {
+        "tier": "Bridal Gown",
+        "amount": "$1,700"
+      },
+      {
+        "tier": "Designer Gown Package",
+        "amount": "$4,000"
+      }
+    ]
   }
 ]
