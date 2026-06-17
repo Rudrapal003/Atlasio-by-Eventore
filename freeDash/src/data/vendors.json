@@ -26939,5 +26939,305 @@
         "amount": "$9,500"
       }
     ]
+  },
+  {
+    "id": "ven_boise_planner",
+    "name": "Boise Wedding Planners",
+    "cat": "planner",
+    "lat": 43.615,
+    "lng": -116.2023,
+    "area": "Boise",
+    "price": 1,
+    "rating": 4.7,
+    "brief": "Treasure Valley wedding planning — Snake River Canyon elopements, Boise foothills estate connections, and downtown boutique venue expertise.",
+    "email": "hello@boiseweddingplanners.com",
+    "phone": "208-555-5010",
+    "web": "https://boiseweddingplanners.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Day-Of Coordination",
+        "amount": "$1,200"
+      },
+      {
+        "tier": "Partial Planning",
+        "amount": "$3,000"
+      },
+      {
+        "tier": "Full Planning",
+        "amount": "$6,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_saltlake_planner",
+    "name": "Salt Lake City Wedding Planners",
+    "cat": "planner",
+    "lat": 40.7608,
+    "lng": -111.891,
+    "area": "Salt Lake City",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "Utah wedding planning — Park City ski resort events, Temple Square-adjacent celebrations, and Snowbird alpine destination wedding specialists.",
+    "email": "hello@saltlakeweddingplanners.com",
+    "phone": "801-555-5010",
+    "web": "https://saltlakeweddingplanners.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Day-Of Coordination",
+        "amount": "$1,400"
+      },
+      {
+        "tier": "Partial Planning",
+        "amount": "$3,500"
+      },
+      {
+        "tier": "Full Planning",
+        "amount": "$7,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_richmond_planner",
+    "name": "Richmond Wedding Planners",
+    "cat": "planner",
+    "lat": 37.5407,
+    "lng": -77.436,
+    "area": "Richmond",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "Virginia wedding planning — historic plantation venue connections, Carytown boutique chic, and James River waterfront ceremony specialists.",
+    "email": "hello@richmondweddingplanners.com",
+    "phone": "804-555-5010",
+    "web": "https://richmondweddingplanners.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Day-Of Coordination",
+        "amount": "$1,500"
+      },
+      {
+        "tier": "Partial Planning",
+        "amount": "$3,800"
+      },
+      {
+        "tier": "Full Planning",
+        "amount": "$8,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_lexington_planner",
+    "name": "Lexington Wedding Planners",
+    "cat": "planner",
+    "lat": 38.0406,
+    "lng": -84.5037,
+    "area": "Lexington",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "Bluegrass wedding planning — Keeneland Race Course estate connections, thoroughbred farm ceremonies, and bourbon distillery reception experts.",
+    "email": "hello@lexingtonweddingplanners.com",
+    "phone": "859-555-5010",
+    "web": "https://lexingtonweddingplanners.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Day-Of Coordination",
+        "amount": "$1,400"
+      },
+      {
+        "tier": "Partial Planning",
+        "amount": "$3,500"
+      },
+      {
+        "tier": "Full Planning",
+        "amount": "$7,200"
+      }
+    ]
+  },
+  {
+    "id": "ven_raleigh_planner",
+    "name": "Raleigh Wedding Planners",
+    "cat": "planner",
+    "lat": 35.7796,
+    "lng": -78.6382,
+    "area": "Raleigh",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "Triangle area wedding planning — Research Triangle Park corporate elegance, Chatham County farm connections, and NC State venue partnerships.",
+    "email": "hello@raleighweddingplanners.com",
+    "phone": "919-555-5010",
+    "web": "https://raleighweddingplanners.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Day-Of Coordination",
+        "amount": "$1,400"
+      },
+      {
+        "tier": "Partial Planning",
+        "amount": "$3,500"
+      },
+      {
+        "tier": "Full Planning",
+        "amount": "$7,200"
+      }
+    ]
+  },
+  {
+    "id": "ven_louisville_planner",
+    "name": "Louisville Wedding Planners",
+    "cat": "planner",
+    "lat": 38.2527,
+    "lng": -85.7585,
+    "area": "Louisville",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "Derby City wedding planning — Churchill Downs-adjacent estate events, NuLu neighbourhood boutique chic, and Ohio River waterfront ceremony specialists.",
+    "email": "hello@louisvilleweddingplanners.com",
+    "phone": "502-555-5010",
+    "web": "https://louisvilleweddingplanners.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Day-Of Coordination",
+        "amount": "$1,400"
+      },
+      {
+        "tier": "Partial Planning",
+        "amount": "$3,500"
+      },
+      {
+        "tier": "Full Planning",
+        "amount": "$7,200"
+      }
+    ]
+  },
+  {
+    "id": "ven_birmingham_planner",
+    "name": "Birmingham Wedding Planners",
+    "cat": "planner",
+    "lat": 33.5186,
+    "lng": -86.8104,
+    "area": "Birmingham",
+    "price": 1,
+    "rating": 4.6,
+    "brief": "Magic City wedding planning — Sloss Furnaces industrial-chic venue connections, Mountain Brook estate expertise, and Botanical Gardens ceremony specialists.",
+    "email": "hello@birminghamweddingplanners.com",
+    "phone": "205-555-5010",
+    "web": "https://birminghamweddingplanners.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Day-Of Coordination",
+        "amount": "$1,200"
+      },
+      {
+        "tier": "Partial Planning",
+        "amount": "$3,000"
+      },
+      {
+        "tier": "Full Planning",
+        "amount": "$6,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_omaha_planner",
+    "name": "Omaha Wedding Planners",
+    "cat": "planner",
+    "lat": 41.2565,
+    "lng": -95.9345,
+    "area": "Omaha",
+    "price": 1,
+    "rating": 4.6,
+    "brief": "Old Market wedding planning — Joslyn Art Museum reception connections, Papio Bay lakeside events, and Nebraska countryside estate specialists.",
+    "email": "hello@omahaweddingplanners.com",
+    "phone": "402-555-5010",
+    "web": "https://omahaweddingplanners.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Day-Of Coordination",
+        "amount": "$1,100"
+      },
+      {
+        "tier": "Partial Planning",
+        "amount": "$2,800"
+      },
+      {
+        "tier": "Full Planning",
+        "amount": "$5,800"
+      }
+    ]
+  },
+  {
+    "id": "ven_desmoines_planner",
+    "name": "Des Moines Wedding Planners",
+    "cat": "planner",
+    "lat": 41.5868,
+    "lng": -93.625,
+    "area": "Des Moines",
+    "price": 1,
+    "rating": 4.6,
+    "brief": "Iowa capital wedding planning — Gray's Lake waterfront events, Pappajohn Sculpture Park ceremonies, and Iowa State Fair-season countryside estate specialists.",
+    "email": "hello@desmoisnesweddingplanners.com",
+    "phone": "515-555-5010",
+    "web": "https://desmoisnesweddingplanners.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Day-Of Coordination",
+        "amount": "$1,100"
+      },
+      {
+        "tier": "Partial Planning",
+        "amount": "$2,800"
+      },
+      {
+        "tier": "Full Planning",
+        "amount": "$5,800"
+      }
+    ]
+  },
+  {
+    "id": "ven_madison_planner",
+    "name": "Madison Wedding Planners",
+    "cat": "planner",
+    "lat": 43.0731,
+    "lng": -89.4012,
+    "area": "Madison",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "Isthmus city wedding planning — Lake Mendota waterfront estate connections, Memorial Union Terrace events, and Wisconsin countryside vineyard ceremonies.",
+    "email": "hello@madisonweddingplanners.com",
+    "phone": "608-555-5010",
+    "web": "https://madisonweddingplanners.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Day-Of Coordination",
+        "amount": "$1,300"
+      },
+      {
+        "tier": "Partial Planning",
+        "amount": "$3,200"
+      },
+      {
+        "tier": "Full Planning",
+        "amount": "$6,800"
+      }
+    ]
   }
 ]
