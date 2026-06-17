@@ -22349,5 +22349,335 @@
         "amount": "$3,600"
       }
     ]
+  },
+  {
+    "id": "ven_bismarck_venue",
+    "name": "Bismarck Wedding Venues",
+    "cat": "venue",
+    "lat": 46.8083,
+    "lng": -100.7837,
+    "area": "Bismarck",
+    "price": 1,
+    "rating": 4.5,
+    "brief": "North Dakota capital wedding venues — Missouri River valley estates, State Capitol grounds, and Bismarck Event Centre grand celebrations.",
+    "email": "hello@bismarckvenues.com",
+    "phone": "701-555-2010",
+    "web": "https://bismarckvenues.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Half-Day Venue",
+        "amount": "$800"
+      },
+      {
+        "tier": "Full Day Venue",
+        "amount": "$1,600"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$3,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_missoula_venue",
+    "name": "Missoula Wedding Venues",
+    "cat": "venue",
+    "lat": 46.8721,
+    "lng": -113.994,
+    "area": "Missoula",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "Garden City Montana wedding venues — Clark Fork River waterfront, Caras Park amphitheatre, and Rattlesnake Wilderness backdoor adventure ceremonies.",
+    "email": "hello@missoulavenues.com",
+    "phone": "406-555-3010",
+    "web": "https://missoulavenues.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Half-Day Venue",
+        "amount": "$1,200"
+      },
+      {
+        "tier": "Full Day Venue",
+        "amount": "$2,500"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$4,800"
+      }
+    ]
+  },
+  {
+    "id": "ven_missoula_photo",
+    "name": "Missoula Wedding Photography",
+    "cat": "photo",
+    "lat": 46.8721,
+    "lng": -113.994,
+    "area": "Missoula",
+    "price": 2,
+    "rating": 4.9,
+    "brief": "Western Montana wedding photographers — Rattlesnake Wilderness sessions, Flathead Lake blue water, and Glacier Park elopement destinations.",
+    "email": "hello@missoulaweddingphoto.com",
+    "phone": "406-555-3011",
+    "web": "https://missoulaweddingphoto.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "$1,100"
+      },
+      {
+        "tier": "Full Day",
+        "amount": "$2,600"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "$4,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_greatfalls_venue",
+    "name": "Great Falls Wedding Venues",
+    "cat": "venue",
+    "lat": 47.4942,
+    "lng": -111.2833,
+    "area": "Great Falls",
+    "price": 1,
+    "rating": 4.5,
+    "brief": "Electric City wedding venues — Missouri River cascade backdrop, CMR High School landmark events, and Gibson Park summer ceremony spaces.",
+    "email": "hello@greatfallsvenues.com",
+    "phone": "406-555-4010",
+    "web": "https://greatfallsvenues.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Half-Day Venue",
+        "amount": "$800"
+      },
+      {
+        "tier": "Full Day Venue",
+        "amount": "$1,600"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$3,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_casper_venue",
+    "name": "Casper Wedding Venues",
+    "cat": "venue",
+    "lat": 42.8501,
+    "lng": -106.3252,
+    "area": "Casper",
+    "price": 1,
+    "rating": 4.5,
+    "brief": "Oil City wedding venues — North Platte River waterfront, Casper Events Center, and Natrona County countryside ranch estate ceremonies.",
+    "email": "hello@caspervenues.com",
+    "phone": "307-555-2010",
+    "web": "https://caspervenues.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Half-Day Venue",
+        "amount": "$800"
+      },
+      {
+        "tier": "Full Day Venue",
+        "amount": "$1,600"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$3,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_casper_photo",
+    "name": "Casper Wedding Photography",
+    "cat": "photo",
+    "lat": 42.8501,
+    "lng": -106.3252,
+    "area": "Casper",
+    "price": 1,
+    "rating": 4.6,
+    "brief": "Central Wyoming wedding photographers — Casper Mountain panoramas, North Platte River valley light, and Pathfinder Reservoir big sky sessions.",
+    "email": "hello@casperweddingphoto.com",
+    "phone": "307-555-2011",
+    "web": "https://casperweddingphoto.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "$800"
+      },
+      {
+        "tier": "Full Day",
+        "amount": "$1,900"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "$3,200"
+      }
+    ]
+  },
+  {
+    "id": "ven_pueblo_venue",
+    "name": "Pueblo Wedding Venues",
+    "cat": "venue",
+    "lat": 38.2544,
+    "lng": -104.6091,
+    "area": "Pueblo",
+    "price": 1,
+    "rating": 4.5,
+    "brief": "Steel City wedding venues — Riverwalk waterway, Pueblo Convention Center, and Historic Arkansas Riverwalk of Pueblo (HARP) ceremony spaces.",
+    "email": "hello@pueblovenues.com",
+    "phone": "719-555-2010",
+    "web": "https://pueblovenues.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Half-Day Venue",
+        "amount": "$900"
+      },
+      {
+        "tier": "Full Day Venue",
+        "amount": "$1,800"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$3,400"
+      }
+    ]
+  },
+  {
+    "id": "ven_topeka_venue",
+    "name": "Topeka Wedding Venues",
+    "cat": "venue",
+    "lat": 39.0473,
+    "lng": -95.6752,
+    "area": "Topeka",
+    "price": 1,
+    "rating": 4.5,
+    "brief": "Sunflower State capital wedding venues — State Capitol grounds ceremonies, Ward-Meade Historic Park, and Shawnee County lake estate receptions.",
+    "email": "hello@topekavenues.com",
+    "phone": "785-555-1010",
+    "web": "https://topekavenues.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Half-Day Venue",
+        "amount": "$800"
+      },
+      {
+        "tier": "Full Day Venue",
+        "amount": "$1,600"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$3,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_topeka_photo",
+    "name": "Topeka Wedding Photography",
+    "cat": "photo",
+    "lat": 39.0473,
+    "lng": -95.6752,
+    "area": "Topeka",
+    "price": 1,
+    "rating": 4.6,
+    "brief": "Kansas wedding photographers — Kansas River bluff portraits, Topeka Zoo garden sessions, and Flint Hills tallgrass prairie golden hours.",
+    "email": "hello@topekaweddingphoto.com",
+    "phone": "785-555-1011",
+    "web": "https://topekaweddingphoto.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "$750"
+      },
+      {
+        "tier": "Full Day",
+        "amount": "$1,800"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "$3,100"
+      }
+    ]
+  },
+  {
+    "id": "ven_lubbock_venue",
+    "name": "Lubbock Wedding Venues",
+    "cat": "venue",
+    "lat": 33.5779,
+    "lng": -101.8552,
+    "area": "Lubbock",
+    "price": 1,
+    "rating": 4.5,
+    "brief": "Hub City wedding venues — Texas Tech Red Raiders campus grandeur, Buddy Holly Hall of Performing Arts, and South Plains ranch estate ceremonies.",
+    "email": "hello@lubbockvenues.com",
+    "phone": "806-555-1010",
+    "web": "https://lubbockvenues.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Half-Day Venue",
+        "amount": "$900"
+      },
+      {
+        "tier": "Full Day Venue",
+        "amount": "$1,800"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$3,400"
+      }
+    ]
+  },
+  {
+    "id": "ven_lubbock_photo",
+    "name": "Lubbock Wedding Photography",
+    "cat": "photo",
+    "lat": 33.5779,
+    "lng": -101.8552,
+    "area": "Lubbock",
+    "price": 1,
+    "rating": 4.6,
+    "brief": "West Texas wedding photographers — Llano Estacado flat-horizon sunsets, Texas Tech campus sessions, and Buddy Holly Center cultural backdrop.",
+    "email": "hello@lubbockweddingphoto.com",
+    "phone": "806-555-1011",
+    "web": "https://lubbockweddingphoto.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "$780"
+      },
+      {
+        "tier": "Full Day",
+        "amount": "$1,850"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "$3,200"
+      }
+    ]
   }
 ]
