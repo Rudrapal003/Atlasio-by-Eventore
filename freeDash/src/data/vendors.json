@@ -24959,5 +24959,335 @@
         "amount": "$6,500"
       }
     ]
+  },
+  {
+    "id": "ven_seattle_video",
+    "name": "Seattle Wedding Videography",
+    "cat": "video",
+    "lat": 47.6062,
+    "lng": -122.3321,
+    "area": "Seattle",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "PNW cinematic wedding films — Mount Rainier aerial drone magic, Puget Sound ferry scenes, and Cascade Mountain elopement storytelling.",
+    "email": "hello@seattleweddingvideo.com",
+    "phone": "206-555-5013",
+    "web": "https://seattleweddingvideo.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Ceremony Coverage",
+        "amount": "$1,800"
+      },
+      {
+        "tier": "Full Day Film",
+        "amount": "$3,500"
+      },
+      {
+        "tier": "Full Day + Highlight",
+        "amount": "$5,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_denver_video",
+    "name": "Denver Wedding Videography",
+    "cat": "video",
+    "lat": 39.7392,
+    "lng": -104.9903,
+    "area": "Denver",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "Colorado cinematic wedding films — Rocky Mountain aerial drone footage, Red Rocks amphitheatre dramatic backdrops, and Maroon Bells elopements.",
+    "email": "hello@denverweddingvideo.com",
+    "phone": "720-555-5013",
+    "web": "https://denverweddingvideo.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Ceremony Coverage",
+        "amount": "$1,700"
+      },
+      {
+        "tier": "Full Day Film",
+        "amount": "$3,400"
+      },
+      {
+        "tier": "Full Day + Highlight",
+        "amount": "$5,200"
+      }
+    ]
+  },
+  {
+    "id": "ven_phoenix_video",
+    "name": "Phoenix Wedding Videography",
+    "cat": "video",
+    "lat": 33.4484,
+    "lng": -112.074,
+    "area": "Phoenix",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "Arizona desert cinematic films — Sonoran sunset aerial drone footage, Saguaro cactus silhouette timelapses, and McDowell Mountain magic.",
+    "email": "hello@phoenixweddingvideo.com",
+    "phone": "480-555-5013",
+    "web": "https://phoenixweddingvideo.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Ceremony Coverage",
+        "amount": "$1,500"
+      },
+      {
+        "tier": "Full Day Film",
+        "amount": "$3,000"
+      },
+      {
+        "tier": "Full Day + Highlight",
+        "amount": "$4,800"
+      }
+    ]
+  },
+  {
+    "id": "ven_nashville_video",
+    "name": "Nashville Wedding Videography",
+    "cat": "video",
+    "lat": 36.1627,
+    "lng": -86.7816,
+    "area": "Nashville",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "Music City cinematic wedding films — neon Honky Tonk broadway glow, Belle Meade estate films, and Tennessee countryside storytelling.",
+    "email": "hello@nashvilleweddingvideo.com",
+    "phone": "615-555-5013",
+    "web": "https://nashvilleweddingvideo.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Ceremony Coverage",
+        "amount": "$1,600"
+      },
+      {
+        "tier": "Full Day Film",
+        "amount": "$3,200"
+      },
+      {
+        "tier": "Full Day + Highlight",
+        "amount": "$5,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_austin_video",
+    "name": "Austin Wedding Videography",
+    "cat": "video",
+    "lat": 30.2672,
+    "lng": -97.7431,
+    "area": "Austin",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "Keep Austin Weird wedding films — Barton Creek swimming hole romance, Texas Hill Country golden hour, and downtown mural cinematic backdrops.",
+    "email": "hello@austinweddingvideo.com",
+    "phone": "512-555-5013",
+    "web": "https://austinweddingvideo.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Ceremony Coverage",
+        "amount": "$1,600"
+      },
+      {
+        "tier": "Full Day Film",
+        "amount": "$3,200"
+      },
+      {
+        "tier": "Full Day + Highlight",
+        "amount": "$5,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_portland_video",
+    "name": "Portland Wedding Videography",
+    "cat": "video",
+    "lat": 45.5231,
+    "lng": -122.6765,
+    "area": "Portland",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "PDX cinematic wedding storytelling — Columbia River Gorge waterfall sequences, Crater Lake elopements, and Portland Rose Garden romance.",
+    "email": "hello@portlandweddingvideo.com",
+    "phone": "503-555-5014",
+    "web": "https://portlandweddingvideo.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Ceremony Coverage",
+        "amount": "$1,500"
+      },
+      {
+        "tier": "Full Day Film",
+        "amount": "$3,000"
+      },
+      {
+        "tier": "Full Day + Highlight",
+        "amount": "$4,800"
+      }
+    ]
+  },
+  {
+    "id": "ven_sandiego_video",
+    "name": "San Diego Wedding Videography",
+    "cat": "video",
+    "lat": 32.7157,
+    "lng": -117.1611,
+    "area": "San Diego",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "SoCal cinematic films — Coronado Island aerial footage, Del Mar cliffside drama, and Balboa Park botanical romance sequences.",
+    "email": "hello@sandiegoweddingvideo.com",
+    "phone": "619-555-5013",
+    "web": "https://sandiegoweddingvideo.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Ceremony Coverage",
+        "amount": "$1,600"
+      },
+      {
+        "tier": "Full Day Film",
+        "amount": "$3,200"
+      },
+      {
+        "tier": "Full Day + Highlight",
+        "amount": "$5,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_lasvegas_video",
+    "name": "Las Vegas Wedding Videography",
+    "cat": "video",
+    "lat": 36.1699,
+    "lng": -115.1398,
+    "area": "Las Vegas",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "Vegas cinematic wedding films — neon Strip aerial drone footage, Red Rock Canyon sunrise elopements, and Lake Mead golden-hour films.",
+    "email": "hello@lasvegasweddingvideo.com",
+    "phone": "702-555-5013",
+    "web": "https://lasvegasweddingvideo.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Ceremony Coverage",
+        "amount": "$1,400"
+      },
+      {
+        "tier": "Full Day Film",
+        "amount": "$2,800"
+      },
+      {
+        "tier": "Full Day + Highlight",
+        "amount": "$4,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_vancouver_video",
+    "name": "Vancouver Wedding Videography",
+    "cat": "video",
+    "lat": 49.2827,
+    "lng": -123.1207,
+    "area": "Vancouver",
+    "price": 3,
+    "rating": 4.8,
+    "brief": "Metro Vancouver cinematic wedding storytelling — North Shore mountain aerials, Gastown cobblestone charm, and Stanley Park forest romance films.",
+    "email": "hello@vancouverweddingvideo.com",
+    "phone": "604-555-5014",
+    "web": "https://vancouverweddingvideo.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Ceremony Coverage",
+        "amount": "$2,000"
+      },
+      {
+        "tier": "Full Day Film",
+        "amount": "$4,000"
+      },
+      {
+        "tier": "Full Day + Highlight",
+        "amount": "$6,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_toronto_video",
+    "name": "Toronto Wedding Videography",
+    "cat": "video",
+    "lat": 43.6532,
+    "lng": -79.3832,
+    "area": "Toronto",
+    "price": 3,
+    "rating": 4.8,
+    "brief": "Canada's largest city cinematic storytelling — CN Tower skyline aerials, Niagara Falls elopements, and Muskoka cottage country love films.",
+    "email": "hello@torontoweddingvideo.com",
+    "phone": "416-555-5014",
+    "web": "https://torontoweddingvideo.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Ceremony Coverage",
+        "amount": "$2,000"
+      },
+      {
+        "tier": "Full Day Film",
+        "amount": "$4,000"
+      },
+      {
+        "tier": "Full Day + Highlight",
+        "amount": "$6,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_montreal_video",
+    "name": "Montréal Wedding Videography",
+    "cat": "video",
+    "lat": 45.5017,
+    "lng": -73.5673,
+    "area": "Montréal",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "Québec cinematic storytelling — Old Montreal stone arch aerials, Mount Royal winter wonderland elopements, and Jean-Talon Market romance.",
+    "email": "hello@montrealweddingvideo.com",
+    "phone": "514-555-5016",
+    "web": "https://montrealweddingvideo.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Ceremony Coverage",
+        "amount": "$1,800"
+      },
+      {
+        "tier": "Full Day Film",
+        "amount": "$3,600"
+      },
+      {
+        "tier": "Full Day + Highlight",
+        "amount": "$5,800"
+      }
+    ]
   }
 ]
