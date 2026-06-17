@@ -21659,5 +21659,365 @@
         "amount": "$3,200"
       }
     ]
+  },
+  {
+    "id": "ven_peoria_venue",
+    "name": "Peoria Wedding Venues",
+    "cat": "venue",
+    "lat": 40.6936,
+    "lng": -89.589,
+    "area": "Peoria",
+    "price": 1,
+    "rating": 4.5,
+    "brief": "Heart of Illinois wedding venues — Illinois River waterfront, Peoria Riverfront Museum grounds, and Grandview Drive estate properties.",
+    "email": "hello@peoriavenues.com",
+    "phone": "309-555-1010",
+    "web": "https://peoriavenues.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Half-Day Venue",
+        "amount": "$900"
+      },
+      {
+        "tier": "Full Day Venue",
+        "amount": "$1,800"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$3,400"
+      }
+    ]
+  },
+  {
+    "id": "ven_rockford_venue",
+    "name": "Rockford Wedding Venues",
+    "cat": "venue",
+    "lat": 42.2711,
+    "lng": -89.094,
+    "area": "Rockford",
+    "price": 1,
+    "rating": 4.5,
+    "brief": "Forest City wedding venues — Anderson Japanese Gardens serenity, Rock River waterfront, and Coronado Performing Arts Center grandeur.",
+    "email": "hello@rockfordvenues.com",
+    "phone": "815-555-1010",
+    "web": "https://rockfordvenues.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Half-Day Venue",
+        "amount": "$900"
+      },
+      {
+        "tier": "Full Day Venue",
+        "amount": "$1,800"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$3,400"
+      }
+    ]
+  },
+  {
+    "id": "ven_springfieldil_venue",
+    "name": "Springfield IL Wedding Venues",
+    "cat": "venue",
+    "lat": 39.7817,
+    "lng": -89.6501,
+    "area": "Springfield IL",
+    "price": 1,
+    "rating": 4.6,
+    "brief": "Land of Lincoln wedding venues — Lincoln Presidential Library-adjacent spaces, Governor's Mansion proximity estates, and Oak Ridge Cemetery ceremony grounds.",
+    "email": "hello@springfieldilevenues.com",
+    "phone": "217-555-1010",
+    "web": "https://springfieldilevenues.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Half-Day Venue",
+        "amount": "$900"
+      },
+      {
+        "tier": "Full Day Venue",
+        "amount": "$1,800"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$3,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_springfieldil_photo",
+    "name": "Springfield IL Wedding Photography",
+    "cat": "photo",
+    "lat": 39.7817,
+    "lng": -89.6501,
+    "area": "Springfield IL",
+    "price": 1,
+    "rating": 4.6,
+    "brief": "Central Illinois wedding photographers — Lincoln Memorial Garden nature, Sangamon River valley light, and Illinois State Fairgrounds charm.",
+    "email": "hello@springfieldilweddingphoto.com",
+    "phone": "217-555-1011",
+    "web": "https://springfieldilweddingphoto.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "$750"
+      },
+      {
+        "tier": "Full Day",
+        "amount": "$1,800"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "$3,100"
+      }
+    ]
+  },
+  {
+    "id": "ven_fortwayne_venue",
+    "name": "Fort Wayne Wedding Venues",
+    "cat": "venue",
+    "lat": 41.0793,
+    "lng": -85.1394,
+    "area": "Fort Wayne",
+    "price": 1,
+    "rating": 4.6,
+    "brief": "Summit City wedding venues — Parkview Field elegance, Headwaters Park amphitheatre, and Foellinger-Freimann Botanical Conservatory ceremonies.",
+    "email": "hello@fortwaynevenues.com",
+    "phone": "260-555-1010",
+    "web": "https://fortwaynevenues.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Half-Day Venue",
+        "amount": "$900"
+      },
+      {
+        "tier": "Full Day Venue",
+        "amount": "$1,800"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$3,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_fortwayne_photo",
+    "name": "Fort Wayne Wedding Photography",
+    "cat": "photo",
+    "lat": 41.0793,
+    "lng": -85.1394,
+    "area": "Fort Wayne",
+    "price": 1,
+    "rating": 4.6,
+    "brief": "Northern Indiana wedding photographers — Botanical Conservatory blooms, Promenade Park riverfront, and Indiana lakeside golden hours.",
+    "email": "hello@fortwaynesweddingphoto.com",
+    "phone": "260-555-1011",
+    "web": "https://fortwaynesweddingphoto.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "$780"
+      },
+      {
+        "tier": "Full Day",
+        "amount": "$1,850"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "$3,200"
+      }
+    ]
+  },
+  {
+    "id": "ven_akron_venue",
+    "name": "Akron Wedding Venues",
+    "cat": "venue",
+    "lat": 41.0814,
+    "lng": -81.519,
+    "area": "Akron",
+    "price": 1,
+    "rating": 4.6,
+    "brief": "Rubber City reinvented — Inventure Place on-site events, Summit County countryside estates, and Cuyahoga Valley National Park proximity.",
+    "email": "hello@akronvenues.com",
+    "phone": "330-555-1010",
+    "web": "https://akronvenues.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Half-Day Venue",
+        "amount": "$1,000"
+      },
+      {
+        "tier": "Full Day Venue",
+        "amount": "$2,000"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$3,800"
+      }
+    ]
+  },
+  {
+    "id": "ven_toledo_venue",
+    "name": "Toledo Wedding Venues",
+    "cat": "venue",
+    "lat": 41.6528,
+    "lng": -83.5379,
+    "area": "Toledo",
+    "price": 1,
+    "rating": 4.5,
+    "brief": "Glass City wedding venues — Toledo Museum of Art elegance, Maumee River waterfront, and Olander Park estate ceremonies.",
+    "email": "hello@toledovenues.com",
+    "phone": "419-555-1010",
+    "web": "https://toledovenues.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Half-Day Venue",
+        "amount": "$900"
+      },
+      {
+        "tier": "Full Day Venue",
+        "amount": "$1,800"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$3,400"
+      }
+    ]
+  },
+  {
+    "id": "ven_toledo_photo",
+    "name": "Toledo Wedding Photography",
+    "cat": "photo",
+    "lat": 41.6528,
+    "lng": -83.5379,
+    "area": "Toledo",
+    "price": 1,
+    "rating": 4.6,
+    "brief": "Northwest Ohio wedding photographers — Toledo Museum of Art backdrop, Maumee River reflections, and Lake Erie marina sunset magic.",
+    "email": "hello@toledoweddingphoto.com",
+    "phone": "419-555-1011",
+    "web": "https://toledoweddingphoto.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "$780"
+      },
+      {
+        "tier": "Full Day",
+        "amount": "$1,850"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "$3,200"
+      }
+    ]
+  },
+  {
+    "id": "ven_dayton_venue",
+    "name": "Dayton Wedding Venues",
+    "cat": "venue",
+    "lat": 39.7589,
+    "lng": -84.1916,
+    "area": "Dayton",
+    "price": 1,
+    "rating": 4.6,
+    "brief": "Birthplace of Aviation wedding venues — National Museum of the Air Force grandeur, Oregon Historic District lofts, and Five Rivers MetroParks ceremonies.",
+    "email": "hello@daytonvenues.com",
+    "phone": "937-555-1010",
+    "web": "https://daytonvenues.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Half-Day Venue",
+        "amount": "$1,000"
+      },
+      {
+        "tier": "Full Day Venue",
+        "amount": "$2,000"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$3,800"
+      }
+    ]
+  },
+  {
+    "id": "ven_dayton_photo",
+    "name": "Dayton Wedding Photography",
+    "cat": "photo",
+    "lat": 39.7589,
+    "lng": -84.1916,
+    "area": "Dayton",
+    "price": 1,
+    "rating": 4.6,
+    "brief": "Southwest Ohio wedding photographers — Five Rivers scenic trails, Carillon Historical Park charm, and Dayton Art Institute grandeur.",
+    "email": "hello@daytonweddingphoto.com",
+    "phone": "937-555-1011",
+    "web": "https://daytonweddingphoto.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "$780"
+      },
+      {
+        "tier": "Full Day",
+        "amount": "$1,850"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "$3,200"
+      }
+    ]
+  },
+  {
+    "id": "ven_dayton_catering",
+    "name": "Dayton Wedding Catering",
+    "cat": "catering",
+    "lat": 39.7589,
+    "lng": -84.1916,
+    "area": "Dayton",
+    "price": 1,
+    "rating": 4.6,
+    "brief": "Miami Valley wedding catering — Ohio farm-fresh ingredients, seasonal tasting menus, and full banquet service for Dayton celebrations.",
+    "email": "hello@daytoncatering.com",
+    "phone": "937-555-1012",
+    "web": "https://daytoncatering.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Buffet (50 guests)",
+        "amount": "$2,300"
+      },
+      {
+        "tier": "Plated Dinner (100 guests)",
+        "amount": "$5,600"
+      },
+      {
+        "tier": "Full Service (150 guests)",
+        "amount": "$10,600"
+      }
+    ]
   }
 ]
