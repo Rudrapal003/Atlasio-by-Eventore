@@ -6869,5 +6869,455 @@
         "amount": "$7,500"
       }
     ]
+  },
+  {
+    "id": "ven_brennans_new_orleans",
+    "name": "Brennan's Garden Events",
+    "cat": "venue",
+    "lat": 29.9574,
+    "lng": -90.0654,
+    "area": "New Orleans",
+    "price": 3,
+    "rating": 4.9,
+    "brief": "A legendary French Quarter courtyard venue dripping with Southern romance — wrought iron, magnolias, and Creole grandeur.",
+    "email": "events@brennansno.com",
+    "phone": "504-555-1001",
+    "web": "https://brennansno.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Ceremony Only",
+        "amount": "$3,200"
+      },
+      {
+        "tier": "Full Day Rental",
+        "amount": "$7,000"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$12,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_nola_wedding_photo",
+    "name": "NOLA Wedding Photography",
+    "cat": "photo",
+    "lat": 29.9511,
+    "lng": -90.0715,
+    "area": "New Orleans",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "New Orleans wedding photographers celebrating the city's jazz-fuelled magic — second lines, Bourbon Street, and bayou sunsets.",
+    "email": "hello@nolaweddingphoto.com",
+    "phone": "504-555-1002",
+    "web": "https://nolaweddingphoto.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "$950"
+      },
+      {
+        "tier": "Full Day Coverage",
+        "amount": "$2,300"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "$4,600"
+      }
+    ]
+  },
+  {
+    "id": "ven_creole_catering_nola",
+    "name": "Creole Catering Co.",
+    "cat": "catering",
+    "lat": 29.9499,
+    "lng": -90.0701,
+    "area": "New Orleans",
+    "price": 2,
+    "rating": 4.9,
+    "brief": "Authentic Louisiana cooking for weddings — jambalaya, crawfish étouffée, and beignet stations that keep guests coming back.",
+    "email": "info@creolecatering.com",
+    "phone": "504-555-1003",
+    "web": "https://creolecatering.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Buffet for 50",
+        "amount": "$1,700"
+      },
+      {
+        "tier": "Plated Dinner 100",
+        "amount": "$4,200"
+      },
+      {
+        "tier": "Full-Service Gala",
+        "amount": "$8,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_national_portrait_gallery_dc",
+    "name": "National Portrait Gallery Events",
+    "cat": "venue",
+    "lat": 38.8979,
+    "lng": -77.0231,
+    "area": "Washington DC",
+    "price": 4,
+    "rating": 4.9,
+    "brief": "America's most prestigious event venue — neoclassical grandeur, historic galleries, and a stunning glass-roofed courtyard.",
+    "email": "events@npgevents.com",
+    "phone": "202-555-2001",
+    "web": "https://npgevents.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Ceremony Only",
+        "amount": "$6,000"
+      },
+      {
+        "tier": "Full Day Rental",
+        "amount": "$13,000"
+      },
+      {
+        "tier": "Exclusive Evening",
+        "amount": "$22,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_dc_wedding_films",
+    "name": "DC Wedding Films",
+    "cat": "video",
+    "lat": 38.9072,
+    "lng": -77.0369,
+    "area": "Washington DC",
+    "price": 3,
+    "rating": 4.8,
+    "brief": "Washington DC wedding cinematographers featuring iconic monuments, cherry blossoms, and the Potomac at golden hour.",
+    "email": "hello@dcweddingfilms.com",
+    "phone": "202-555-2002",
+    "web": "https://dcweddingfilms.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Highlight Reel",
+        "amount": "$1,800"
+      },
+      {
+        "tier": "Full Day + Edit",
+        "amount": "$4,500"
+      },
+      {
+        "tier": "Cinematic Feature",
+        "amount": "$8,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_dc_planner_group",
+    "name": "DC Planner Group",
+    "cat": "planner",
+    "lat": 38.9101,
+    "lng": -77.0147,
+    "area": "Washington DC",
+    "price": 3,
+    "rating": 4.9,
+    "brief": "Washington DC's premier wedding planning firm — from intimate Georgetown townhouse soirées to grand Capitol Hill receptions.",
+    "email": "hello@dcplannergroup.com",
+    "phone": "202-555-2003",
+    "web": "https://dcplannergroup.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Day-Of Coordination",
+        "amount": "$2,200"
+      },
+      {
+        "tier": "Partial Planning",
+        "amount": "$5,500"
+      },
+      {
+        "tier": "Full Planning",
+        "amount": "$11,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_cescaphe_philly_events",
+    "name": "Cescaphe Philadelphia",
+    "cat": "venue",
+    "lat": 39.9526,
+    "lng": -75.1652,
+    "area": "Philadelphia",
+    "price": 3,
+    "rating": 4.9,
+    "brief": "Philadelphia's most beloved wedding venue group — historic mansions, waterfront lofts, and rooftop terraces across the city.",
+    "email": "events@cescaphe.com",
+    "phone": "215-555-3001",
+    "web": "https://cescaphe.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Ceremony Only",
+        "amount": "$3,000"
+      },
+      {
+        "tier": "Full Day Rental",
+        "amount": "$6,500"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$11,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_philly_wedding_photo",
+    "name": "Philadelphia Wedding Photo",
+    "cat": "photo",
+    "lat": 39.949,
+    "lng": -75.1503,
+    "area": "Philadelphia",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "Philly wedding photographers capturing cobblestone charm, LOVE Park romance, and the city's incredible mosaic street art.",
+    "email": "hello@phillyweddingphoto.com",
+    "phone": "215-555-3002",
+    "web": "https://phillyweddingphoto.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "$950"
+      },
+      {
+        "tier": "Full Day Coverage",
+        "amount": "$2,300"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "$4,600"
+      }
+    ]
+  },
+  {
+    "id": "ven_liberty_catering_philly",
+    "name": "Liberty Catering Co.",
+    "cat": "catering",
+    "lat": 39.9526,
+    "lng": -75.158,
+    "area": "Philadelphia",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "Philly catering with local pride — cheesesteak stations, pretzel bars, and elevated New American menus for city celebrations.",
+    "email": "info@libertycatering.com",
+    "phone": "215-555-3003",
+    "web": "https://libertycatering.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Buffet for 50",
+        "amount": "$1,600"
+      },
+      {
+        "tier": "Plated Dinner 100",
+        "amount": "$4,000"
+      },
+      {
+        "tier": "Full-Service Gala",
+        "amount": "$8,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_la_cantera_resort_events",
+    "name": "La Cantera Resort Events",
+    "cat": "venue",
+    "lat": 29.6006,
+    "lng": -98.6143,
+    "area": "San Antonio",
+    "price": 3,
+    "rating": 4.8,
+    "brief": "A luxurious Hill Country resort overlooking San Antonio — outdoor terraces, lush grounds, and stunning Texas sunset ceremonies.",
+    "email": "events@lacanteraresort.com",
+    "phone": "210-555-4001",
+    "web": "https://lacanteraresort.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Ceremony Only",
+        "amount": "$2,800"
+      },
+      {
+        "tier": "Full Day Rental",
+        "amount": "$6,200"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$11,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_san_antonio_wedding_photo",
+    "name": "San Antonio Wedding Photo",
+    "cat": "photo",
+    "lat": 29.4241,
+    "lng": -98.4936,
+    "area": "San Antonio",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "Texas wedding photographers capturing the romance of the River Walk, Spanish missions, and Hill Country wildflower fields.",
+    "email": "hello@sanantonioweddingphoto.com",
+    "phone": "210-555-4002",
+    "web": "https://sanantonioweddingphoto.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "$850"
+      },
+      {
+        "tier": "Full Day Coverage",
+        "amount": "$2,100"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "$4,200"
+      }
+    ]
+  },
+  {
+    "id": "ven_vizcaino_estate_sacramento",
+    "name": "Vizcaino Estate Sacramento",
+    "cat": "venue",
+    "lat": 38.5816,
+    "lng": -121.4944,
+    "area": "Sacramento",
+    "price": 3,
+    "rating": 4.8,
+    "brief": "A stunning Gold Rush-era estate in the heart of California's capital — vine-draped courtyard and grand ballroom for up to 300.",
+    "email": "events@vizcainoestate.com",
+    "phone": "916-555-5001",
+    "web": "https://vizcainoestate.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Ceremony Only",
+        "amount": "$2,500"
+      },
+      {
+        "tier": "Full Day Rental",
+        "amount": "$5,500"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$9,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_farm_table_catering_sac",
+    "name": "Farm Table Catering Sacramento",
+    "cat": "catering",
+    "lat": 38.578,
+    "lng": -121.492,
+    "area": "Sacramento",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "California's farm-to-fork capital delivers — Sacramento wedding catering sourced directly from Central Valley farms daily.",
+    "email": "info@farmtablecatering.com",
+    "phone": "916-555-5002",
+    "web": "https://farmtablecatering.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Buffet for 50",
+        "amount": "$1,800"
+      },
+      {
+        "tier": "Plated Dinner 100",
+        "amount": "$4,500"
+      },
+      {
+        "tier": "Full-Service Gala",
+        "amount": "$9,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_sacramento_wedding_films",
+    "name": "Sacramento Wedding Films",
+    "cat": "video",
+    "lat": 38.5758,
+    "lng": -121.4789,
+    "area": "Sacramento",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "NorCal wedding cinematographers — vineyard ceremonies, Sacramento Delta sunsets, and downtown loft receptions captured beautifully.",
+    "email": "hello@sacramentoweddingfilms.com",
+    "phone": "916-555-5003",
+    "web": "https://sacramentoweddingfilms.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Highlight Reel",
+        "amount": "$1,100"
+      },
+      {
+        "tier": "Full Day + Edit",
+        "amount": "$2,800"
+      },
+      {
+        "tier": "Cinematic + Drone",
+        "amount": "$5,200"
+      }
+    ]
+  },
+  {
+    "id": "ven_sacramento_bloom_florals",
+    "name": "Sacramento Bloom Florals",
+    "cat": "florist",
+    "lat": 38.5822,
+    "lng": -121.5005,
+    "area": "Sacramento",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "Farm-fresh wedding florals grown in the Sacramento Valley — seasonal garden arrangements at unbeatable California prices.",
+    "email": "hello@sacramentobloom.com",
+    "phone": "916-555-5004",
+    "web": "https://sacramentobloom.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Bridal Bouquet Set",
+        "amount": "$420"
+      },
+      {
+        "tier": "Ceremony Flowers",
+        "amount": "$980"
+      },
+      {
+        "tier": "Full Floral Design",
+        "amount": "$2,100"
+      }
+    ]
   }
 ]
