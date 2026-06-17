@@ -18419,5 +18419,395 @@
         "amount": "$4,800"
       }
     ]
+  },
+  {
+    "id": "ven_fargo_venue",
+    "name": "Fargo Wedding Venues",
+    "cat": "venue",
+    "lat": 46.8772,
+    "lng": -96.7898,
+    "area": "Fargo",
+    "price": 1,
+    "rating": 4.6,
+    "brief": "North Dakota's largest city wedding venues — Red River Valley estates, Broadway district boutique lofts, and Fargodome grand events.",
+    "email": "hello@fargovenues.com",
+    "phone": "701-555-1010",
+    "web": "https://fargovenues.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Half-Day Venue",
+        "amount": "$900"
+      },
+      {
+        "tier": "Full Day Venue",
+        "amount": "$1,800"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$3,400"
+      }
+    ]
+  },
+  {
+    "id": "ven_fargo_photo",
+    "name": "Fargo Wedding Photography",
+    "cat": "photo",
+    "lat": 46.8772,
+    "lng": -96.7898,
+    "area": "Fargo",
+    "price": 1,
+    "rating": 4.7,
+    "brief": "North Dakota wedding photographers — Red River wide open prairie light, sunflower field portraits, and Fargo downtown chic.",
+    "email": "hello@fargoweddingphoto.com",
+    "phone": "701-555-1011",
+    "web": "https://fargoweddingphoto.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "$750"
+      },
+      {
+        "tier": "Full Day",
+        "amount": "$1,800"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "$3,100"
+      }
+    ]
+  },
+  {
+    "id": "ven_siouxfalls_venue",
+    "name": "Sioux Falls Wedding Venues",
+    "cat": "venue",
+    "lat": 43.5446,
+    "lng": -96.7311,
+    "area": "Sioux Falls",
+    "price": 1,
+    "rating": 4.6,
+    "brief": "Falls Park wedding venues — cascading Big Sioux River waterfall backdrop ceremonies, downtown sculpture walk, and South Dakota prairie estates.",
+    "email": "hello@siouxfallsvenues.com",
+    "phone": "605-555-1010",
+    "web": "https://siouxfallsvenues.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Half-Day Venue",
+        "amount": "$900"
+      },
+      {
+        "tier": "Full Day Venue",
+        "amount": "$1,800"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$3,400"
+      }
+    ]
+  },
+  {
+    "id": "ven_siouxfalls_photo",
+    "name": "Sioux Falls Wedding Photography",
+    "cat": "photo",
+    "lat": 43.5446,
+    "lng": -96.7311,
+    "area": "Sioux Falls",
+    "price": 1,
+    "rating": 4.7,
+    "brief": "South Dakota wedding photographers — Falls Park waterfall drama, Great Plains wheat field sunsets, and downtown sculpture walk charm.",
+    "email": "hello@siouxfallsweddingphoto.com",
+    "phone": "605-555-1011",
+    "web": "https://siouxfallsweddingphoto.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "$750"
+      },
+      {
+        "tier": "Full Day",
+        "amount": "$1,800"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "$3,100"
+      }
+    ]
+  },
+  {
+    "id": "ven_billings_venue",
+    "name": "Billings Wedding Venues",
+    "cat": "venue",
+    "lat": 45.7833,
+    "lng": -108.5007,
+    "area": "Billings",
+    "price": 1,
+    "rating": 4.6,
+    "brief": "Montana's biggest city wedding venues — Rimrocks cliff formations, downtown Billings Depot, and Yellowstone River valley ranches.",
+    "email": "hello@billingsvenues.com",
+    "phone": "406-555-1010",
+    "web": "https://billingsvenues.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Half-Day Venue",
+        "amount": "$900"
+      },
+      {
+        "tier": "Full Day Venue",
+        "amount": "$1,800"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$3,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_billings_photo",
+    "name": "Billings Wedding Photography",
+    "cat": "photo",
+    "lat": 45.7833,
+    "lng": -108.5007,
+    "area": "Billings",
+    "price": 1,
+    "rating": 4.8,
+    "brief": "Montana wedding photographers — Rimrocks dramatic light, Beartooth Highway alpine sessions, and Big Sky country golden horizons.",
+    "email": "hello@billingsweddingphoto.com",
+    "phone": "406-555-1011",
+    "web": "https://billingsweddingphoto.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "$850"
+      },
+      {
+        "tier": "Full Day",
+        "amount": "$2,000"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "$3,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_bozeman_venue",
+    "name": "Bozeman Wedding Venues",
+    "cat": "venue",
+    "lat": 45.677,
+    "lng": -111.0429,
+    "area": "Bozeman",
+    "price": 2,
+    "rating": 4.9,
+    "brief": "Gallatin Valley wedding venues — Bridger Mountains, Montana State University grandeur, and Yellowstone gateway luxury ranch estates.",
+    "email": "hello@bozemanvenues.com",
+    "phone": "406-555-2010",
+    "web": "https://bozemanvenues.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Half-Day Venue",
+        "amount": "$1,600"
+      },
+      {
+        "tier": "Full Day Venue",
+        "amount": "$3,200"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$6,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_bozeman_photo",
+    "name": "Bozeman Wedding Photography",
+    "cat": "photo",
+    "lat": 45.677,
+    "lng": -111.0429,
+    "area": "Bozeman",
+    "price": 2,
+    "rating": 4.9,
+    "brief": "Montana's finest wedding photographers — Gallatin River canyon sessions, Bridger Bowl mountain magic, and Big Sky country sunsets.",
+    "email": "hello@bozemanweddingphoto.com",
+    "phone": "406-555-2011",
+    "web": "https://bozemanweddingphoto.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "$1,200"
+      },
+      {
+        "tier": "Full Day",
+        "amount": "$2,800"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "$5,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_cheyenne_venue",
+    "name": "Cheyenne Wedding Venues",
+    "cat": "venue",
+    "lat": 41.14,
+    "lng": -104.8202,
+    "area": "Cheyenne",
+    "price": 1,
+    "rating": 4.6,
+    "brief": "Magic City of the Plains wedding venues — Frontier Days Rodeo grounds, historic Train Depot, and Wyoming high-plains ranch estates.",
+    "email": "hello@cheyennevenues.com",
+    "phone": "307-555-1010",
+    "web": "https://cheyennevenues.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Half-Day Venue",
+        "amount": "$900"
+      },
+      {
+        "tier": "Full Day Venue",
+        "amount": "$1,800"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$3,400"
+      }
+    ]
+  },
+  {
+    "id": "ven_cheyenne_photo",
+    "name": "Cheyenne Wedding Photography",
+    "cat": "photo",
+    "lat": 41.14,
+    "lng": -104.8202,
+    "area": "Cheyenne",
+    "price": 1,
+    "rating": 4.7,
+    "brief": "Wyoming wedding photographers — Laramie Mountains drama, high-plains golden light, and Cheyenne Frontier Days western atmosphere.",
+    "email": "hello@cheyenneweddingphoto.com",
+    "phone": "307-555-1011",
+    "web": "https://cheyenneweddingphoto.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "$800"
+      },
+      {
+        "tier": "Full Day",
+        "amount": "$1,900"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "$3,300"
+      }
+    ]
+  },
+  {
+    "id": "ven_fortcollins_venue",
+    "name": "Fort Collins Wedding Venues",
+    "cat": "venue",
+    "lat": 40.5853,
+    "lng": -105.0844,
+    "area": "Fort Collins",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "Choice City wedding venues — Rocky Mountain foothills backdrop, Old Town Fort Collins charm, and Horsetooth Reservoir waterfront estates.",
+    "email": "hello@fortcollinsvenues.com",
+    "phone": "970-555-1010",
+    "web": "https://fortcollinsvenues.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Half-Day Venue",
+        "amount": "$1,400"
+      },
+      {
+        "tier": "Full Day Venue",
+        "amount": "$2,800"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$5,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_fortcollins_photo",
+    "name": "Fort Collins Wedding Photography",
+    "cat": "photo",
+    "lat": 40.5853,
+    "lng": -105.0844,
+    "area": "Fort Collins",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "Northern Colorado wedding photographers — Horsetooth Rock sessions, Cache la Poudre River romance, and foothills sunset magic.",
+    "email": "hello@fortcollinsweddingphoto.com",
+    "phone": "970-555-1011",
+    "web": "https://fortcollinsweddingphoto.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "$1,050"
+      },
+      {
+        "tier": "Full Day",
+        "amount": "$2,500"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "$4,200"
+      }
+    ]
+  },
+  {
+    "id": "ven_coloradosprings_venue",
+    "name": "Colorado Springs Wedding Venues",
+    "cat": "venue",
+    "lat": 38.8339,
+    "lng": -104.8214,
+    "area": "Colorado Springs",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "Pikes Peak Paradise — Garden of the Gods ceremony backdrops, Broadmoor Hotel luxury, and Cheyenne Mountain resort weddings.",
+    "email": "hello@coloradospringsvenues.com",
+    "phone": "719-555-1010",
+    "web": "https://coloradospringsvenues.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Half-Day Venue",
+        "amount": "$1,500"
+      },
+      {
+        "tier": "Full Day Venue",
+        "amount": "$3,000"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$6,000"
+      }
+    ]
   }
 ]
