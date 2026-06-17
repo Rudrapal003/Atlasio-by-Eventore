@@ -23969,5 +23969,335 @@
         "amount": "$5,500"
       }
     ]
+  },
+  {
+    "id": "ven_boston_attire",
+    "name": "Boston Bridal Attire",
+    "cat": "attire",
+    "lat": 42.3601,
+    "lng": -71.0589,
+    "area": "Boston",
+    "price": 3,
+    "rating": 4.8,
+    "brief": "Newbury Street's finest bridal boutique — European couture, New England heritage elegance, and modern minimalism for Boston's sophisticated brides.",
+    "email": "hello@bostonbridalattire.com",
+    "phone": "617-555-5013",
+    "web": "https://bostonbridalattire.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Sample Sale",
+        "amount": "$950"
+      },
+      {
+        "tier": "Designer Collection",
+        "amount": "$2,800"
+      },
+      {
+        "tier": "Custom Order",
+        "amount": "$6,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_sf_attire",
+    "name": "SF Bridal Attire",
+    "cat": "attire",
+    "lat": 37.7749,
+    "lng": -122.4194,
+    "area": "San Francisco",
+    "price": 3,
+    "rating": 4.8,
+    "brief": "Hayes Valley boutique — sustainable designers, LGBTQ+ inclusive collections, and avant-garde gowns for San Francisco's progressive brides.",
+    "email": "hello@sfbridalattire.com",
+    "phone": "415-555-5014",
+    "web": "https://sfbridalattire.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Sample Sale",
+        "amount": "$1,000"
+      },
+      {
+        "tier": "Designer Collection",
+        "amount": "$3,000"
+      },
+      {
+        "tier": "Custom Order",
+        "amount": "$7,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_dc_attire",
+    "name": "DC Bridal Attire",
+    "cat": "attire",
+    "lat": 38.9072,
+    "lng": -77.0369,
+    "area": "Washington DC",
+    "price": 3,
+    "rating": 4.8,
+    "brief": "Georgetown boutique offering diplomatic elegance, classic American tailoring, and modern designer collections for DC's accomplished brides.",
+    "email": "hello@dcbridalattire.com",
+    "phone": "202-555-5013",
+    "web": "https://dcbridalattire.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Sample Sale",
+        "amount": "$950"
+      },
+      {
+        "tier": "Designer Collection",
+        "amount": "$2,800"
+      },
+      {
+        "tier": "Custom Order",
+        "amount": "$6,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_miami_attire",
+    "name": "Miami Bridal Attire",
+    "cat": "attire",
+    "lat": 25.7617,
+    "lng": -80.1918,
+    "area": "Miami",
+    "price": 3,
+    "rating": 4.9,
+    "brief": "Brickell and Coral Gables boutique — Latina bridal elegance, Miami Beach glamour, and destination wedding-perfect lightweight gowns.",
+    "email": "hello@miamibridalattire.com",
+    "phone": "305-555-5013",
+    "web": "https://miamibridalattire.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Sample Sale",
+        "amount": "$1,000"
+      },
+      {
+        "tier": "Designer Collection",
+        "amount": "$3,000"
+      },
+      {
+        "tier": "Custom Order",
+        "amount": "$7,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_vancouver_attire",
+    "name": "Vancouver Bridal Attire",
+    "cat": "attire",
+    "lat": 49.2827,
+    "lng": -123.1207,
+    "area": "Vancouver",
+    "price": 3,
+    "rating": 4.8,
+    "brief": "Yaletown boutique — Canadian designers, Asian-inspired embroidery, and multicultural bridal wear for Metro Vancouver's diverse brides.",
+    "email": "hello@vancouverbridalattire.com",
+    "phone": "604-555-5013",
+    "web": "https://vancouverbridalattire.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Sample Sale",
+        "amount": "$900"
+      },
+      {
+        "tier": "Designer Collection",
+        "amount": "$2,700"
+      },
+      {
+        "tier": "Custom Order",
+        "amount": "$6,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_toronto_attire",
+    "name": "Toronto Bridal Attire",
+    "cat": "attire",
+    "lat": 43.6532,
+    "lng": -79.3832,
+    "area": "Toronto",
+    "price": 3,
+    "rating": 4.8,
+    "brief": "Bloor West boutique — South Asian bridal collections, European couture, and Canadian designer labels for Toronto's multicultural wedding scene.",
+    "email": "hello@torontobridalattire.com",
+    "phone": "416-555-5013",
+    "web": "https://torontobridalattire.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Sample Sale",
+        "amount": "$900"
+      },
+      {
+        "tier": "Designer Collection",
+        "amount": "$2,700"
+      },
+      {
+        "tier": "Custom Order",
+        "amount": "$6,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_montreal_attire",
+    "name": "Montréal Bridal Attire",
+    "cat": "attire",
+    "lat": 45.5017,
+    "lng": -73.5673,
+    "area": "Montréal",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "Saint-Denis boutique — French-Canadian designers, European couture imports, and bespoke ateliers for Montréal's fashionably romantic brides.",
+    "email": "hello@montrealbridalattire.com",
+    "phone": "514-555-5015",
+    "web": "https://montrealbridalattire.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Sample Sale",
+        "amount": "$850"
+      },
+      {
+        "tier": "Designer Collection",
+        "amount": "$2,500"
+      },
+      {
+        "tier": "Custom Order",
+        "amount": "$6,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_calgary_attire",
+    "name": "Calgary Bridal Attire",
+    "cat": "attire",
+    "lat": 51.0447,
+    "lng": -114.0719,
+    "area": "Calgary",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "Kensington boutique — classic elegance for Stampede season, mountain-chic bohemian, and Canadian designer gowns for Calgary's diverse brides.",
+    "email": "hello@calgarybridalattire.com",
+    "phone": "403-555-5014",
+    "web": "https://calgarybridalattire.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Sample Sale",
+        "amount": "$800"
+      },
+      {
+        "tier": "Designer Collection",
+        "amount": "$2,400"
+      },
+      {
+        "tier": "Custom Order",
+        "amount": "$5,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_sandiego_attire",
+    "name": "San Diego Bridal Attire",
+    "cat": "attire",
+    "lat": 32.7157,
+    "lng": -117.1611,
+    "area": "San Diego",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "Little Italy boutique — California beach-casual chic, destination wedding-perfect gowns, and classic ballgowns for San Diego's sun-kissed brides.",
+    "email": "hello@sandiegobridalattire.com",
+    "phone": "619-555-5012",
+    "web": "https://sandiegobridalattire.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Sample Sale",
+        "amount": "$800"
+      },
+      {
+        "tier": "Designer Collection",
+        "amount": "$2,400"
+      },
+      {
+        "tier": "Custom Order",
+        "amount": "$5,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_lasvegas_attire",
+    "name": "Las Vegas Bridal Attire",
+    "cat": "attire",
+    "lat": 36.1699,
+    "lng": -115.1398,
+    "area": "Las Vegas",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "Paradise boutique — quick-turnaround alterations, elopement-friendly collections, and showgirl-glam to minimalist chic for every Vegas wedding.",
+    "email": "hello@lasvegasbridalattire.com",
+    "phone": "702-555-5013",
+    "web": "https://lasvegasbridalattire.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Sample Sale",
+        "amount": "$700"
+      },
+      {
+        "tier": "Designer Collection",
+        "amount": "$2,100"
+      },
+      {
+        "tier": "Custom Order",
+        "amount": "$4,800"
+      }
+    ]
+  },
+  {
+    "id": "ven_portland_attire",
+    "name": "Portland Bridal Attire",
+    "cat": "attire",
+    "lat": 45.5231,
+    "lng": -122.6765,
+    "area": "Portland",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "Mississippi Avenue boutique — sustainable designers, Oregon-made gowns, and eclectic vintage-inspired collections for Portland's indie-spirited brides.",
+    "email": "hello@portlandbridalattire.com",
+    "phone": "503-555-5013",
+    "web": "https://portlandbridalattire.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Sample Sale",
+        "amount": "$700"
+      },
+      {
+        "tier": "Designer Collection",
+        "amount": "$2,100"
+      },
+      {
+        "tier": "Custom Order",
+        "amount": "$4,800"
+      }
+    ]
   }
 ]
