@@ -485,13 +485,13 @@ function AboutTab() {
         <a className={styles.aboutLink} href="https://eventore.ca" target="_blank" rel="noopener noreferrer">
           Eventore main site
         </a>
-        <a className={styles.aboutLink} href="#" onClick={(e) => e.preventDefault()}>
+        <a className={styles.aboutLink} href="/privacy.html" target="_blank" rel="noopener noreferrer">
           Privacy policy
         </a>
-        <a className={styles.aboutLink} href="#" onClick={(e) => e.preventDefault()}>
+        <a className={styles.aboutLink} href="/terms.html" target="_blank" rel="noopener noreferrer">
           Terms of service
         </a>
-        <a className={styles.aboutLink} href="mailto:hello@eventore.ca">
+        <a className={styles.aboutLink} href="/contact.html" target="_blank" rel="noopener noreferrer">
           Contact us
         </a>
       </div>
