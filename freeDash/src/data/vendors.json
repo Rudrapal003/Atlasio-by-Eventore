@@ -5970,4 +5970,99 @@
       }
     ]
   }
+  ,{
+    "id": "ven_newlands_golf",
+    "name": "Newlands Golf & Country Club",
+    "cat": "venue",
+    "lat": 49.088,
+    "lng": -122.639,
+    "area": "Langley, BC",
+    "price": 3,
+    "rating": 4.4,
+    "brief": "Full-service weddings with 6 ballrooms and all-inclusive packages.",
+    "email": "sales@newlandsgolf.com",
+    "phone": "(604) 533-3288",
+    "web": "https://newlandsgolf.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      { "tier": "All-Inclusive Ballroom / 150 guests", "amount": "$14,000" }
+    ]
+  },
+  {
+    "id": "ven_glass_house_estate",
+    "name": "Glass House Estate Winery",
+    "cat": "venue",
+    "lat": 49.002,
+    "lng": -122.585,
+    "area": "South Langley, BC",
+    "price": 4,
+    "rating": 4.6,
+    "brief": "Vineyard sophistication with a stunning glass house reception space.",
+    "email": "events@glasshousewinery.com",
+    "phone": "(778) 277-4439",
+    "web": "https://glasshousewinery.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      { "tier": "Estate Buyout / 100 guests", "amount": "$9,500" }
+    ]
+  },
+  {
+    "id": "ven_redwoods_golf",
+    "name": "Redwoods Golf Course",
+    "cat": "venue",
+    "lat": 49.162,
+    "lng": -122.616,
+    "area": "Langley, BC",
+    "price": 3,
+    "rating": 4.5,
+    "brief": "West Coast charm with an outdoor ceremony area and marquee tent reception.",
+    "email": "events@redwoods-golf.com",
+    "phone": "(604) 882-5132",
+    "web": "https://redwoods-golf.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      { "tier": "Marquee Tent Package", "amount": "$8,500" }
+    ]
+  },
+  {
+    "id": "ven_estate_248",
+    "name": "Estate 248",
+    "cat": "venue",
+    "lat": 49.068,
+    "lng": -122.535,
+    "area": "Langley, BC",
+    "price": 3,
+    "rating": 4.8,
+    "brief": "Romantic, rustic-style outdoor wedding venue with a historic barn and lawn.",
+    "email": "hello@estate248.com",
+    "phone": "(604) 381-2222",
+    "web": "https://bridebook.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      { "tier": "Barn & Lawn Rental", "amount": "$6,000" }
+    ]
+  },
+  {
+    "id": "ven_jillian_nielsen",
+    "name": "Jillian Nielsen Photography",
+    "cat": "photo",
+    "lat": 49.104,
+    "lng": -122.660,
+    "area": "Langley, BC",
+    "price": 3,
+    "rating": 5.0,
+    "brief": "Intentional, unscripted, and connection-focused documentary wedding photography.",
+    "email": "hello@jilliannielsenphoto.com",
+    "phone": "(604) 555-9988",
+    "web": "https://jilliannielsenphoto.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      { "tier": "Full Day Documentary Coverage", "amount": "$4,200" }
+    ]
+  }
 ]
