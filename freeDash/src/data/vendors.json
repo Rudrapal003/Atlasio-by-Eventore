@@ -24299,5 +24299,335 @@
         "amount": "$4,800"
       }
     ]
+  },
+  {
+    "id": "ven_houston_florist",
+    "name": "Houston Wedding Florist",
+    "cat": "florist",
+    "lat": 29.7604,
+    "lng": -95.3698,
+    "area": "Houston",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "Houston's top wedding florists — tropical blooms, Texas wildflowers, and lush garden arrangements for the Bayou City's diverse celebrations.",
+    "email": "hello@houstonweddingflorist.com",
+    "phone": "713-555-5012",
+    "web": "https://houstonweddingflorist.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Bridal Bouquet Set",
+        "amount": "$520"
+      },
+      {
+        "tier": "Ceremony Flowers",
+        "amount": "$1,350"
+      },
+      {
+        "tier": "Full Floral Design",
+        "amount": "$3,400"
+      }
+    ]
+  },
+  {
+    "id": "ven_dallas_florist",
+    "name": "Dallas Wedding Florist",
+    "cat": "florist",
+    "lat": 32.7767,
+    "lng": -96.797,
+    "area": "Dallas",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "DFW floral designers — bluebonnet accents, Texas garden party arrangements, and upscale luxury florals for Uptown Dallas celebrations.",
+    "email": "hello@dallasweddingflorist.com",
+    "phone": "214-555-5013",
+    "web": "https://dallasweddingflorist.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Bridal Bouquet Set",
+        "amount": "$530"
+      },
+      {
+        "tier": "Ceremony Flowers",
+        "amount": "$1,380"
+      },
+      {
+        "tier": "Full Floral Design",
+        "amount": "$3,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_chicago_florist",
+    "name": "Chicago Wedding Florist",
+    "cat": "florist",
+    "lat": 41.8781,
+    "lng": -87.6298,
+    "area": "Chicago",
+    "price": 3,
+    "rating": 4.8,
+    "brief": "Windy City floral artisans — lush European garden style, architectural modern designs, and seasonal blooms for Gold Coast and River North celebrations.",
+    "email": "hello@chicagoweddingflorist.com",
+    "phone": "312-555-5013",
+    "web": "https://chicagoweddingflorist.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Bridal Bouquet Set",
+        "amount": "$680"
+      },
+      {
+        "tier": "Ceremony Flowers",
+        "amount": "$1,750"
+      },
+      {
+        "tier": "Full Floral Design",
+        "amount": "$4,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_nyc_florist",
+    "name": "NYC Wedding Florist",
+    "cat": "florist",
+    "lat": 40.7128,
+    "lng": -74.006,
+    "area": "New York City",
+    "price": 4,
+    "rating": 4.9,
+    "brief": "Manhattan's most celebrated wedding florists — Bergdorf-calibre installations, Central Park whimsy, and avant-garde botanical art for the discerning NYC couple.",
+    "email": "hello@nycweddingflorist.com",
+    "phone": "212-555-5013",
+    "web": "https://nycweddingflorist.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Bridal Bouquet Set",
+        "amount": "$900"
+      },
+      {
+        "tier": "Ceremony Flowers",
+        "amount": "$2,400"
+      },
+      {
+        "tier": "Full Floral Design",
+        "amount": "$7,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_la_florist",
+    "name": "Los Angeles Wedding Florist",
+    "cat": "florist",
+    "lat": 34.0522,
+    "lng": -118.2437,
+    "area": "Los Angeles",
+    "price": 3,
+    "rating": 4.9,
+    "brief": "Hollywood-calibre wedding florals — Malibu tropical beach installations, DTLA loft botanicals, and Silver Lake wildflower bohemian artistry.",
+    "email": "hello@laweddingflorist.com",
+    "phone": "310-555-5013",
+    "web": "https://laweddingflorist.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Bridal Bouquet Set",
+        "amount": "$750"
+      },
+      {
+        "tier": "Ceremony Flowers",
+        "amount": "$1,950"
+      },
+      {
+        "tier": "Full Floral Design",
+        "amount": "$5,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_sf_florist",
+    "name": "SF Wedding Florist",
+    "cat": "florist",
+    "lat": 37.7749,
+    "lng": -122.4194,
+    "area": "San Francisco",
+    "price": 3,
+    "rating": 4.8,
+    "brief": "Bay Area wedding florists — California native botanicals, Japanese ikebana-inspired arrangements, and lush European garden party designs.",
+    "email": "hello@sfweddingflorist.com",
+    "phone": "415-555-5015",
+    "web": "https://sfweddingflorist.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Bridal Bouquet Set",
+        "amount": "$750"
+      },
+      {
+        "tier": "Ceremony Flowers",
+        "amount": "$1,950"
+      },
+      {
+        "tier": "Full Floral Design",
+        "amount": "$5,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_houston_music",
+    "name": "Houston Wedding Music",
+    "cat": "music",
+    "lat": 29.7604,
+    "lng": -95.3698,
+    "area": "Houston",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "H-Town wedding DJs and live musicians — Tex-Mex fusion bands, Latin DJs, and jazz orchestras for Houston's multicultural wedding celebrations.",
+    "email": "book@houstonweddingmusic.com",
+    "phone": "713-555-5013",
+    "web": "https://houstonweddingmusic.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "DJ 4 Hours",
+        "amount": "$1,050"
+      },
+      {
+        "tier": "DJ Full Night",
+        "amount": "$2,100"
+      },
+      {
+        "tier": "Live Band",
+        "amount": "$4,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_dallas_music",
+    "name": "Dallas Wedding Music",
+    "cat": "music",
+    "lat": 32.7767,
+    "lng": -96.797,
+    "area": "Dallas",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "DFW wedding entertainment — country live bands, pop DJ services, and Tejano fusion ensembles for Dallas's diverse and energetic celebrations.",
+    "email": "book@dallasweddingmusic.com",
+    "phone": "214-555-5014",
+    "web": "https://dallasweddingmusic.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "DJ 4 Hours",
+        "amount": "$1,050"
+      },
+      {
+        "tier": "DJ Full Night",
+        "amount": "$2,100"
+      },
+      {
+        "tier": "Live Band",
+        "amount": "$4,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_atlanta_music",
+    "name": "Atlanta Wedding Music",
+    "cat": "music",
+    "lat": 33.749,
+    "lng": -84.388,
+    "area": "Atlanta",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "ATL wedding DJs and live musicians — Southern gospel, hip-hop, R&B, and top-40 entertainment for Atlanta's vibrant and diverse celebrations.",
+    "email": "book@atlantaweddingmusic.com",
+    "phone": "404-555-5013",
+    "web": "https://atlantaweddingmusic.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "DJ 4 Hours",
+        "amount": "$1,100"
+      },
+      {
+        "tier": "DJ Full Night",
+        "amount": "$2,200"
+      },
+      {
+        "tier": "Live Band",
+        "amount": "$4,800"
+      }
+    ]
+  },
+  {
+    "id": "ven_miami_music",
+    "name": "Miami Wedding Music",
+    "cat": "music",
+    "lat": 25.7617,
+    "lng": -80.1918,
+    "area": "Miami",
+    "price": 3,
+    "rating": 4.9,
+    "brief": "South Florida wedding entertainment — Latin bands, electronic DJs, salsa orchestras, and reggaeton vibes for Miami's cosmopolitan celebrations.",
+    "email": "book@miamiweddingmusic.com",
+    "phone": "305-555-5012",
+    "web": "https://miamiweddingmusic.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "DJ 4 Hours",
+        "amount": "$1,400"
+      },
+      {
+        "tier": "DJ Full Night",
+        "amount": "$2,800"
+      },
+      {
+        "tier": "Latin Live Band",
+        "amount": "$6,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_chicago_music",
+    "name": "Chicago Wedding Music",
+    "cat": "music",
+    "lat": 41.8781,
+    "lng": -87.6298,
+    "area": "Chicago",
+    "price": 3,
+    "rating": 4.8,
+    "brief": "Windy City wedding entertainment — Chicago Blues band, jazz ensembles, and high-energy DJ services for Gold Coast to Wicker Park celebrations.",
+    "email": "book@chicagoweddingmusic.com",
+    "phone": "312-555-5014",
+    "web": "https://chicagoweddingmusic.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "DJ 4 Hours",
+        "amount": "$1,300"
+      },
+      {
+        "tier": "DJ Full Night",
+        "amount": "$2,600"
+      },
+      {
+        "tier": "Live Jazz Band",
+        "amount": "$5,500"
+      }
+    ]
   }
 ]
