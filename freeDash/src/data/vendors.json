@@ -17639,5 +17639,395 @@
         "amount": "$3,200"
       }
     ]
+  },
+  {
+    "id": "ven_madison_venue",
+    "name": "Madison Wedding Venues",
+    "cat": "venue",
+    "lat": 43.0731,
+    "lng": -89.4012,
+    "area": "Madison",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "Isthmus city wedding venues — lakefront Monona Terrace, State Street boutique spaces, and UW Madison campus-adjacent estates.",
+    "email": "hello@madisonvenues.com",
+    "phone": "608-555-1010",
+    "web": "https://madisonvenues.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Half-Day Venue",
+        "amount": "$1,200"
+      },
+      {
+        "tier": "Full Day Venue",
+        "amount": "$2,500"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$4,800"
+      }
+    ]
+  },
+  {
+    "id": "ven_madison_photo",
+    "name": "Madison Wedding Photography",
+    "cat": "photo",
+    "lat": 43.0731,
+    "lng": -89.4012,
+    "area": "Madison",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "Wisconsin wedding photographers — Lake Mendota golden-hour magic, Olbrich Botanical Gardens portraits, and Capitol Square elegance.",
+    "email": "hello@madisonweddingphoto.com",
+    "phone": "608-555-1011",
+    "web": "https://madisonweddingphoto.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "$950"
+      },
+      {
+        "tier": "Full Day",
+        "amount": "$2,200"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "$3,800"
+      }
+    ]
+  },
+  {
+    "id": "ven_milwaukee_venue",
+    "name": "Milwaukee Wedding Venues",
+    "cat": "venue",
+    "lat": 43.0389,
+    "lng": -87.9065,
+    "area": "Milwaukee",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "Cream City wedding venues — Third Ward industrial-chic lofts, Pier Wisconsin lakefront, and Historic Turner Hall grandeur.",
+    "email": "hello@milwaukeevenues.com",
+    "phone": "414-555-1010",
+    "web": "https://milwaukeevenues.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Half-Day Venue",
+        "amount": "$1,300"
+      },
+      {
+        "tier": "Full Day Venue",
+        "amount": "$2,600"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$5,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_milwaukee_photo",
+    "name": "Milwaukee Wedding Photography",
+    "cat": "photo",
+    "lat": 43.0389,
+    "lng": -87.9065,
+    "area": "Milwaukee",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "Wisconsin wedding photographers — Lake Michigan sunsets, Harley Davidson Museum-adjacent shoots, and Summerfest grounds magic.",
+    "email": "hello@milwaukeeweddingphoto.com",
+    "phone": "414-555-1011",
+    "web": "https://milwaukeeweddingphoto.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "$1,000"
+      },
+      {
+        "tier": "Full Day",
+        "amount": "$2,400"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "$4,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_detroit_venue",
+    "name": "Detroit Wedding Venues",
+    "cat": "venue",
+    "lat": 42.3314,
+    "lng": -83.0458,
+    "area": "Detroit",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "Motor City wedding venues — Detroit Institute of Arts grandeur, Midtown loft conversions, and Belle Isle waterfront celebrations.",
+    "email": "hello@detroitvenues.com",
+    "phone": "313-555-1010",
+    "web": "https://detroitvenues.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Half-Day Venue",
+        "amount": "$1,300"
+      },
+      {
+        "tier": "Full Day Venue",
+        "amount": "$2,600"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$5,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_detroit_photo",
+    "name": "Detroit Wedding Photography",
+    "cat": "photo",
+    "lat": 42.3314,
+    "lng": -83.0458,
+    "area": "Detroit",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "Michigan wedding photographers — Detroit skyline magic, Belle Isle romantics, and Midtown mural-filled creative backdrops.",
+    "email": "hello@detroitweddingphoto.com",
+    "phone": "313-555-1011",
+    "web": "https://detroitweddingphoto.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "$1,000"
+      },
+      {
+        "tier": "Full Day",
+        "amount": "$2,400"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "$4,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_detroit_catering",
+    "name": "Detroit Wedding Catering",
+    "cat": "catering",
+    "lat": 42.3314,
+    "lng": -83.0458,
+    "area": "Detroit",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "Motor City wedding catering — Middle Eastern-influenced Detroit cuisine, coney island classics elevated, and modern American menus.",
+    "email": "hello@detroitcatering.com",
+    "phone": "313-555-1012",
+    "web": "https://detroitcatering.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Buffet (50 guests)",
+        "amount": "$2,800"
+      },
+      {
+        "tier": "Plated Dinner (100 guests)",
+        "amount": "$6,800"
+      },
+      {
+        "tier": "Full Service (150 guests)",
+        "amount": "$13,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_grandrapids_venue",
+    "name": "Grand Rapids Wedding Venues",
+    "cat": "venue",
+    "lat": 42.9634,
+    "lng": -85.6681,
+    "area": "Grand Rapids",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "West Michigan wedding venues — Grand River waterfront, Frederik Meijer Gardens botanical ceremonies, and artisan ArtPrize lofts.",
+    "email": "hello@grandrapidsvenues.com",
+    "phone": "616-555-1010",
+    "web": "https://grandrapidsvenues.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Half-Day Venue",
+        "amount": "$1,200"
+      },
+      {
+        "tier": "Full Day Venue",
+        "amount": "$2,500"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$4,800"
+      }
+    ]
+  },
+  {
+    "id": "ven_grandrapids_photo",
+    "name": "Grand Rapids Wedding Photography",
+    "cat": "photo",
+    "lat": 42.9634,
+    "lng": -85.6681,
+    "area": "Grand Rapids",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "West Michigan wedding photographers — Meijer Gardens orchid room portraits, Lake Michigan dunes, and Grand River golden hours.",
+    "email": "hello@grandrapidsweddingphoto.com",
+    "phone": "616-555-1011",
+    "web": "https://grandrapidsweddingphoto.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "$950"
+      },
+      {
+        "tier": "Full Day",
+        "amount": "$2,300"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "$3,900"
+      }
+    ]
+  },
+  {
+    "id": "ven_syracuse_venue",
+    "name": "Syracuse Wedding Venues",
+    "cat": "venue",
+    "lat": 43.0481,
+    "lng": -76.1474,
+    "area": "Syracuse",
+    "price": 2,
+    "rating": 4.6,
+    "brief": "Salt City wedding venues — Onondaga Lake waterfront, Armory Square historic district lofts, and Central New York countryside estates.",
+    "email": "hello@syracusevenues.com",
+    "phone": "315-555-1010",
+    "web": "https://syracusevenues.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Half-Day Venue",
+        "amount": "$1,200"
+      },
+      {
+        "tier": "Full Day Venue",
+        "amount": "$2,400"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$4,600"
+      }
+    ]
+  },
+  {
+    "id": "ven_syracuse_photo",
+    "name": "Syracuse Wedding Photography",
+    "cat": "photo",
+    "lat": 43.0481,
+    "lng": -76.1474,
+    "area": "Syracuse",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "Central New York wedding photographers — Finger Lakes vineyard backdrops, Onondaga Lake portraits, and Syracuse skyline magic.",
+    "email": "hello@syracuseweddingphoto.com",
+    "phone": "315-555-1011",
+    "web": "https://syracuseweddingphoto.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "$950"
+      },
+      {
+        "tier": "Full Day",
+        "amount": "$2,200"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "$3,800"
+      }
+    ]
+  },
+  {
+    "id": "ven_albany_venue",
+    "name": "Albany Wedding Venues",
+    "cat": "venue",
+    "lat": 42.6526,
+    "lng": -73.7562,
+    "area": "Albany",
+    "price": 2,
+    "rating": 4.6,
+    "brief": "Empire State capital wedding venues — historic mansions near the State Capitol, Hudson River waterfront, and Catskill Mountain retreats.",
+    "email": "hello@albanyvenues.com",
+    "phone": "518-555-1010",
+    "web": "https://albanyvenues.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Half-Day Venue",
+        "amount": "$1,300"
+      },
+      {
+        "tier": "Full Day Venue",
+        "amount": "$2,600"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$5,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_albany_photo",
+    "name": "Albany Wedding Photography",
+    "cat": "photo",
+    "lat": 42.6526,
+    "lng": -73.7562,
+    "area": "Albany",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "Hudson Valley wedding photographers — Catskill Mountain drama, Hudson River estates, and Albany's antique architectural grandeur.",
+    "email": "hello@albanyweddingphoto.com",
+    "phone": "518-555-1011",
+    "web": "https://albanyweddingphoto.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "$1,000"
+      },
+      {
+        "tier": "Full Day",
+        "amount": "$2,400"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "$4,100"
+      }
+    ]
   }
 ]
