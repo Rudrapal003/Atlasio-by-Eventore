@@ -12209,5 +12209,425 @@
         "amount": "$4,200"
       }
     ]
+  },
+  {
+    "id": "ven_memphis_botanic_garden",
+    "name": "Memphis Botanic Garden Events",
+    "cat": "venue",
+    "lat": 35.1096,
+    "lng": -89.8628,
+    "area": "Memphis",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "96 acres of themed gardens in East Memphis — Japanese zen gardens, rose arbors, and a wildflower meadow for magical outdoor weddings.",
+    "email": "events@memphisbotanicgarden.com",
+    "phone": "901-555-1001",
+    "web": "https://memphisbotanicgarden.com/weddings",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Ceremony Only",
+        "amount": "$1,600"
+      },
+      {
+        "tier": "Full Day Rental",
+        "amount": "$3,500"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$6,200"
+      }
+    ]
+  },
+  {
+    "id": "ven_memphis_wedding_photo",
+    "name": "Memphis Wedding Photography",
+    "cat": "photo",
+    "lat": 35.1495,
+    "lng": -90.049,
+    "area": "Memphis",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "Beale Street blues, Mississippi River sunsets, and Graceland glamour — Memphis wedding photographers with Southern soul.",
+    "email": "hello@memphisweddingphoto.com",
+    "phone": "901-555-1002",
+    "web": "https://memphisweddingphoto.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "$800"
+      },
+      {
+        "tier": "Full Day Coverage",
+        "amount": "$2,000"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "$4,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_myriad_botanical_okc",
+    "name": "Myriad Botanical Gardens OKC",
+    "cat": "venue",
+    "lat": 35.4676,
+    "lng": -97.5136,
+    "area": "Oklahoma City",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "A 17-acre urban oasis in downtown OKC — the Crystal Bridge Tropical Conservatory and lush outdoor gardens for year-round weddings.",
+    "email": "events@myriadgardens.org",
+    "phone": "405-555-2001",
+    "web": "https://myriadgardens.org/weddings",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Ceremony Only",
+        "amount": "$1,400"
+      },
+      {
+        "tier": "Full Day Rental",
+        "amount": "$3,000"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$5,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_okc_wedding_films",
+    "name": "Oklahoma City Wedding Films",
+    "cat": "video",
+    "lat": 35.4676,
+    "lng": -97.5164,
+    "area": "Oklahoma City",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "Oklahoma wedding cinematographers — big sky country, red dirt roads, and OKC's stunning Bricktown waterfront at sunset.",
+    "email": "hello@okcweddingfilms.com",
+    "phone": "405-555-2002",
+    "web": "https://okcweddingfilms.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Highlight Reel",
+        "amount": "$950"
+      },
+      {
+        "tier": "Full Day + Edit",
+        "amount": "$2,400"
+      },
+      {
+        "tier": "Cinematic + Drone",
+        "amount": "$4,600"
+      }
+    ]
+  },
+  {
+    "id": "ven_boise_depot_events",
+    "name": "Boise Depot Events",
+    "cat": "venue",
+    "lat": 43.5985,
+    "lng": -116.2191,
+    "area": "Boise",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "A stunning 1925 Spanish Mission-style train depot — Boise's most iconic landmark venue with sweeping Treasure Valley views.",
+    "email": "events@boisedepot.com",
+    "phone": "208-555-3001",
+    "web": "https://boisedepot.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Ceremony Only",
+        "amount": "$1,500"
+      },
+      {
+        "tier": "Full Day Rental",
+        "amount": "$3,200"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$5,800"
+      }
+    ]
+  },
+  {
+    "id": "ven_boise_wedding_photo",
+    "name": "Boise Wedding Photography",
+    "cat": "photo",
+    "lat": 43.615,
+    "lng": -116.2023,
+    "area": "Boise",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "Sawtooth Mountains, Snake River canyon, and Boise Foothills — Idaho wedding photographers capturing the West's rugged grandeur.",
+    "email": "hello@boiseweddingphoto.com",
+    "phone": "208-555-3002",
+    "web": "https://boiseweddingphoto.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "$800"
+      },
+      {
+        "tier": "Full Day Coverage",
+        "amount": "$2,000"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "$4,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_royal_hawaiian_events",
+    "name": "Royal Hawaiian Events Waikiki",
+    "cat": "venue",
+    "lat": 21.2783,
+    "lng": -157.8318,
+    "area": "Honolulu",
+    "price": 4,
+    "rating": 4.9,
+    "brief": "The legendary Pink Palace of the Pacific — beachfront ceremonies on Waikiki with Diamond Head as your backdrop. Aloha luxury.",
+    "email": "events@royalhawaiian.com",
+    "phone": "808-555-4001",
+    "web": "https://royalhawaiian.com/weddings",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Ceremony Only",
+        "amount": "$5,000"
+      },
+      {
+        "tier": "Full Day Package",
+        "amount": "$12,000"
+      },
+      {
+        "tier": "Exclusive Beach Wedding",
+        "amount": "$22,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_hawaii_wedding_photo",
+    "name": "Hawaii Wedding Photography",
+    "cat": "photo",
+    "lat": 21.3069,
+    "lng": -157.8583,
+    "area": "Honolulu",
+    "price": 3,
+    "rating": 4.9,
+    "brief": "Oahu's most celebrated wedding photographers — volcanic cliffs, sea turtle coves, tropical gardens, and legendary Pacific sunsets.",
+    "email": "aloha@hawaiiweddingphoto.com",
+    "phone": "808-555-4002",
+    "web": "https://hawaiiweddingphoto.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "$1,200"
+      },
+      {
+        "tier": "Full Day Coverage",
+        "amount": "$3,000"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "$6,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_hawaii_catering_co",
+    "name": "Hawaii Catering Co.",
+    "cat": "catering",
+    "lat": 21.3069,
+    "lng": -157.8583,
+    "area": "Honolulu",
+    "price": 3,
+    "rating": 4.8,
+    "brief": "Hawaiian fusion wedding catering — kalua pork, poke stations, haupia cake, and the freshest Pacific seafood for your beach reception.",
+    "email": "info@hawaiicateringco.com",
+    "phone": "808-555-4003",
+    "web": "https://hawaiicateringco.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Buffet for 50",
+        "amount": "$2,500"
+      },
+      {
+        "tier": "Plated Dinner 100",
+        "amount": "$6,200"
+      },
+      {
+        "tier": "Full-Service Luau Gala",
+        "amount": "$12,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_alaska_botanical_garden",
+    "name": "Alaska Botanical Garden Events",
+    "cat": "venue",
+    "lat": 61.1716,
+    "lng": -149.7932,
+    "area": "Anchorage",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "An extraordinary 110-acre garden against the Chugach Mountains — Alaska's most magical and untamed wedding setting.",
+    "email": "events@alaskabg.org",
+    "phone": "907-555-5001",
+    "web": "https://alaskabg.org/weddings",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Ceremony Only",
+        "amount": "$1,800"
+      },
+      {
+        "tier": "Full Day Rental",
+        "amount": "$4,000"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$7,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_alaska_wedding_photo",
+    "name": "Alaska Wedding Photography",
+    "cat": "photo",
+    "lat": 61.2181,
+    "lng": -149.9003,
+    "area": "Anchorage",
+    "price": 3,
+    "rating": 4.9,
+    "brief": "Glacier ceremonies, midnight sun receptions, and Northern Lights first dances — Alaska wedding photographers capturing the impossible.",
+    "email": "hello@alaskaweddingphoto.com",
+    "phone": "907-555-5002",
+    "web": "https://alaskaweddingphoto.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "$1,200"
+      },
+      {
+        "tier": "Full Day Coverage",
+        "amount": "$3,000"
+      },
+      {
+        "tier": "Full Day + Heli Shoot",
+        "amount": "$6,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_providence_biltmore_events",
+    "name": "Graduate Providence Events",
+    "cat": "venue",
+    "lat": 41.824,
+    "lng": -71.4128,
+    "area": "Providence",
+    "price": 3,
+    "rating": 4.8,
+    "brief": "A 1922 Beaux-Arts landmark overlooking Kennedy Plaza — Rhode Island's grandest ballroom with gilded ceilings and marble columns.",
+    "email": "events@graduateprovidence.com",
+    "phone": "401-555-6001",
+    "web": "https://graduatehotels.com/providence",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Ceremony Only",
+        "amount": "$2,500"
+      },
+      {
+        "tier": "Full Day Rental",
+        "amount": "$5,500"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$10,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_providence_wedding_photo",
+    "name": "Providence Wedding Photography",
+    "cat": "photo",
+    "lat": 41.824,
+    "lng": -71.4128,
+    "area": "Providence",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "Rhode Island wedding photographers — WaterFire Providence, RISD campus, and the rocky Narragansett Bay coastline.",
+    "email": "hello@providenceweddingphoto.com",
+    "phone": "401-555-6002",
+    "web": "https://providenceweddingphoto.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "$900"
+      },
+      {
+        "tier": "Full Day Coverage",
+        "amount": "$2,200"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "$4,400"
+      }
+    ]
+  },
+  {
+    "id": "ven_shelburne_farms_vermont",
+    "name": "Shelburne Farms Vermont",
+    "cat": "venue",
+    "lat": 44.3913,
+    "lng": -73.2476,
+    "area": "Burlington",
+    "price": 3,
+    "rating": 4.9,
+    "brief": "A 1,400-acre working farm estate on Lake Champlain — Vermont's most coveted wedding venue with farm-to-table dining and mountain views.",
+    "email": "events@shelburnefarms.org",
+    "phone": "802-555-7001",
+    "web": "https://shelburnefarms.org/weddings",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Ceremony Only",
+        "amount": "$3,000"
+      },
+      {
+        "tier": "Full Day Rental",
+        "amount": "$6,500"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$12,000"
+      }
+    ]
   }
 ]
