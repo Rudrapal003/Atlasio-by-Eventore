@@ -3519,5 +3519,455 @@
         "amount": "$3,800"
       }
     ]
+  },
+  {
+    "id": "ven_river_cafe_calgary",
+    "name": "River Café Calgary",
+    "cat": "venue",
+    "lat": 51.0501,
+    "lng": -114.0634,
+    "area": "Calgary",
+    "price": 3,
+    "rating": 4.9,
+    "brief": "A romantic island retreat in the heart of Calgary's Prince's Island Park — iconic river views and farm-to-table dining.",
+    "email": "events@rivercafe.ca",
+    "phone": "403-555-1001",
+    "web": "https://rivercafe.ca",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Ceremony Only",
+        "amount": "$2,800"
+      },
+      {
+        "tier": "Full Day Rental",
+        "amount": "$5,800"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$10,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_calgary_photo_house",
+    "name": "Calgary Photo House",
+    "cat": "photo",
+    "lat": 51.0447,
+    "lng": -114.0719,
+    "area": "Calgary",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "Documentary-style wedding photographers capturing genuine emotion against Calgary's dramatic Rocky Mountain backdrops.",
+    "email": "hello@calgaryphotohouse.ca",
+    "phone": "403-555-1002",
+    "web": "https://calgaryphotohouse.ca",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "$900"
+      },
+      {
+        "tier": "Full Day Coverage",
+        "amount": "$2,200"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "$4,400"
+      }
+    ]
+  },
+  {
+    "id": "ven_taste_catering_calgary",
+    "name": "Taste Catering Calgary",
+    "cat": "catering",
+    "lat": 51.0482,
+    "lng": -114.0625,
+    "area": "Calgary",
+    "price": 3,
+    "rating": 4.8,
+    "brief": "Alberta's premier wedding caterer — Alberta beef, local game, and Rocky Mountain-inspired menus for elevated celebrations.",
+    "email": "info@tastecatering.ca",
+    "phone": "403-555-1003",
+    "web": "https://tastecatering.ca",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Buffet for 50",
+        "amount": "$2,000"
+      },
+      {
+        "tier": "Plated Dinner 100",
+        "amount": "$5,000"
+      },
+      {
+        "tier": "Full-Service Gala",
+        "amount": "$10,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_fairmont_macdonald_events",
+    "name": "Macdonald Ballroom Events",
+    "cat": "venue",
+    "lat": 53.5444,
+    "lng": -113.4909,
+    "area": "Edmonton",
+    "price": 4,
+    "rating": 4.8,
+    "brief": "Edmonton's grandest historic ballroom — gilded ceilings and river valley views make every wedding feel like royalty.",
+    "email": "events@macdonaldballroom.ca",
+    "phone": "780-555-2001",
+    "web": "https://macdonaldballroom.ca",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Ceremony Only",
+        "amount": "$4,000"
+      },
+      {
+        "tier": "Full Day Rental",
+        "amount": "$8,500"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$15,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_edmonton_film_co",
+    "name": "Edmonton Film Co.",
+    "cat": "video",
+    "lat": 53.5461,
+    "lng": -113.4938,
+    "area": "Edmonton",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "Cinematic wedding videographers telling love stories across Alberta — feature-length films and social media highlight cuts.",
+    "email": "hello@edmontonfilmco.ca",
+    "phone": "780-555-2002",
+    "web": "https://edmontonfilmco.ca",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Highlight Reel",
+        "amount": "$1,300"
+      },
+      {
+        "tier": "Full Day + Edit",
+        "amount": "$3,200"
+      },
+      {
+        "tier": "Cinematic Feature",
+        "amount": "$6,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_prairie_bloom_florals",
+    "name": "Prairie Bloom Florals",
+    "cat": "florist",
+    "lat": 53.54,
+    "lng": -113.48,
+    "area": "Edmonton",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "Edmonton's go-to wedding florist — lush, prairie-inspired arrangements using locally grown and sustainably sourced flowers.",
+    "email": "hello@prairiebloom.ca",
+    "phone": "780-555-2003",
+    "web": "https://prairiebloom.ca",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Bridal Bouquet Set",
+        "amount": "$420"
+      },
+      {
+        "tier": "Ceremony Flowers",
+        "amount": "$980"
+      },
+      {
+        "tier": "Full Floral Design",
+        "amount": "$2,100"
+      }
+    ]
+  },
+  {
+    "id": "ven_distillery_events_toronto",
+    "name": "Distillery Events Toronto",
+    "cat": "venue",
+    "lat": 43.6503,
+    "lng": -79.3596,
+    "area": "Toronto",
+    "price": 3,
+    "rating": 4.9,
+    "brief": "Iconic Victorian industrial venue in the Distillery District — cobblestones, exposed brick, and European charm for up to 500.",
+    "email": "events@distilleryevents.ca",
+    "phone": "416-555-3001",
+    "web": "https://distilleryevents.ca",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Half-Day Rental",
+        "amount": "$2,500"
+      },
+      {
+        "tier": "Full-Day Rental",
+        "amount": "$5,000"
+      },
+      {
+        "tier": "Weekend Package",
+        "amount": "$9,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_toronto_wedding_films",
+    "name": "Toronto Wedding Films",
+    "cat": "video",
+    "lat": 43.6532,
+    "lng": -79.3832,
+    "area": "Toronto",
+    "price": 3,
+    "rating": 4.9,
+    "brief": "Award-winning Toronto cinematographers with a dozen international wedding film awards — your day deserves cinematic excellence.",
+    "email": "hello@torontoweddingfilms.ca",
+    "phone": "416-555-3002",
+    "web": "https://torontoweddingfilms.ca",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Highlight Reel",
+        "amount": "$2,000"
+      },
+      {
+        "tier": "Full Day + Edit",
+        "amount": "$5,000"
+      },
+      {
+        "tier": "Cinematic Feature",
+        "amount": "$9,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_toronto_planner_studio",
+    "name": "The Wedding Studio Toronto",
+    "cat": "planner",
+    "lat": 43.6499,
+    "lng": -79.3848,
+    "area": "Toronto",
+    "price": 3,
+    "rating": 4.8,
+    "brief": "Toronto's most awarded full-service wedding planning studio — from intimate elopements to 500-guest grand affairs.",
+    "email": "hello@weddingstudiotoronto.ca",
+    "phone": "416-555-3003",
+    "web": "https://weddingstudiotoronto.ca",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Day-Of Coordination",
+        "amount": "$2,000"
+      },
+      {
+        "tier": "Partial Planning",
+        "amount": "$5,000"
+      },
+      {
+        "tier": "Full Planning",
+        "amount": "$10,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_toronto_bloom_florals",
+    "name": "Bloom Toronto",
+    "cat": "florist",
+    "lat": 43.6426,
+    "lng": -79.3966,
+    "area": "Toronto",
+    "price": 3,
+    "rating": 4.9,
+    "brief": "Lush, maximalist floral installations that have graced the pages of Vogue Weddings — Toronto's most Instagram-worthy florist.",
+    "email": "hello@bloomtoronto.ca",
+    "phone": "416-555-3004",
+    "web": "https://bloomtoronto.ca",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Bridal Bouquet Set",
+        "amount": "$700"
+      },
+      {
+        "tier": "Ceremony Flowers",
+        "amount": "$1,800"
+      },
+      {
+        "tier": "Full Floral Design",
+        "amount": "$4,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_le_windsor_montreal",
+    "name": "Le Windsor Montreal",
+    "cat": "venue",
+    "lat": 45.4992,
+    "lng": -73.5702,
+    "area": "Montreal",
+    "price": 4,
+    "rating": 4.9,
+    "brief": "A magnificent Beaux-Arts landmark in the heart of downtown Montreal — grand ballrooms and terrace garden for timeless weddings.",
+    "email": "events@lewindsor.ca",
+    "phone": "514-555-4001",
+    "web": "https://lewindsor.ca",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Ceremony Only",
+        "amount": "$5,000"
+      },
+      {
+        "tier": "Full Day Rental",
+        "amount": "$10,500"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$18,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_montreal_photo_atelier",
+    "name": "Atelier Photo Montréal",
+    "cat": "photo",
+    "lat": 45.5048,
+    "lng": -73.5747,
+    "area": "Montreal",
+    "price": 3,
+    "rating": 4.9,
+    "brief": "Fine-art wedding photography infused with Montréal's joie de vivre — bilingual team serving French and English couples.",
+    "email": "bonjour@atelierphotomtl.ca",
+    "phone": "514-555-4002",
+    "web": "https://atelierphotomtl.ca",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "$1,200"
+      },
+      {
+        "tier": "Full Day Coverage",
+        "amount": "$2,900"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "$5,800"
+      }
+    ]
+  },
+  {
+    "id": "ven_chihuly_garden_events",
+    "name": "Chihuly Garden Events",
+    "cat": "venue",
+    "lat": 47.6205,
+    "lng": -122.3493,
+    "area": "Seattle",
+    "price": 4,
+    "rating": 4.9,
+    "brief": "Breathtaking event space surrounded by world-famous glass sculptures — Seattle's most magical wedding backdrop.",
+    "email": "events@chihulygardenevents.com",
+    "phone": "206-555-5001",
+    "web": "https://chihulygardenevents.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Ceremony Only",
+        "amount": "$5,500"
+      },
+      {
+        "tier": "Full Day Rental",
+        "amount": "$11,000"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$20,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_seattle_wedding_photo",
+    "name": "Seattle Wedding Photography",
+    "cat": "photo",
+    "lat": 47.6062,
+    "lng": -122.3321,
+    "area": "Seattle",
+    "price": 3,
+    "rating": 4.8,
+    "brief": "PNW wedding photographers blending moody Pacific Northwest light with timeless documentary storytelling since 2010.",
+    "email": "hello@seattleweddingphoto.com",
+    "phone": "206-555-5002",
+    "web": "https://seattleweddingphoto.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "$1,050"
+      },
+      {
+        "tier": "Full Day Coverage",
+        "amount": "$2,600"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "$5,200"
+      }
+    ]
+  },
+  {
+    "id": "ven_pike_place_catering",
+    "name": "Pike Place Catering Co.",
+    "cat": "catering",
+    "lat": 47.6085,
+    "lng": -122.3419,
+    "area": "Seattle",
+    "price": 3,
+    "rating": 4.8,
+    "brief": "Market-fresh Pacific Northwest catering — sourced daily from Pike Place vendors for weddings that taste as good as they look.",
+    "email": "info@pikeplacecetering.com",
+    "phone": "206-555-5003",
+    "web": "https://pikeplacecetering.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Buffet for 50",
+        "amount": "$2,200"
+      },
+      {
+        "tier": "Plated Dinner 100",
+        "amount": "$5,500"
+      },
+      {
+        "tier": "Full-Service Gala",
+        "amount": "$11,000"
+      }
+    ]
   }
 ]
