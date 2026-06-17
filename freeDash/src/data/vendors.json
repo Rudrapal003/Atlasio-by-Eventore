@@ -25289,5 +25289,305 @@
         "amount": "$5,800"
       }
     ]
+  },
+  {
+    "id": "ven_nyc_catering",
+    "name": "NYC Wedding Catering",
+    "cat": "catering",
+    "lat": 40.7128,
+    "lng": -74.006,
+    "area": "New York City",
+    "price": 4,
+    "rating": 4.9,
+    "brief": "Manhattan's most celebrated wedding caterers — James Beard-adjacent chefs, world cuisine tasting menus, and white-glove banquet service.",
+    "email": "hello@nycweddingcatering.com",
+    "phone": "212-555-5016",
+    "web": "https://nycweddingcatering.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Cocktail Reception (100)",
+        "amount": "$12,000"
+      },
+      {
+        "tier": "Plated Dinner (100)",
+        "amount": "$18,000"
+      },
+      {
+        "tier": "Full Service Gala (150)",
+        "amount": "$35,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_la_catering",
+    "name": "Los Angeles Wedding Catering",
+    "cat": "catering",
+    "lat": 34.0522,
+    "lng": -118.2437,
+    "area": "Los Angeles",
+    "price": 3,
+    "rating": 4.9,
+    "brief": "Hollywood celebrity caterers — farm-to-table California cuisine, vegan and allergen-friendly menus, and world-class chefs for LA's A-list weddings.",
+    "email": "hello@laweddingcatering.com",
+    "phone": "310-555-5016",
+    "web": "https://laweddingcatering.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Cocktail Reception (100)",
+        "amount": "$9,000"
+      },
+      {
+        "tier": "Plated Dinner (100)",
+        "amount": "$14,000"
+      },
+      {
+        "tier": "Full Service Gala (150)",
+        "amount": "$25,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_chicago_catering",
+    "name": "Chicago Wedding Catering",
+    "cat": "catering",
+    "lat": 41.8781,
+    "lng": -87.6298,
+    "area": "Chicago",
+    "price": 3,
+    "rating": 4.8,
+    "brief": "Windy City wedding caterers — Chicago steakhouse tradition, deep-dish inspired stations, and contemporary farm-to-table menus for all tastes.",
+    "email": "hello@chicagoweddingcatering.com",
+    "phone": "312-555-5017",
+    "web": "https://chicagoweddingcatering.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Buffet (100 guests)",
+        "amount": "$8,500"
+      },
+      {
+        "tier": "Plated Dinner (100)",
+        "amount": "$12,500"
+      },
+      {
+        "tier": "Full Service (150)",
+        "amount": "$22,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_miami_catering",
+    "name": "Miami Wedding Catering",
+    "cat": "catering",
+    "lat": 25.7617,
+    "lng": -80.1918,
+    "area": "Miami",
+    "price": 3,
+    "rating": 4.9,
+    "brief": "South Florida wedding caterers — Cuban-Latin fusion, Caribbean seafood, and international cuisine for Miami's cosmopolitan wedding celebrations.",
+    "email": "hello@miamiweddingcatering.com",
+    "phone": "305-555-5014",
+    "web": "https://miamiweddingcatering.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Cocktail Reception (100)",
+        "amount": "$9,500"
+      },
+      {
+        "tier": "Plated Dinner (100)",
+        "amount": "$14,500"
+      },
+      {
+        "tier": "Full Service (150)",
+        "amount": "$26,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_dc_catering",
+    "name": "DC Wedding Catering",
+    "cat": "catering",
+    "lat": 38.9072,
+    "lng": -77.0369,
+    "area": "Washington DC",
+    "price": 3,
+    "rating": 4.8,
+    "brief": "National capital wedding caterers — Chesapeake Bay seafood, diplomatic-quality Continental cuisine, and refined service for DC's elite weddings.",
+    "email": "hello@dcweddingcatering.com",
+    "phone": "202-555-5014",
+    "web": "https://dcweddingcatering.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Buffet (100 guests)",
+        "amount": "$9,000"
+      },
+      {
+        "tier": "Plated Dinner (100)",
+        "amount": "$14,000"
+      },
+      {
+        "tier": "Full Service (150)",
+        "amount": "$24,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_boston_catering",
+    "name": "Boston Wedding Catering",
+    "cat": "catering",
+    "lat": 42.3601,
+    "lng": -71.0589,
+    "area": "Boston",
+    "price": 3,
+    "rating": 4.8,
+    "brief": "New England wedding caterers — Cape Cod lobster, chowder stations, and refined Boston Brahmin-inspired menus for Back Bay celebrations.",
+    "email": "hello@bostonweddingcatering.com",
+    "phone": "617-555-5014",
+    "web": "https://bostonweddingcatering.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Buffet (100 guests)",
+        "amount": "$9,000"
+      },
+      {
+        "tier": "Plated Dinner (100)",
+        "amount": "$14,000"
+      },
+      {
+        "tier": "Full Service (150)",
+        "amount": "$24,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_seattle_catering",
+    "name": "Seattle Wedding Catering",
+    "cat": "catering",
+    "lat": 47.6062,
+    "lng": -122.3321,
+    "area": "Seattle",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "PNW farm-to-table wedding caterers — Pacific salmon, foraged mushrooms, and locally-sourced Washington State ingredients for every palette.",
+    "email": "hello@seattleweddingcatering.com",
+    "phone": "206-555-5013",
+    "web": "https://seattleweddingcatering.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Buffet (100 guests)",
+        "amount": "$7,500"
+      },
+      {
+        "tier": "Plated Dinner (100)",
+        "amount": "$12,000"
+      },
+      {
+        "tier": "Full Service (150)",
+        "amount": "$20,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_denver_catering",
+    "name": "Denver Wedding Catering",
+    "cat": "catering",
+    "lat": 39.7392,
+    "lng": -104.9903,
+    "area": "Denver",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "Rocky Mountain wedding caterers — Colorado wagyu, Olathe corn, and mountain-fresh cuisine for Denver's active and adventurous wedding couples.",
+    "email": "hello@denverweddingcatering.com",
+    "phone": "720-555-5014",
+    "web": "https://denverweddingcatering.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Buffet (100 guests)",
+        "amount": "$7,000"
+      },
+      {
+        "tier": "Plated Dinner (100)",
+        "amount": "$11,000"
+      },
+      {
+        "tier": "Full Service (150)",
+        "amount": "$19,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_phoenix_catering",
+    "name": "Phoenix Wedding Catering",
+    "cat": "catering",
+    "lat": 33.4484,
+    "lng": -112.074,
+    "area": "Phoenix",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "Arizona wedding caterers — Southwest fusion cuisine, Mexican-inspired stations, and seasonal desert-harvest menus for Scottsdale and Phoenix.",
+    "email": "hello@phoenixweddingcatering.com",
+    "phone": "480-555-5014",
+    "web": "https://phoenixweddingcatering.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Buffet (100 guests)",
+        "amount": "$6,500"
+      },
+      {
+        "tier": "Plated Dinner (100)",
+        "amount": "$10,500"
+      },
+      {
+        "tier": "Full Service (150)",
+        "amount": "$18,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_nashville_catering",
+    "name": "Nashville Wedding Catering",
+    "cat": "catering",
+    "lat": 36.1627,
+    "lng": -86.7816,
+    "area": "Nashville",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "Music City wedding caterers — hot chicken stations, Southern comfort food elevated, and Tennessee whiskey pairings for unforgettable receptions.",
+    "email": "hello@nashvilleweddingcatering.com",
+    "phone": "615-555-5014",
+    "web": "https://nashvilleweddingcatering.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Buffet (100 guests)",
+        "amount": "$7,000"
+      },
+      {
+        "tier": "Plated Dinner (100)",
+        "amount": "$11,500"
+      },
+      {
+        "tier": "Full Service (150)",
+        "amount": "$19,500"
+      }
+    ]
   }
 ]
