@@ -4,6 +4,7 @@ import L from 'leaflet';
 import { Plus, Minus } from 'lucide-react';
 import type { Vendor } from '@/types';
 import { catById } from '@/data/categories';
+import type { GeoCenter } from '@/hooks/useFilters';
 import styles from './MapCanvas.module.css';
 
 interface Props {
@@ -12,18 +13,14 @@ interface Props {
   selectedId: string | null;
   onSelectVendor: (id: string) => void;
   visibleCount: number;
+  center: GeoCenter;
 }
 
-const VANCOUVER: [number, number] = [49.2790, -123.1207];
+const DEFAULT_CENTER: [number, number] = [43.6532, -79.3832]; // Toronto — central Canada/USA
 
 /* =========================================================
-   MapCanvas — Leaflet over OpenStreetMap tiles. Markers render
-   via L.divIcon so we can style them with CSS in global.css
-   (.v-marker .selected .in-plan .sponsored). Category emoji
-   sits at the center of each colored disc.
-   Default Leaflet zoom is disabled; the custom <ZoomControls />
-   below floats next to the left rail.
-   ========================================================= */
+MapCanvas — Leaflet over OpenStreetMap tiles.
+========================================================= */
 
 function buildIcon(v: Vendor, selected: boolean, inPlan: boolean): L.DivIcon {
   const c = catById(v.cat);
@@ -42,7 +39,7 @@ function buildIcon(v: Vendor, selected: boolean, inPlan: boolean): L.DivIcon {
   });
 }
 
-/** Imperatively pan the map when the selected vendor changes. */
+/** Pan to selected vendor. */
 function PanToSelection({ vendors, selectedId }: { vendors: Vendor[]; selectedId: string | null }) {
   const map = useMap();
   useEffect(() => {
@@ -54,7 +51,17 @@ function PanToSelection({ vendors, selectedId }: { vendors: Vendor[]; selectedId
   return null;
 }
 
-/** Floating zoom controls — positioned outside MapContainer via a map ref. */
+/** Pan to user's center when it changes. */
+function PanToCenter({ center }: { center: GeoCenter }) {
+  const map = useMap();
+  useEffect(() => {
+    if (!center) return;
+    map.flyTo([center.lat, center.lng], 11, { animate: true, duration: 0.8 });
+  }, [center, map]);
+  return null;
+}
+
+/** Floating zoom controls. */
 function ZoomControls({ mapRef }: { mapRef: React.MutableRefObject<L.Map | null> }) {
   return (
     <div className={`${styles.zoom} floatCard`} role="group" aria-label="Map zoom">
@@ -82,11 +89,10 @@ function ZoomControls({ mapRef }: { mapRef: React.MutableRefObject<L.Map | null>
 }
 
 export function MapCanvas({
-  vendors, isInPlan, selectedId, onSelectVendor, visibleCount,
+  vendors, isInPlan, selectedId, onSelectVendor, visibleCount, center,
 }: Props) {
   const mapRef = useRef<L.Map | null>(null);
 
-  /* Memoize icons so they only rebuild when relevant inputs change */
   const markers = useMemo(() => vendors.map((v) => {
     const icon = buildIcon(v, v.id === selectedId, isInPlan(v.id));
     return (
@@ -104,8 +110,8 @@ export function MapCanvas({
   return (
     <>
       <MapContainer
-        center={VANCOUVER}
-        zoom={12}
+        center={DEFAULT_CENTER}
+        zoom={4}
         zoomSnap={0.5}
         zoomControl={false}
         ref={mapRef}
@@ -118,6 +124,7 @@ export function MapCanvas({
         />
         {markers}
         <PanToSelection vendors={vendors} selectedId={selectedId} />
+        <PanToCenter center={center} />
       </MapContainer>
 
       <ZoomControls mapRef={mapRef} />
