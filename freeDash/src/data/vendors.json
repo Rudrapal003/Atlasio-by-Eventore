@@ -15719,5 +15719,395 @@
         "amount": "$3,100"
       }
     ]
+  },
+  {
+    "id": "ven_okc_venue",
+    "name": "Oklahoma City Wedding Venues",
+    "cat": "venue",
+    "lat": 35.4676,
+    "lng": -97.5164,
+    "area": "Oklahoma City",
+    "price": 1,
+    "rating": 4.6,
+    "brief": "Bricktown warehouse lofts, deep red Oklahoma prairie ranches, and urban OKC event centres for memorable celebrations.",
+    "email": "hello@okcvenues.com",
+    "phone": "405-555-1010",
+    "web": "https://okcvenues.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Half-Day Venue",
+        "amount": "$1,100"
+      },
+      {
+        "tier": "Full Day Venue",
+        "amount": "$2,200"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$4,200"
+      }
+    ]
+  },
+  {
+    "id": "ven_okc_photo",
+    "name": "OKC Wedding Photography",
+    "cat": "photo",
+    "lat": 35.4676,
+    "lng": -97.5164,
+    "area": "Oklahoma City",
+    "price": 1,
+    "rating": 4.7,
+    "brief": "Oklahoma wedding photographers — Bricktown canal backdrops, vast prairie sunsets, and downtown OKC skyline portraits.",
+    "email": "hello@okcweddingphoto.com",
+    "phone": "405-555-1011",
+    "web": "https://okcweddingphoto.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "$850"
+      },
+      {
+        "tier": "Full Day",
+        "amount": "$2,000"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "$3,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_albuquerque_venue",
+    "name": "Albuquerque Wedding Venues",
+    "cat": "venue",
+    "lat": 35.0844,
+    "lng": -106.6504,
+    "area": "Albuquerque",
+    "price": 1,
+    "rating": 4.6,
+    "brief": "High desert wedding magic — adobe haciendas, Sandia Mountain panoramas, and Old Town Albuquerque historic charm.",
+    "email": "hello@albuquerquevenues.com",
+    "phone": "505-555-1010",
+    "web": "https://albuquerquevenues.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Half-Day Venue",
+        "amount": "$1,000"
+      },
+      {
+        "tier": "Full Day Venue",
+        "amount": "$2,000"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$3,800"
+      }
+    ]
+  },
+  {
+    "id": "ven_albuquerque_photo",
+    "name": "Albuquerque Wedding Photography",
+    "cat": "photo",
+    "lat": 35.0844,
+    "lng": -106.6504,
+    "area": "Albuquerque",
+    "price": 1,
+    "rating": 4.7,
+    "brief": "New Mexico wedding photographers — hot air balloon festival backdrops, Rio Grande golden-hour shots, and adobe sunset portraits.",
+    "email": "hello@albuquerqueweddingphoto.com",
+    "phone": "505-555-1011",
+    "web": "https://albuquerqueweddingphoto.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "$800"
+      },
+      {
+        "tier": "Full Day",
+        "amount": "$1,900"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "$3,300"
+      }
+    ]
+  },
+  {
+    "id": "ven_albuquerque_decor",
+    "name": "Albuquerque Wedding Décor",
+    "cat": "decor",
+    "lat": 35.0844,
+    "lng": -106.6504,
+    "area": "Albuquerque",
+    "price": 1,
+    "rating": 4.6,
+    "brief": "Southwest-inspired wedding décor — Turquoise accents, Navajo textile draping, cholla cactus installations, and desert wildflowers.",
+    "email": "hello@albuquerquedecor.com",
+    "phone": "505-555-1012",
+    "web": "https://albuquerquedecor.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Ceremony Setup",
+        "amount": "$900"
+      },
+      {
+        "tier": "Reception Package",
+        "amount": "$2,200"
+      },
+      {
+        "tier": "Full Venue Styling",
+        "amount": "$4,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_tucson_venue",
+    "name": "Tucson Wedding Venues",
+    "cat": "venue",
+    "lat": 32.2226,
+    "lng": -110.9747,
+    "area": "Tucson",
+    "price": 1,
+    "rating": 4.6,
+    "brief": "Sonoran Desert wedding venues — Saguaro cactus groves, mountain resort properties, and historic downtown Tucson spaces.",
+    "email": "hello@tucsonvenues.com",
+    "phone": "520-555-1010",
+    "web": "https://tucsonvenues.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Half-Day Venue",
+        "amount": "$1,000"
+      },
+      {
+        "tier": "Full Day Venue",
+        "amount": "$2,000"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$3,800"
+      }
+    ]
+  },
+  {
+    "id": "ven_tucson_photo",
+    "name": "Tucson Wedding Photography",
+    "cat": "photo",
+    "lat": 32.2226,
+    "lng": -110.9747,
+    "area": "Tucson",
+    "price": 1,
+    "rating": 4.7,
+    "brief": "Arizona desert wedding photographers — Saguaro National Park dramatic backdrops, Santa Catalina Mountain vistas, and golden sunset magic.",
+    "email": "hello@tucsonweddingphoto.com",
+    "phone": "520-555-1011",
+    "web": "https://tucsonweddingphoto.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "$800"
+      },
+      {
+        "tier": "Full Day",
+        "amount": "$1,900"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "$3,300"
+      }
+    ]
+  },
+  {
+    "id": "ven_saltlake_venue",
+    "name": "Salt Lake City Wedding Venues",
+    "cat": "venue",
+    "lat": 40.7608,
+    "lng": -111.891,
+    "area": "Salt Lake City",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "Utah wedding venues from Temple Square surroundings to mountain resort properties and Great Salt Lake panorama estates.",
+    "email": "hello@saltlakevenues.com",
+    "phone": "801-555-1010",
+    "web": "https://saltlakevenues.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Half-Day Venue",
+        "amount": "$1,300"
+      },
+      {
+        "tier": "Full Day Venue",
+        "amount": "$2,600"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$5,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_saltlake_photo",
+    "name": "Salt Lake City Wedding Photography",
+    "cat": "photo",
+    "lat": 40.7608,
+    "lng": -111.891,
+    "area": "Salt Lake City",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "Utah wedding photographers — Wasatch Mountain backdrops, Great Salt Lake reflections, and alpine wildflower meadow portraits.",
+    "email": "hello@saltlakeweddingphoto.com",
+    "phone": "801-555-1011",
+    "web": "https://saltlakeweddingphoto.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "$1,000"
+      },
+      {
+        "tier": "Full Day",
+        "amount": "$2,400"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "$4,100"
+      }
+    ]
+  },
+  {
+    "id": "ven_saltlake_catering",
+    "name": "Salt Lake City Wedding Catering",
+    "cat": "catering",
+    "lat": 40.7608,
+    "lng": -111.891,
+    "area": "Salt Lake City",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "Utah farm-to-table wedding catering — locally sourced Rocky Mountain produce, artisanal Utah meats, and modern American menus.",
+    "email": "hello@saltlakecatering.com",
+    "phone": "801-555-1012",
+    "web": "https://saltlakecatering.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Buffet (50 guests)",
+        "amount": "$2,800"
+      },
+      {
+        "tier": "Plated Dinner (100 guests)",
+        "amount": "$6,800"
+      },
+      {
+        "tier": "Full Service (150 guests)",
+        "amount": "$13,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_boise_venue",
+    "name": "Boise Wedding Venues",
+    "cat": "venue",
+    "lat": 43.615,
+    "lng": -116.2023,
+    "area": "Boise",
+    "price": 1,
+    "rating": 4.7,
+    "brief": "Treasure Valley wedding venues — lava rock canyon estates, Boise River greenbelt spaces, and boutique downtown event centres.",
+    "email": "hello@boisevenues.com",
+    "phone": "208-555-1010",
+    "web": "https://boisevenues.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Half-Day Venue",
+        "amount": "$1,100"
+      },
+      {
+        "tier": "Full Day Venue",
+        "amount": "$2,200"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$4,200"
+      }
+    ]
+  },
+  {
+    "id": "ven_boise_photo",
+    "name": "Boise Wedding Photography",
+    "cat": "photo",
+    "lat": 43.615,
+    "lng": -116.2023,
+    "area": "Boise",
+    "price": 1,
+    "rating": 4.7,
+    "brief": "Idaho wedding photographers — Sawtooth Mountain vistas, Snake River Canyon dramatic light, and Boise foothills golden-hour magic.",
+    "email": "hello@boiseweddingphoto.com",
+    "phone": "208-555-1011",
+    "web": "https://boiseweddingphoto.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "$900"
+      },
+      {
+        "tier": "Full Day",
+        "amount": "$2,100"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "$3,600"
+      }
+    ]
+  },
+  {
+    "id": "ven_boise_catering",
+    "name": "Boise Wedding Catering",
+    "cat": "catering",
+    "lat": 43.615,
+    "lng": -116.2023,
+    "area": "Boise",
+    "price": 1,
+    "rating": 4.7,
+    "brief": "Idaho farm-fresh wedding catering — Snake River trout, Boise organic produce, and Pacific Northwest-inspired menus.",
+    "email": "hello@boisecatering.com",
+    "phone": "208-555-1012",
+    "web": "https://boisecatering.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Buffet (50 guests)",
+        "amount": "$2,400"
+      },
+      {
+        "tier": "Plated Dinner (100 guests)",
+        "amount": "$5,800"
+      },
+      {
+        "tier": "Full Service (150 guests)",
+        "amount": "$11,000"
+      }
+    ]
   }
 ]
