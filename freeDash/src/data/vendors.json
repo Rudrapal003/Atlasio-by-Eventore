@@ -22679,5 +22679,335 @@
         "amount": "$3,200"
       }
     ]
+  },
+  {
+    "id": "ven_amarillo_venue",
+    "name": "Amarillo Wedding Venues",
+    "cat": "venue",
+    "lat": 35.222,
+    "lng": -101.8313,
+    "area": "Amarillo",
+    "price": 1,
+    "rating": 4.5,
+    "brief": "Yellow Rose wedding venues — Cadillac Ranch art installation backdrop, Texas Panhandle cattle ranch estates, and Palo Duro Canyon proximity.",
+    "email": "hello@amarillovenues.com",
+    "phone": "806-555-2010",
+    "web": "https://amarillovenues.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Half-Day Venue",
+        "amount": "$900"
+      },
+      {
+        "tier": "Full Day Venue",
+        "amount": "$1,800"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$3,400"
+      }
+    ]
+  },
+  {
+    "id": "ven_amarillo_photo",
+    "name": "Amarillo Wedding Photography",
+    "cat": "photo",
+    "lat": 35.222,
+    "lng": -101.8313,
+    "area": "Amarillo",
+    "price": 1,
+    "rating": 4.6,
+    "brief": "Texas Panhandle wedding photographers — Palo Duro Canyon Grand Canyon of Texas drama, Cadillac Ranch quirky art, and High Plains big-sky sunsets.",
+    "email": "hello@amarilloweddingphoto.com",
+    "phone": "806-555-2011",
+    "web": "https://amarilloweddingphoto.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "$750"
+      },
+      {
+        "tier": "Full Day",
+        "amount": "$1,800"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "$3,100"
+      }
+    ]
+  },
+  {
+    "id": "ven_mcallen_venue",
+    "name": "McAllen Wedding Venues",
+    "cat": "venue",
+    "lat": 26.2034,
+    "lng": -98.23,
+    "area": "McAllen",
+    "price": 1,
+    "rating": 4.5,
+    "brief": "Rio Grande Valley wedding venues — McAllen Convention Center grandeur, South Texas botanical gardens, and borderland hacienda estate receptions.",
+    "email": "hello@mcallenvenues.com",
+    "phone": "956-555-1010",
+    "web": "https://mcallenvenues.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Half-Day Venue",
+        "amount": "$900"
+      },
+      {
+        "tier": "Full Day Venue",
+        "amount": "$1,800"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$3,400"
+      }
+    ]
+  },
+  {
+    "id": "ven_laredo_venue",
+    "name": "Laredo Wedding Venues",
+    "cat": "venue",
+    "lat": 27.5306,
+    "lng": -99.4803,
+    "area": "Laredo",
+    "price": 1,
+    "rating": 4.4,
+    "brief": "Gateway city wedding venues — San Agustín Plaza historic ceremonies, Rio Grande riverfront, and South Texas ranch estate receptions.",
+    "email": "hello@laredo venues.com",
+    "phone": "956-555-2010",
+    "web": "https://laredovenues.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Half-Day Venue",
+        "amount": "$800"
+      },
+      {
+        "tier": "Full Day Venue",
+        "amount": "$1,600"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$3,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_shreveport_photo",
+    "name": "Shreveport Wedding Photography",
+    "cat": "photo",
+    "lat": 32.5252,
+    "lng": -93.7502,
+    "area": "Shreveport",
+    "price": 1,
+    "rating": 4.6,
+    "brief": "Red River wedding photographers — Cross Lake sunset magic, Strand Theatre Art Deco elegance, and North Louisiana pine forest landscape.",
+    "email": "hello@shreveportweddingphoto.com",
+    "phone": "318-555-1011",
+    "web": "https://shreveportweddingphoto.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "$750"
+      },
+      {
+        "tier": "Full Day",
+        "amount": "$1,800"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "$3,100"
+      }
+    ]
+  },
+  {
+    "id": "ven_montgomery_venue",
+    "name": "Montgomery Wedding Venues",
+    "cat": "venue",
+    "lat": 32.3668,
+    "lng": -86.3,
+    "area": "Montgomery",
+    "price": 1,
+    "rating": 4.6,
+    "brief": "Cradle of the Confederacy wedding venues — Rosa Parks Museum-adjacent lofts, Alabama River waterfront, and Blount Cultural Park estate ceremonies.",
+    "email": "hello@montgomeryvenues.com",
+    "phone": "334-555-1010",
+    "web": "https://montgomeryvenues.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Half-Day Venue",
+        "amount": "$1,000"
+      },
+      {
+        "tier": "Full Day Venue",
+        "amount": "$2,000"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$3,800"
+      }
+    ]
+  },
+  {
+    "id": "ven_montgomery_photo",
+    "name": "Montgomery Wedding Photography",
+    "cat": "photo",
+    "lat": 32.3668,
+    "lng": -86.3,
+    "area": "Montgomery",
+    "price": 1,
+    "rating": 4.6,
+    "brief": "Alabama wedding photographers — Alabama River valley light, Dexter Avenue historic backdrop, and Montgomery's Southern garden estate magic.",
+    "email": "hello@montgomeryweddingphoto.com",
+    "phone": "334-555-1011",
+    "web": "https://montgomeryweddingphoto.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "$800"
+      },
+      {
+        "tier": "Full Day",
+        "amount": "$1,900"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "$3,300"
+      }
+    ]
+  },
+  {
+    "id": "ven_mobile_venue",
+    "name": "Mobile Wedding Venues",
+    "cat": "venue",
+    "lat": 30.6954,
+    "lng": -88.0399,
+    "area": "Mobile",
+    "price": 1,
+    "rating": 4.6,
+    "brief": "Port City wedding venues — Azalea City blooms, Battleship Memorial Park, and Mobile Bay waterfront for Gulf Coast Southern celebrations.",
+    "email": "hello@mobilevenues.com",
+    "phone": "251-555-1010",
+    "web": "https://mobilevenues.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Half-Day Venue",
+        "amount": "$1,000"
+      },
+      {
+        "tier": "Full Day Venue",
+        "amount": "$2,000"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$3,800"
+      }
+    ]
+  },
+  {
+    "id": "ven_mobile_photo",
+    "name": "Mobile Wedding Photography",
+    "cat": "photo",
+    "lat": 30.6954,
+    "lng": -88.0399,
+    "area": "Mobile",
+    "price": 1,
+    "rating": 4.7,
+    "brief": "Alabama Gulf Coast wedding photographers — Mobile Bay magnolia-draped portraits, Battleship Memorial, and Azalea Trail spring blooms.",
+    "email": "hello@mobileweddingphoto.com",
+    "phone": "251-555-1011",
+    "web": "https://mobileweddingphoto.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "$800"
+      },
+      {
+        "tier": "Full Day",
+        "amount": "$1,900"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "$3,300"
+      }
+    ]
+  },
+  {
+    "id": "ven_greenville_venue",
+    "name": "Greenville SC Wedding Venues",
+    "cat": "venue",
+    "lat": 34.8526,
+    "lng": -82.394,
+    "area": "Greenville SC",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "Upstate South Carolina wedding venues — Falls Park waterfall romance, Main Street boutique elegance, and Blue Ridge Mountain foothills estate.",
+    "email": "hello@greenvillescvenues.com",
+    "phone": "864-555-1010",
+    "web": "https://greenvillescvenues.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Half-Day Venue",
+        "amount": "$1,400"
+      },
+      {
+        "tier": "Full Day Venue",
+        "amount": "$2,800"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$5,400"
+      }
+    ]
+  },
+  {
+    "id": "ven_greenville_photo",
+    "name": "Greenville SC Wedding Photography",
+    "cat": "photo",
+    "lat": 34.8526,
+    "lng": -82.394,
+    "area": "Greenville SC",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "Upstate South Carolina wedding photographers — Reedy River Falls romance, Paris Mountain State Park, and Main Street artisan backdrops.",
+    "email": "hello@greenvillescweddingphoto.com",
+    "phone": "864-555-1011",
+    "web": "https://greenvillescweddingphoto.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "$1,050"
+      },
+      {
+        "tier": "Full Day",
+        "amount": "$2,500"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "$4,200"
+      }
+    ]
   }
 ]
