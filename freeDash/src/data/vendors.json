@@ -13529,5 +13529,455 @@
         "amount": "$5,000"
       }
     ]
+  },
+  {
+    "id": "ven_austin_planner_co",
+    "name": "Austin Wedding Planners",
+    "cat": "planner",
+    "lat": 30.2672,
+    "lng": -97.7431,
+    "area": "Austin",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "Keep Austin Weird — and perfectly planned. Full-service wedding planners specialising in outdoor, festival, and boho Texas weddings.",
+    "email": "hello@austinweddingplanners.com",
+    "phone": "512-555-4010",
+    "web": "https://austinweddingplanners.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Day-Of Coordination",
+        "amount": "$1,500"
+      },
+      {
+        "tier": "Partial Planning",
+        "amount": "$3,800"
+      },
+      {
+        "tier": "Full Planning",
+        "amount": "$7,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_austin_decor_co",
+    "name": "Austin Event Décor Co.",
+    "cat": "decor",
+    "lat": 30.2685,
+    "lng": -97.7498,
+    "area": "Austin",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "Austin's favourite wedding décor team — string lights, cedar wood arches, and Hill Country wildflower table scaping.",
+    "email": "hello@austineventdecor.com",
+    "phone": "512-555-4011",
+    "web": "https://austineventdecor.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Ceremony Setup",
+        "amount": "$1,100"
+      },
+      {
+        "tier": "Reception Package",
+        "amount": "$2,800"
+      },
+      {
+        "tier": "Full Venue Styling",
+        "amount": "$5,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_austin_hair_studio",
+    "name": "Austin Bridal Hair Studio",
+    "cat": "hair",
+    "lat": 30.2672,
+    "lng": -97.7431,
+    "area": "Austin",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "South Congress bridal stylists delivering undone boho waves, sleek chignons, and Texas-big hair for every style.",
+    "email": "book@austinbridalhair.com",
+    "phone": "512-555-4012",
+    "web": "https://austinbridalhair.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Bridal Hair",
+        "amount": "$260"
+      },
+      {
+        "tier": "Bridal + 2 Guests",
+        "amount": "$560"
+      },
+      {
+        "tier": "Full Bridal Party",
+        "amount": "$1,050"
+      }
+    ]
+  },
+  {
+    "id": "ven_nashville_planner_co",
+    "name": "Nashville Wedding Planners",
+    "cat": "planner",
+    "lat": 36.1627,
+    "lng": -86.7816,
+    "area": "Nashville",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "Music City full-service wedding planners — from intimate Airbnb farmhouse weddings to 400-guest downtown hotel galas.",
+    "email": "hello@nashvilleweddingplanners.com",
+    "phone": "615-555-3010",
+    "web": "https://nashvilleweddingplanners.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Day-Of Coordination",
+        "amount": "$1,600"
+      },
+      {
+        "tier": "Partial Planning",
+        "amount": "$4,000"
+      },
+      {
+        "tier": "Full Planning",
+        "amount": "$8,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_nashville_hair_co",
+    "name": "Nashville Bridal Hair Co.",
+    "cat": "hair",
+    "lat": 36.1612,
+    "lng": -86.7775,
+    "area": "Nashville",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "Tennessee bridal hair specialists — Southern glam curls, boho braids, and country-chic updos for Music City brides.",
+    "email": "book@nashvillebridalhair.com",
+    "phone": "615-555-3011",
+    "web": "https://nashvillebridalhair.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Bridal Hair",
+        "amount": "$270"
+      },
+      {
+        "tier": "Bridal + 2 Guests",
+        "amount": "$580"
+      },
+      {
+        "tier": "Full Bridal Party",
+        "amount": "$1,100"
+      }
+    ]
+  },
+  {
+    "id": "ven_nashville_decor_co",
+    "name": "Nashville Wedding Décor",
+    "cat": "decor",
+    "lat": 36.1537,
+    "lng": -86.7923,
+    "area": "Nashville",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "Music City wedding décor — neon signs, marquee letters, and rustic barn chic installations across Tennessee venues.",
+    "email": "hello@nashvilleweddingdecor.com",
+    "phone": "615-555-3012",
+    "web": "https://nashvilleweddingdecor.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Ceremony Setup",
+        "amount": "$1,100"
+      },
+      {
+        "tier": "Reception Package",
+        "amount": "$2,700"
+      },
+      {
+        "tier": "Full Venue Styling",
+        "amount": "$5,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_atlanta_planner_co",
+    "name": "Atlanta Wedding Planners",
+    "cat": "planner",
+    "lat": 33.749,
+    "lng": -84.388,
+    "area": "Atlanta",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "ATL's most celebrated planning team — from Buckhead luxury estates to West End creative lofts, every event flawlessly executed.",
+    "email": "hello@atlantaweddingplanners.com",
+    "phone": "404-555-3010",
+    "web": "https://atlantaweddingplanners.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Day-Of Coordination",
+        "amount": "$1,600"
+      },
+      {
+        "tier": "Partial Planning",
+        "amount": "$4,000"
+      },
+      {
+        "tier": "Full Planning",
+        "amount": "$8,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_atlanta_hair_studio",
+    "name": "Atlanta Bridal Hair Studio",
+    "cat": "hair",
+    "lat": 33.755,
+    "lng": -84.39,
+    "area": "Atlanta",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "Georgia's most booked on-location bridal hair and makeup team — serving Atlanta's diverse wedding community with beauty for all.",
+    "email": "book@atlantabridalhair.com",
+    "phone": "404-555-3011",
+    "web": "https://atlantabridalhair.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Bridal Hair",
+        "amount": "$290"
+      },
+      {
+        "tier": "Bridal + 2 Guests",
+        "amount": "$620"
+      },
+      {
+        "tier": "Full Bridal Party",
+        "amount": "$1,150"
+      }
+    ]
+  },
+  {
+    "id": "ven_atlanta_decor_co",
+    "name": "Atlanta Event Décor Studio",
+    "cat": "decor",
+    "lat": 33.7724,
+    "lng": -84.386,
+    "area": "Atlanta",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "Atlanta's top wedding décor designers — floral arches, custom drapery, and over-the-top centrepieces for Southern celebrations.",
+    "email": "hello@atlantaeventdecor.com",
+    "phone": "404-555-3012",
+    "web": "https://atlantaeventdecor.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Ceremony Setup",
+        "amount": "$1,200"
+      },
+      {
+        "tier": "Reception Package",
+        "amount": "$3,000"
+      },
+      {
+        "tier": "Full Venue Styling",
+        "amount": "$6,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_dallas_planner_co",
+    "name": "Dallas Wedding Planners",
+    "cat": "planner",
+    "lat": 32.7767,
+    "lng": -96.797,
+    "area": "Dallas",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "Big D, big weddings — Dallas full-service planners executing everything from Highland Park garden parties to downtown ballroom galas.",
+    "email": "hello@dallasweddingplanners.com",
+    "phone": "214-555-4010",
+    "web": "https://dallasweddingplanners.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Day-Of Coordination",
+        "amount": "$1,600"
+      },
+      {
+        "tier": "Partial Planning",
+        "amount": "$4,000"
+      },
+      {
+        "tier": "Full Planning",
+        "amount": "$8,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_dallas_hair_co",
+    "name": "Dallas Bridal Beauty Co.",
+    "cat": "hair",
+    "lat": 32.7831,
+    "lng": -96.8067,
+    "area": "Dallas",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "Uptown Dallas on-location bridal hair and makeup team — Texas-big curls, sleek buns, and flawless airbrush foundations.",
+    "email": "book@dallasbridalbeauty.com",
+    "phone": "214-555-4011",
+    "web": "https://dallasbridalbeauty.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Bridal Hair",
+        "amount": "$280"
+      },
+      {
+        "tier": "Bridal + 2 Guests",
+        "amount": "$600"
+      },
+      {
+        "tier": "Full Bridal Party",
+        "amount": "$1,100"
+      }
+    ]
+  },
+  {
+    "id": "ven_denver_planner_co",
+    "name": "Denver Wedding Planners",
+    "cat": "planner",
+    "lat": 39.7392,
+    "lng": -104.9903,
+    "area": "Denver",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "Colorado wedding planners specialising in mountain ceremonies, brewery receptions, and epic Colorado outdoor experiences.",
+    "email": "hello@denverweddingplanners.com",
+    "phone": "303-555-5010",
+    "web": "https://denverweddingplanners.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Day-Of Coordination",
+        "amount": "$1,400"
+      },
+      {
+        "tier": "Partial Planning",
+        "amount": "$3,500"
+      },
+      {
+        "tier": "Full Planning",
+        "amount": "$7,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_denver_florals",
+    "name": "Denver Wedding Florals",
+    "cat": "florist",
+    "lat": 39.7392,
+    "lng": -104.9847,
+    "area": "Denver",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "Mile High City florists bringing Rocky Mountain wildflowers, sunflowers, and Colorado aspen leaves into stunning wedding designs.",
+    "email": "hello@denverweddingflorals.com",
+    "phone": "303-555-5011",
+    "web": "https://denverweddingflorals.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Bridal Bouquet Set",
+        "amount": "$500"
+      },
+      {
+        "tier": "Ceremony Flowers",
+        "amount": "$1,200"
+      },
+      {
+        "tier": "Full Floral Design",
+        "amount": "$2,600"
+      }
+    ]
+  },
+  {
+    "id": "ven_denver_decor_co",
+    "name": "Denver Event Décor Co.",
+    "cat": "decor",
+    "lat": 39.7508,
+    "lng": -104.9997,
+    "area": "Denver",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "Denver's creative wedding décor team — industrial-chic warehouse styling, mountain rustic, and modern Colorado aesthetics.",
+    "email": "hello@denvereventdecor.com",
+    "phone": "303-555-5012",
+    "web": "https://denvereventdecor.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Ceremony Setup",
+        "amount": "$1,000"
+      },
+      {
+        "tier": "Reception Package",
+        "amount": "$2,500"
+      },
+      {
+        "tier": "Full Venue Styling",
+        "amount": "$5,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_denver_dj_mountain",
+    "name": "Denver DJ Mountain",
+    "cat": "music",
+    "lat": 39.7392,
+    "lng": -104.9903,
+    "area": "Denver",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "Colorado wedding DJs fluent in country, bluegrass, indie, and top-40 — keeping dance floors packed from the Front Range to the summit.",
+    "email": "book@denverdjmountain.com",
+    "phone": "303-555-5013",
+    "web": "https://denverdjmountain.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "DJ 4 Hours",
+        "amount": "$750"
+      },
+      {
+        "tier": "DJ Full Night",
+        "amount": "$1,500"
+      },
+      {
+        "tier": "DJ + Photo Booth",
+        "amount": "$2,400"
+      }
+    ]
   }
 ]
