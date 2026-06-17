@@ -17279,5 +17279,365 @@
         "amount": "$18,000"
       }
     ]
+  },
+  {
+    "id": "ven_birmingham_venue",
+    "name": "Birmingham Wedding Venues",
+    "cat": "venue",
+    "lat": 33.5186,
+    "lng": -86.8104,
+    "area": "Birmingham",
+    "price": 1,
+    "rating": 4.7,
+    "brief": "Magic City wedding venues — Sloss Furnaces industrial chic, Red Mountain Amphitheatre views, and Five Points South neighbourhood charm.",
+    "email": "hello@birminghamvenues.com",
+    "phone": "205-555-1010",
+    "web": "https://birminghamvenues.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Half-Day Venue",
+        "amount": "$1,100"
+      },
+      {
+        "tier": "Full Day Venue",
+        "amount": "$2,200"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$4,200"
+      }
+    ]
+  },
+  {
+    "id": "ven_birmingham_photo",
+    "name": "Birmingham Wedding Photography",
+    "cat": "photo",
+    "lat": 33.5186,
+    "lng": -86.8104,
+    "area": "Birmingham",
+    "price": 1,
+    "rating": 4.7,
+    "brief": "Alabama wedding photographers — Red Mountain Park light, Vulcan monument backdrops, and verdant Alabama countryside estates.",
+    "email": "hello@birminghamweddingphoto.com",
+    "phone": "205-555-1011",
+    "web": "https://birminghamweddingphoto.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "$850"
+      },
+      {
+        "tier": "Full Day",
+        "amount": "$2,000"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "$3,400"
+      }
+    ]
+  },
+  {
+    "id": "ven_jackson_venue",
+    "name": "Jackson Wedding Venues",
+    "cat": "venue",
+    "lat": 32.2988,
+    "lng": -90.1848,
+    "area": "Jackson",
+    "price": 1,
+    "rating": 4.5,
+    "brief": "Mississippi capital wedding venues — antebellum Fondren District mansions, Mississippi Museum of Natural Science-adjacent spaces.",
+    "email": "hello@jacksonvenues.com",
+    "phone": "601-555-1010",
+    "web": "https://jacksonvenues.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Half-Day Venue",
+        "amount": "$900"
+      },
+      {
+        "tier": "Full Day Venue",
+        "amount": "$1,800"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$3,400"
+      }
+    ]
+  },
+  {
+    "id": "ven_jackson_photo",
+    "name": "Jackson Wedding Photography",
+    "cat": "photo",
+    "lat": 32.2988,
+    "lng": -90.1848,
+    "area": "Jackson",
+    "price": 1,
+    "rating": 4.6,
+    "brief": "Mississippi wedding photographers — Delta Blues country, Ross Barnett Reservoir sunsets, and downtown Jackson historic charm.",
+    "email": "hello@jacksonweddingphoto.com",
+    "phone": "601-555-1011",
+    "web": "https://jacksonweddingphoto.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "$750"
+      },
+      {
+        "tier": "Full Day",
+        "amount": "$1,800"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "$3,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_batonrouge_venue",
+    "name": "Baton Rouge Wedding Venues",
+    "cat": "venue",
+    "lat": 30.4515,
+    "lng": -91.1871,
+    "area": "Baton Rouge",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "Louisiana capital wedding venues — plantation house ceremony estates, LSU-adjacent receptions, and Mississippi River bluff properties.",
+    "email": "hello@batonrougevenues.com",
+    "phone": "225-555-1010",
+    "web": "https://batonrougevenues.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Half-Day Venue",
+        "amount": "$1,300"
+      },
+      {
+        "tier": "Full Day Venue",
+        "amount": "$2,600"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$5,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_batonrouge_catering",
+    "name": "Baton Rouge Wedding Catering",
+    "cat": "catering",
+    "lat": 30.4515,
+    "lng": -91.1871,
+    "area": "Baton Rouge",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "Cajun wedding catering — gumbo, jambalaya, crawfish étouffée, and authentic Louisiana cuisine for unforgettable receptions.",
+    "email": "hello@batonrougecatering.com",
+    "phone": "225-555-1012",
+    "web": "https://batonrougecatering.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Buffet (50 guests)",
+        "amount": "$2,500"
+      },
+      {
+        "tier": "Plated Dinner (100 guests)",
+        "amount": "$6,000"
+      },
+      {
+        "tier": "Full Service (150 guests)",
+        "amount": "$11,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_desmoines_venue",
+    "name": "Des Moines Wedding Venues",
+    "cat": "venue",
+    "lat": 41.5868,
+    "lng": -93.625,
+    "area": "Des Moines",
+    "price": 1,
+    "rating": 4.6,
+    "brief": "Iowa capital wedding venues — East Village boutique spaces, Pappajohn Sculpture Park surrounds, and Gray's Lake waterfront.",
+    "email": "hello@desmoisnesvenues.com",
+    "phone": "515-555-1010",
+    "web": "https://desmoisnesvenues.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Half-Day Venue",
+        "amount": "$1,000"
+      },
+      {
+        "tier": "Full Day Venue",
+        "amount": "$2,000"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$3,800"
+      }
+    ]
+  },
+  {
+    "id": "ven_desmoines_photo",
+    "name": "Des Moines Wedding Photography",
+    "cat": "photo",
+    "lat": 41.5868,
+    "lng": -93.625,
+    "area": "Des Moines",
+    "price": 1,
+    "rating": 4.7,
+    "brief": "Iowa wedding photographers — East Village mural backdrops, Gray's Lake golden reflections, and Iowa State Fair charm.",
+    "email": "hello@desmoisnesweddingphoto.com",
+    "phone": "515-555-1011",
+    "web": "https://desmoisnesweddingphoto.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "$850"
+      },
+      {
+        "tier": "Full Day",
+        "amount": "$2,000"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "$3,400"
+      }
+    ]
+  },
+  {
+    "id": "ven_omaha_venue",
+    "name": "Omaha Wedding Venues",
+    "cat": "venue",
+    "lat": 41.2565,
+    "lng": -95.9345,
+    "area": "Omaha",
+    "price": 1,
+    "rating": 4.6,
+    "brief": "Gateway to the West wedding venues — Old Market cobblestone district, Joslyn Art Museum-adjacent spaces, and Missouri River estates.",
+    "email": "hello@omahavenues.com",
+    "phone": "402-555-1010",
+    "web": "https://omahavenues.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Half-Day Venue",
+        "amount": "$1,000"
+      },
+      {
+        "tier": "Full Day Venue",
+        "amount": "$2,000"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$3,800"
+      }
+    ]
+  },
+  {
+    "id": "ven_omaha_photo",
+    "name": "Omaha Wedding Photography",
+    "cat": "photo",
+    "lat": 41.2565,
+    "lng": -95.9345,
+    "area": "Omaha",
+    "price": 1,
+    "rating": 4.7,
+    "brief": "Nebraska wedding photographers — Old Market District vintage charm, Missouri River reflections, and Great Plains golden horizons.",
+    "email": "hello@omahaweddingphoto.com",
+    "phone": "402-555-1011",
+    "web": "https://omahaweddingphoto.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "$850"
+      },
+      {
+        "tier": "Full Day",
+        "amount": "$2,000"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "$3,400"
+      }
+    ]
+  },
+  {
+    "id": "ven_wichita_venue",
+    "name": "Wichita Wedding Venues",
+    "cat": "venue",
+    "lat": 37.6872,
+    "lng": -97.3301,
+    "area": "Wichita",
+    "price": 1,
+    "rating": 4.5,
+    "brief": "Air Capital wedding venues — Douglas Avenue corridor, Botanica Gardens ceremonies, and Arkansas River valley estate receptions.",
+    "email": "hello@wichitavenues.com",
+    "phone": "316-555-1010",
+    "web": "https://wichitavenues.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Half-Day Venue",
+        "amount": "$900"
+      },
+      {
+        "tier": "Full Day Venue",
+        "amount": "$1,800"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$3,400"
+      }
+    ]
+  },
+  {
+    "id": "ven_wichita_photo",
+    "name": "Wichita Wedding Photography",
+    "cat": "photo",
+    "lat": 37.6872,
+    "lng": -97.3301,
+    "area": "Wichita",
+    "price": 1,
+    "rating": 4.6,
+    "brief": "Kansas wedding photographers — Keeper of the Plains river junction portraits, wheat field golden hours, and Botanica floral backgrounds.",
+    "email": "hello@wichitaweddingphoto.com",
+    "phone": "316-555-1011",
+    "web": "https://wichitaweddingphoto.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "$800"
+      },
+      {
+        "tier": "Full Day",
+        "amount": "$1,900"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "$3,200"
+      }
+    ]
   }
 ]
