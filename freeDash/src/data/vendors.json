@@ -11339,5 +11339,455 @@
         "amount": "$11,000"
       }
     ]
+  },
+  {
+    "id": "ven_short_north_venue_columbus",
+    "name": "Short North Event Space",
+    "cat": "venue",
+    "lat": 39.9862,
+    "lng": -83.0034,
+    "area": "Columbus",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "Columbus's trendiest arts district venue — exposed brick, gallery walls, and rooftop terrace for weddings up to 250 guests.",
+    "email": "events@shortnorthevents.com",
+    "phone": "614-555-1001",
+    "web": "https://shortnorthevents.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Half-Day Rental",
+        "amount": "$1,300"
+      },
+      {
+        "tier": "Full-Day Rental",
+        "amount": "$2,800"
+      },
+      {
+        "tier": "Weekend Package",
+        "amount": "$5,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_columbus_wedding_photo",
+    "name": "Columbus Wedding Photography",
+    "cat": "photo",
+    "lat": 39.9612,
+    "lng": -82.9988,
+    "area": "Columbus",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "Central Ohio wedding photographers capturing Short North murals, Scioto Mile waterfront, and Hocking Hills autumn foliage.",
+    "email": "hello@columbusweddingphoto.com",
+    "phone": "614-555-1002",
+    "web": "https://columbusweddingphoto.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "$850"
+      },
+      {
+        "tier": "Full Day Coverage",
+        "amount": "$2,100"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "$4,200"
+      }
+    ]
+  },
+  {
+    "id": "ven_alms_park_pavilion_cincy",
+    "name": "Alms Park Pavilion Cincinnati",
+    "cat": "venue",
+    "lat": 39.0997,
+    "lng": -84.512,
+    "area": "Cincinnati",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "A stunning hilltop pavilion overlooking the Ohio River — Cincinnati's most scenic outdoor wedding venue with Art Deco elegance.",
+    "email": "events@almsparkpavilion.com",
+    "phone": "513-555-2001",
+    "web": "https://almsparkpavilion.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Ceremony Only",
+        "amount": "$1,400"
+      },
+      {
+        "tier": "Full Day Rental",
+        "amount": "$3,000"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$5,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_cincinnati_wedding_films",
+    "name": "Cincinnati Wedding Films",
+    "cat": "video",
+    "lat": 39.1031,
+    "lng": -84.512,
+    "area": "Cincinnati",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "Queen City wedding videographers — OTR neighborhood charm, riverfront sunsets, and Kentucky hills across the bridge.",
+    "email": "hello@cincinnatiweddingfilms.com",
+    "phone": "513-555-2002",
+    "web": "https://cincinnatiweddingfilms.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Highlight Reel",
+        "amount": "$1,000"
+      },
+      {
+        "tier": "Full Day + Edit",
+        "amount": "$2,500"
+      },
+      {
+        "tier": "Cinematic + Drone",
+        "amount": "$4,800"
+      }
+    ]
+  },
+  {
+    "id": "ven_newfields_indy_events",
+    "name": "Newfields Indianapolis Events",
+    "cat": "venue",
+    "lat": 39.8253,
+    "lng": -86.145,
+    "area": "Indianapolis",
+    "price": 3,
+    "rating": 4.9,
+    "brief": "A world-class art museum campus with 152 acres of gardens — Indy's most spectacular wedding destination for outdoor and indoor events.",
+    "email": "events@discovernewfields.org",
+    "phone": "317-555-3001",
+    "web": "https://discovernewfields.org/weddings",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Ceremony Only",
+        "amount": "$2,500"
+      },
+      {
+        "tier": "Full Day Rental",
+        "amount": "$5,500"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$10,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_indy_wedding_photo",
+    "name": "Indianapolis Wedding Photography",
+    "cat": "photo",
+    "lat": 39.7684,
+    "lng": -86.1581,
+    "area": "Indianapolis",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "Indy wedding photographers from Monument Circle to the 500 speedway — celebrating the heart of the Heartland in every frame.",
+    "email": "hello@indyweddingphoto.com",
+    "phone": "317-555-3002",
+    "web": "https://indyweddingphoto.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "$850"
+      },
+      {
+        "tier": "Full Day Coverage",
+        "amount": "$2,100"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "$4,200"
+      }
+    ]
+  },
+  {
+    "id": "ven_louisville_water_tower",
+    "name": "Louisville Water Tower Events",
+    "cat": "venue",
+    "lat": 38.2527,
+    "lng": -85.7585,
+    "area": "Louisville",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "A stunning 1858 National Historic Landmark on the Ohio River — cast iron columns, Italianate grandeur, and sweeping river views.",
+    "email": "events@louisvillewatertower.com",
+    "phone": "502-555-4001",
+    "web": "https://louisvillewatertower.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Ceremony Only",
+        "amount": "$1,600"
+      },
+      {
+        "tier": "Full Day Rental",
+        "amount": "$3,500"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$6,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_louisville_wedding_photo",
+    "name": "Louisville Wedding Photography",
+    "cat": "photo",
+    "lat": 38.2527,
+    "lng": -85.7585,
+    "area": "Louisville",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "Kentucky Derby state of mind — Louisville wedding photographers capturing bourbon distillery backdrops, Ohio River sunsets, and Southern charm.",
+    "email": "hello@louisvilleweddingphoto.com",
+    "phone": "502-555-4002",
+    "web": "https://louisvilleweddingphoto.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "$850"
+      },
+      {
+        "tier": "Full Day Coverage",
+        "amount": "$2,100"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "$4,200"
+      }
+    ]
+  },
+  {
+    "id": "ven_cleveland_museum_art_events",
+    "name": "Cleveland Museum of Art Events",
+    "cat": "venue",
+    "lat": 41.5085,
+    "lng": -81.6111,
+    "area": "Cleveland",
+    "price": 3,
+    "rating": 4.9,
+    "brief": "A neoclassical masterpiece on Wade Lagoon — Cleveland's grandest venue with world-class art as your wedding backdrop.",
+    "email": "events@clevelandart.org",
+    "phone": "216-555-5001",
+    "web": "https://clevelandart.org/weddings",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Ceremony Only",
+        "amount": "$3,000"
+      },
+      {
+        "tier": "Full Day Rental",
+        "amount": "$6,500"
+      },
+      {
+        "tier": "Exclusive Evening",
+        "amount": "$12,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_cleveland_wedding_films",
+    "name": "Cleveland Wedding Films",
+    "cat": "video",
+    "lat": 41.4993,
+    "lng": -81.6944,
+    "area": "Cleveland",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "Lakefront sunsets on Erie, Cuyahoga Valley autumn forests, and Cleveland's gritty-gorgeous neighborhoods — all in one wedding film.",
+    "email": "hello@clevelandweddingfilms.com",
+    "phone": "216-555-5002",
+    "web": "https://clevelandweddingfilms.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Highlight Reel",
+        "amount": "$1,000"
+      },
+      {
+        "tier": "Full Day + Edit",
+        "amount": "$2,500"
+      },
+      {
+        "tier": "Cinematic + Drone",
+        "amount": "$4,800"
+      }
+    ]
+  },
+  {
+    "id": "ven_phipps_conservatory_pgh",
+    "name": "Phipps Conservatory Pittsburgh",
+    "cat": "venue",
+    "lat": 40.4381,
+    "lng": -79.9498,
+    "area": "Pittsburgh",
+    "price": 3,
+    "rating": 4.9,
+    "brief": "A Victorian glass conservatory bursting with tropical blooms — Pittsburgh's most breathtaking wedding venue for up to 300 guests.",
+    "email": "events@phipps.conservatory.org",
+    "phone": "412-555-6001",
+    "web": "https://phipps.conservatory.org/weddings",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Ceremony Only",
+        "amount": "$2,800"
+      },
+      {
+        "tier": "Full Day Rental",
+        "amount": "$6,000"
+      },
+      {
+        "tier": "Exclusive Evening",
+        "amount": "$11,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_pittsburgh_wedding_photo",
+    "name": "Pittsburgh Wedding Photography",
+    "cat": "photo",
+    "lat": 40.4406,
+    "lng": -79.9959,
+    "area": "Pittsburgh",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "Point State Park skylines, Mount Washington overlooks, and three rivers converging — Pittsburgh wedding photographers who know every angle.",
+    "email": "hello@pittsburghweddingphoto.com",
+    "phone": "412-555-6002",
+    "web": "https://pittsburghweddingphoto.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "$900"
+      },
+      {
+        "tier": "Full Day Coverage",
+        "amount": "$2,200"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "$4,400"
+      }
+    ]
+  },
+  {
+    "id": "ven_duke_mansion_charlotte",
+    "name": "Duke Mansion Charlotte",
+    "cat": "venue",
+    "lat": 35.2079,
+    "lng": -80.8304,
+    "area": "Charlotte",
+    "price": 3,
+    "rating": 4.9,
+    "brief": "A stunning 1915 Colonial Revival mansion in Myers Park — wraparound porches, century-old trees, and timeless Southern elegance.",
+    "email": "events@dukemansion.org",
+    "phone": "704-555-7001",
+    "web": "https://dukemansion.org",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Ceremony Only",
+        "amount": "$2,500"
+      },
+      {
+        "tier": "Full Day Rental",
+        "amount": "$5,500"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$9,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_charlotte_wedding_photo",
+    "name": "Charlotte Wedding Photography",
+    "cat": "photo",
+    "lat": 35.2271,
+    "lng": -80.8431,
+    "area": "Charlotte",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "Queen City wedding photographers — uptown skylines, Lake Norman shores, and the rolling Piedmont countryside in golden Carolinian light.",
+    "email": "hello@charlotteweddingphoto.com",
+    "phone": "704-555-7002",
+    "web": "https://charlotteweddingphoto.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "$900"
+      },
+      {
+        "tier": "Full Day Coverage",
+        "amount": "$2,200"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "$4,400"
+      }
+    ]
+  },
+  {
+    "id": "ven_charlotte_catering_co",
+    "name": "Charlotte Catering Co.",
+    "cat": "catering",
+    "lat": 35.2271,
+    "lng": -80.8431,
+    "area": "Charlotte",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "Carolina BBQ meets upscale Southern cuisine — Charlotte's favourite wedding caterers blending pulled pork tradition with elegant plating.",
+    "email": "info@charlottecateringco.com",
+    "phone": "704-555-7003",
+    "web": "https://charlottecateringco.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Buffet for 50",
+        "amount": "$1,600"
+      },
+      {
+        "tier": "Plated Dinner 100",
+        "amount": "$4,000"
+      },
+      {
+        "tier": "Full-Service Gala",
+        "amount": "$8,000"
+      }
+    ]
   }
 ]
