@@ -20909,5 +20909,395 @@
         "amount": "$13,000"
       }
     ]
+  },
+  {
+    "id": "ven_knoxville_venue",
+    "name": "Knoxville Wedding Venues",
+    "cat": "venue",
+    "lat": 35.9606,
+    "lng": -83.9207,
+    "area": "Knoxville",
+    "price": 1,
+    "rating": 4.7,
+    "brief": "Smoky Mountain gateway wedding venues — Market Square downtown celebrations, UT campus-adjacent estates, and Sequoyah Hills mansion receptions.",
+    "email": "hello@knoxvillevenues.com",
+    "phone": "865-555-1010",
+    "web": "https://knoxvillevenues.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Half-Day Venue",
+        "amount": "$1,100"
+      },
+      {
+        "tier": "Full Day Venue",
+        "amount": "$2,200"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$4,200"
+      }
+    ]
+  },
+  {
+    "id": "ven_knoxville_photo",
+    "name": "Knoxville Wedding Photography",
+    "cat": "photo",
+    "lat": 35.9606,
+    "lng": -83.9207,
+    "area": "Knoxville",
+    "price": 1,
+    "rating": 4.8,
+    "brief": "East Tennessee wedding photographers — Great Smoky Mountains backdrop, Cades Cove misty valley, and Knoxville Market Square elegance.",
+    "email": "hello@knoxvilleweddingphoto.com",
+    "phone": "865-555-1011",
+    "web": "https://knoxvilleweddingphoto.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "$900"
+      },
+      {
+        "tier": "Full Day",
+        "amount": "$2,100"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "$3,600"
+      }
+    ]
+  },
+  {
+    "id": "ven_chattanooga_venue",
+    "name": "Chattanooga Wedding Venues",
+    "cat": "venue",
+    "lat": 35.0456,
+    "lng": -85.3097,
+    "area": "Chattanooga",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "Scenic City wedding venues — Tennessee Aquarium riverside, Lookout Mountain panoramas, and Bluff View Art District romantic receptions.",
+    "email": "hello@chattanoogavenues.com",
+    "phone": "423-555-1010",
+    "web": "https://chattanoogavenues.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Half-Day Venue",
+        "amount": "$1,300"
+      },
+      {
+        "tier": "Full Day Venue",
+        "amount": "$2,600"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$5,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_chattanooga_photo",
+    "name": "Chattanooga Wedding Photography",
+    "cat": "photo",
+    "lat": 35.0456,
+    "lng": -85.3097,
+    "area": "Chattanooga",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "Scenic City wedding photographers — Lookout Mountain Civil War battlefield romance, Tennessee River gorge magic, and Walnut Street Bridge portraits.",
+    "email": "hello@chattanoogaweddingphoto.com",
+    "phone": "423-555-1011",
+    "web": "https://chattanoogaweddingphoto.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "$1,000"
+      },
+      {
+        "tier": "Full Day",
+        "amount": "$2,400"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "$4,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_huntsville_venue",
+    "name": "Huntsville Wedding Venues",
+    "cat": "venue",
+    "lat": 34.7304,
+    "lng": -86.5861,
+    "area": "Huntsville",
+    "price": 1,
+    "rating": 4.7,
+    "brief": "Rocket City wedding venues — Space Center grounds, Monte Sano Mountain Lodge ceremonies, and Big Spring Park waterfront celebrations.",
+    "email": "hello@huntsvillevenues.com",
+    "phone": "256-555-1010",
+    "web": "https://huntsvillevenues.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Half-Day Venue",
+        "amount": "$1,100"
+      },
+      {
+        "tier": "Full Day Venue",
+        "amount": "$2,200"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$4,200"
+      }
+    ]
+  },
+  {
+    "id": "ven_pensacola_venue",
+    "name": "Pensacola Wedding Venues",
+    "cat": "venue",
+    "lat": 30.4213,
+    "lng": -87.2169,
+    "area": "Pensacola",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "Emerald Coast wedding venues — Pensacola Beach sugar-white sand ceremonies, Historic Pensacola Village backdrops, and Bayou waterfront estates.",
+    "email": "hello@pensacolavenues.com",
+    "phone": "850-555-2010",
+    "web": "https://pensacolavenues.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Half-Day Venue",
+        "amount": "$1,300"
+      },
+      {
+        "tier": "Full Day Venue",
+        "amount": "$2,600"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$5,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_pensacola_photo",
+    "name": "Pensacola Wedding Photography",
+    "cat": "photo",
+    "lat": 30.4213,
+    "lng": -87.2169,
+    "area": "Pensacola",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "Florida Panhandle wedding photographers — Pensacola Beach sugar-sand sunsets, Perdido Key maritime forest, and Naval Aviation Museum grandeur.",
+    "email": "hello@pensacolaweddingphoto.com",
+    "phone": "850-555-2011",
+    "web": "https://pensacolaweddingphoto.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "$1,000"
+      },
+      {
+        "tier": "Full Day",
+        "amount": "$2,400"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "$4,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_destin_venue",
+    "name": "Destin Wedding Venues",
+    "cat": "venue",
+    "lat": 30.3935,
+    "lng": -86.4958,
+    "area": "Destin",
+    "price": 3,
+    "rating": 4.9,
+    "brief": "Emerald Coast luxury — Henderson Beach State Park ceremony exclusives, HarborWalk Village waterfront, and HarborView Event Center elegance.",
+    "email": "hello@destinvenues.com",
+    "phone": "850-555-3010",
+    "web": "https://destinvenues.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Half-Day Venue",
+        "amount": "$2,000"
+      },
+      {
+        "tier": "Full Day Venue",
+        "amount": "$4,000"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$7,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_destin_photo",
+    "name": "Destin Wedding Photography",
+    "cat": "photo",
+    "lat": 30.3935,
+    "lng": -86.4958,
+    "area": "Destin",
+    "price": 2,
+    "rating": 4.9,
+    "brief": "Florida Panhandle beach wedding photographers — emerald Gulf waters, Henderson Beach sunsets, and 30A beachside cottage ceremonies.",
+    "email": "hello@destinweddingphoto.com",
+    "phone": "850-555-3011",
+    "web": "https://destinweddingphoto.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "$1,200"
+      },
+      {
+        "tier": "Full Day",
+        "amount": "$2,800"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "$4,800"
+      }
+    ]
+  },
+  {
+    "id": "ven_gainesville_venue",
+    "name": "Gainesville Wedding Venues",
+    "cat": "venue",
+    "lat": 29.6516,
+    "lng": -82.3248,
+    "area": "Gainesville",
+    "price": 1,
+    "rating": 4.6,
+    "brief": "Gator country wedding venues — University of Florida campus elegance, Kanapaha Botanical Gardens, and Micanopy historic countryside estates.",
+    "email": "hello@gainesvillevenues.com",
+    "phone": "352-555-1010",
+    "web": "https://gainesvillevenues.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Half-Day Venue",
+        "amount": "$1,000"
+      },
+      {
+        "tier": "Full Day Venue",
+        "amount": "$2,000"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$3,800"
+      }
+    ]
+  },
+  {
+    "id": "ven_asheville_venue",
+    "name": "Asheville Wedding Venues",
+    "cat": "venue",
+    "lat": 35.5951,
+    "lng": -82.5515,
+    "area": "Asheville",
+    "price": 3,
+    "rating": 4.9,
+    "brief": "Mountain magic — Biltmore Estate grounds, Blue Ridge Parkway overlook ceremonies, and River Arts District bohemian loft receptions.",
+    "email": "hello@ashevillevenues.com",
+    "phone": "828-555-1010",
+    "web": "https://ashevillevenues.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Half-Day Venue",
+        "amount": "$2,500"
+      },
+      {
+        "tier": "Full Day Venue",
+        "amount": "$5,000"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$9,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_asheville_photo",
+    "name": "Asheville Wedding Photography",
+    "cat": "photo",
+    "lat": 35.5951,
+    "lng": -82.5515,
+    "area": "Asheville",
+    "price": 2,
+    "rating": 4.9,
+    "brief": "Blue Ridge Mountain wedding photographers — Biltmore Estate grandeur, Blue Ridge Parkway overlooks, and autumn Appalachian foliage magic.",
+    "email": "hello@ashevilleweddingphoto.com",
+    "phone": "828-555-1011",
+    "web": "https://ashevilleweddingphoto.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "$1,300"
+      },
+      {
+        "tier": "Full Day",
+        "amount": "$3,000"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "$5,200"
+      }
+    ]
+  },
+  {
+    "id": "ven_asheville_florist",
+    "name": "Asheville Wedding Florist",
+    "cat": "florist",
+    "lat": 35.5951,
+    "lng": -82.5515,
+    "area": "Asheville",
+    "price": 2,
+    "rating": 4.9,
+    "brief": "Appalachian wildflower wedding florals — mountain laurel, trillium, fern garlands, and bohemian arrangements for Blue Ridge celebrations.",
+    "email": "hello@ashevilleweddingflorist.com",
+    "phone": "828-555-1012",
+    "web": "https://ashevilleweddingflorist.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Bridal Bouquet Set",
+        "amount": "$550"
+      },
+      {
+        "tier": "Ceremony Flowers",
+        "amount": "$1,400"
+      },
+      {
+        "tier": "Full Floral Design",
+        "amount": "$3,500"
+      }
+    ]
   }
 ]
