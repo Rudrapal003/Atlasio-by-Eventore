@@ -18029,5 +18029,395 @@
         "amount": "$4,100"
       }
     ]
+  },
+  {
+    "id": "ven_buffalo_venue",
+    "name": "Buffalo Wedding Venues",
+    "cat": "venue",
+    "lat": 42.8864,
+    "lng": -78.8784,
+    "area": "Buffalo",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "Queen City wedding venues — Kleinhans Music Hall grandeur, Canalside waterfront, and historic Delaware Avenue mansion celebrations.",
+    "email": "hello@buffalovenues.com",
+    "phone": "716-555-1010",
+    "web": "https://buffalovenues.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Half-Day Venue",
+        "amount": "$1,200"
+      },
+      {
+        "tier": "Full Day Venue",
+        "amount": "$2,500"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$4,800"
+      }
+    ]
+  },
+  {
+    "id": "ven_buffalo_photo",
+    "name": "Buffalo Wedding Photography",
+    "cat": "photo",
+    "lat": 42.8864,
+    "lng": -78.8784,
+    "area": "Buffalo",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "Western New York wedding photographers — Niagara Falls dramatic backdrop elopements, Canalside romance, and Art Deco grain elevator magic.",
+    "email": "hello@buffaloweddingphoto.com",
+    "phone": "716-555-1011",
+    "web": "https://buffaloweddingphoto.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "$1,000"
+      },
+      {
+        "tier": "Full Day",
+        "amount": "$2,400"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "$4,100"
+      }
+    ]
+  },
+  {
+    "id": "ven_hartford_venue",
+    "name": "Hartford Wedding Venues",
+    "cat": "venue",
+    "lat": 41.7658,
+    "lng": -72.6851,
+    "area": "Hartford",
+    "price": 2,
+    "rating": 4.6,
+    "brief": "Insurance city elegance — historic Wadsworth Atheneum-adjacent venues, Connecticut River waterfront, and Litchfield Hills estate retreats.",
+    "email": "hello@hartfordvenues.com",
+    "phone": "860-555-1010",
+    "web": "https://hartfordvenues.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Half-Day Venue",
+        "amount": "$1,400"
+      },
+      {
+        "tier": "Full Day Venue",
+        "amount": "$2,800"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$5,400"
+      }
+    ]
+  },
+  {
+    "id": "ven_hartford_photo",
+    "name": "Hartford Wedding Photography",
+    "cat": "photo",
+    "lat": 41.7658,
+    "lng": -72.6851,
+    "area": "Hartford",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "Connecticut wedding photographers — Litchfield Hills autumn colour, Mark Twain House portraits, and Hartford skyline celebrations.",
+    "email": "hello@hartfordweddingphoto.com",
+    "phone": "860-555-1011",
+    "web": "https://hartfordweddingphoto.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "$1,050"
+      },
+      {
+        "tier": "Full Day",
+        "amount": "$2,500"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "$4,300"
+      }
+    ]
+  },
+  {
+    "id": "ven_newhaven_venue",
+    "name": "New Haven Wedding Venues",
+    "cat": "venue",
+    "lat": 41.3083,
+    "lng": -72.9279,
+    "area": "New Haven",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "Elm City wedding venues — Yale campus-adjacent gothic grandeur, Long Island Sound waterfront, and Wooster Square Italian-neighbourhood charm.",
+    "email": "hello@newhavenvenues.com",
+    "phone": "203-555-1010",
+    "web": "https://newhavenvenues.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Half-Day Venue",
+        "amount": "$1,500"
+      },
+      {
+        "tier": "Full Day Venue",
+        "amount": "$3,000"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$5,800"
+      }
+    ]
+  },
+  {
+    "id": "ven_newhaven_photo",
+    "name": "New Haven Wedding Photography",
+    "cat": "photo",
+    "lat": 41.3083,
+    "lng": -72.9279,
+    "area": "New Haven",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "Connecticut wedding photographers — Yale's gothic architecture magic, East Rock Park autumn portraits, and Long Island Sound sunsets.",
+    "email": "hello@newhavenweddingphoto.com",
+    "phone": "203-555-1011",
+    "web": "https://newhavenweddingphoto.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "$1,100"
+      },
+      {
+        "tier": "Full Day",
+        "amount": "$2,600"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "$4,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_worcester_venue",
+    "name": "Worcester Wedding Venues",
+    "cat": "venue",
+    "lat": 42.2626,
+    "lng": -71.8023,
+    "area": "Worcester",
+    "price": 2,
+    "rating": 4.6,
+    "brief": "Heart of the Commonwealth wedding venues — Higgins Armory-adjacent spaces, Elm Park gardens, and Central Massachusetts estate properties.",
+    "email": "hello@worcestervenues.com",
+    "phone": "508-555-1010",
+    "web": "https://worcestervenues.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Half-Day Venue",
+        "amount": "$1,300"
+      },
+      {
+        "tier": "Full Day Venue",
+        "amount": "$2,600"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$5,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_providence_venue",
+    "name": "Providence Wedding Venues",
+    "cat": "venue",
+    "lat": 41.824,
+    "lng": -71.4128,
+    "area": "Providence",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "Renaissance City wedding venues — WaterFire installation romance, RISD Museum-adjacent lofts, and Fox Point waterfront estates.",
+    "email": "hello@providencevenues.com",
+    "phone": "401-555-1010",
+    "web": "https://providencevenues.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Half-Day Venue",
+        "amount": "$1,500"
+      },
+      {
+        "tier": "Full Day Venue",
+        "amount": "$3,000"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$5,800"
+      }
+    ]
+  },
+  {
+    "id": "ven_providence_photo",
+    "name": "Providence Wedding Photography",
+    "cat": "photo",
+    "lat": 41.824,
+    "lng": -71.4128,
+    "area": "Providence",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "Rhode Island wedding photographers — WaterFire fire and reflection magic, Brown University campus elegance, and Narragansett Bay sunsets.",
+    "email": "hello@providenceweddingphoto.com",
+    "phone": "401-555-1011",
+    "web": "https://providenceweddingphoto.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "$1,100"
+      },
+      {
+        "tier": "Full Day",
+        "amount": "$2,600"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "$4,400"
+      }
+    ]
+  },
+  {
+    "id": "ven_portlandme_venue",
+    "name": "Portland Maine Wedding Venues",
+    "cat": "venue",
+    "lat": 43.6591,
+    "lng": -70.2568,
+    "area": "Portland ME",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "New England coastal romance — Old Port cobblestones, Casco Bay island ferries, and Maine lobster dinner receptions.",
+    "email": "hello@portlandmevenues.com",
+    "phone": "207-555-1010",
+    "web": "https://portlandmevenues.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Half-Day Venue",
+        "amount": "$1,600"
+      },
+      {
+        "tier": "Full Day Venue",
+        "amount": "$3,200"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$6,200"
+      }
+    ]
+  },
+  {
+    "id": "ven_portlandme_photo",
+    "name": "Portland Maine Wedding Photography",
+    "cat": "photo",
+    "lat": 43.6591,
+    "lng": -70.2568,
+    "area": "Portland ME",
+    "price": 2,
+    "rating": 4.9,
+    "brief": "Maine wedding photographers — Portland Head Light lighthouse portraits, Casco Bay island magic, and lobster boat sunset elopements.",
+    "email": "hello@portlandmeweddingphoto.com",
+    "phone": "207-555-1011",
+    "web": "https://portlandmeweddingphoto.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "$1,200"
+      },
+      {
+        "tier": "Full Day",
+        "amount": "$2,800"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "$4,800"
+      }
+    ]
+  },
+  {
+    "id": "ven_burlington_venue",
+    "name": "Burlington Vermont Wedding Venues",
+    "cat": "venue",
+    "lat": 44.4759,
+    "lng": -73.2121,
+    "area": "Burlington VT",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "Green Mountain State wedding venues — Lake Champlain waterfront, Church Street marketplace, and Vermont farmhouse barn ceremonies.",
+    "email": "hello@burlingtonvtvenues.com",
+    "phone": "802-555-1010",
+    "web": "https://burlingtonvtvenues.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Half-Day Venue",
+        "amount": "$1,600"
+      },
+      {
+        "tier": "Full Day Venue",
+        "amount": "$3,200"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$6,200"
+      }
+    ]
+  },
+  {
+    "id": "ven_burlington_photo",
+    "name": "Burlington Vermont Wedding Photography",
+    "cat": "photo",
+    "lat": 44.4759,
+    "lng": -73.2121,
+    "area": "Burlington VT",
+    "price": 2,
+    "rating": 4.9,
+    "brief": "Vermont wedding photographers — Lake Champlain fall foliage, Green Mountains barn ceremonies, and Church Street streetscape romance.",
+    "email": "hello@burlingtonvtweddingphoto.com",
+    "phone": "802-555-1011",
+    "web": "https://burlingtonvtweddingphoto.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "$1,200"
+      },
+      {
+        "tier": "Full Day",
+        "amount": "$2,800"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "$4,800"
+      }
+    ]
   }
 ]
