@@ -7739,5 +7739,425 @@
         "amount": "¥450,000"
       }
     ]
+  },
+  {
+    "id": "ven_palau_de_la_musica_events",
+    "name": "Palau de la Música Events",
+    "cat": "venue",
+    "lat": 41.3875,
+    "lng": 2.1752,
+    "area": "Barcelona",
+    "price": 4,
+    "rating": 4.9,
+    "brief": "A UNESCO World Heritage concert hall with Gaudí-inspired stained glass — Barcelona's most breathtaking and romantic event space.",
+    "email": "events@palaumusica.cat",
+    "phone": "+34-93-555-1001",
+    "web": "https://palaumusica.cat/en/weddings",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Ceremony Only",
+        "amount": "€8,000"
+      },
+      {
+        "tier": "Full Evening",
+        "amount": "€18,000"
+      },
+      {
+        "tier": "Exclusive Gala",
+        "amount": "€35,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_barcelona_wedding_photo",
+    "name": "Barcelona Wedding Photography",
+    "cat": "photo",
+    "lat": 41.3851,
+    "lng": 2.1734,
+    "area": "Barcelona",
+    "price": 3,
+    "rating": 4.9,
+    "brief": "Catalonian wedding photographers — Gothic Quarter alleys, beach sunsets, and Gaudí architecture as your love story's backdrop.",
+    "email": "hola@barcelonaweddingphoto.es",
+    "phone": "+34-93-555-1002",
+    "web": "https://barcelonaweddingphoto.es",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "€1,400"
+      },
+      {
+        "tier": "Full Day Coverage",
+        "amount": "€3,500"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "€7,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_catalan_cuisine_catering",
+    "name": "Catalan Cuisine Catering",
+    "cat": "catering",
+    "lat": 41.3784,
+    "lng": 2.1925,
+    "area": "Barcelona",
+    "price": 3,
+    "rating": 4.8,
+    "brief": "Authentic Catalan wedding catering — pa amb tomàquet, fideuà, and crema catalana reimagined for modern wedding celebrations.",
+    "email": "info@catalancuisine.es",
+    "phone": "+34-93-555-1003",
+    "web": "https://catalancuisine.es",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Cocktail for 50",
+        "amount": "€2,500"
+      },
+      {
+        "tier": "Plated Dinner 100",
+        "amount": "€6,500"
+      },
+      {
+        "tier": "Full-Service Gala",
+        "amount": "€13,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_villa_borghese_events",
+    "name": "Villa Borghese Events",
+    "cat": "venue",
+    "lat": 41.9141,
+    "lng": 12.4922,
+    "area": "Rome",
+    "price": 4,
+    "rating": 4.9,
+    "brief": "A Renaissance garden estate in the heart of Rome — ancient fountains, pine-lined avenues, and breathtaking Baroque splendour.",
+    "email": "events@villaborghese.it",
+    "phone": "+39-06-555-2001",
+    "web": "https://villaborghese.it/weddings",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Ceremony Only",
+        "amount": "€9,000"
+      },
+      {
+        "tier": "Full Day Rental",
+        "amount": "€20,000"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "€38,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_rome_wedding_photo",
+    "name": "Rome Wedding Photography",
+    "cat": "photo",
+    "lat": 41.9028,
+    "lng": 12.4964,
+    "area": "Rome",
+    "price": 3,
+    "rating": 4.9,
+    "brief": "Roman wedding photographers — Colosseum at dawn, Trevi Fountain twilight, and hidden cobblestone piazzas no tourist ever finds.",
+    "email": "ciao@romeweddingphoto.it",
+    "phone": "+39-06-555-2002",
+    "web": "https://romeweddingphoto.it",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "€1,500"
+      },
+      {
+        "tier": "Full Day Coverage",
+        "amount": "€3,800"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "€7,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_rijksmuseum_events",
+    "name": "Rijksmuseum Events Amsterdam",
+    "cat": "venue",
+    "lat": 52.36,
+    "lng": 4.8852,
+    "area": "Amsterdam",
+    "price": 4,
+    "rating": 4.9,
+    "brief": "Wed among Rembrandt and Vermeer masterpieces — the Rijksmuseum's grand atrium offers a wedding backdrop unlike any other on earth.",
+    "email": "events@rijksmuseum.nl",
+    "phone": "+31-20-555-3001",
+    "web": "https://rijksmuseum.nl/en/weddings",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Ceremony Only",
+        "amount": "€7,500"
+      },
+      {
+        "tier": "Full Evening",
+        "amount": "€17,000"
+      },
+      {
+        "tier": "Exclusive Gala",
+        "amount": "€30,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_amsterdam_wedding_photo",
+    "name": "Amsterdam Wedding Photography",
+    "cat": "photo",
+    "lat": 52.3676,
+    "lng": 4.9041,
+    "area": "Amsterdam",
+    "price": 3,
+    "rating": 4.8,
+    "brief": "Dutch wedding photographers capturing canal house reflections, tulip fields, and the windmill-dotted countryside in golden light.",
+    "email": "hello@amsterdamweddingphoto.nl",
+    "phone": "+31-20-555-3002",
+    "web": "https://amsterdamweddingphoto.nl",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "€1,200"
+      },
+      {
+        "tier": "Full Day Coverage",
+        "amount": "€3,000"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "€6,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_dutch_bloom_florals",
+    "name": "Dutch Bloom Florals",
+    "cat": "florist",
+    "lat": 52.3702,
+    "lng": 4.8952,
+    "area": "Amsterdam",
+    "price": 3,
+    "rating": 4.8,
+    "brief": "Amsterdam floral designers sourcing directly from Aalsmeer flower auction — the world's freshest tulips, roses, and peonies.",
+    "email": "hello@dutchbloom.nl",
+    "phone": "+31-20-555-3003",
+    "web": "https://dutchbloom.nl",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Bridal Bouquet Set",
+        "amount": "€600"
+      },
+      {
+        "tier": "Ceremony Flowers",
+        "amount": "€1,600"
+      },
+      {
+        "tier": "Full Floral Design",
+        "amount": "€4,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_como_uma_ubud_events",
+    "name": "COMO Uma Ubud Events",
+    "cat": "venue",
+    "lat": -8.5069,
+    "lng": 115.2625,
+    "area": "Bali",
+    "price": 4,
+    "rating": 4.9,
+    "brief": "A clifftop rainforest retreat in Ubud — rice terrace views, jungle ceremonies, and Balinese spiritual traditions woven into every detail.",
+    "email": "events@comohotels.com/ubud",
+    "phone": "+62-361-555-4001",
+    "web": "https://comohotels.com/umaubud",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Ceremony Only",
+        "amount": "$3,500"
+      },
+      {
+        "tier": "Full Day Package",
+        "amount": "$8,500"
+      },
+      {
+        "tier": "Exclusive Wedding",
+        "amount": "$18,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_bali_wedding_photo",
+    "name": "Bali Wedding Photography",
+    "cat": "photo",
+    "lat": -8.4095,
+    "lng": 115.1889,
+    "area": "Bali",
+    "price": 2,
+    "rating": 4.9,
+    "brief": "Bali's most celebrated wedding photographers — rice paddies, temple gates, volcano sunrises, and Seminyak beach bonfires.",
+    "email": "hello@baliweddingphoto.com",
+    "phone": "+62-361-555-4002",
+    "web": "https://baliweddingphoto.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "$700"
+      },
+      {
+        "tier": "Full Day Coverage",
+        "amount": "$1,800"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "$3,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_bali_bloom_florals",
+    "name": "Bali Bloom Florals",
+    "cat": "florist",
+    "lat": -8.6705,
+    "lng": 115.2126,
+    "area": "Bali",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "Tropical floral artistry rooted in Balinese ceremony — frangipani garlands, lotus installations, and exotic jungle florals.",
+    "email": "hello@balibloomflorals.com",
+    "phone": "+62-361-555-4003",
+    "web": "https://balibloomflorals.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Bridal Bouquet Set",
+        "amount": "$250"
+      },
+      {
+        "tier": "Ceremony Flowers",
+        "amount": "$700"
+      },
+      {
+        "tier": "Full Floral Design",
+        "amount": "$1,800"
+      }
+    ]
+  },
+  {
+    "id": "ven_babylonstoren_events",
+    "name": "Babylonstoren Farm Events",
+    "cat": "venue",
+    "lat": -33.838,
+    "lng": 18.8355,
+    "area": "Cape Town",
+    "price": 4,
+    "rating": 4.9,
+    "brief": "A 300-year-old Cape Dutch farm estate in the Franschhoek Valley — mountain backdrops, heritage gardens, and world-class wine.",
+    "email": "events@babylonstoren.com",
+    "phone": "+27-21-555-5001",
+    "web": "https://babylonstoren.com/events",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Ceremony Only",
+        "amount": "R 25,000"
+      },
+      {
+        "tier": "Full Day Rental",
+        "amount": "R 60,000"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "R 110,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_cape_town_wedding_photo",
+    "name": "Cape Town Wedding Photography",
+    "cat": "photo",
+    "lat": -33.9249,
+    "lng": 18.4241,
+    "area": "Cape Town",
+    "price": 3,
+    "rating": 4.9,
+    "brief": "South African wedding photographers blending Table Mountain drama, Boulders Beach penguins, and Cape Winelands golden light.",
+    "email": "hello@capetownweddingphoto.co.za",
+    "phone": "+27-21-555-5002",
+    "web": "https://capetownweddingphoto.co.za",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "R 8,000"
+      },
+      {
+        "tier": "Full Day Coverage",
+        "amount": "R 20,000"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "R 40,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_cape_malay_catering",
+    "name": "Cape Malay Catering Co.",
+    "cat": "catering",
+    "lat": -33.9352,
+    "lng": 18.4172,
+    "area": "Cape Town",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "Authentic Cape Malay wedding catering — fragrant spices, braai stations, and the rich multicultural flavours of the Cape.",
+    "email": "info@capemalycatering.co.za",
+    "phone": "+27-21-555-5003",
+    "web": "https://capemalaycatering.co.za",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Buffet for 50",
+        "amount": "R 9,000"
+      },
+      {
+        "tier": "Plated Dinner 100",
+        "amount": "R 22,000"
+      },
+      {
+        "tier": "Full-Service Gala",
+        "amount": "R 45,000"
+      }
+    ]
   }
 ]
