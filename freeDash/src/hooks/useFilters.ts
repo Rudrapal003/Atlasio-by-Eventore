@@ -41,34 +41,26 @@ export function useFilters(center: GeoCenter) {
   const setDistKm = useCallback((d: number) =>
     setFilters((f) => ({ ...f, distKm: d })), []);
 
-  const toggleInPlanOnly = useCallback(() =>
-    setFilters((f) => ({ ...f, showOnlyInPlan: !f.showOnlyInPlan })), []);
+  const setShowOnlyInPlan = useCallback((v: boolean) =>
+    setFilters((f) => ({ ...f, showOnlyInPlan: v })), []);
 
-  const resetFilters = useCallback(() => setFilters(INITIAL), []);
+  const reset = useCallback(() => setFilters(INITIAL), []);
 
   /** Returns true if vendor passes all active filters. */
   function matches(v: Vendor, isInPlan: (id: string) => boolean): boolean {
     if (filters.showOnlyInPlan && !isInPlan(v.id)) return false;
-
-    if (filters.selectedCats.length > 0 && !filters.selectedCats.includes(v.cat as CategoryId))
-      return false;
-
-    if (filters.priceTiers.length > 0 && !filters.priceTiers.includes(v.price))
-      return false;
-
+    if (filters.selectedCats.length > 0 && !filters.selectedCats.includes(v.cat as CategoryId)) return false;
+    if (filters.priceTiers.length > 0 && !filters.priceTiers.includes(v.price)) return false;
     if (v.rating < filters.minRating) return false;
 
     if (filters.query) {
       const q = filters.query.toLowerCase();
-      if (
-        !v.name.toLowerCase().includes(q) &&
-        !v.area.toLowerCase().includes(q) &&
-        !v.brief.toLowerCase().includes(q)
-      )
-        return false;
+      if (!v.name.toLowerCase().includes(q) &&
+          !v.area.toLowerCase().includes(q) &&
+          !v.brief.toLowerCase().includes(q)) return false;
     }
 
-    // Only apply distance filter when we have a user center
+    // Only apply distance filter when we have a user-selected center
     if (center !== null) {
       const km = haversineKm(center.lat, center.lng, v.lat, v.lng);
       if (km > filters.distKm) return false;
@@ -88,8 +80,8 @@ export function useFilters(center: GeoCenter) {
     togglePriceTier,
     setMinRating,
     setDistKm,
-    toggleInPlanOnly,
-    resetFilters,
+    setShowOnlyInPlan,
+    reset,
     filterList,
   };
 }
