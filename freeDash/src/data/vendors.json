@@ -19169,5 +19169,365 @@
         "amount": "$9,500"
       }
     ]
+  },
+  {
+    "id": "ven_ottawa_venue",
+    "name": "Ottawa Wedding Venues",
+    "cat": "venue",
+    "lat": 45.4215,
+    "lng": -75.6972,
+    "area": "Ottawa",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "Canada's capital wedding venues — Parliament Hill backdrop, Chateau Laurier grandeur, and Rideau Canal waterway celebrations.",
+    "email": "hello@ottawavenues.com",
+    "phone": "613-555-1010",
+    "web": "https://ottawavenues.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Half-Day Venue",
+        "amount": "$1,600"
+      },
+      {
+        "tier": "Full Day Venue",
+        "amount": "$3,200"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$6,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_ottawa_photo",
+    "name": "Ottawa Wedding Photography",
+    "cat": "photo",
+    "lat": 45.4215,
+    "lng": -75.6972,
+    "area": "Ottawa",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "Ontario wedding photographers — Parliament Hill celebrations, Rideau Canal lock portraits, and Gatineau Park autumn foliage magic.",
+    "email": "hello@ottawaweddingphoto.com",
+    "phone": "613-555-1011",
+    "web": "https://ottawaweddingphoto.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "$1,150"
+      },
+      {
+        "tier": "Full Day",
+        "amount": "$2,700"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "$4,600"
+      }
+    ]
+  },
+  {
+    "id": "ven_ottawa_catering",
+    "name": "Ottawa Wedding Catering",
+    "cat": "catering",
+    "lat": 45.4215,
+    "lng": -75.6972,
+    "area": "Ottawa",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "National capital catering — ByWard Market produce, Ontario farm-to-table menus, and diplomatic-quality service for Ottawa celebrations.",
+    "email": "hello@ottawacatering.com",
+    "phone": "613-555-1012",
+    "web": "https://ottawacatering.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Buffet (50 guests)",
+        "amount": "$3,500"
+      },
+      {
+        "tier": "Plated Dinner (100 guests)",
+        "amount": "$8,500"
+      },
+      {
+        "tier": "Full Service (150 guests)",
+        "amount": "$16,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_calgary_venue",
+    "name": "Calgary Wedding Venues",
+    "cat": "venue",
+    "lat": 51.0447,
+    "lng": -114.0719,
+    "area": "Calgary",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "Cowtown wedding venues — Stampede grounds western charm, Mount Royal mansion estates, and Rocky Mountain foothills backdrop properties.",
+    "email": "hello@calgaryvenues.com",
+    "phone": "403-555-1010",
+    "web": "https://calgaryvenues.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Half-Day Venue",
+        "amount": "$1,700"
+      },
+      {
+        "tier": "Full Day Venue",
+        "amount": "$3,400"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$6,800"
+      }
+    ]
+  },
+  {
+    "id": "ven_calgary_photo",
+    "name": "Calgary Wedding Photography",
+    "cat": "photo",
+    "lat": 51.0447,
+    "lng": -114.0719,
+    "area": "Calgary",
+    "price": 2,
+    "rating": 4.9,
+    "brief": "Alberta wedding photographers — Canmore mountain elopements, Banff Lake Louise sessions, and Calgary skyline golden-hour portraits.",
+    "email": "hello@calgaryweddingphoto.com",
+    "phone": "403-555-1011",
+    "web": "https://calgaryweddingphoto.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "$1,200"
+      },
+      {
+        "tier": "Full Day",
+        "amount": "$2,800"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "$4,800"
+      }
+    ]
+  },
+  {
+    "id": "ven_calgary_catering",
+    "name": "Calgary Wedding Catering",
+    "cat": "catering",
+    "lat": 51.0447,
+    "lng": -114.0719,
+    "area": "Calgary",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "Alberta beef country wedding catering — AAA prime rib, ranch-style Alberta menus, and internationally-trained chefs for Calgary receptions.",
+    "email": "hello@calgarycatering.com",
+    "phone": "403-555-1012",
+    "web": "https://calgarycatering.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Buffet (50 guests)",
+        "amount": "$3,800"
+      },
+      {
+        "tier": "Plated Dinner (100 guests)",
+        "amount": "$9,000"
+      },
+      {
+        "tier": "Full Service (150 guests)",
+        "amount": "$17,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_calgary_florist",
+    "name": "Calgary Wedding Florist",
+    "cat": "florist",
+    "lat": 51.0447,
+    "lng": -114.0719,
+    "area": "Calgary",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "Alberta wedding florists — wildflower meadow arrangements, Rocky Mountain botanical installations, and classic prairie elegance.",
+    "email": "hello@calgaryweddingflorist.com",
+    "phone": "403-555-1013",
+    "web": "https://calgaryweddingflorist.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Bridal Bouquet Set",
+        "amount": "$600"
+      },
+      {
+        "tier": "Ceremony Flowers",
+        "amount": "$1,600"
+      },
+      {
+        "tier": "Full Floral Design",
+        "amount": "$4,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_edmonton_venue",
+    "name": "Edmonton Wedding Venues",
+    "cat": "venue",
+    "lat": 53.5461,
+    "lng": -113.4938,
+    "area": "Edmonton",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "River City wedding venues — North Saskatchewan River valley parks, West Edmonton Mall grand event spaces, and Oil Capital elegance.",
+    "email": "hello@edmontonvenues.com",
+    "phone": "780-555-1010",
+    "web": "https://edmontonvenues.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Half-Day Venue",
+        "amount": "$1,500"
+      },
+      {
+        "tier": "Full Day Venue",
+        "amount": "$3,000"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$5,800"
+      }
+    ]
+  },
+  {
+    "id": "ven_edmonton_photo",
+    "name": "Edmonton Wedding Photography",
+    "cat": "photo",
+    "lat": 53.5461,
+    "lng": -113.4938,
+    "area": "Edmonton",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "Alberta wedding photographers — North Saskatchewan River valley light, Elk Island National Park wildlife backdrops, and Edmonton skyline sunsets.",
+    "email": "hello@edmontonweddingphoto.com",
+    "phone": "780-555-1011",
+    "web": "https://edmontonweddingphoto.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "$1,100"
+      },
+      {
+        "tier": "Full Day",
+        "amount": "$2,600"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "$4,400"
+      }
+    ]
+  },
+  {
+    "id": "ven_winnipeg_venue",
+    "name": "Winnipeg Wedding Venues",
+    "cat": "venue",
+    "lat": 49.8951,
+    "lng": -97.1384,
+    "area": "Winnipeg",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "Gateway to the West wedding venues — The Forks National Historic Site, Assiniboine Park grandeur, and Exchange District heritage lofts.",
+    "email": "hello@winnipegvenues.com",
+    "phone": "204-555-1010",
+    "web": "https://winnipegvenues.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Half-Day Venue",
+        "amount": "$1,400"
+      },
+      {
+        "tier": "Full Day Venue",
+        "amount": "$2,800"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$5,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_winnipeg_photo",
+    "name": "Winnipeg Wedding Photography",
+    "cat": "photo",
+    "lat": 49.8951,
+    "lng": -97.1384,
+    "area": "Winnipeg",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "Manitoba wedding photographers — The Forks heritage backdrop, Red River valley sunsets, and Riding Mountain National Park destinations.",
+    "email": "hello@winnipegweddingphoto.com",
+    "phone": "204-555-1011",
+    "web": "https://winnipegweddingphoto.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "$1,050"
+      },
+      {
+        "tier": "Full Day",
+        "amount": "$2,500"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "$4,200"
+      }
+    ]
+  },
+  {
+    "id": "ven_winnipeg_catering",
+    "name": "Winnipeg Wedding Catering",
+    "cat": "catering",
+    "lat": 49.8951,
+    "lng": -97.1384,
+    "area": "Winnipeg",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "Manitoba prairie wedding catering — Red River pickerel, locally-sourced grains, and multicultural fusion menus for Winnipeg's diverse couples.",
+    "email": "hello@winnipegcatering.com",
+    "phone": "204-555-1012",
+    "web": "https://winnipegcatering.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Buffet (50 guests)",
+        "amount": "$3,200"
+      },
+      {
+        "tier": "Plated Dinner (100 guests)",
+        "amount": "$7,800"
+      },
+      {
+        "tier": "Full Service (150 guests)",
+        "amount": "$15,000"
+      }
+    ]
   }
 ]
