@@ -24629,5 +24629,335 @@
         "amount": "$5,500"
       }
     ]
+  },
+  {
+    "id": "ven_chicago_hair_co",
+    "name": "Chicago Bridal Hair Co.",
+    "cat": "hair",
+    "lat": 41.8781,
+    "lng": -87.6298,
+    "area": "Chicago",
+    "price": 3,
+    "rating": 4.8,
+    "brief": "On-location bridal stylists serving Gold Coast, Lincoln Park, and all Chicago neighbourhoods with editorial and classic wedding hair artistry.",
+    "email": "book@chicagobridalco.com",
+    "phone": "312-555-5015",
+    "web": "https://chicagobridalco.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Bridal Hair",
+        "amount": "$380"
+      },
+      {
+        "tier": "Bridal + 2 Guests",
+        "amount": "$800"
+      },
+      {
+        "tier": "Full Bridal Party",
+        "amount": "$1,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_la_hair_co",
+    "name": "LA Bridal Hair Artists",
+    "cat": "hair",
+    "lat": 34.0522,
+    "lng": -118.2437,
+    "area": "Los Angeles",
+    "price": 3,
+    "rating": 4.9,
+    "brief": "Hollywood celebrity-adjacent on-location bridal hair — Beverly Hills editorial glam, Malibu effortless waves, and DTLA chic updos.",
+    "email": "book@labridalartists.com",
+    "phone": "310-555-5014",
+    "web": "https://labridalartists.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Bridal Hair",
+        "amount": "$450"
+      },
+      {
+        "tier": "Bridal + 2 Guests",
+        "amount": "$950"
+      },
+      {
+        "tier": "Full Bridal Party",
+        "amount": "$1,800"
+      }
+    ]
+  },
+  {
+    "id": "ven_nyc_hair_co",
+    "name": "NYC Bridal Hair Artists",
+    "cat": "hair",
+    "lat": 40.7128,
+    "lng": -74.006,
+    "area": "New York City",
+    "price": 4,
+    "rating": 4.9,
+    "brief": "New York's top on-location bridal stylists — SoHo editorial precision, Upper East Side classic elegance, and Brooklyn bohemian artistry.",
+    "email": "book@nycbridalartists.com",
+    "phone": "212-555-5014",
+    "web": "https://nycbridalartists.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Bridal Hair",
+        "amount": "$550"
+      },
+      {
+        "tier": "Bridal + 2 Guests",
+        "amount": "$1,150"
+      },
+      {
+        "tier": "Full Bridal Party",
+        "amount": "$2,200"
+      }
+    ]
+  },
+  {
+    "id": "ven_sf_hair_co",
+    "name": "SF Bridal Hair Artists",
+    "cat": "hair",
+    "lat": 37.7749,
+    "lng": -122.4194,
+    "area": "San Francisco",
+    "price": 3,
+    "rating": 4.8,
+    "brief": "Bay Area on-location bridal stylists — effortless California waves, clean editorial updos, and diverse techniques for SF's multicultural weddings.",
+    "email": "book@sfbridalartists.com",
+    "phone": "415-555-5016",
+    "web": "https://sfbridalartists.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Bridal Hair",
+        "amount": "$380"
+      },
+      {
+        "tier": "Bridal + 2 Guests",
+        "amount": "$800"
+      },
+      {
+        "tier": "Full Bridal Party",
+        "amount": "$1,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_nyc_video",
+    "name": "NYC Wedding Videography",
+    "cat": "video",
+    "lat": 40.7128,
+    "lng": -74.006,
+    "area": "New York City",
+    "price": 4,
+    "rating": 4.9,
+    "brief": "Manhattan's premier cinematic wedding videographers — feature-film quality storytelling from Central Park to the Brooklyn Bridge.",
+    "email": "hello@nycweddingvideo.com",
+    "phone": "212-555-5015",
+    "web": "https://nycweddingvideo.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Ceremony Coverage",
+        "amount": "$2,800"
+      },
+      {
+        "tier": "Full Day Film",
+        "amount": "$5,500"
+      },
+      {
+        "tier": "Full Day + Highlight",
+        "amount": "$8,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_la_video",
+    "name": "LA Wedding Videography",
+    "cat": "video",
+    "lat": 34.0522,
+    "lng": -118.2437,
+    "area": "Los Angeles",
+    "price": 3,
+    "rating": 4.9,
+    "brief": "Hollywood cinematic wedding films — golden-hour Malibu beach footage, DTLA skyline magic, and Griffith Observatory engagement films.",
+    "email": "hello@laweddingvideo.com",
+    "phone": "310-555-5015",
+    "web": "https://laweddingvideo.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Ceremony Coverage",
+        "amount": "$2,500"
+      },
+      {
+        "tier": "Full Day Film",
+        "amount": "$5,000"
+      },
+      {
+        "tier": "Full Day + Highlight",
+        "amount": "$7,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_chicago_video",
+    "name": "Chicago Wedding Videography",
+    "cat": "video",
+    "lat": 41.8781,
+    "lng": -87.6298,
+    "area": "Chicago",
+    "price": 3,
+    "rating": 4.8,
+    "brief": "Cinematic Chicago wedding films — Millennium Park love stories, Lake Michigan aerial footage, and architectural skyline wedding montages.",
+    "email": "hello@chicagoweddingvideo.com",
+    "phone": "312-555-5016",
+    "web": "https://chicagoweddingvideo.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Ceremony Coverage",
+        "amount": "$2,000"
+      },
+      {
+        "tier": "Full Day Film",
+        "amount": "$4,000"
+      },
+      {
+        "tier": "Full Day + Highlight",
+        "amount": "$6,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_miami_video",
+    "name": "Miami Wedding Videography",
+    "cat": "video",
+    "lat": 25.7617,
+    "lng": -80.1918,
+    "area": "Miami",
+    "price": 3,
+    "rating": 4.9,
+    "brief": "South Beach cinematic wedding films — Biscayne Bay aerial drone footage, South Beach Art Deco elegance, and Everglades golden-hour magic.",
+    "email": "hello@miamiweddingvideo.com",
+    "phone": "305-555-5013",
+    "web": "https://miamiweddingvideo.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Ceremony Coverage",
+        "amount": "$2,200"
+      },
+      {
+        "tier": "Full Day Film",
+        "amount": "$4,500"
+      },
+      {
+        "tier": "Full Day + Highlight",
+        "amount": "$7,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_atlanta_video",
+    "name": "Atlanta Wedding Videography",
+    "cat": "video",
+    "lat": 33.749,
+    "lng": -84.388,
+    "area": "Atlanta",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "ATL cinematic wedding storytellers — Piedmont Park drone aerials, Beltline murals backdrop, and Buckhead estate luxury wedding films.",
+    "email": "hello@atlantaweddingvideo.com",
+    "phone": "404-555-5014",
+    "web": "https://atlantaweddingvideo.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Ceremony Coverage",
+        "amount": "$1,800"
+      },
+      {
+        "tier": "Full Day Film",
+        "amount": "$3,500"
+      },
+      {
+        "tier": "Full Day + Highlight",
+        "amount": "$5,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_dc_video",
+    "name": "DC Wedding Videography",
+    "cat": "video",
+    "lat": 38.9072,
+    "lng": -77.0369,
+    "area": "Washington DC",
+    "price": 3,
+    "rating": 4.8,
+    "brief": "Capital wedding films — Cherry Blossom festival aerials, National Mall landmark footage, and Georgetown canal romantic cinematography.",
+    "email": "hello@dcweddingvideo.com",
+    "phone": "202-555-5013",
+    "web": "https://dcweddingvideo.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Ceremony Coverage",
+        "amount": "$2,000"
+      },
+      {
+        "tier": "Full Day Film",
+        "amount": "$4,000"
+      },
+      {
+        "tier": "Full Day + Highlight",
+        "amount": "$6,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_boston_video",
+    "name": "Boston Wedding Videography",
+    "cat": "video",
+    "lat": 42.3601,
+    "lng": -71.0589,
+    "area": "Boston",
+    "price": 3,
+    "rating": 4.8,
+    "brief": "New England cinematic wedding storytelling — Fenway Park proximity, Beacon Hill cobblestone charm, and Cape Cod seascape wedding films.",
+    "email": "hello@bostonweddingvideo.com",
+    "phone": "617-555-5013",
+    "web": "https://bostonweddingvideo.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Ceremony Coverage",
+        "amount": "$2,000"
+      },
+      {
+        "tier": "Full Day Film",
+        "amount": "$4,000"
+      },
+      {
+        "tier": "Full Day + Highlight",
+        "amount": "$6,500"
+      }
+    ]
   }
 ]
