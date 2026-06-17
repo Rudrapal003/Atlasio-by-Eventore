@@ -21299,5 +21299,365 @@
         "amount": "$3,500"
       }
     ]
+  },
+  {
+    "id": "ven_wilmington_venue",
+    "name": "Wilmington NC Wedding Venues",
+    "cat": "venue",
+    "lat": 34.2257,
+    "lng": -77.9447,
+    "area": "Wilmington NC",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "Cape Fear Coast wedding venues — historic Riverwalk ceremonies, Wrightsville Beach oceanfront, and antebellum mansion receptions.",
+    "email": "hello@wilmingtonnvenues.com",
+    "phone": "910-555-1010",
+    "web": "https://wilmingtonncvenues.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Half-Day Venue",
+        "amount": "$1,500"
+      },
+      {
+        "tier": "Full Day Venue",
+        "amount": "$3,000"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$5,800"
+      }
+    ]
+  },
+  {
+    "id": "ven_wilmington_photo",
+    "name": "Wilmington NC Wedding Photography",
+    "cat": "photo",
+    "lat": 34.2257,
+    "lng": -77.9447,
+    "area": "Wilmington NC",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "North Carolina coast wedding photographers — Wrightsville Beach sunset magic, historic Bellamy Mansion elegance, and Airlie Gardens romance.",
+    "email": "hello@wilmingtonncweddingphoto.com",
+    "phone": "910-555-1011",
+    "web": "https://wilmingtonncweddingphoto.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "$1,100"
+      },
+      {
+        "tier": "Full Day",
+        "amount": "$2,600"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "$4,400"
+      }
+    ]
+  },
+  {
+    "id": "ven_greensboro_venue",
+    "name": "Greensboro Wedding Venues",
+    "cat": "venue",
+    "lat": 36.0726,
+    "lng": -79.792,
+    "area": "Greensboro",
+    "price": 2,
+    "rating": 4.6,
+    "brief": "Gate City wedding venues — Tanger Center performing arts, LeBauer Park downtown, and Guilford County countryside estate ceremonies.",
+    "email": "hello@greensborovenues.com",
+    "phone": "336-555-1010",
+    "web": "https://greensborovenues.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Half-Day Venue",
+        "amount": "$1,200"
+      },
+      {
+        "tier": "Full Day Venue",
+        "amount": "$2,500"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$4,800"
+      }
+    ]
+  },
+  {
+    "id": "ven_winstonsalem_venue",
+    "name": "Winston-Salem Wedding Venues",
+    "cat": "venue",
+    "lat": 36.0999,
+    "lng": -80.2442,
+    "area": "Winston-Salem",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "Twin City wedding venues — Wake Forest University campus elegance, Reynolda House estate, and Old Salem historic district charm.",
+    "email": "hello@winstonsalemvenues.com",
+    "phone": "336-555-2010",
+    "web": "https://winstonsalemvenues.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Half-Day Venue",
+        "amount": "$1,300"
+      },
+      {
+        "tier": "Full Day Venue",
+        "amount": "$2,600"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$5,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_lexington_venue",
+    "name": "Lexington Wedding Venues",
+    "cat": "venue",
+    "lat": 38.0406,
+    "lng": -84.5037,
+    "area": "Lexington",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "Horse Capital of the World wedding venues — Keeneland Race Course grandeur, Thoroughbred Center estate, and downtown Lexington boutique spaces.",
+    "email": "hello@lexingtonvenues.com",
+    "phone": "859-555-1010",
+    "web": "https://lexingtonvenues.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Half-Day Venue",
+        "amount": "$1,500"
+      },
+      {
+        "tier": "Full Day Venue",
+        "amount": "$3,000"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$5,800"
+      }
+    ]
+  },
+  {
+    "id": "ven_lexington_photo",
+    "name": "Lexington Wedding Photography",
+    "cat": "photo",
+    "lat": 38.0406,
+    "lng": -84.5037,
+    "area": "Lexington",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "Kentucky Bluegrass wedding photographers — horse farm pastoral portraits, Keeneland golden hour, and bourbon distillery estate sessions.",
+    "email": "hello@lexingtonweddingphoto.com",
+    "phone": "859-555-1011",
+    "web": "https://lexingtonweddingphoto.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "$1,050"
+      },
+      {
+        "tier": "Full Day",
+        "amount": "$2,500"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "$4,200"
+      }
+    ]
+  },
+  {
+    "id": "ven_lexington_florist",
+    "name": "Lexington Wedding Florist",
+    "cat": "florist",
+    "lat": 38.0406,
+    "lng": -84.5037,
+    "area": "Lexington",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "Kentucky Bluegrass botanical wedding florals — wildflower meadow arrangements, horse farm greenery, and elegant Southern garden designs.",
+    "email": "hello@lexingtonweddingflorist.com",
+    "phone": "859-555-1012",
+    "web": "https://lexingtonweddingflorist.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Bridal Bouquet Set",
+        "amount": "$480"
+      },
+      {
+        "tier": "Ceremony Flowers",
+        "amount": "$1,250"
+      },
+      {
+        "tier": "Full Floral Design",
+        "amount": "$3,100"
+      }
+    ]
+  },
+  {
+    "id": "ven_shreveport_venue",
+    "name": "Shreveport Wedding Venues",
+    "cat": "venue",
+    "lat": 32.5252,
+    "lng": -93.7502,
+    "area": "Shreveport",
+    "price": 1,
+    "rating": 4.5,
+    "brief": "Red River City wedding venues — Strand Theatre historic grandeur, Shreveport Municipal Auditorium, and Cross Lake waterfront estates.",
+    "email": "hello@shreveportvenues.com",
+    "phone": "318-555-1010",
+    "web": "https://shreveportvenues.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Half-Day Venue",
+        "amount": "$900"
+      },
+      {
+        "tier": "Full Day Venue",
+        "amount": "$1,800"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$3,400"
+      }
+    ]
+  },
+  {
+    "id": "ven_littlerock_venue",
+    "name": "Little Rock Wedding Venues",
+    "cat": "venue",
+    "lat": 34.7465,
+    "lng": -92.2896,
+    "area": "Little Rock",
+    "price": 1,
+    "rating": 4.6,
+    "brief": "Arkansas capital wedding venues — Little Rock Marriott Grand Hall, Riverfront Park amphitheatre, and Historic Heights district mansion estates.",
+    "email": "hello@littlerockvenues.com",
+    "phone": "501-555-1010",
+    "web": "https://littlerockvenues.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Half-Day Venue",
+        "amount": "$1,000"
+      },
+      {
+        "tier": "Full Day Venue",
+        "amount": "$2,000"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$3,800"
+      }
+    ]
+  },
+  {
+    "id": "ven_littlerock_photo",
+    "name": "Little Rock Wedding Photography",
+    "cat": "photo",
+    "lat": 34.7465,
+    "lng": -92.2896,
+    "area": "Little Rock",
+    "price": 1,
+    "rating": 4.7,
+    "brief": "Arkansas wedding photographers — Arkansas River Valley light, Petit Jean Mountain drama, and Historic Little Rock Clinton Presidential Center portraits.",
+    "email": "hello@littlerockweddingphoto.com",
+    "phone": "501-555-1011",
+    "web": "https://littlerockweddingphoto.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "$800"
+      },
+      {
+        "tier": "Full Day",
+        "amount": "$1,900"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "$3,300"
+      }
+    ]
+  },
+  {
+    "id": "ven_springfieldmo_venue",
+    "name": "Springfield MO Wedding Venues",
+    "cat": "venue",
+    "lat": 37.209,
+    "lng": -93.2923,
+    "area": "Springfield MO",
+    "price": 1,
+    "rating": 4.6,
+    "brief": "Queen City of the Ozarks wedding venues — Bass Pro Shops HQ-adjacent events, Ozark Mountain lodge destinations, and Jordan Valley Park ceremonies.",
+    "email": "hello@springfieldmovenues.com",
+    "phone": "417-555-1010",
+    "web": "https://springfieldmovenues.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Half-Day Venue",
+        "amount": "$900"
+      },
+      {
+        "tier": "Full Day Venue",
+        "amount": "$1,800"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$3,400"
+      }
+    ]
+  },
+  {
+    "id": "ven_springfieldmo_photo",
+    "name": "Springfield MO Wedding Photography",
+    "cat": "photo",
+    "lat": 37.209,
+    "lng": -93.2923,
+    "area": "Springfield MO",
+    "price": 1,
+    "rating": 4.6,
+    "brief": "Ozarks wedding photographers — Table Rock Lake sparkling water portraits, Roaring River State Park wilderness sessions, and Springfield cityscape.",
+    "email": "hello@springfieldmoweddingphoto.com",
+    "phone": "417-555-1011",
+    "web": "https://springfieldmoweddingphoto.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "$800"
+      },
+      {
+        "tier": "Full Day",
+        "amount": "$1,900"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "$3,200"
+      }
+    ]
   }
 ]
