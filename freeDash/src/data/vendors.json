@@ -1171,7 +1171,7 @@
   },
   {
     "id": "v848682fa34",
-    "name": "Divine Décor",
+    "name": "Divine DÃ©cor",
     "cat": "florals",
     "lat": 49.16731,
     "lng": -123.13311,
@@ -2103,5 +2103,455 @@
     "quotes": [],
     "sponsored": false,
     "outboundUrl": null
+  },
+  {
+    "id": "ven_the_loft_on_robson",
+    "name": "The Loft on Robson",
+    "cat": "venue",
+    "lat": 49.2827,
+    "lng": -123.1215,
+    "area": "Downtown Vancouver",
+    "price": 3,
+    "rating": 4.8,
+    "brief": "A rooftop urban loft with panoramic city views — perfect for intimate weddings and galas up to 120 guests.",
+    "email": "hello@loftonrobson.com",
+    "phone": "604-555-0101",
+    "web": "https://loftonrobson.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Half-Day Rental",
+        "amount": "$1,800"
+      },
+      {
+        "tier": "Full-Day Rental",
+        "amount": "$3,500"
+      },
+      {
+        "tier": "Weekend Package",
+        "amount": "$5,800"
+      }
+    ]
+  },
+  {
+    "id": "ven_lumiere_photography",
+    "name": "Lumière Photography",
+    "cat": "photo",
+    "lat": 49.28,
+    "lng": -123.119,
+    "area": "Yaletown",
+    "price": 3,
+    "rating": 4.9,
+    "brief": "Award-winning wedding photographers capturing golden-hour magic across BC with a cinematic, editorial eye.",
+    "email": "hello@lumiereyvr.com",
+    "phone": "604-555-0303",
+    "web": "https://lumiereyvr.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "$1,350"
+      },
+      {
+        "tier": "Full Day Coverage",
+        "amount": "$3,300"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "$6,750"
+      }
+    ]
+  },
+  {
+    "id": "ven_shoreline_films",
+    "name": "Shoreline Films",
+    "cat": "video",
+    "lat": 49.2768,
+    "lng": -123.1247,
+    "area": "False Creek",
+    "price": 3,
+    "rating": 4.9,
+    "brief": "Cinematic wedding videographers known for emotional, story-driven highlight films that you'll watch for decades.",
+    "email": "hello@shorelinefilms.ca",
+    "phone": "604-555-0606",
+    "web": "https://shorelinefilms.ca",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Highlight Reel",
+        "amount": "$1,650"
+      },
+      {
+        "tier": "Full Day + Edit",
+        "amount": "$4,200"
+      },
+      {
+        "tier": "Cinematic Package",
+        "amount": "$8,250"
+      }
+    ]
+  },
+  {
+    "id": "ven_harbour_feast_catering",
+    "name": "Harbour Feast Catering",
+    "cat": "catering",
+    "lat": 49.2896,
+    "lng": -123.1148,
+    "area": "Gastown",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "Farm-to-table catering with a focus on Pacific Northwest ingredients, bold flavours, and seamless service.",
+    "email": "info@harbourfeast.ca",
+    "phone": "604-555-0505",
+    "web": "https://harbourfeast.ca",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Buffet for 50",
+        "amount": "$1,500"
+      },
+      {
+        "tier": "Plated Dinner 100",
+        "amount": "$3,800"
+      },
+      {
+        "tier": "Full-Service Gala",
+        "amount": "$7,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_ivory_and_slate_events",
+    "name": "Ivory & Slate Events",
+    "cat": "planner",
+    "lat": 49.2739,
+    "lng": -123.146,
+    "area": "Kitsilano",
+    "price": 3,
+    "rating": 4.8,
+    "brief": "Full-service wedding planning studio obsessed with flawless execution and timeless, personalised design.",
+    "email": "hello@ivoryandslate.com",
+    "phone": "604-555-0707",
+    "web": "https://ivoryandslate.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Day-Of Coordination",
+        "amount": "$1,800"
+      },
+      {
+        "tier": "Partial Planning",
+        "amount": "$4,500"
+      },
+      {
+        "tier": "Full Planning",
+        "amount": "$9,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_bloom_and_branch_decor",
+    "name": "Bloom & Branch Décor",
+    "cat": "decor",
+    "lat": 49.2812,
+    "lng": -123.1182,
+    "area": "Yaletown",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "Lush, organic décor installations that transform any venue into a botanical dream, from ceremony arches to centrepieces.",
+    "email": "hello@bloomandbranch.ca",
+    "phone": "604-555-0808",
+    "web": "https://bloomandbranch.ca",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Ceremony Setup",
+        "amount": "$800"
+      },
+      {
+        "tier": "Reception Package",
+        "amount": "$2,000"
+      },
+      {
+        "tier": "Full Venue Styling",
+        "amount": "$4,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_dj_cascade",
+    "name": "DJ Cascade",
+    "cat": "music",
+    "lat": 49.2846,
+    "lng": -123.1162,
+    "area": "Downtown Vancouver",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "Vancouver's top wedding DJ, blending seamless sets from first dance to last call with professional lighting.",
+    "email": "book@djcascade.ca",
+    "phone": "604-555-0909",
+    "web": "https://djcascade.ca",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "DJ 4 Hours",
+        "amount": "$600"
+      },
+      {
+        "tier": "DJ Full Night",
+        "amount": "$1,400"
+      },
+      {
+        "tier": "Live Band Package",
+        "amount": "$2,800"
+      }
+    ]
+  },
+  {
+    "id": "ven_wild_petal_floral",
+    "name": "Wild Petal Floral",
+    "cat": "florist",
+    "lat": 49.2753,
+    "lng": -123.1437,
+    "area": "Kitsilano",
+    "price": 2,
+    "rating": 4.9,
+    "brief": "Lush, garden-gathered arrangements with a romantic, slightly untamed aesthetic — every bouquet tells a story.",
+    "email": "hello@wildpetal.ca",
+    "phone": "604-555-1010",
+    "web": "https://wildpetal.ca",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Bridal Bouquet Set",
+        "amount": "$500"
+      },
+      {
+        "tier": "Ceremony Flowers",
+        "amount": "$1,200"
+      },
+      {
+        "tier": "Full Floral Design",
+        "amount": "$2,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_bridal_beauty_co",
+    "name": "Bridal Beauty Co.",
+    "cat": "hair",
+    "lat": 49.2822,
+    "lng": -123.1355,
+    "area": "West End",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "On-location bridal hair and makeup team delivering flawless, long-lasting looks for the entire wedding party.",
+    "email": "book@bridalbeautyco.ca",
+    "phone": "604-555-1111",
+    "web": "https://bridalbeautyco.ca",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Bridal Hair",
+        "amount": "$300"
+      },
+      {
+        "tier": "Bridal + 2 Guests",
+        "amount": "$650"
+      },
+      {
+        "tier": "Full Bridal Party",
+        "amount": "$1,200"
+      }
+    ]
+  },
+  {
+    "id": "ven_white_ivory_bridal",
+    "name": "White Ivory Bridal",
+    "cat": "attire",
+    "lat": 49.2805,
+    "lng": -123.1198,
+    "area": "Downtown Vancouver",
+    "price": 3,
+    "rating": 4.7,
+    "brief": "Curated selection of designer bridal gowns and accessories from emerging and luxury labels, with bespoke alterations.",
+    "email": "hello@whiteivory.ca",
+    "phone": "604-555-1212",
+    "web": "https://whiteivory.ca",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Dress Rental",
+        "amount": "$800"
+      },
+      {
+        "tier": "Bridal Gown",
+        "amount": "$2,000"
+      },
+      {
+        "tier": "Designer Gown Package",
+        "amount": "$5,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_pacific_lens_studio",
+    "name": "Pacific Lens Studio",
+    "cat": "photo",
+    "lat": 49.2687,
+    "lng": -123.2493,
+    "area": "North Vancouver",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "Documentary-style wedding storytellers who turn your day into a cinematic love story — mountains and ocean optional.",
+    "email": "book@pacificlens.ca",
+    "phone": "604-555-0404",
+    "web": "https://pacificlens.ca",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "$900"
+      },
+      {
+        "tier": "Full Day Coverage",
+        "amount": "$2,200"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "$4,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_burrard_arts_foundation",
+    "name": "Burrard Arts Foundation",
+    "cat": "venue",
+    "lat": 49.2891,
+    "lng": -123.111,
+    "area": "Gastown",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "A converted heritage building blending industrial chic with rotating gallery walls — unforgettable receptions for up to 200.",
+    "email": "events@bafound.org",
+    "phone": "604-555-0202",
+    "web": "https://bafound.org",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Half-Day Rental",
+        "amount": "$1,200"
+      },
+      {
+        "tier": "Full-Day Rental",
+        "amount": "$2,800"
+      },
+      {
+        "tier": "Weekend Package",
+        "amount": "$4,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_cedar_and_sea_events",
+    "name": "Cedar & Sea Events",
+    "cat": "planner",
+    "lat": 49.325,
+    "lng": -123.0728,
+    "area": "North Vancouver",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "Boutique wedding planners specialising in outdoor and forest ceremonies — they'll handle every pinecone and petal.",
+    "email": "hello@cedarandsea.ca",
+    "phone": "604-555-1313",
+    "web": "https://cedarandsea.ca",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Day-Of Coordination",
+        "amount": "$1,200"
+      },
+      {
+        "tier": "Partial Planning",
+        "amount": "$3,000"
+      },
+      {
+        "tier": "Full Planning",
+        "amount": "$6,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_golden_hour_catering",
+    "name": "Golden Hour Catering",
+    "cat": "catering",
+    "lat": 49.226,
+    "lng": -123.1154,
+    "area": "Richmond",
+    "price": 3,
+    "rating": 4.9,
+    "brief": "Elevated multicultural menus designed for modern celebrations — blending West Coast and Asian Pacific flavours beautifully.",
+    "email": "hello@goldenhourcatering.ca",
+    "phone": "604-555-1414",
+    "web": "https://goldenhourcatering.ca",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Buffet for 50",
+        "amount": "$2,250"
+      },
+      {
+        "tier": "Plated Dinner 100",
+        "amount": "$5,700"
+      },
+      {
+        "tier": "Full-Service Gala",
+        "amount": "$11,250"
+      }
+    ]
+  },
+  {
+    "id": "ven_velvet_string_quartet",
+    "name": "Velvet String Quartet",
+    "cat": "music",
+    "lat": 49.2749,
+    "lng": -123.1218,
+    "area": "Kitsilano",
+    "price": 3,
+    "rating": 4.9,
+    "brief": "Classical and contemporary string quartet available for ceremonies, cocktail hours, and receptions across Greater Vancouver.",
+    "email": "book@velvetquartet.ca",
+    "phone": "604-555-1515",
+    "web": "https://velvetquartet.ca",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Ceremony (45 min)",
+        "amount": "$900"
+      },
+      {
+        "tier": "Ceremony + Cocktail Hour",
+        "amount": "$1,800"
+      },
+      {
+        "tier": "Full Evening",
+        "amount": "$3,200"
+      }
+    ]
   }
 ]
