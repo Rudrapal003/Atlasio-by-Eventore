@@ -4869,5 +4869,1105 @@
         "amount": "$4,000"
       }
     ]
+  },
+  {
+    "id": "ven_84hrzhcp5",
+    "name": "Richmond Olympic Oval Events",
+    "cat": "venue",
+    "lat": 49.1751,
+    "lng": -123.151,
+    "area": "Richmond",
+    "price": 3,
+    "rating": 4.6,
+    "brief": "Massive versatile space overlooking the Fraser River. Ideal for large-scale corporate events.",
+    "email": "events@richmondoval.ca",
+    "phone": "604-466-1001",
+    "web": "https://richmondoval.ca",
+    "sponsored": true,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Full Day Hall",
+        "amount": "$8,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_qgth7hxpc",
+    "name": "River Rock Casino Resort",
+    "cat": "venue",
+    "lat": 49.196,
+    "lng": -123.126,
+    "area": "Richmond",
+    "price": 4,
+    "rating": 4.5,
+    "brief": "Luxury resort with state-of-the-art conference facilities and a beautiful theatre.",
+    "email": "sales@riverrock.com",
+    "phone": "604-247-8900",
+    "web": "https://riverrock.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Ballroom / 400 Guests",
+        "amount": "$15,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_6m9ufaa9w",
+    "name": "Steveston Seafood Catering",
+    "cat": "catering",
+    "lat": 49.125,
+    "lng": -123.181,
+    "area": "Steveston",
+    "price": 3,
+    "rating": 4.8,
+    "brief": "Fresh, ocean-to-table seafood experiences perfect for weddings and luxury events.",
+    "email": "info@stevestonseafood.com",
+    "phone": "604-555-1211",
+    "web": "https://stevestonseafood.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Plated Salmon / 100 Guests",
+        "amount": "$9,200"
+      }
+    ]
+  },
+  {
+    "id": "ven_e9rp6m8tf",
+    "name": "Pacific Coast Florals",
+    "cat": "florals",
+    "lat": 49.155,
+    "lng": -123.131,
+    "area": "Richmond",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "Elegant, modern floral arrangements utilizing local BC blooms.",
+    "email": "hello@pacificcoastflorals.ca",
+    "phone": "604-555-2211",
+    "web": "https://pacificcoastflorals.ca",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Ceremony + 12 Centerpieces",
+        "amount": "$2,800"
+      }
+    ]
+  },
+  {
+    "id": "ven_yrjfk4otb",
+    "name": "Golden Hour Photography YVR",
+    "cat": "photo",
+    "lat": 49.165,
+    "lng": -123.141,
+    "area": "Richmond",
+    "price": 3,
+    "rating": 4.9,
+    "brief": "Cinematic documentary-style photography with a focus on dramatic natural lighting.",
+    "email": "shoot@goldenhouryvr.com",
+    "phone": "604-555-3211",
+    "web": "https://goldenhouryvr.com",
+    "sponsored": true,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "10h Coverage + 2nd Shooter",
+        "amount": "$4,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_lxcem4z55",
+    "name": "Richmond Country Club",
+    "cat": "venue",
+    "lat": 49.143,
+    "lng": -123.097,
+    "area": "Richmond",
+    "price": 4,
+    "rating": 4.7,
+    "brief": "Exclusive country club setting with pristine golf course views and elegant ballrooms.",
+    "email": "catering@richmondcc.ca",
+    "phone": "604-277-3141",
+    "web": "https://richmondcc.ca",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Wedding Package / 150 Guests",
+        "amount": "$18,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_e4vf8nm7k",
+    "name": "Lulu Island Winery",
+    "cat": "venue",
+    "lat": 49.162,
+    "lng": -123.033,
+    "area": "Richmond",
+    "price": 3,
+    "rating": 4.5,
+    "brief": "Beautiful vineyard estate offering indoor and outdoor spaces for rustic elegant events.",
+    "email": "events@luluislandwinery.com",
+    "phone": "604-232-9839",
+    "web": "https://luluislandwinery.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Vineyard Tent / 100 Guests",
+        "amount": "$6,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_xydwlvmtg",
+    "name": "DJ Vinyl Vancouver",
+    "cat": "dj",
+    "lat": 49.15,
+    "lng": -123.1,
+    "area": "Richmond",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "Open-format DJ specializing in energetic weddings and corporate holiday parties.",
+    "email": "book@djvinylvan.ca",
+    "phone": "604-555-4211",
+    "web": "https://djvinylvan.ca",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "6h Reception + MC",
+        "amount": "$1,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_m795p63np",
+    "name": "Blissful Events Planning",
+    "cat": "planning",
+    "lat": 49.171,
+    "lng": -123.136,
+    "area": "Richmond",
+    "price": 3,
+    "rating": 4.9,
+    "brief": "Full-service planning and day-of coordination for seamless event execution.",
+    "email": "hello@blissfulevents.ca",
+    "phone": "604-555-5211",
+    "web": "https://blissfulevents.ca",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Month-of Coordination",
+        "amount": "$2,200"
+      }
+    ]
+  },
+  {
+    "id": "ven_7nx6sk2ow",
+    "name": "Sugar Lane Cakes",
+    "cat": "cake",
+    "lat": 49.181,
+    "lng": -123.146,
+    "area": "Richmond",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "Custom fondant and buttercream creations. Award-winning sugar flowers.",
+    "email": "orders@sugarlanecakes.com",
+    "phone": "604-555-6211",
+    "web": "https://sugarlanecakes.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Tier / 120 Servings",
+        "amount": "$850"
+      }
+    ]
+  },
+  {
+    "id": "ven_qvsxa50qv",
+    "name": "Civic Hotel Autograph Collection",
+    "cat": "venue",
+    "lat": 49.189,
+    "lng": -122.848,
+    "area": "Surrey City Centre",
+    "price": 4,
+    "rating": 4.6,
+    "brief": "Modern luxury hotel in the heart of Surrey with a sleek ballroom and plaza.",
+    "email": "sales@civichotel.ca",
+    "phone": "604-951-3331",
+    "web": "https://civichotel.ca",
+    "sponsored": true,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Grand Ballroom / 250 Guests",
+        "amount": "$14,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_6ufdr5kox",
+    "name": "Northview Golf & Country Club",
+    "cat": "venue",
+    "lat": 49.141,
+    "lng": -122.759,
+    "area": "Surrey",
+    "price": 3,
+    "rating": 4.7,
+    "brief": "Stunning clubhouse with panoramic views of the golf course and mountains.",
+    "email": "banquets@northviewgolf.com",
+    "phone": "604-574-0324",
+    "web": "https://northviewgolf.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Palmer Room / 150 Guests",
+        "amount": "$9,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_lqfmq0n80",
+    "name": "Morgan Creek Golf Course",
+    "cat": "venue",
+    "lat": 49.062,
+    "lng": -122.812,
+    "area": "South Surrey",
+    "price": 3,
+    "rating": 4.8,
+    "brief": "Award-winning venue with beautifully manicured gardens for outdoor ceremonies.",
+    "email": "events@morgancreekgolf.com",
+    "phone": "604-531-4262",
+    "web": "https://morgancreekgolf.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Creekside Room / 120 Guests",
+        "amount": "$8,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_ap4jxhhiq",
+    "name": "Surrey Spice Catering",
+    "cat": "catering",
+    "lat": 49.135,
+    "lng": -122.845,
+    "area": "Surrey",
+    "price": 2,
+    "rating": 4.6,
+    "brief": "Authentic Indian and South Asian fusion catering for large cultural events.",
+    "email": "info@surreyspice.ca",
+    "phone": "604-555-7211",
+    "web": "https://surreyspice.ca",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Buffet / 300 Guests",
+        "amount": "$12,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_vq22f5b6d",
+    "name": "White Rock Beach Photographers",
+    "cat": "photo",
+    "lat": 49.023,
+    "lng": -122.802,
+    "area": "White Rock",
+    "price": 3,
+    "rating": 4.9,
+    "brief": "Specialists in coastal and sunset portraiture. Vibrant and airy editing style.",
+    "email": "shoot@whiterockphoto.com",
+    "phone": "604-555-8211",
+    "web": "https://whiterockphoto.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "8h + Sunset Session",
+        "amount": "$3,200"
+      }
+    ]
+  },
+  {
+    "id": "ven_m1qigrhmd",
+    "name": "Elaine's Decor & Floral",
+    "cat": "decor",
+    "lat": 49.115,
+    "lng": -122.865,
+    "area": "Surrey",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "Full-service event design, drapery, and custom floral installations.",
+    "email": "hello@elainesdecor.ca",
+    "phone": "604-555-9211",
+    "web": "https://elainesdecor.ca",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Full Room Draping + Centerpieces",
+        "amount": "$4,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_7evkyjyoh",
+    "name": "Fraser Valley Officiants",
+    "cat": "officiant",
+    "lat": 49.125,
+    "lng": -122.855,
+    "area": "Surrey",
+    "price": 1,
+    "rating": 5,
+    "brief": "Warm, personable, and legally registered officiants. Custom script creation.",
+    "email": "vows@fvofficiants.ca",
+    "phone": "604-555-0212",
+    "web": "https://fvofficiants.ca",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Ceremony + Rehearsal",
+        "amount": "$500"
+      }
+    ]
+  },
+  {
+    "id": "ven_xsamk8jyg",
+    "name": "Surrey Sound & Lighting",
+    "cat": "dj",
+    "lat": 49.155,
+    "lng": -122.835,
+    "area": "Surrey",
+    "price": 3,
+    "rating": 4.7,
+    "brief": "Premium AV, staging, and DJ services for large corporate events and galas.",
+    "email": "info@surreysound.ca",
+    "phone": "604-555-1212",
+    "web": "https://surreysound.ca",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "DJ + Full Uplighting Pkg",
+        "amount": "$2,800"
+      }
+    ]
+  },
+  {
+    "id": "ven_quydisu0z",
+    "name": "Bespoke Beauty By Sarah",
+    "cat": "beauty",
+    "lat": 49.045,
+    "lng": -122.815,
+    "area": "South Surrey",
+    "price": 2,
+    "rating": 4.9,
+    "brief": "Mobile hair and makeup artistry focusing on natural, glowing aesthetics.",
+    "email": "sarah@bespokebeauty.ca",
+    "phone": "604-555-2212",
+    "web": "https://bespokebeauty.ca",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Bridal Party of 5",
+        "amount": "$1,100"
+      }
+    ]
+  },
+  {
+    "id": "ven_rsiadns7k",
+    "name": "The Cake Studio Surrey",
+    "cat": "cake",
+    "lat": 49.175,
+    "lng": -122.825,
+    "area": "Surrey",
+    "price": 3,
+    "rating": 4.8,
+    "brief": "Architectural, modern cake designs using premium European chocolate.",
+    "email": "orders@cakestudiosurrey.com",
+    "phone": "604-555-3212",
+    "web": "https://cakestudiosurrey.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "3-Tier Sculpted Cake",
+        "amount": "$950"
+      }
+    ]
+  },
+  {
+    "id": "ven_2ehnwrdpi",
+    "name": "Westwood Plateau Golf",
+    "cat": "venue",
+    "lat": 49.309,
+    "lng": -122.784,
+    "area": "Coquitlam",
+    "price": 4,
+    "rating": 4.7,
+    "brief": "Spectacular mountaintop venue with timber-framed clubhouses and sweeping valley views.",
+    "email": "banquets@westwoodplateaugolf.com",
+    "phone": "604-552-0777",
+    "web": "https://westwoodplateaugolf.com",
+    "sponsored": true,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Gallery Room / 200 Guests",
+        "amount": "$12,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_o3p7ubmv9",
+    "name": "Executive Plaza Hotel Metro Vancouver",
+    "cat": "venue",
+    "lat": 49.25,
+    "lng": -122.894,
+    "area": "Coquitlam",
+    "price": 3,
+    "rating": 4.3,
+    "brief": "Conveniently located near Lougheed Town Centre with multiple versatile event spaces.",
+    "email": "sales@executiveplazahotel.ca",
+    "phone": "604-936-9399",
+    "web": "https://executiveplazahotel.ca",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Ballroom / 150 Guests",
+        "amount": "$6,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_bjmaaxnxd",
+    "name": "Hard Rock Casino Vancouver Theatre",
+    "cat": "venue",
+    "lat": 49.231,
+    "lng": -122.853,
+    "area": "Coquitlam",
+    "price": 4,
+    "rating": 4.6,
+    "brief": "The Asylum and the main Theatre provide incredible AV capabilities for massive corporate events.",
+    "email": "events@hardrockcasinovancouver.com",
+    "phone": "604-523-6888",
+    "web": "https://hardrockcasinovancouver.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Theatre Buyout",
+        "amount": "$25,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_wo0e7zsn7",
+    "name": "Tri-City Catering Co.",
+    "cat": "catering",
+    "lat": 49.275,
+    "lng": -122.805,
+    "area": "Coquitlam",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "Comfort food elegantly presented. Great for casual weddings and community events.",
+    "email": "hello@tricitycatering.ca",
+    "phone": "604-555-4212",
+    "web": "https://tricitycatering.ca",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "BBQ Buffet / 100 Guests",
+        "amount": "$6,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_pqt5jysxf",
+    "name": "Pine & Peak Photography",
+    "cat": "photo",
+    "lat": 49.285,
+    "lng": -122.795,
+    "area": "Coquitlam",
+    "price": 3,
+    "rating": 4.9,
+    "brief": "Adventure and elopement photography. We hike to get the perfect mountain shot.",
+    "email": "shoot@pineandpeak.com",
+    "phone": "604-555-5212",
+    "web": "https://pineandpeak.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Full Day Mountaintop Elopement",
+        "amount": "$4,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_4ihotfpx4",
+    "name": "Port Moody Floral",
+    "cat": "florals",
+    "lat": 49.278,
+    "lng": -122.85,
+    "area": "Port Moody",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "Charming boutique florist focusing on sustainable and seasonal arrangements.",
+    "email": "info@portmoodyfloral.ca",
+    "phone": "604-555-6212",
+    "web": "https://portmoodyfloral.ca",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "A la Carte Bridal Party Florals",
+        "amount": "$1,200"
+      }
+    ]
+  },
+  {
+    "id": "ven_c60ymkze6",
+    "name": "Brewery Row Events",
+    "cat": "planner",
+    "lat": 49.277,
+    "lng": -122.849,
+    "area": "Port Moody",
+    "price": 2,
+    "rating": 4.6,
+    "brief": "Specialists in organizing events, food trucks, and coordination at local breweries.",
+    "email": "cheers@breweryrowevents.com",
+    "phone": "604-555-7212",
+    "web": "https://breweryrowevents.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Brewery Buyout Coordination",
+        "amount": "$1,800"
+      }
+    ]
+  },
+  {
+    "id": "ven_505a6wwzn",
+    "name": "Inlet Sound",
+    "cat": "dj",
+    "lat": 49.281,
+    "lng": -122.841,
+    "area": "Port Moody",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "Local DJ with a massive vinyl collection and a great ear for reading the room.",
+    "email": "dj@inletsound.ca",
+    "phone": "604-555-8212",
+    "web": "https://inletsound.ca",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "5h Wedding Reception",
+        "amount": "$1,200"
+      }
+    ]
+  },
+  {
+    "id": "ven_v79bfiyzq",
+    "name": "Lafarge Lake Limousine",
+    "cat": "transportation",
+    "lat": 49.288,
+    "lng": -122.793,
+    "area": "Coquitlam",
+    "price": 3,
+    "rating": 4.5,
+    "brief": "Luxury fleet of stretch limos and party buses for seamless wedding party transport.",
+    "email": "rides@lafargelimo.com",
+    "phone": "604-555-9212",
+    "web": "https://lafargelimo.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "20-Pax Party Bus / 4h",
+        "amount": "$1,400"
+      }
+    ]
+  },
+  {
+    "id": "ven_1oeah4p7d",
+    "name": "Evergreen Beauty Bar",
+    "cat": "beauty",
+    "lat": 49.282,
+    "lng": -122.792,
+    "area": "Coquitlam",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "Studio and mobile beauty services. Masters of the elegant updo.",
+    "email": "hello@evergreenbeauty.ca",
+    "phone": "604-555-0213",
+    "web": "https://evergreenbeauty.ca",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Bridal Hair + Trial",
+        "amount": "$450"
+      }
+    ]
+  },
+  {
+    "id": "ven_ac4ggvbca",
+    "name": "Capilano Suspension Bridge Park",
+    "cat": "venue",
+    "lat": 49.342,
+    "lng": -123.114,
+    "area": "North Vancouver",
+    "price": 4,
+    "rating": 4.8,
+    "brief": "World-famous rainforest venue offering breathtaking canyon views and magical lighting.",
+    "email": "events@capbridge.com",
+    "phone": "604-985-7474",
+    "web": "https://capbridge.com",
+    "sponsored": true,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Cliffhouse Restaurant Buyout",
+        "amount": "$16,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_37wbvl9uf",
+    "name": "The Wallace Venue",
+    "cat": "venue",
+    "lat": 49.31,
+    "lng": -123.081,
+    "area": "North Vancouver",
+    "price": 3,
+    "rating": 4.9,
+    "brief": "Heritage-inspired industrial space in the Shipyards with a massive outdoor terrace.",
+    "email": "info@wallacevenue.com",
+    "phone": "604-555-1213",
+    "web": "https://wallacevenue.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Venue Rental / 200 Guests",
+        "amount": "$7,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_1zaqokhct",
+    "name": "Grouse Mountain Resort",
+    "cat": "venue",
+    "lat": 49.379,
+    "lng": -123.081,
+    "area": "North Vancouver",
+    "price": 4,
+    "rating": 4.7,
+    "brief": "The Peak of Vancouver. Alpine setting with panoramic city and ocean views.",
+    "email": "weddings@grousemountain.com",
+    "phone": "604-980-9311",
+    "web": "https://grousemountain.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Timber Room / 120 Guests",
+        "amount": "$11,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_bw2ks8a1z",
+    "name": "Cypress Pop-up Picnics",
+    "cat": "catering",
+    "lat": 49.395,
+    "lng": -123.204,
+    "area": "West Vancouver",
+    "price": 3,
+    "rating": 4.9,
+    "brief": "Luxury curated picnics and grazing boards set up at scenic viewpoints.",
+    "email": "hello@cypresspicnics.ca",
+    "phone": "604-555-2213",
+    "web": "https://cypresspicnics.ca",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Luxury Picnic for 20",
+        "amount": "$2,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_fkafmrjh8",
+    "name": "North Shore Catering Co.",
+    "cat": "catering",
+    "lat": 49.321,
+    "lng": -123.075,
+    "area": "North Vancouver",
+    "price": 3,
+    "rating": 4.7,
+    "brief": "Farm-to-table menus emphasizing local North Shore providers and sustainable seafood.",
+    "email": "events@northshorecatering.ca",
+    "phone": "604-555-3213",
+    "web": "https://northshorecatering.ca",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Plated Dinner / 100 Guests",
+        "amount": "$10,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_l5i7ndmg0",
+    "name": "Mountain Light Photo",
+    "cat": "photo",
+    "lat": 49.33,
+    "lng": -123.09,
+    "area": "North Vancouver",
+    "price": 3,
+    "rating": 4.8,
+    "brief": "Epic landscape and portrait photography. We specialize in forest and alpine lighting.",
+    "email": "shoot@mountainlight.ca",
+    "phone": "604-555-4213",
+    "web": "https://mountainlight.ca",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "10h Coverage + Album",
+        "amount": "$4,800"
+      }
+    ]
+  },
+  {
+    "id": "ven_dht6uqy2p",
+    "name": "Lonsdale Quay Florist",
+    "cat": "florals",
+    "lat": 49.31,
+    "lng": -123.082,
+    "area": "North Vancouver",
+    "price": 2,
+    "rating": 4.6,
+    "brief": "Fresh, vibrant market-style blooms perfect for bright, joyful events.",
+    "email": "orders@lonsdaleflorist.com",
+    "phone": "604-555-5213",
+    "web": "https://lonsdaleflorist.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "A la Carte Package",
+        "amount": "$1,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_x0291vpcm",
+    "name": "Howe Sound Officiants",
+    "cat": "officiant",
+    "lat": 49.355,
+    "lng": -123.255,
+    "area": "West Vancouver",
+    "price": 1,
+    "rating": 5,
+    "brief": "Specializing in intimate, meaningful ceremonies overlooking the ocean.",
+    "email": "vows@howesoundofficiants.ca",
+    "phone": "604-555-6213",
+    "web": "https://howesoundofficiants.ca",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Custom Ceremony",
+        "amount": "$600"
+      }
+    ]
+  },
+  {
+    "id": "ven_jv01s5bdh",
+    "name": "Ambleside Event Design",
+    "cat": "decor",
+    "lat": 49.328,
+    "lng": -123.155,
+    "area": "West Vancouver",
+    "price": 4,
+    "rating": 4.9,
+    "brief": "Luxury event design, custom furniture rentals, and bespoke tabletop curation.",
+    "email": "design@amblesideevents.com",
+    "phone": "604-555-7213",
+    "web": "https://amblesideevents.com",
+    "sponsored": true,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Full Design Concept & Rentals",
+        "amount": "$8,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_hsx2va2kg",
+    "name": "Sea-to-Sky Strings",
+    "cat": "music",
+    "lat": 49.345,
+    "lng": -123.165,
+    "area": "West Vancouver",
+    "price": 3,
+    "rating": 4.8,
+    "brief": "Classical and modern pop string quartets for ceremonies and cocktail hours.",
+    "email": "strings@seatosky.ca",
+    "phone": "604-555-8213",
+    "web": "https://seatoskystrings.ca",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "String Quartet / 2h",
+        "amount": "$1,600"
+      }
+    ]
+  },
+  {
+    "id": "ven_032cgxrer",
+    "name": "Grand Villa Casino Hotel",
+    "cat": "venue",
+    "lat": 49.256,
+    "lng": -123.003,
+    "area": "Burnaby",
+    "price": 3,
+    "rating": 4.4,
+    "brief": "Modern conference center with a massive 10,000 sq ft ballroom.",
+    "email": "events@grandvilla.ca",
+    "phone": "604-436-2211",
+    "web": "https://grandvillacasino.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Ballroom / 300 Guests",
+        "amount": "$11,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_kk1jbqef7",
+    "name": "Burnaby Lake Rowing Pavilion",
+    "cat": "venue",
+    "lat": 49.245,
+    "lng": -122.955,
+    "area": "Burnaby",
+    "price": 2,
+    "rating": 4.6,
+    "brief": "Scenic waterfront venue surrounded by nature trails. Affordable city rates.",
+    "email": "rentals@burnaby.ca",
+    "phone": "604-294-7450",
+    "web": "https://burnaby.ca/pavilion",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Hall Rental / Full Day",
+        "amount": "$1,800"
+      }
+    ]
+  },
+  {
+    "id": "ven_wacbbkona",
+    "name": "Deer Lake Caterers",
+    "cat": "catering",
+    "lat": 49.238,
+    "lng": -122.973,
+    "area": "Burnaby",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "Reliable, delicious classic banquet catering. Great value for large crowds.",
+    "email": "info@deerlakecaterers.ca",
+    "phone": "604-555-9213",
+    "web": "https://deerlakecaterers.ca",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Buffet / 150 Guests",
+        "amount": "$7,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_yz51tzft0",
+    "name": "Metrotown Media",
+    "cat": "video",
+    "lat": 49.227,
+    "lng": -123.001,
+    "area": "Burnaby",
+    "price": 3,
+    "rating": 4.8,
+    "brief": "Cinematic event highlight reels and live streaming services for corporate events.",
+    "email": "video@metrotownmedia.com",
+    "phone": "604-555-0214",
+    "web": "https://metrotownmedia.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "8h Coverage + Highlight Reel",
+        "amount": "$3,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_20vojnh4u",
+    "name": "Simon Fraser University Event Centre",
+    "cat": "venue",
+    "lat": 49.278,
+    "lng": -122.919,
+    "area": "Burnaby Mountain",
+    "price": 3,
+    "rating": 4.5,
+    "brief": "Large institutional spaces perfect for academic conferences and large banquets.",
+    "email": "meet@sfu.ca",
+    "phone": "778-782-5800",
+    "web": "https://sfu.ca/meetings",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Diamond Alumni Centre Buyout",
+        "amount": "$4,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_gnkw4gwo2",
+    "name": "Pacific Party Rentals",
+    "cat": "decor",
+    "lat": 49.205,
+    "lng": -123.011,
+    "area": "New Westminster",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "Tents, chairs, tables, and linens. Your one-stop shop for outdoor events.",
+    "email": "rentals@pacificparty.ca",
+    "phone": "604-555-1214",
+    "web": "https://pacificparty.ca",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "100 Guest Tent & Furniture Pkg",
+        "amount": "$3,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_9dzrp86v4",
+    "name": "Fraser River Paddlewheelers",
+    "cat": "venue",
+    "lat": 49.201,
+    "lng": -122.909,
+    "area": "New Westminster",
+    "price": 3,
+    "rating": 4.6,
+    "brief": "Host your event on a historic paddlewheeler cruising the Fraser River.",
+    "email": "events@vancouverpaddlewheeler.com",
+    "phone": "604-525-4465",
+    "web": "https://vancouverpaddlewheeler.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "3h Cruise / 80 Guests",
+        "amount": "$4,800"
+      }
+    ]
+  },
+  {
+    "id": "ven_xlt3dqg6q",
+    "name": "Anvil Centre",
+    "cat": "venue",
+    "lat": 49.201,
+    "lng": -122.912,
+    "area": "New Westminster",
+    "price": 4,
+    "rating": 4.8,
+    "brief": "Stunning modern convention centre with state-of-the-art facilities.",
+    "email": "sales@anvilcentre.com",
+    "phone": "604-515-3830",
+    "web": "https://anvilcentre.com",
+    "sponsored": true,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Ballroom Rental",
+        "amount": "$8,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_3pd2he0xq",
+    "name": "Royal City Florals",
+    "cat": "florals",
+    "lat": 49.205,
+    "lng": -122.915,
+    "area": "New Westminster",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "Classic, romantic floral designs with a focus on roses and peonies.",
+    "email": "hello@royalcityflorals.ca",
+    "phone": "604-555-2214",
+    "web": "https://royalcityflorals.ca",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Standard Wedding Floral Package",
+        "amount": "$2,200"
+      }
+    ]
+  },
+  {
+    "id": "ven_p1rckzfld",
+    "name": "New West Catering",
+    "cat": "catering",
+    "lat": 49.21,
+    "lng": -122.92,
+    "area": "New Westminster",
+    "price": 3,
+    "rating": 4.6,
+    "brief": "Corporate lunches, galas, and weddings. Known for incredible appetizers.",
+    "email": "info@newwestcatering.ca",
+    "phone": "604-555-3214",
+    "web": "https://newwestcatering.ca",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Heavy Appetizers / 100 Guests",
+        "amount": "$5,500"
+      }
+    ]
   }
 ]
