@@ -1,0 +1,148 @@
+.overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+  z-index: 9000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.modal {
+  background: var(--bg-card, #fff);
+  border-radius: 16px;
+  padding: 2rem;
+  width: 100%;
+  max-width: 420px;
+  box-shadow: 0 24px 64px rgba(0,0,0,0.18);
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.title {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--text-primary, #111);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.sub {
+  font-size: 0.85rem;
+  color: var(--text-muted, #888);
+  margin-top: -0.75rem;
+}
+
+.geoBtn {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.8rem 1.1rem;
+  border-radius: 10px;
+  border: 2px solid var(--rose, #e05);
+  background: transparent;
+  color: var(--rose, #e05);
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s;
+}
+
+.geoBtn:hover {
+  background: var(--rose, #e05);
+  color: #fff;
+}
+
+.geoBtn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.divider {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-size: 0.78rem;
+  color: var(--text-muted, #aaa);
+  font-weight: 500;
+}
+
+.divider::before, .divider::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: var(--border, #e5e5e5);
+}
+
+.cityList {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.cityBtn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.7rem 1rem;
+  border-radius: 10px;
+  border: 1.5px solid var(--border, #e5e5e5);
+  background: transparent;
+  cursor: pointer;
+  font-size: 0.9rem;
+  color: var(--text-primary, #111);
+  transition: border-color 0.15s, background 0.12s;
+  text-align: left;
+}
+
+.cityBtn:hover {
+  border-color: var(--rose, #e05);
+  background: rgba(238, 0, 85, 0.04);
+}
+
+.cityName {
+  font-weight: 600;
+}
+
+.cityMeta {
+  font-size: 0.78rem;
+  color: var(--text-muted, #888);
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.badge {
+  background: var(--bg-tag, #f3f3f3);
+  border-radius: 20px;
+  padding: 0.15rem 0.5rem;
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: var(--rose, #e05);
+}
+
+.skipBtn {
+  background: none;
+  border: none;
+  color: var(--text-muted, #999);
+  font-size: 0.82rem;
+  cursor: pointer;
+  align-self: center;
+  text-decoration: underline;
+  padding: 0.25rem;
+}
+
+.skipBtn:hover {
+  color: var(--text-primary, #333);
+}
+
+.error {
+  font-size: 0.82rem;
+  color: #c0392b;
+  background: #ffeaea;
+  border-radius: 8px;
+  padding: 0.5rem 0.75rem;
+}
