@@ -19889,5 +19889,335 @@
         "amount": "$13,000"
       }
     ]
+  },
+  {
+    "id": "ven_regina_venue",
+    "name": "Regina Wedding Venues",
+    "cat": "venue",
+    "lat": 50.4452,
+    "lng": -104.6189,
+    "area": "Regina",
+    "price": 1,
+    "rating": 4.6,
+    "brief": "Queen City of the Plains wedding venues — Wascana Centre lakeside, Saskatchewan Legislature grounds, and historic downtown hotels.",
+    "email": "hello@reginavenues.com",
+    "phone": "306-555-2010",
+    "web": "https://reginavenues.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Half-Day Venue",
+        "amount": "$1,000"
+      },
+      {
+        "tier": "Full Day Venue",
+        "amount": "$2,000"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$3,800"
+      }
+    ]
+  },
+  {
+    "id": "ven_regina_photo",
+    "name": "Regina Wedding Photography",
+    "cat": "photo",
+    "lat": 50.4452,
+    "lng": -104.6189,
+    "area": "Regina",
+    "price": 1,
+    "rating": 4.7,
+    "brief": "Saskatchewan wedding photographers — Wascana Lake reflections, RCMP Musical Ride grounds, and Saskatchewan big sky portraits.",
+    "email": "hello@reginaweddingphoto.com",
+    "phone": "306-555-2011",
+    "web": "https://reginaweddingphoto.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "$900"
+      },
+      {
+        "tier": "Full Day",
+        "amount": "$2,100"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "$3,600"
+      }
+    ]
+  },
+  {
+    "id": "ven_stjohns_venue",
+    "name": "St. John's NL Wedding Venues",
+    "cat": "venue",
+    "lat": 47.5615,
+    "lng": -52.7126,
+    "area": "St. John's NL",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "The Rock wedding venues — Cabot Tower Signal Hill dramatic views, Jellybean Row coloured houses, and Atlantic Ocean clifftop ceremonies.",
+    "email": "hello@stjohnsvenues.com",
+    "phone": "709-555-1010",
+    "web": "https://stjohnsvenues.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Half-Day Venue",
+        "amount": "$1,400"
+      },
+      {
+        "tier": "Full Day Venue",
+        "amount": "$2,800"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$5,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_stjohns_photo",
+    "name": "St. John's NL Wedding Photography",
+    "cat": "photo",
+    "lat": 47.5615,
+    "lng": -52.7126,
+    "area": "St. John's NL",
+    "price": 2,
+    "rating": 4.9,
+    "brief": "Newfoundland wedding photographers — Signal Hill iceberg season, Cape St. Mary's seabird colonies, and Atlantic fog mystical elopements.",
+    "email": "hello@stjohnsweddingphoto.com",
+    "phone": "709-555-1011",
+    "web": "https://stjohnsweddingphoto.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "$1,100"
+      },
+      {
+        "tier": "Full Day",
+        "amount": "$2,600"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "$4,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_charlottetown_venue",
+    "name": "Charlottetown Wedding Venues",
+    "cat": "venue",
+    "lat": 46.2382,
+    "lng": -63.1311,
+    "area": "Charlottetown PEI",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "Birthplace of Confederation wedding venues — Province House historic ceremonies, red sand beach cliffs, and Anne of Green Gables countryside charm.",
+    "email": "hello@charlottetownvenues.com",
+    "phone": "902-555-2010",
+    "web": "https://charlottetownvenues.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Half-Day Venue",
+        "amount": "$1,400"
+      },
+      {
+        "tier": "Full Day Venue",
+        "amount": "$2,800"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$5,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_charlottetown_photo",
+    "name": "Charlottetown Wedding Photography",
+    "cat": "photo",
+    "lat": 46.2382,
+    "lng": -63.1311,
+    "area": "Charlottetown PEI",
+    "price": 2,
+    "rating": 4.9,
+    "brief": "Prince Edward Island wedding photographers — red clay cliffs, lupine field portraits, and Malpeque Harbour maritime sunsets.",
+    "email": "hello@charlottetownweddingphoto.com",
+    "phone": "902-555-2011",
+    "web": "https://charlottetownweddingphoto.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "$1,050"
+      },
+      {
+        "tier": "Full Day",
+        "amount": "$2,500"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "$4,300"
+      }
+    ]
+  },
+  {
+    "id": "ven_fredericton_venue",
+    "name": "Fredericton Wedding Venues",
+    "cat": "venue",
+    "lat": 45.9636,
+    "lng": -66.6431,
+    "area": "Fredericton",
+    "price": 1,
+    "rating": 4.7,
+    "brief": "New Brunswick capital wedding venues — Saint John River waterfront, Officers' Square elegance, and Mactaquac lake retreat properties.",
+    "email": "hello@frederictonvenues.com",
+    "phone": "506-555-1010",
+    "web": "https://frederictonvenues.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Half-Day Venue",
+        "amount": "$1,100"
+      },
+      {
+        "tier": "Full Day Venue",
+        "amount": "$2,200"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$4,200"
+      }
+    ]
+  },
+  {
+    "id": "ven_whitehorse_venue",
+    "name": "Whitehorse Wedding Venues",
+    "cat": "venue",
+    "lat": 60.7212,
+    "lng": -135.0568,
+    "area": "Whitehorse YT",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "Yukon wilderness wedding venues — Aurora Borealis winter ceremonies, Yukon River adventures, and Carcross Desert micro-desert backdrops.",
+    "email": "hello@whitehorsevenues.com",
+    "phone": "867-555-1010",
+    "web": "https://whitehorsevenues.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Half-Day Venue",
+        "amount": "$1,500"
+      },
+      {
+        "tier": "Full Day Venue",
+        "amount": "$3,000"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$6,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_whitehorse_photo",
+    "name": "Whitehorse Wedding Photography",
+    "cat": "photo",
+    "lat": 60.7212,
+    "lng": -135.0568,
+    "area": "Whitehorse YT",
+    "price": 2,
+    "rating": 4.9,
+    "brief": "Yukon wedding photographers — Northern Lights elopements, midnight sun summer sessions, and Kluane National Park glacier backdrops.",
+    "email": "hello@whitehorseweddingphoto.com",
+    "phone": "867-555-1011",
+    "web": "https://whitehorseweddingphoto.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "$1,400"
+      },
+      {
+        "tier": "Full Day",
+        "amount": "$3,200"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "$5,800"
+      }
+    ]
+  },
+  {
+    "id": "ven_scottsdale_venue",
+    "name": "Scottsdale Wedding Venues",
+    "cat": "venue",
+    "lat": 33.4942,
+    "lng": -111.9261,
+    "area": "Scottsdale",
+    "price": 3,
+    "rating": 4.9,
+    "brief": "Sonoran Desert luxury — Four Seasons resort desert ceremonies, Frank Lloyd Wright Taliesin West, and Camelback Mountain resort estates.",
+    "email": "hello@scottsdalevenues.com",
+    "phone": "480-555-5010",
+    "web": "https://scottsdalevenues.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Half-Day Venue",
+        "amount": "$2,500"
+      },
+      {
+        "tier": "Full Day Venue",
+        "amount": "$5,000"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$9,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_scottsdale_photo",
+    "name": "Scottsdale Wedding Photography",
+    "cat": "photo",
+    "lat": 33.4942,
+    "lng": -111.9261,
+    "area": "Scottsdale",
+    "price": 2,
+    "rating": 4.9,
+    "brief": "Arizona desert wedding photographers — Camelback Mountain sunset sessions, Papago Park red rocks, and Scottsdale Old Town adobe charm.",
+    "email": "hello@scottsdaleaweddingphoto.com",
+    "phone": "480-555-5011",
+    "web": "https://scottsdaleaweddingphoto.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "$1,300"
+      },
+      {
+        "tier": "Full Day",
+        "amount": "$3,000"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "$5,200"
+      }
+    ]
   }
 ]
