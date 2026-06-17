@@ -14429,5 +14429,455 @@
         "amount": "$7,500"
       }
     ]
+  },
+  {
+    "id": "ven_phoenix_planner_co",
+    "name": "Phoenix Wedding Planners",
+    "cat": "planner",
+    "lat": 33.4484,
+    "lng": -112.074,
+    "area": "Phoenix",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "Arizona wedding planners specialising in desert sunsets, Saguaro backdrops, and resort luxury at Scottsdale's finest properties.",
+    "email": "hello@phoenixweddingplanners.com",
+    "phone": "480-555-1010",
+    "web": "https://phoenixweddingplanners.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Day-Of Coordination",
+        "amount": "$1,500"
+      },
+      {
+        "tier": "Partial Planning",
+        "amount": "$3,800"
+      },
+      {
+        "tier": "Full Planning",
+        "amount": "$8,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_phoenix_florist",
+    "name": "Phoenix Wedding Florist",
+    "cat": "florist",
+    "lat": 33.4484,
+    "lng": -112.074,
+    "area": "Phoenix",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "Desert botanicals, succulent centrepieces, and Southwestern floral artistry for Phoenix and Scottsdale wedding celebrations.",
+    "email": "hello@phoenixweddingflorist.com",
+    "phone": "480-555-1011",
+    "web": "https://phoenixweddingflorist.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Bridal Bouquet Set",
+        "amount": "$550"
+      },
+      {
+        "tier": "Ceremony Flowers",
+        "amount": "$1,400"
+      },
+      {
+        "tier": "Full Floral Design",
+        "amount": "$3,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_phoenix_hair_co",
+    "name": "Phoenix Bridal Hair",
+    "cat": "hair",
+    "lat": 33.4484,
+    "lng": -112.074,
+    "area": "Phoenix",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "Scottsdale on-location bridal stylists — sun-kissed glam, boho waves, and polished updos for desert destination weddings.",
+    "email": "book@phoenixbridalhair.com",
+    "phone": "480-555-1012",
+    "web": "https://phoenixbridalhair.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Bridal Hair",
+        "amount": "$290"
+      },
+      {
+        "tier": "Bridal + 2 Guests",
+        "amount": "$610"
+      },
+      {
+        "tier": "Full Bridal Party",
+        "amount": "$1,100"
+      }
+    ]
+  },
+  {
+    "id": "ven_lasvegas_planner",
+    "name": "Las Vegas Wedding Planners",
+    "cat": "planner",
+    "lat": 36.1699,
+    "lng": -115.1398,
+    "area": "Las Vegas",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "Vegas wedding specialists — from intimate Strip chapel ceremonies to lavish resort receptions at Bellagio and Wynn.",
+    "email": "hello@lasvegasweddingplanners.com",
+    "phone": "702-555-1010",
+    "web": "https://lasvegasweddingplanners.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Day-Of Coordination",
+        "amount": "$1,400"
+      },
+      {
+        "tier": "Partial Planning",
+        "amount": "$3,500"
+      },
+      {
+        "tier": "Full Planning",
+        "amount": "$7,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_lasvegas_decor",
+    "name": "Vegas Wedding Décor Co.",
+    "cat": "decor",
+    "lat": 36.1699,
+    "lng": -115.1398,
+    "area": "Las Vegas",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "Las Vegas wedding décor masters — showgirl glamour, neon installations, floral walls, and classic Vegas elegance.",
+    "email": "hello@vegasweddingdecor.com",
+    "phone": "702-555-1011",
+    "web": "https://vegasweddingdecor.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Ceremony Setup",
+        "amount": "$1,100"
+      },
+      {
+        "tier": "Reception Package",
+        "amount": "$3,000"
+      },
+      {
+        "tier": "Full Venue Styling",
+        "amount": "$6,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_lasvegas_florist",
+    "name": "Vegas Wedding Florist",
+    "cat": "florist",
+    "lat": 36.1699,
+    "lng": -115.1398,
+    "area": "Las Vegas",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "Vegas wedding florists delivering fresh and silk arrangements for all Strip venues, chapels, and luxury hotel ballrooms.",
+    "email": "hello@vegasweddingflorist.com",
+    "phone": "702-555-1012",
+    "web": "https://vegasweddingflorist.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Bridal Bouquet Set",
+        "amount": "$480"
+      },
+      {
+        "tier": "Ceremony Flowers",
+        "amount": "$1,200"
+      },
+      {
+        "tier": "Full Floral Design",
+        "amount": "$3,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_sandiego_planner",
+    "name": "San Diego Wedding Planners",
+    "cat": "planner",
+    "lat": 32.7157,
+    "lng": -117.1611,
+    "area": "San Diego",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "Southern California wedding planners specialising in oceanfront ceremonies, Gaslamp District receptions, and wine country escapes.",
+    "email": "hello@sandiegoweddingplanners.com",
+    "phone": "619-555-1010",
+    "web": "https://sandiegoweddingplanners.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Day-Of Coordination",
+        "amount": "$1,600"
+      },
+      {
+        "tier": "Partial Planning",
+        "amount": "$4,000"
+      },
+      {
+        "tier": "Full Planning",
+        "amount": "$8,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_sandiego_hair_co",
+    "name": "San Diego Bridal Hair",
+    "cat": "hair",
+    "lat": 32.7157,
+    "lng": -117.1611,
+    "area": "San Diego",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "SoCal on-location bridal hair stylists — beach waves, boho braids, and elegant updos for San Diego coastal celebrations.",
+    "email": "book@sandiegobridalhair.com",
+    "phone": "619-555-1011",
+    "web": "https://sandiegobridalhair.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Bridal Hair",
+        "amount": "$300"
+      },
+      {
+        "tier": "Bridal + 2 Guests",
+        "amount": "$640"
+      },
+      {
+        "tier": "Full Bridal Party",
+        "amount": "$1,180"
+      }
+    ]
+  },
+  {
+    "id": "ven_sandiego_dj",
+    "name": "San Diego DJ Services",
+    "cat": "music",
+    "lat": 32.7157,
+    "lng": -117.1611,
+    "area": "San Diego",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "San Diego's top wedding DJs — from Coronado beachside sunset sets to rooftop receptions with sweeping Pacific views.",
+    "email": "book@sandiegoweddingdj.com",
+    "phone": "619-555-1012",
+    "web": "https://sandiegoweddingdj.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "DJ 4 Hours",
+        "amount": "$950"
+      },
+      {
+        "tier": "DJ Full Night",
+        "amount": "$1,900"
+      },
+      {
+        "tier": "DJ + Lighting",
+        "amount": "$3,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_portland_planner",
+    "name": "Portland Wedding Planners",
+    "cat": "planner",
+    "lat": 45.5231,
+    "lng": -122.6765,
+    "area": "Portland",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "Rose City wedding planners — farm-to-table style, bohemian forest ceremonies, and hipster-chic Pearl District receptions.",
+    "email": "hello@portlandweddingplanners.com",
+    "phone": "503-555-1010",
+    "web": "https://portlandweddingplanners.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Day-Of Coordination",
+        "amount": "$1,500"
+      },
+      {
+        "tier": "Partial Planning",
+        "amount": "$3,800"
+      },
+      {
+        "tier": "Full Planning",
+        "amount": "$7,800"
+      }
+    ]
+  },
+  {
+    "id": "ven_portland_hair_co",
+    "name": "Portland Bridal Hair",
+    "cat": "hair",
+    "lat": 45.5231,
+    "lng": -122.6765,
+    "area": "Portland",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "PDX on-location bridal stylists — wildflower-braided, boho-chic and effortlessly natural looks for Oregon's diverse brides.",
+    "email": "book@portlandbridalhair.com",
+    "phone": "503-555-1011",
+    "web": "https://portlandbridalhair.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Bridal Hair",
+        "amount": "$280"
+      },
+      {
+        "tier": "Bridal + 2 Guests",
+        "amount": "$600"
+      },
+      {
+        "tier": "Full Bridal Party",
+        "amount": "$1,100"
+      }
+    ]
+  },
+  {
+    "id": "ven_portland_music",
+    "name": "Portland Wedding Music",
+    "cat": "music",
+    "lat": 45.5231,
+    "lng": -122.6765,
+    "area": "Portland",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "Portland's indie wedding musicians — live folk, bluegrass, and acoustic sets for ceremony, cocktail hour, and receptions.",
+    "email": "book@portlandweddingmusic.com",
+    "phone": "503-555-1012",
+    "web": "https://portlandweddingmusic.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Ceremony Duo",
+        "amount": "$700"
+      },
+      {
+        "tier": "Cocktail Hour Trio",
+        "amount": "$1,200"
+      },
+      {
+        "tier": "Full Day Live Music",
+        "amount": "$3,200"
+      }
+    ]
+  },
+  {
+    "id": "ven_minneapolis_venue",
+    "name": "Minneapolis Event Venues",
+    "cat": "venue",
+    "lat": 44.9778,
+    "lng": -93.265,
+    "area": "Minneapolis",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "Twin Cities wedding venue experts — warehouse-chic, lakeview, and rooftop spaces for modern Minneapolis celebrations.",
+    "email": "hello@minneapolisvenues.com",
+    "phone": "612-555-1010",
+    "web": "https://minneapolisvenues.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Half-Day Venue",
+        "amount": "$1,800"
+      },
+      {
+        "tier": "Full Day Venue",
+        "amount": "$3,500"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$6,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_minneapolis_photo",
+    "name": "Minneapolis Wedding Photography",
+    "cat": "photo",
+    "lat": 44.9778,
+    "lng": -93.265,
+    "area": "Minneapolis",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "Twin Cities wedding photographers capturing Minnesota lake country magic, golden-hour portraits, and urban downtown celebrations.",
+    "email": "hello@minneapolisphoto.com",
+    "phone": "612-555-1011",
+    "web": "https://minneapolisphoto.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "$1,200"
+      },
+      {
+        "tier": "Full Day",
+        "amount": "$2,800"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "$4,800"
+      }
+    ]
+  },
+  {
+    "id": "ven_minneapolis_catering",
+    "name": "Minneapolis Wedding Catering",
+    "cat": "catering",
+    "lat": 44.9778,
+    "lng": -93.265,
+    "area": "Minneapolis",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "Farm-to-table Minnesota wedding catering — locally sourced ingredients, Scandinavian-inspired menus, and Midwest hospitality.",
+    "email": "hello@minneapoliscatering.com",
+    "phone": "612-555-1012",
+    "web": "https://minneapoliscatering.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Buffet (50 guests)",
+        "amount": "$3,500"
+      },
+      {
+        "tier": "Plated Dinner (100 guests)",
+        "amount": "$8,500"
+      },
+      {
+        "tier": "Full Service (150 guests)",
+        "amount": "$16,000"
+      }
+    ]
   }
 ]
