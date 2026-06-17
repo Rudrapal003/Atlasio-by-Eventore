@@ -14879,5 +14879,425 @@
         "amount": "$16,000"
       }
     ]
+  },
+  {
+    "id": "ven_minneapolis_decor",
+    "name": "Minneapolis Wedding Décor",
+    "cat": "decor",
+    "lat": 44.9778,
+    "lng": -93.265,
+    "area": "Minneapolis",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "Twin Cities wedding decorators — lakeshore elegance, Scandinavian-inspired florals, and Minnesota winter wonderland themes.",
+    "email": "hello@minneapolisdecor.com",
+    "phone": "612-555-1013",
+    "web": "https://minneapolisdecor.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Ceremony Setup",
+        "amount": "$1,100"
+      },
+      {
+        "tier": "Reception Package",
+        "amount": "$2,800"
+      },
+      {
+        "tier": "Full Venue Styling",
+        "amount": "$5,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_minneapolis_planner",
+    "name": "Minneapolis Wedding Planners",
+    "cat": "planner",
+    "lat": 44.9778,
+    "lng": -93.265,
+    "area": "Minneapolis",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "Twin Cities wedding planners mastering Minnesota lake country, summer garden, and chic downtown loft weddings.",
+    "email": "hello@minneapolisweddingplanners.com",
+    "phone": "612-555-1014",
+    "web": "https://minneapolisweddingplanners.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Day-Of Coordination",
+        "amount": "$1,400"
+      },
+      {
+        "tier": "Partial Planning",
+        "amount": "$3,500"
+      },
+      {
+        "tier": "Full Planning",
+        "amount": "$7,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_kansascity_venue",
+    "name": "Kansas City Event Venues",
+    "cat": "venue",
+    "lat": 39.0997,
+    "lng": -94.5786,
+    "area": "Kansas City",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "KC wedding venues from art deco ballrooms to converted industrial lofts — Gateway to the West elegance and charm.",
+    "email": "hello@kansascityvenues.com",
+    "phone": "816-555-1010",
+    "web": "https://kansascityvenues.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Half-Day Venue",
+        "amount": "$1,500"
+      },
+      {
+        "tier": "Full Day Venue",
+        "amount": "$3,000"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$5,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_kansascity_photo",
+    "name": "Kansas City Wedding Photography",
+    "cat": "photo",
+    "lat": 39.0997,
+    "lng": -94.5786,
+    "area": "Kansas City",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "Kansas City wedding photographers capturing BBQ-city charm, Nelson-Atkins Museum backdrop portraits, and Missouri River sunsets.",
+    "email": "hello@kansascityweddingphoto.com",
+    "phone": "816-555-1011",
+    "web": "https://kansascityweddingphoto.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "$1,100"
+      },
+      {
+        "tier": "Full Day",
+        "amount": "$2,500"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "$4,200"
+      }
+    ]
+  },
+  {
+    "id": "ven_kansascity_catering",
+    "name": "Kansas City BBQ Catering",
+    "cat": "catering",
+    "lat": 39.0997,
+    "lng": -94.5786,
+    "area": "Kansas City",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "World-famous Kansas City BBQ wedding catering — smoked brisket, burnt ends, and Southern hospitality for unforgettable receptions.",
+    "email": "hello@kansascitycatering.com",
+    "phone": "816-555-1012",
+    "web": "https://kansascitycatering.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "BBQ Buffet (50 guests)",
+        "amount": "$2,800"
+      },
+      {
+        "tier": "Full BBQ Feast (100 guests)",
+        "amount": "$6,500"
+      },
+      {
+        "tier": "Premium Service (150 guests)",
+        "amount": "$12,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_kansascity_planner",
+    "name": "Kansas City Wedding Planners",
+    "cat": "planner",
+    "lat": 39.0997,
+    "lng": -94.5786,
+    "area": "Kansas City",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "KC wedding planning team with deep connections across Missouri's best venues, caterers, and entertainment professionals.",
+    "email": "hello@kansascityweddingplanners.com",
+    "phone": "816-555-1013",
+    "web": "https://kansascityweddingplanners.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Day-Of Coordination",
+        "amount": "$1,300"
+      },
+      {
+        "tier": "Partial Planning",
+        "amount": "$3,200"
+      },
+      {
+        "tier": "Full Planning",
+        "amount": "$6,800"
+      }
+    ]
+  },
+  {
+    "id": "ven_stlouis_venue",
+    "name": "St. Louis Wedding Venues",
+    "cat": "venue",
+    "lat": 38.627,
+    "lng": -90.1994,
+    "area": "St. Louis",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "Gateway Arch city wedding venues — historic mansions, rooftop terraces, and elegant ballrooms along the Mississippi.",
+    "email": "hello@stlouisvenues.com",
+    "phone": "314-555-1010",
+    "web": "https://stlouisvenues.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Half-Day Venue",
+        "amount": "$1,600"
+      },
+      {
+        "tier": "Full Day Venue",
+        "amount": "$3,200"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$5,800"
+      }
+    ]
+  },
+  {
+    "id": "ven_stlouis_photo",
+    "name": "St. Louis Wedding Photography",
+    "cat": "photo",
+    "lat": 38.627,
+    "lng": -90.1994,
+    "area": "St. Louis",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "St. Louis wedding photographers — Gateway Arch dramatic backdrops, Forest Park golden-hour portraits, and classic Missouri elegance.",
+    "email": "hello@stlouisweddingphoto.com",
+    "phone": "314-555-1011",
+    "web": "https://stlouisweddingphoto.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "$1,100"
+      },
+      {
+        "tier": "Full Day",
+        "amount": "$2,600"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "$4,400"
+      }
+    ]
+  },
+  {
+    "id": "ven_stlouis_catering",
+    "name": "St. Louis Wedding Catering",
+    "cat": "catering",
+    "lat": 38.627,
+    "lng": -90.1994,
+    "area": "St. Louis",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "Missouri wedding catering with farm-to-table menus, St. Louis-style BBQ, and refined Continental cuisine for every occasion.",
+    "email": "hello@stlouiscatering.com",
+    "phone": "314-555-1012",
+    "web": "https://stlouiscatering.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Buffet (50 guests)",
+        "amount": "$2,900"
+      },
+      {
+        "tier": "Plated Dinner (100 guests)",
+        "amount": "$7,000"
+      },
+      {
+        "tier": "Full Service (150 guests)",
+        "amount": "$13,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_indy_venue",
+    "name": "Indianapolis Wedding Venues",
+    "cat": "venue",
+    "lat": 39.7684,
+    "lng": -86.1581,
+    "area": "Indianapolis",
+    "price": 2,
+    "rating": 4.6,
+    "brief": "Indy wedding venues from Fountain Square industrial chic to Carmel luxury estates — Crossroads of America elegance.",
+    "email": "hello@indyvenues.com",
+    "phone": "317-555-1010",
+    "web": "https://indyvenues.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Half-Day Venue",
+        "amount": "$1,400"
+      },
+      {
+        "tier": "Full Day Venue",
+        "amount": "$2,800"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$5,200"
+      }
+    ]
+  },
+  {
+    "id": "ven_indy_photo",
+    "name": "Indianapolis Wedding Photography",
+    "cat": "photo",
+    "lat": 39.7684,
+    "lng": -86.1581,
+    "area": "Indianapolis",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "Indiana wedding photographers — golden Midwest light, Monument Circle portraits, and breathtaking Indiana countryside estates.",
+    "email": "hello@indyweddingphoto.com",
+    "phone": "317-555-1011",
+    "web": "https://indyweddingphoto.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "$1,000"
+      },
+      {
+        "tier": "Full Day",
+        "amount": "$2,400"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "$4,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_columbus_venue",
+    "name": "Columbus Wedding Venues",
+    "cat": "venue",
+    "lat": 39.9612,
+    "lng": -82.9988,
+    "area": "Columbus",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "Short North art district lofts, Victorian Village mansions, and Ohio State campus-adjacent venues for Columbus celebrations.",
+    "email": "hello@columbusvenues.com",
+    "phone": "614-555-1010",
+    "web": "https://columbusvenues.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Half-Day Venue",
+        "amount": "$1,400"
+      },
+      {
+        "tier": "Full Day Venue",
+        "amount": "$2,800"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$5,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_columbus_photo",
+    "name": "Columbus Wedding Photography",
+    "cat": "photo",
+    "lat": 39.9612,
+    "lng": -82.9988,
+    "area": "Columbus",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "Columbus wedding photographers capturing Short North street art, German Village cobblestone charm, and Ohio countryside magic.",
+    "email": "hello@columbusweddingphoto.com",
+    "phone": "614-555-1011",
+    "web": "https://columbusweddingphoto.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "$1,050"
+      },
+      {
+        "tier": "Full Day",
+        "amount": "$2,500"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "$4,200"
+      }
+    ]
+  },
+  {
+    "id": "ven_columbus_catering",
+    "name": "Columbus Wedding Catering",
+    "cat": "catering",
+    "lat": 39.9612,
+    "lng": -82.9988,
+    "area": "Columbus",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "Ohio farm-to-fork wedding catering — Columbus's finest chefs serving seasonal menus for intimate dinners and grand receptions.",
+    "email": "hello@columbuscatering.com",
+    "phone": "614-555-1012",
+    "web": "https://columbuscatering.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Buffet (50 guests)",
+        "amount": "$2,800"
+      },
+      {
+        "tier": "Plated Dinner (100 guests)",
+        "amount": "$6,800"
+      },
+      {
+        "tier": "Full Service (150 guests)",
+        "amount": "$13,000"
+      }
+    ]
   }
 ]
