@@ -13979,5 +13979,455 @@
         "amount": "$2,400"
       }
     ]
+  },
+  {
+    "id": "ven_sf_planner_co",
+    "name": "SF Wedding Planners",
+    "cat": "planner",
+    "lat": 37.7749,
+    "lng": -122.4194,
+    "area": "San Francisco",
+    "price": 3,
+    "rating": 4.8,
+    "brief": "Bay Area's finest wedding planners — from intimate Napa vineyard ceremonies to grand SF City Hall receptions.",
+    "email": "hello@sfweddingplanners.com",
+    "phone": "415-555-1010",
+    "web": "https://sfweddingplanners.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Day-Of Coordination",
+        "amount": "$2,000"
+      },
+      {
+        "tier": "Partial Planning",
+        "amount": "$5,000"
+      },
+      {
+        "tier": "Full Planning",
+        "amount": "$11,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_sf_hair_studio",
+    "name": "SF Bridal Hair Studio",
+    "cat": "hair",
+    "lat": 37.7749,
+    "lng": -122.4194,
+    "area": "San Francisco",
+    "price": 3,
+    "rating": 4.8,
+    "brief": "Pacific Heights on-location bridal hair specialists — effortless California waves, sleek chignons, and Bay Area boho braids.",
+    "email": "book@sfbridalhair.com",
+    "phone": "415-555-1011",
+    "web": "https://sfbridalhair.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Bridal Hair",
+        "amount": "$380"
+      },
+      {
+        "tier": "Bridal + 2 Guests",
+        "amount": "$800"
+      },
+      {
+        "tier": "Full Bridal Party",
+        "amount": "$1,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_sf_decor_studio",
+    "name": "SF Wedding Décor Studio",
+    "cat": "decor",
+    "lat": 37.786,
+    "lng": -122.408,
+    "area": "San Francisco",
+    "price": 3,
+    "rating": 4.8,
+    "brief": "San Francisco's leading wedding design firm — industrial-chic warehouse transformations, botanical installations, and Bay views.",
+    "email": "hello@sfweddingdecor.com",
+    "phone": "415-555-1012",
+    "web": "https://sfweddingdecor.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Ceremony Setup",
+        "amount": "$1,800"
+      },
+      {
+        "tier": "Reception Package",
+        "amount": "$4,500"
+      },
+      {
+        "tier": "Full Venue Styling",
+        "amount": "$9,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_sf_dj_co",
+    "name": "SF DJ Collective",
+    "cat": "music",
+    "lat": 37.7749,
+    "lng": -122.4194,
+    "area": "San Francisco",
+    "price": 3,
+    "rating": 4.8,
+    "brief": "Bay Area DJ collective blending West Coast hip-hop, house, indie, and global beats for the most eclectic wedding dance floors.",
+    "email": "book@sfdj.com",
+    "phone": "415-555-1013",
+    "web": "https://sfdj.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "DJ 4 Hours",
+        "amount": "$1,100"
+      },
+      {
+        "tier": "DJ Full Night",
+        "amount": "$2,200"
+      },
+      {
+        "tier": "DJ + Lighting",
+        "amount": "$3,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_seattle_planner_co",
+    "name": "Seattle Wedding Planners",
+    "cat": "planner",
+    "lat": 47.6062,
+    "lng": -122.3321,
+    "area": "Seattle",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "Emerald City wedding planners mastering PNW outdoor, downtown loft, and winery venue weddings with Northwest precision.",
+    "email": "hello@seattleweddingplanners.com",
+    "phone": "206-555-5010",
+    "web": "https://seattleweddingplanners.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Day-Of Coordination",
+        "amount": "$1,600"
+      },
+      {
+        "tier": "Partial Planning",
+        "amount": "$4,000"
+      },
+      {
+        "tier": "Full Planning",
+        "amount": "$8,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_seattle_decor_co",
+    "name": "Seattle Wedding Décor",
+    "cat": "decor",
+    "lat": 47.6062,
+    "lng": -122.3321,
+    "area": "Seattle",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "Pacific Northwest wedding décor — moss walls, driftwood arches, and lush greenery installations for that perfect Emerald City feel.",
+    "email": "hello@seattleweddingdecor.com",
+    "phone": "206-555-5011",
+    "web": "https://seattleweddingdecor.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Ceremony Setup",
+        "amount": "$1,300"
+      },
+      {
+        "tier": "Reception Package",
+        "amount": "$3,200"
+      },
+      {
+        "tier": "Full Venue Styling",
+        "amount": "$6,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_seattle_hair_co",
+    "name": "Seattle Bridal Hair Co.",
+    "cat": "hair",
+    "lat": 47.6062,
+    "lng": -122.3321,
+    "area": "Seattle",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "Capitol Hill on-location bridal stylists — dewy skin, effortless waves, and PNW-natural beauty for Seattle's diverse brides.",
+    "email": "book@seattlebridalhair.com",
+    "phone": "206-555-5012",
+    "web": "https://seattlebridalhair.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Bridal Hair",
+        "amount": "$310"
+      },
+      {
+        "tier": "Bridal + 2 Guests",
+        "amount": "$660"
+      },
+      {
+        "tier": "Full Bridal Party",
+        "amount": "$1,220"
+      }
+    ]
+  },
+  {
+    "id": "ven_boston_planner_co",
+    "name": "Boston Wedding Planners",
+    "cat": "planner",
+    "lat": 42.3601,
+    "lng": -71.0589,
+    "area": "Boston",
+    "price": 3,
+    "rating": 4.8,
+    "brief": "New England's premier wedding planning firm — ivy-league sophistication for Beacon Hill brownstones to coastal Cape Cod affairs.",
+    "email": "hello@bostonweddingplanners.com",
+    "phone": "617-555-5010",
+    "web": "https://bostonweddingplanners.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Day-Of Coordination",
+        "amount": "$2,000"
+      },
+      {
+        "tier": "Partial Planning",
+        "amount": "$5,000"
+      },
+      {
+        "tier": "Full Planning",
+        "amount": "$10,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_boston_decor_co",
+    "name": "Boston Wedding Décor",
+    "cat": "decor",
+    "lat": 42.3554,
+    "lng": -71.0641,
+    "area": "Boston",
+    "price": 3,
+    "rating": 4.7,
+    "brief": "Boston's most trusted event décor team — New England rustic, modern chic, and heritage elegance for historic Boston venues.",
+    "email": "hello@bostonweddingdecor.com",
+    "phone": "617-555-5011",
+    "web": "https://bostonweddingdecor.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Ceremony Setup",
+        "amount": "$1,500"
+      },
+      {
+        "tier": "Reception Package",
+        "amount": "$3,800"
+      },
+      {
+        "tier": "Full Venue Styling",
+        "amount": "$7,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_boston_hair_beauty",
+    "name": "Boston Bridal Beauty",
+    "cat": "hair",
+    "lat": 42.3601,
+    "lng": -71.0589,
+    "area": "Boston",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "Back Bay on-location bridal hair and makeup specialists — polished New England elegance for every season and venue.",
+    "email": "book@bostonbridalbeauty.com",
+    "phone": "617-555-5012",
+    "web": "https://bostonbridalbeauty.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Bridal Hair",
+        "amount": "$330"
+      },
+      {
+        "tier": "Bridal + 2 Guests",
+        "amount": "$700"
+      },
+      {
+        "tier": "Full Bridal Party",
+        "amount": "$1,300"
+      }
+    ]
+  },
+  {
+    "id": "ven_dc_decor_co",
+    "name": "DC Wedding Décor Co.",
+    "cat": "decor",
+    "lat": 38.9072,
+    "lng": -77.0369,
+    "area": "Washington DC",
+    "price": 3,
+    "rating": 4.8,
+    "brief": "Capital wedding décor specialists — cherry blossom installations, patriotic elegance, and modern luxury for DC's finest venues.",
+    "email": "hello@dcweddingdecor.com",
+    "phone": "202-555-2010",
+    "web": "https://dcweddingdecor.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Ceremony Setup",
+        "amount": "$1,600"
+      },
+      {
+        "tier": "Reception Package",
+        "amount": "$4,200"
+      },
+      {
+        "tier": "Full Venue Styling",
+        "amount": "$8,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_dc_hair_studio",
+    "name": "DC Bridal Hair Studio",
+    "cat": "hair",
+    "lat": 38.9101,
+    "lng": -77.0147,
+    "area": "Washington DC",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "Georgetown on-location bridal hair and makeup team — polished, professional, and diverse in technique for DC's sophisticated brides.",
+    "email": "book@dcbridalhair.com",
+    "phone": "202-555-2011",
+    "web": "https://dcbridalhair.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Bridal Hair",
+        "amount": "$350"
+      },
+      {
+        "tier": "Bridal + 2 Guests",
+        "amount": "$740"
+      },
+      {
+        "tier": "Full Bridal Party",
+        "amount": "$1,380"
+      }
+    ]
+  },
+  {
+    "id": "ven_dc_florals",
+    "name": "DC Wedding Florals",
+    "cat": "florist",
+    "lat": 38.9072,
+    "lng": -77.0369,
+    "area": "Washington DC",
+    "price": 3,
+    "rating": 4.8,
+    "brief": "Washington DC florists specialising in cherry blossom season and year-round romantic arrangements for embassy and museum weddings.",
+    "email": "hello@dcweddingflorals.com",
+    "phone": "202-555-2012",
+    "web": "https://dcweddingflorals.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Bridal Bouquet Set",
+        "amount": "$700"
+      },
+      {
+        "tier": "Ceremony Flowers",
+        "amount": "$1,800"
+      },
+      {
+        "tier": "Full Floral Design",
+        "amount": "$4,200"
+      }
+    ]
+  },
+  {
+    "id": "ven_hawaii_planner_co",
+    "name": "Hawaii Wedding Planners",
+    "cat": "planner",
+    "lat": 21.3069,
+    "lng": -157.8583,
+    "area": "Honolulu",
+    "price": 3,
+    "rating": 4.9,
+    "brief": "Island wedding planning specialists — beach ceremonies, luau receptions, helicopter arrivals, and Oahu's most coveted private estates.",
+    "email": "aloha@hawaiiweddingplanners.com",
+    "phone": "808-555-4010",
+    "web": "https://hawaiiweddingplanners.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Day-Of Coordination",
+        "amount": "$2,200"
+      },
+      {
+        "tier": "Partial Planning",
+        "amount": "$5,500"
+      },
+      {
+        "tier": "Full Planning",
+        "amount": "$12,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_hawaii_decor_co",
+    "name": "Hawaii Wedding Décor Co.",
+    "cat": "decor",
+    "lat": 21.3069,
+    "lng": -157.8583,
+    "area": "Honolulu",
+    "price": 3,
+    "rating": 4.8,
+    "brief": "Tropical wedding décor paradise — orchid curtains, tiki torches, shell garlands, and lava rock centrepieces for Hawaiian celebrations.",
+    "email": "hello@hawaiiweddingdecor.com",
+    "phone": "808-555-4011",
+    "web": "https://hawaiiweddingdecor.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Ceremony Setup",
+        "amount": "$1,500"
+      },
+      {
+        "tier": "Reception Package",
+        "amount": "$3,800"
+      },
+      {
+        "tier": "Full Venue Styling",
+        "amount": "$7,500"
+      }
+    ]
   }
 ]
