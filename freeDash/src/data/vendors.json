@@ -16889,5 +16889,395 @@
         "amount": "$10,200"
       }
     ]
+  },
+  {
+    "id": "ven_fortlauderdale_venue",
+    "name": "Fort Lauderdale Wedding Venues",
+    "cat": "venue",
+    "lat": 26.1224,
+    "lng": -80.1373,
+    "area": "Fort Lauderdale",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "Venice of America wedding venues — Intracoastal waterway yachts, Las Olas Boulevard ballrooms, and beachfront resort ceremonies.",
+    "email": "hello@fortlauderdalevenues.com",
+    "phone": "954-555-1010",
+    "web": "https://fortlauderdalevenues.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Half-Day Venue",
+        "amount": "$1,500"
+      },
+      {
+        "tier": "Full Day Venue",
+        "amount": "$3,000"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$5,800"
+      }
+    ]
+  },
+  {
+    "id": "ven_fortlauderdale_photo",
+    "name": "Fort Lauderdale Wedding Photography",
+    "cat": "photo",
+    "lat": 26.1224,
+    "lng": -80.1373,
+    "area": "Fort Lauderdale",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "South Florida wedding photographers — Intracoastal sunset portraits, Las Olas chic, and Broward County beach magic.",
+    "email": "hello@fortlauderdalephoto.com",
+    "phone": "954-555-1011",
+    "web": "https://fortlauderdalephoto.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "$1,050"
+      },
+      {
+        "tier": "Full Day",
+        "amount": "$2,500"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "$4,200"
+      }
+    ]
+  },
+  {
+    "id": "ven_sarasota_venue",
+    "name": "Sarasota Wedding Venues",
+    "cat": "venue",
+    "lat": 27.3364,
+    "lng": -82.5307,
+    "area": "Sarasota",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "Florida's cultural coast wedding venues — Ringling Museum estate, Siesta Key beach ceremonies, and bayfront Sarasota elegance.",
+    "email": "hello@sarasotavenues.com",
+    "phone": "941-555-1010",
+    "web": "https://sarasotavenues.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Half-Day Venue",
+        "amount": "$1,600"
+      },
+      {
+        "tier": "Full Day Venue",
+        "amount": "$3,200"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$6,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_sarasota_photo",
+    "name": "Sarasota Wedding Photography",
+    "cat": "photo",
+    "lat": 27.3364,
+    "lng": -82.5307,
+    "area": "Sarasota",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "Sarasota wedding photographers — Siesta Key quartz-white sand portraits, Myakka River state park, and Sarasota Bay sunsets.",
+    "email": "hello@sarasotaweddingphoto.com",
+    "phone": "941-555-1011",
+    "web": "https://sarasotaweddingphoto.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "$1,100"
+      },
+      {
+        "tier": "Full Day",
+        "amount": "$2,600"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "$4,400"
+      }
+    ]
+  },
+  {
+    "id": "ven_stpetersburg_venue",
+    "name": "St. Petersburg Wedding Venues",
+    "cat": "venue",
+    "lat": 27.7731,
+    "lng": -82.64,
+    "area": "St. Petersburg",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "Sunshine City wedding venues — Salvador Dali Museum-adjacent lofts, Tampa Bay waterfront properties, and Vinoy Park celebrations.",
+    "email": "hello@stpetersburgvenues.com",
+    "phone": "727-555-1010",
+    "web": "https://stpetersburgvenues.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Half-Day Venue",
+        "amount": "$1,400"
+      },
+      {
+        "tier": "Full Day Venue",
+        "amount": "$2,800"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$5,400"
+      }
+    ]
+  },
+  {
+    "id": "ven_stpetersburg_photo",
+    "name": "St. Pete Wedding Photography",
+    "cat": "photo",
+    "lat": 27.7731,
+    "lng": -82.64,
+    "area": "St. Petersburg",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "Tampa Bay area wedding photographers — St. Pete Beach sunsets, Honeymoon Island portraits, and Vinoy Park grandeur.",
+    "email": "hello@stpeteweddingphoto.com",
+    "phone": "727-555-1011",
+    "web": "https://stpeteweddingphoto.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "$1,000"
+      },
+      {
+        "tier": "Full Day",
+        "amount": "$2,400"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "$4,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_tallahassee_venue",
+    "name": "Tallahassee Wedding Venues",
+    "cat": "venue",
+    "lat": 30.4518,
+    "lng": -84.2807,
+    "area": "Tallahassee",
+    "price": 1,
+    "rating": 4.6,
+    "brief": "Florida capital wedding venues — Maclay Gardens blooms, Governor's Mansion-district estates, and Apalachicola Bay proximity.",
+    "email": "hello@tallahasseevenues.com",
+    "phone": "850-555-1010",
+    "web": "https://tallahasseevenues.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Half-Day Venue",
+        "amount": "$1,100"
+      },
+      {
+        "tier": "Full Day Venue",
+        "amount": "$2,200"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$4,200"
+      }
+    ]
+  },
+  {
+    "id": "ven_savannah_venue",
+    "name": "Savannah Wedding Venues",
+    "cat": "venue",
+    "lat": 32.0835,
+    "lng": -81.0998,
+    "area": "Savannah",
+    "price": 2,
+    "rating": 4.9,
+    "brief": "Georgia's most romantic city — antebellum Forsyth Park fountains, cobblestone Squares, and Spanish moss-draped estate weddings.",
+    "email": "hello@savannahvenues.com",
+    "phone": "912-555-1010",
+    "web": "https://savannahvenues.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Half-Day Venue",
+        "amount": "$1,800"
+      },
+      {
+        "tier": "Full Day Venue",
+        "amount": "$3,500"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$6,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_savannah_photo",
+    "name": "Savannah Wedding Photography",
+    "cat": "photo",
+    "lat": 32.0835,
+    "lng": -81.0998,
+    "area": "Savannah",
+    "price": 2,
+    "rating": 4.9,
+    "brief": "Historic Savannah wedding photographers — Spanish moss and live oak magic, Forsyth Park fountain romance, and golden Georgian light.",
+    "email": "hello@savannahweddingphoto.com",
+    "phone": "912-555-1011",
+    "web": "https://savannahweddingphoto.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "$1,100"
+      },
+      {
+        "tier": "Full Day",
+        "amount": "$2,600"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "$4,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_savannah_florist",
+    "name": "Savannah Wedding Florist",
+    "cat": "florist",
+    "lat": 32.0835,
+    "lng": -81.0998,
+    "area": "Savannah",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "Savannah Southern florals — magnolia, gardenia, jasmine, and Spanish moss-inspired garden arrangements for antebellum celebrations.",
+    "email": "hello@savannahweddingflorist.com",
+    "phone": "912-555-1012",
+    "web": "https://savannahweddingflorist.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Bridal Bouquet Set",
+        "amount": "$500"
+      },
+      {
+        "tier": "Ceremony Flowers",
+        "amount": "$1,300"
+      },
+      {
+        "tier": "Full Floral Design",
+        "amount": "$3,200"
+      }
+    ]
+  },
+  {
+    "id": "ven_charleston_venue",
+    "name": "Charleston Wedding Venues",
+    "cat": "venue",
+    "lat": 32.7765,
+    "lng": -79.9311,
+    "area": "Charleston",
+    "price": 3,
+    "rating": 4.9,
+    "brief": "The Holy City's finest wedding venues — Rainbow Row mansion receptions, Magnolia Plantation ceremony, and Folly Beach coastal elegance.",
+    "email": "hello@charlestonvenues.com",
+    "phone": "843-555-1010",
+    "web": "https://charlestonvenues.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Half-Day Venue",
+        "amount": "$2,500"
+      },
+      {
+        "tier": "Full Day Venue",
+        "amount": "$5,000"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$9,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_charleston_photo",
+    "name": "Charleston Wedding Photography",
+    "cat": "photo",
+    "lat": 32.7765,
+    "lng": -79.9311,
+    "area": "Charleston",
+    "price": 2,
+    "rating": 4.9,
+    "brief": "South Carolina's finest wedding photographers — Rainbow Row pastel backdrops, Magnolia Gardens, and Lowcountry golden-hour magic.",
+    "email": "hello@charlestonweddingphoto.com",
+    "phone": "843-555-1011",
+    "web": "https://charlestonweddingphoto.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "$1,300"
+      },
+      {
+        "tier": "Full Day",
+        "amount": "$3,100"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "$5,400"
+      }
+    ]
+  },
+  {
+    "id": "ven_charleston_catering",
+    "name": "Charleston Wedding Catering",
+    "cat": "catering",
+    "lat": 32.7765,
+    "lng": -79.9311,
+    "area": "Charleston",
+    "price": 3,
+    "rating": 4.8,
+    "brief": "Lowcountry wedding catering — She-crab soup, shrimp and grits, and refined coastal Carolina cuisine for Charleston's discerning couples.",
+    "email": "hello@charlestoncatering.com",
+    "phone": "843-555-1012",
+    "web": "https://charlestoncatering.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Buffet (50 guests)",
+        "amount": "$4,000"
+      },
+      {
+        "tier": "Plated Dinner (100 guests)",
+        "amount": "$9,500"
+      },
+      {
+        "tier": "Full Service (150 guests)",
+        "amount": "$18,000"
+      }
+    ]
   }
 ]
