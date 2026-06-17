@@ -2554,4 +2554,61 @@
       }
     ]
   }
+  ,{
+    "id": "ven_hilton_vancouver_metrotown",
+    "name": "Hilton Vancouver Metrotown",
+    "cat": "venue",
+    "lat": 49.2272,
+    "lng": -123.0034,
+    "area": "Burnaby, BC",
+    "price": 3,
+    "rating": 4.2,
+    "brief": "Luxurious ballrooms including the Crystal Ballroom (up to 700 guests) with customizable packages.",
+    "email": "events@hiltonmetrotown.com",
+    "phone": "(604) 438-1200",
+    "web": "https://hilton.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      { "tier": "Crystal Ballroom / 300 guests", "amount": "$12,000" }
+    ]
+  },
+  {
+    "id": "ven_mintara_burnaby_mountain",
+    "name": "Mintara Burnaby Mountain",
+    "cat": "venue",
+    "lat": 49.281,
+    "lng": -122.929,
+    "area": "Burnaby, BC",
+    "price": 2,
+    "rating": 4.2,
+    "brief": "Scenic city-owned venue atop Burnaby Mountain with a rose garden and Burrard Inlet views.",
+    "email": "mintara@burnaby.ca",
+    "phone": "(604) 294-7944",
+    "web": "https://burnabyhospitality.ca",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      { "tier": "Wedding Package / 100 guests", "amount": "$4,500" }
+    ]
+  },
+  {
+    "id": "ven_burnaby_village_museum",
+    "name": "Burnaby Village Museum",
+    "cat": "venue",
+    "lat": 49.238,
+    "lng": -122.973,
+    "area": "Burnaby, BC",
+    "price": 2,
+    "rating": 4.6,
+    "brief": "Unique historical backdrop featuring a 1920s village street and carousel.",
+    "email": "village@burnaby.ca",
+    "phone": "(604) 297-4565",
+    "web": "https://burnabyvillagemuseum.ca",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      { "tier": "Carousel Pavilion / 80 guests", "amount": "$2,800" }
+    ]
+  }
 ]
