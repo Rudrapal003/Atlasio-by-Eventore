@@ -20579,5 +20579,335 @@
         "amount": "$5,200"
       }
     ]
+  },
+  {
+    "id": "ven_oakland_venue",
+    "name": "Oakland Wedding Venues",
+    "cat": "venue",
+    "lat": 37.8044,
+    "lng": -122.2712,
+    "area": "Oakland",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "Town wedding venues — Jack London Square waterfront, Fox Theater Oakland grandeur, and Lake Merritt urban lakeside ceremonies.",
+    "email": "hello@oaklandvenues.com",
+    "phone": "510-555-1010",
+    "web": "https://oaklandvenues.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Half-Day Venue",
+        "amount": "$1,500"
+      },
+      {
+        "tier": "Full Day Venue",
+        "amount": "$3,000"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$5,800"
+      }
+    ]
+  },
+  {
+    "id": "ven_oakland_photo",
+    "name": "Oakland Wedding Photography",
+    "cat": "photo",
+    "lat": 37.8044,
+    "lng": -122.2712,
+    "area": "Oakland",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "East Bay wedding photographers — Bay Bridge light from Oakland waterfront, Redwood Regional Park forest sessions, and Lake Merritt magic.",
+    "email": "hello@oaklandweddingphoto.com",
+    "phone": "510-555-1011",
+    "web": "https://oaklandweddingphoto.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "$1,100"
+      },
+      {
+        "tier": "Full Day",
+        "amount": "$2,600"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "$4,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_sanjose_venue",
+    "name": "San Jose Wedding Venues",
+    "cat": "venue",
+    "lat": 37.3382,
+    "lng": -121.8863,
+    "area": "San Jose",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "Silicon Valley wedding venues — tech campus elegance, Winchester Mystery House historic charm, and downtown SAP Center events.",
+    "email": "hello@sanjosevenues.com",
+    "phone": "408-555-1010",
+    "web": "https://sanjosevenues.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Half-Day Venue",
+        "amount": "$1,500"
+      },
+      {
+        "tier": "Full Day Venue",
+        "amount": "$3,000"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$5,800"
+      }
+    ]
+  },
+  {
+    "id": "ven_sanjose_photo",
+    "name": "San Jose Wedding Photography",
+    "cat": "photo",
+    "lat": 37.3382,
+    "lng": -121.8863,
+    "area": "San Jose",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "Silicon Valley wedding photographers — Almaden Valley vineyard sessions, Guadalupe River Park romance, and Santa Cruz Mountains elopements.",
+    "email": "hello@sanjoseweddingphoto.com",
+    "phone": "408-555-1011",
+    "web": "https://sanjoseweddingphoto.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "$1,100"
+      },
+      {
+        "tier": "Full Day",
+        "amount": "$2,600"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "$4,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_anaheim_venue",
+    "name": "Anaheim Wedding Venues",
+    "cat": "venue",
+    "lat": 33.8366,
+    "lng": -117.9143,
+    "area": "Anaheim",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "Orange County wedding venues — Disneyland Resort-adjacent celebrations, Angel Stadium events, and Anaheim Convention Center grand ballrooms.",
+    "email": "hello@anaheimvenues.com",
+    "phone": "714-555-1010",
+    "web": "https://anaheimvenues.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Half-Day Venue",
+        "amount": "$1,500"
+      },
+      {
+        "tier": "Full Day Venue",
+        "amount": "$3,000"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$5,800"
+      }
+    ]
+  },
+  {
+    "id": "ven_anaheim_photo",
+    "name": "Anaheim Wedding Photography",
+    "cat": "photo",
+    "lat": 33.8366,
+    "lng": -117.9143,
+    "area": "Anaheim",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "Orange County wedding photographers — Disneyland Resort fireworks, Balboa Island sunsets, and Laguna Beach coastal drama.",
+    "email": "hello@anaheimweddingphoto.com",
+    "phone": "714-555-1011",
+    "web": "https://anaheimweddingphoto.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "$1,050"
+      },
+      {
+        "tier": "Full Day",
+        "amount": "$2,500"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "$4,200"
+      }
+    ]
+  },
+  {
+    "id": "ven_mesa_venue",
+    "name": "Mesa Wedding Venues",
+    "cat": "venue",
+    "lat": 33.4152,
+    "lng": -111.8315,
+    "area": "Mesa",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "East Valley wedding venues — Mesa Arts Center celebrations, Red Mountain Park desert backdrop, and Tonto National Forest proximity estates.",
+    "email": "hello@mesavenues.com",
+    "phone": "480-555-6010",
+    "web": "https://mesavenues.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Half-Day Venue",
+        "amount": "$1,300"
+      },
+      {
+        "tier": "Full Day Venue",
+        "amount": "$2,600"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$5,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_mesa_photo",
+    "name": "Mesa Wedding Photography",
+    "cat": "photo",
+    "lat": 33.4152,
+    "lng": -111.8315,
+    "area": "Mesa",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "East Valley wedding photographers — Usery Mountain desert sessions, Saguaro Lake reflections, and Superstition Mountains silhouette shots.",
+    "email": "hello@mesaweddingphoto.com",
+    "phone": "480-555-6011",
+    "web": "https://mesaweddingphoto.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "$1,000"
+      },
+      {
+        "tier": "Full Day",
+        "amount": "$2,400"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "$4,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_tempe_venue",
+    "name": "Tempe Wedding Venues",
+    "cat": "venue",
+    "lat": 33.4255,
+    "lng": -111.94,
+    "area": "Tempe",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "ASU Sun Devil country wedding venues — Tempe Town Lake waterfront, Tempe Center for the Arts, and Mill Avenue entertainment district.",
+    "email": "hello@tempevenues.com",
+    "phone": "480-555-7010",
+    "web": "https://tempevenues.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Half-Day Venue",
+        "amount": "$1,300"
+      },
+      {
+        "tier": "Full Day Venue",
+        "amount": "$2,600"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$5,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_tempe_photo",
+    "name": "Tempe Wedding Photography",
+    "cat": "photo",
+    "lat": 33.4255,
+    "lng": -111.94,
+    "area": "Tempe",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "South Tempe wedding photographers — Tempe Town Lake golden reflections, ASU campus architecture, and Papago Park red rock magic.",
+    "email": "hello@tempeweddingphoto.com",
+    "phone": "480-555-7011",
+    "web": "https://tempeweddingphoto.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "$1,000"
+      },
+      {
+        "tier": "Full Day",
+        "amount": "$2,400"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "$4,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_tempe_catering",
+    "name": "Tempe Wedding Catering",
+    "cat": "catering",
+    "lat": 33.4255,
+    "lng": -111.94,
+    "area": "Tempe",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "Arizona State University-area wedding catering — Southwest fusion menus, artisan desert tasting stations, and full banquet hospitality.",
+    "email": "hello@tempecatering.com",
+    "phone": "480-555-7012",
+    "web": "https://tempecatering.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Buffet (50 guests)",
+        "amount": "$2,800"
+      },
+      {
+        "tier": "Plated Dinner (100 guests)",
+        "amount": "$6,800"
+      },
+      {
+        "tier": "Full Service (150 guests)",
+        "amount": "$13,000"
+      }
+    ]
   }
 ]
