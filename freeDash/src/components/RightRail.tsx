@@ -7,6 +7,7 @@ interface Props {
   vendors: Vendor[];
   filters: FilterState;
   matchedCount: number;
+  cityName: string;
   /** Mobile-only — when true the rail slides in over the map with a backdrop. */
   mobileOpen: boolean;
   onCloseMobile: () => void;
@@ -15,14 +16,13 @@ interface Props {
 }
 
 /* =========================================================
-   Right rail — vendor type categories list + a "show only my
-   plan" toggle. Each category shows its count of available
-   vendors in the city; sponsored placement will surface here
-   too (badge + sort order).
-   ========================================================= */
+Right rail — vendor type categories list + a "show only my
+plan" toggle. Each category shows its count of available
+vendors in the selected city / area.
+========================================================= */
 
 export function RightRail({
-  vendors, filters, matchedCount,
+  vendors, filters, matchedCount, cityName,
   mobileOpen, onCloseMobile,
   onToggleCat, onToggleInPlanOnly,
 }: Props) {
@@ -30,47 +30,55 @@ export function RightRail({
   CATEGORIES.forEach((c) => { counts[c.id] = 0; });
   vendors.forEach((v) => { counts[v.cat] = (counts[v.cat] ?? 0) + 1; });
 
+  const areaLabel = cityName || 'All Areas';
+
   return (
     <>
-      {mobileOpen && <div className={styles.backdrop} onClick={onCloseMobile} />}
+      {mobileOpen && (
+        <div
+          className={styles.backdrop}
+          onClick={onCloseMobile}
+          style={{ position: 'fixed', inset: 0, zIndex: 800, background: 'rgba(0,0,0,0.4)' }}
+        />
+      )}
       <aside className={`${styles.panel} floatCard ${mobileOpen ? styles.mobileOpen : ''}`}>
         <button className={styles.mobileClose} onClick={onCloseMobile} aria-label="Close filters">
           <X size={16} />
         </button>
-      <div className={styles.section}>
-        <div className={styles.sectionTitle}>
-          Vendor types <span className={styles.count}>{matchedCount}</span>
-        </div>
-        <div className={styles.list}>
-          {CATEGORIES.map((c) => {
-            const active = filters.selectedCats.includes(c.id);
-            return (
-              <button
-                key={c.id}
-                className={`${styles.catBtn} ${active ? styles.active : ''}`}
-                onClick={() => onToggleCat(c.id)}
-              >
-                <div className={styles.swatch} style={{ background: c.hex }}>
-                  <span className={styles.swatchEmoji}>{c.emoji}</span>
-                </div>
-                <div className={styles.meta}>
-                  <div className={styles.nm}>{c.label}</div>
-                  <div className={styles.sub}>in Greater Vancouver</div>
-                </div>
-                <span className={styles.nmCount}>{counts[c.id]}</span>
-              </button>
-            );
-          })}
-        </div>
+        <div className={styles.section}>
+          <div className={styles.sectionTitle}>
+            Vendor types <span className={styles.count}>{matchedCount}</span>
+          </div>
+          <div className={styles.list}>
+            {CATEGORIES.map((c) => {
+              const active = filters.selectedCats.includes(c.id);
+              return (
+                <button
+                  key={c.id}
+                  className={`${styles.catBtn} ${active ? styles.active : ''}`}
+                  onClick={() => onToggleCat(c.id)}
+                >
+                  <div className={styles.swatch} style={{ background: c.hex }}>
+                    <span className={styles.swatchEmoji}>{c.emoji}</span>
+                  </div>
+                  <div className={styles.meta}>
+                    <div className={styles.nm}>{c.label}</div>
+                    <div className={styles.sub}>in {areaLabel}</div>
+                  </div>
+                  <span className={styles.nmCount}>{counts[c.id]}</span>
+                </button>
+              );
+            })}
+          </div>
 
-        <div
-          className={`${styles.quickToggle} ${filters.showOnlyInPlan ? styles.on : ''}`}
-          onClick={onToggleInPlanOnly}
-        >
-          <span className={styles.lb}>Show only my plan</span>
-          <span className={styles.sw} />
+          <div
+            className={`${styles.quickToggle} ${filters.showOnlyInPlan ? styles.on : ''}`}
+            onClick={onToggleInPlanOnly}
+          >
+            <span className={styles.lb}>Show only my plan</span>
+            <span className={styles.sw} />
+          </div>
         </div>
-      </div>
       </aside>
     </>
   );
