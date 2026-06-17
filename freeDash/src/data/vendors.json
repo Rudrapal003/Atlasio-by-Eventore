@@ -16499,5 +16499,395 @@
         "amount": "$10,500"
       }
     ]
+  },
+  {
+    "id": "ven_santafe_venue",
+    "name": "Santa Fe Wedding Venues",
+    "cat": "venue",
+    "lat": 35.687,
+    "lng": -105.9378,
+    "area": "Santa Fe",
+    "price": 3,
+    "rating": 4.8,
+    "brief": "New Mexico's artistic capital — adobe haciendas, Georgia O'Keeffe desert vistas, and Canyon Road gallery district celebrations.",
+    "email": "hello@santafevenues.com",
+    "phone": "505-555-2010",
+    "web": "https://santafevenues.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Half-Day Venue",
+        "amount": "$1,800"
+      },
+      {
+        "tier": "Full Day Venue",
+        "amount": "$3,500"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$6,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_santafe_photo",
+    "name": "Santa Fe Wedding Photography",
+    "cat": "photo",
+    "lat": 35.687,
+    "lng": -105.9378,
+    "area": "Santa Fe",
+    "price": 2,
+    "rating": 4.9,
+    "brief": "New Mexico wedding photographers — Sangre de Cristo mountain magic, adobe golden-hour glow, and artisan Canyon Road portaits.",
+    "email": "hello@santafeweddingphoto.com",
+    "phone": "505-555-2011",
+    "web": "https://santafeweddingphoto.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "$1,100"
+      },
+      {
+        "tier": "Full Day",
+        "amount": "$2,600"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "$4,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_santafe_decor",
+    "name": "Santa Fe Wedding Décor",
+    "cat": "decor",
+    "lat": 35.687,
+    "lng": -105.9378,
+    "area": "Santa Fe",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "Southwest artisan wedding décor — Pueblo-inspired ceramics, turquoise and terracotta palette installations, and desert botanical designs.",
+    "email": "hello@santafeweddingdecor.com",
+    "phone": "505-555-2012",
+    "web": "https://santafeweddingdecor.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Ceremony Setup",
+        "amount": "$1,200"
+      },
+      {
+        "tier": "Reception Package",
+        "amount": "$3,000"
+      },
+      {
+        "tier": "Full Venue Styling",
+        "amount": "$6,200"
+      }
+    ]
+  },
+  {
+    "id": "ven_elpaso_venue",
+    "name": "El Paso Wedding Venues",
+    "cat": "venue",
+    "lat": 31.7619,
+    "lng": -106.485,
+    "area": "El Paso",
+    "price": 1,
+    "rating": 4.6,
+    "brief": "Sun City wedding venues — Franklin Mountain backdrop estates, historic Plaza Juárez-adjacent spaces, and Rio Grande valley properties.",
+    "email": "hello@elpasovenues.com",
+    "phone": "915-555-1010",
+    "web": "https://elpasovenues.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Half-Day Venue",
+        "amount": "$900"
+      },
+      {
+        "tier": "Full Day Venue",
+        "amount": "$1,800"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$3,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_elpaso_photo",
+    "name": "El Paso Wedding Photography",
+    "cat": "photo",
+    "lat": 31.7619,
+    "lng": -106.485,
+    "area": "El Paso",
+    "price": 1,
+    "rating": 4.7,
+    "brief": "Texas border wedding photographers — Franklin Mountains drama, Rio Grande golden light, and US-Mexico cultural fusion celebrations.",
+    "email": "hello@elpasoweddingphoto.com",
+    "phone": "915-555-1011",
+    "web": "https://elpasoweddingphoto.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "$750"
+      },
+      {
+        "tier": "Full Day",
+        "amount": "$1,800"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "$3,100"
+      }
+    ]
+  },
+  {
+    "id": "ven_fortworth_venue",
+    "name": "Fort Worth Wedding Venues",
+    "cat": "venue",
+    "lat": 32.7555,
+    "lng": -97.3308,
+    "area": "Fort Worth",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "Cowtown chic wedding venues — Sundance Square, Stockyards honky-tonk charm, and affluent Westover Hills estates.",
+    "email": "hello@fortworthvenues.com",
+    "phone": "817-555-1010",
+    "web": "https://fortworthvenues.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Half-Day Venue",
+        "amount": "$1,400"
+      },
+      {
+        "tier": "Full Day Venue",
+        "amount": "$2,800"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$5,200"
+      }
+    ]
+  },
+  {
+    "id": "ven_fortworth_photo",
+    "name": "Fort Worth Wedding Photography",
+    "cat": "photo",
+    "lat": 32.7555,
+    "lng": -97.3308,
+    "area": "Fort Worth",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "North Texas wedding photographers — Stockyards golden hour, Trinity River trails, and Amon Carter western landscape magic.",
+    "email": "hello@fortworthweddingphoto.com",
+    "phone": "817-555-1011",
+    "web": "https://fortworthweddingphoto.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "$1,000"
+      },
+      {
+        "tier": "Full Day",
+        "amount": "$2,400"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "$4,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_fortworth_catering",
+    "name": "Fort Worth Wedding Catering",
+    "cat": "catering",
+    "lat": 32.7555,
+    "lng": -97.3308,
+    "area": "Fort Worth",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "Cowtown wedding catering — Texas BBQ brisket, refined Lone Star cuisine, and full-service banquet hospitality for DFW receptions.",
+    "email": "hello@fortworthcatering.com",
+    "phone": "817-555-1012",
+    "web": "https://fortworthcatering.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Buffet (50 guests)",
+        "amount": "$2,700"
+      },
+      {
+        "tier": "Plated Dinner (100 guests)",
+        "amount": "$6,500"
+      },
+      {
+        "tier": "Full Service (150 guests)",
+        "amount": "$12,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_sanantonio_planner",
+    "name": "San Antonio Wedding Planners",
+    "cat": "planner",
+    "lat": 29.4241,
+    "lng": -98.4936,
+    "area": "San Antonio",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "Alamo City wedding planners — River Walk romance, Mission Hill elegance, and Pearl District boutique sophistication.",
+    "email": "hello@sanantonioweddingplanners.com",
+    "phone": "210-555-1010",
+    "web": "https://sanantonioweddingplanners.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Day-Of Coordination",
+        "amount": "$1,400"
+      },
+      {
+        "tier": "Partial Planning",
+        "amount": "$3,500"
+      },
+      {
+        "tier": "Full Planning",
+        "amount": "$7,200"
+      }
+    ]
+  },
+  {
+    "id": "ven_sanantonio_florist",
+    "name": "San Antonio Wedding Florist",
+    "cat": "florist",
+    "lat": 29.4241,
+    "lng": -98.4936,
+    "area": "San Antonio",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "River City florals — Texas bluebonnets, jasmine vines, and lush tropical arrangements for San Antonio's year-round wedding season.",
+    "email": "hello@sanantonioflorist.com",
+    "phone": "210-555-1011",
+    "web": "https://sanantonioflorist.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Bridal Bouquet Set",
+        "amount": "$450"
+      },
+      {
+        "tier": "Ceremony Flowers",
+        "amount": "$1,200"
+      },
+      {
+        "tier": "Full Floral Design",
+        "amount": "$3,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_corpuschristi_venue",
+    "name": "Corpus Christi Wedding Venues",
+    "cat": "venue",
+    "lat": 27.8006,
+    "lng": -97.3964,
+    "area": "Corpus Christi",
+    "price": 1,
+    "rating": 4.6,
+    "brief": "Texas Gulf Coast wedding venues — Padre Island beach ceremonies, Marina District yacht clubs, and bayside sunset estates.",
+    "email": "hello@corpuschristivenues.com",
+    "phone": "361-555-1010",
+    "web": "https://corpuschristivenues.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Half-Day Venue",
+        "amount": "$1,000"
+      },
+      {
+        "tier": "Full Day Venue",
+        "amount": "$2,000"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$3,800"
+      }
+    ]
+  },
+  {
+    "id": "ven_corpuschristi_photo",
+    "name": "Corpus Christi Wedding Photography",
+    "cat": "photo",
+    "lat": 27.8006,
+    "lng": -97.3964,
+    "area": "Corpus Christi",
+    "price": 1,
+    "rating": 4.7,
+    "brief": "Texas Riviera wedding photographers — Gulf Coast beach light, Padre Island seagrass portraits, and Nueces Bay golden sunsets.",
+    "email": "hello@corpuschristiphoto.com",
+    "phone": "361-555-1011",
+    "web": "https://corpuschristiphoto.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "$800"
+      },
+      {
+        "tier": "Full Day",
+        "amount": "$1,900"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "$3,300"
+      }
+    ]
+  },
+  {
+    "id": "ven_corpuschristi_catering",
+    "name": "Corpus Christi Wedding Catering",
+    "cat": "catering",
+    "lat": 27.8006,
+    "lng": -97.3964,
+    "area": "Corpus Christi",
+    "price": 1,
+    "rating": 4.6,
+    "brief": "Gulf Coast wedding catering — fresh Gulf shrimp, Texas redfish, and Coastal Bend seafood menus for beach and marina celebrations.",
+    "email": "hello@corpuschristicatering.com",
+    "phone": "361-555-1012",
+    "web": "https://corpuschristicatering.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Buffet (50 guests)",
+        "amount": "$2,200"
+      },
+      {
+        "tier": "Plated Dinner (100 guests)",
+        "amount": "$5,400"
+      },
+      {
+        "tier": "Full Service (150 guests)",
+        "amount": "$10,200"
+      }
+    ]
   }
 ]
