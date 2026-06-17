@@ -6419,5 +6419,455 @@
         "amount": "$11,500"
       }
     ]
+  },
+  {
+    "id": "ven_bellagio_events_lv",
+    "name": "Bellagio Garden Events",
+    "cat": "venue",
+    "lat": 36.1126,
+    "lng": -115.1767,
+    "area": "Las Vegas",
+    "price": 4,
+    "rating": 4.9,
+    "brief": "The world's most famous hotel garden — botanical conservatory ceremonies with dancing fountains and Strip skyline views.",
+    "email": "events@bellagio.com",
+    "phone": "702-555-1001",
+    "web": "https://bellagio.com/weddings",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Ceremony Only",
+        "amount": "$6,000"
+      },
+      {
+        "tier": "Full Day Rental",
+        "amount": "$14,000"
+      },
+      {
+        "tier": "Exclusive Package",
+        "amount": "$25,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_vegas_wedding_films",
+    "name": "Vegas Wedding Films",
+    "cat": "video",
+    "lat": 36.1699,
+    "lng": -115.1398,
+    "area": "Las Vegas",
+    "price": 3,
+    "rating": 4.8,
+    "brief": "Las Vegas wedding cinematographers capturing Strip sunsets, neon glow, and the electric energy of Vegas celebrations.",
+    "email": "hello@vegasweddingfilms.com",
+    "phone": "702-555-1002",
+    "web": "https://vegasweddingfilms.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Highlight Reel",
+        "amount": "$1,800"
+      },
+      {
+        "tier": "Full Day + Edit",
+        "amount": "$4,500"
+      },
+      {
+        "tier": "Cinematic Feature",
+        "amount": "$8,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_vegas_bloom_florals",
+    "name": "Vegas Bloom Florals",
+    "cat": "florist",
+    "lat": 36.114,
+    "lng": -115.1728,
+    "area": "Las Vegas",
+    "price": 3,
+    "rating": 4.8,
+    "brief": "Luxury wedding floral design for Strip venues and resort weddings — over-the-top installations that match Vegas energy.",
+    "email": "hello@vegasbloom.com",
+    "phone": "702-555-1003",
+    "web": "https://vegasbloom.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Bridal Bouquet Set",
+        "amount": "$800"
+      },
+      {
+        "tier": "Ceremony Flowers",
+        "amount": "$2,200"
+      },
+      {
+        "tier": "Full Floral Design",
+        "amount": "$5,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_lodge_at_torrey_pines",
+    "name": "Lodge at Torrey Pines Events",
+    "cat": "venue",
+    "lat": 32.902,
+    "lng": -117.2514,
+    "area": "San Diego",
+    "price": 4,
+    "rating": 4.9,
+    "brief": "A Craftsman masterpiece perched above the Pacific — ocean cliffs, sage-scented air, and timeless Arts & Crafts architecture.",
+    "email": "events@lodgetorreypines.com",
+    "phone": "858-555-2001",
+    "web": "https://lodgetorreypines.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Ceremony Only",
+        "amount": "$5,500"
+      },
+      {
+        "tier": "Full Day Rental",
+        "amount": "$12,000"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$21,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_san_diego_wedding_photo",
+    "name": "San Diego Wedding Photo",
+    "cat": "photo",
+    "lat": 32.7157,
+    "lng": -117.1611,
+    "area": "San Diego",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "Southern California wedding photographers blending sunny Pacific beach light with San Diego's vibrant Gaslamp Quarter backdrop.",
+    "email": "hello@sandiegoweddingphoto.com",
+    "phone": "619-555-2002",
+    "web": "https://sandiegoweddingphoto.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "$1,000"
+      },
+      {
+        "tier": "Full Day Coverage",
+        "amount": "$2,500"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "$5,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_san_diego_catering_co",
+    "name": "San Diego Catering Co.",
+    "cat": "catering",
+    "lat": 32.7303,
+    "lng": -117.1553,
+    "area": "San Diego",
+    "price": 3,
+    "rating": 4.8,
+    "brief": "Farm-fresh California cuisine for San Diego weddings — fish tacos to plated fine dining, always made with local ingredients.",
+    "email": "info@sandiegocateringco.com",
+    "phone": "619-555-2003",
+    "web": "https://sandiegocateringco.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Buffet for 50",
+        "amount": "$2,000"
+      },
+      {
+        "tier": "Plated Dinner 100",
+        "amount": "$5,000"
+      },
+      {
+        "tier": "Full-Service Gala",
+        "amount": "$10,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_fox_theatre_atlanta_events",
+    "name": "Fox Theatre Atlanta Events",
+    "cat": "venue",
+    "lat": 33.7724,
+    "lng": -84.386,
+    "area": "Atlanta",
+    "price": 4,
+    "rating": 4.9,
+    "brief": "Atlanta's legendary Moorish-Egyptian theatre — gilded ceilings, atmospheric lighting, and jaw-dropping grandeur for 200–800 guests.",
+    "email": "events@foxtheatreatlanta.com",
+    "phone": "404-555-3001",
+    "web": "https://foxtheatreatlanta.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Ceremony Only",
+        "amount": "$6,500"
+      },
+      {
+        "tier": "Full Day Rental",
+        "amount": "$14,000"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$25,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_atlanta_wedding_photo",
+    "name": "Atlanta Wedding Photography",
+    "cat": "photo",
+    "lat": 33.749,
+    "lng": -84.388,
+    "area": "Atlanta",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "Georgia wedding photographers capturing Atlanta's Southern charm — Piedmont Park blooms, Beltline murals, and golden Georgia light.",
+    "email": "hello@atlantaweddingphoto.com",
+    "phone": "404-555-3002",
+    "web": "https://atlantaweddingphoto.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "$950"
+      },
+      {
+        "tier": "Full Day Coverage",
+        "amount": "$2,300"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "$4,600"
+      }
+    ]
+  },
+  {
+    "id": "ven_peach_tree_catering_atl",
+    "name": "Peach Tree Catering",
+    "cat": "catering",
+    "lat": 33.755,
+    "lng": -84.39,
+    "area": "Atlanta",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "Southern hospitality catering at its finest — peach glazed pork, shrimp and grits, and low-country boils for Atlanta celebrations.",
+    "email": "info@peachtreecatering.com",
+    "phone": "404-555-3003",
+    "web": "https://peachtreecatering.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Buffet for 50",
+        "amount": "$1,600"
+      },
+      {
+        "tier": "Plated Dinner 100",
+        "amount": "$4,000"
+      },
+      {
+        "tier": "Full-Service Gala",
+        "amount": "$8,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_butler_house_dallas",
+    "name": "Butler House Dallas",
+    "cat": "venue",
+    "lat": 32.7767,
+    "lng": -96.797,
+    "area": "Dallas",
+    "price": 3,
+    "rating": 4.8,
+    "brief": "A beautifully restored 1920s mansion in Uptown Dallas — Texan elegance with wraparound verandas and lush garden grounds.",
+    "email": "events@butlerhouse.com",
+    "phone": "214-555-4001",
+    "web": "https://butlerhouse.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Ceremony Only",
+        "amount": "$2,800"
+      },
+      {
+        "tier": "Full Day Rental",
+        "amount": "$6,000"
+      },
+      {
+        "tier": "Exclusive Weekend",
+        "amount": "$10,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_dallas_wedding_films",
+    "name": "Dallas Wedding Films",
+    "cat": "video",
+    "lat": 32.7831,
+    "lng": -96.8067,
+    "area": "Dallas",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "DFW's go-to wedding videographers — wide-open Texas skies, golden hour portraits, and emotional storytelling across North Texas.",
+    "email": "hello@dallasweddingfilms.com",
+    "phone": "214-555-4002",
+    "web": "https://dallasweddingfilms.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Highlight Reel",
+        "amount": "$1,200"
+      },
+      {
+        "tier": "Full Day + Edit",
+        "amount": "$3,000"
+      },
+      {
+        "tier": "Cinematic + Drone",
+        "amount": "$5,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_lone_star_florals_dallas",
+    "name": "Lone Star Florals",
+    "cat": "florist",
+    "lat": 32.79,
+    "lng": -96.8003,
+    "area": "Dallas",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "Dallas wedding florist bringing Texas-scale drama — bluebonnets, magnolias, and statement centrepieces for every style.",
+    "email": "hello@lonestarflorals.com",
+    "phone": "214-555-4003",
+    "web": "https://lonestarflorals.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Bridal Bouquet Set",
+        "amount": "$550"
+      },
+      {
+        "tier": "Ceremony Flowers",
+        "amount": "$1,300"
+      },
+      {
+        "tier": "Full Floral Design",
+        "amount": "$2,800"
+      }
+    ]
+  },
+  {
+    "id": "ven_aria_minneapolis_events",
+    "name": "Aria Minneapolis Events",
+    "cat": "venue",
+    "lat": 44.9778,
+    "lng": -93.265,
+    "area": "Minneapolis",
+    "price": 3,
+    "rating": 4.8,
+    "brief": "A stunning Minneapolis venue blending modern luxury with historic elegance — soaring ceilings and city views for up to 400 guests.",
+    "email": "events@ariaminneapolis.com",
+    "phone": "612-555-5001",
+    "web": "https://ariaminneapolis.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Half-Day Rental",
+        "amount": "$2,000"
+      },
+      {
+        "tier": "Full-Day Rental",
+        "amount": "$4,500"
+      },
+      {
+        "tier": "Weekend Package",
+        "amount": "$8,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_twin_cities_wedding_photo",
+    "name": "Twin Cities Wedding Photo",
+    "cat": "photo",
+    "lat": 44.98,
+    "lng": -93.2638,
+    "area": "Minneapolis",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "Minneapolis–St. Paul wedding photographers capturing Midwest warmth — frozen lakes, autumn maples, and urban skyline charm.",
+    "email": "hello@twincitiesweddingphoto.com",
+    "phone": "612-555-5002",
+    "web": "https://twincitiesweddingphoto.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "4-Hour Session",
+        "amount": "$900"
+      },
+      {
+        "tier": "Full Day Coverage",
+        "amount": "$2,200"
+      },
+      {
+        "tier": "Full Day + Album",
+        "amount": "$4,400"
+      }
+    ]
+  },
+  {
+    "id": "ven_north_star_catering_mpls",
+    "name": "North Star Catering",
+    "cat": "catering",
+    "lat": 44.974,
+    "lng": -93.271,
+    "area": "Minneapolis",
+    "price": 2,
+    "rating": 4.7,
+    "brief": "Minnesota farm-to-table catering celebrating the bounty of the Great Lakes region — wild rice, walleye, and hearty Midwest classics.",
+    "email": "info@northstarcatering.com",
+    "phone": "612-555-5003",
+    "web": "https://northstarcatering.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Buffet for 50",
+        "amount": "$1,500"
+      },
+      {
+        "tier": "Plated Dinner 100",
+        "amount": "$3,700"
+      },
+      {
+        "tier": "Full-Service Gala",
+        "amount": "$7,500"
+      }
+    ]
   }
 ]
