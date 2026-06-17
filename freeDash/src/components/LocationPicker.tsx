@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { MapPin, Navigation, X } from 'lucide-react';
+import { MapPin, Navigation } from 'lucide-react';
 import type { Vendor } from '@/types';
 import styles from './LocationPicker.module.css';
 
