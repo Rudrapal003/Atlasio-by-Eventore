@@ -26459,5 +26459,155 @@
         "amount": "$1,120"
       }
     ]
+  },
+  {
+    "id": "ven_dc_planner_co",
+    "name": "DC Wedding Planner Co.",
+    "cat": "planner",
+    "lat": 38.9072,
+    "lng": -77.0369,
+    "area": "Washington DC",
+    "price": 3,
+    "rating": 4.8,
+    "brief": "Capital wedding planning — White House-adjacent elegance, embassy row receptions, and all DC, Maryland, and Virginia venue connections.",
+    "email": "hello@dcweddingplannerco.com",
+    "phone": "202-555-5016",
+    "web": "https://dcweddingplannerco.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Day-Of Coordination",
+        "amount": "$2,000"
+      },
+      {
+        "tier": "Partial Planning",
+        "amount": "$5,000"
+      },
+      {
+        "tier": "Full Planning",
+        "amount": "$11,000"
+      }
+    ]
+  },
+  {
+    "id": "ven_sandiego_planner_co",
+    "name": "San Diego Wedding Planner Co.",
+    "cat": "planner",
+    "lat": 32.7157,
+    "lng": -117.1611,
+    "area": "San Diego",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "SoCal wedding planning experts — Coronado Island resort events, La Jolla Cove ceremonies, and Rancho Santa Fe estate celebrations.",
+    "email": "hello@sandiegoweddingplannerco.com",
+    "phone": "619-555-5016",
+    "web": "https://sandiegoweddingplannerco.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Day-Of Coordination",
+        "amount": "$1,600"
+      },
+      {
+        "tier": "Partial Planning",
+        "amount": "$4,000"
+      },
+      {
+        "tier": "Full Planning",
+        "amount": "$8,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_lasvegas_planner_co",
+    "name": "Las Vegas Wedding Planner Co.",
+    "cat": "planner",
+    "lat": 36.1699,
+    "lng": -115.1398,
+    "area": "Las Vegas",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "Vegas wedding planning specialists — Strip casino resort coordination, chapel elopements, Red Rock Canyon outdoor ceremonies, and luxury villa receptions.",
+    "email": "hello@lasvegasweddingplannerco.com",
+    "phone": "702-555-5016",
+    "web": "https://lasvegasweddingplannerco.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Day-Of Coordination",
+        "amount": "$1,400"
+      },
+      {
+        "tier": "Partial Planning",
+        "amount": "$3,500"
+      },
+      {
+        "tier": "Full Planning",
+        "amount": "$7,500"
+      }
+    ]
+  },
+  {
+    "id": "ven_portland_planner_co",
+    "name": "Portland Wedding Planner Co.",
+    "cat": "planner",
+    "lat": 45.5231,
+    "lng": -122.6765,
+    "area": "Portland",
+    "price": 2,
+    "rating": 4.8,
+    "brief": "Rose City wedding planning — sustainable venue specialists, PNW farm venue connections, and Columbia River Gorge destination wedding experts.",
+    "email": "hello@portlandweddingplannerco.com",
+    "phone": "503-555-5016",
+    "web": "https://portlandweddingplannerco.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Day-Of Coordination",
+        "amount": "$1,500"
+      },
+      {
+        "tier": "Partial Planning",
+        "amount": "$3,800"
+      },
+      {
+        "tier": "Full Planning",
+        "amount": "$7,800"
+      }
+    ]
+  },
+  {
+    "id": "ven_chicago_planner_co",
+    "name": "Chicago Wedding Planner Co.",
+    "cat": "planner",
+    "lat": 41.8781,
+    "lng": -87.6298,
+    "area": "Chicago",
+    "price": 3,
+    "rating": 4.9,
+    "brief": "Windy City wedding planning — Four Seasons Chicago connections, Wrigleyville rooftop events, and lake country estate weekend wedding specialists.",
+    "email": "hello@chicagoweddingplannerco.com",
+    "phone": "312-555-5019",
+    "web": "https://chicagoweddingplannerco.com",
+    "sponsored": false,
+    "status": "active",
+    "quotes": [
+      {
+        "tier": "Day-Of Coordination",
+        "amount": "$2,200"
+      },
+      {
+        "tier": "Partial Planning",
+        "amount": "$5,500"
+      },
+      {
+        "tier": "Full Planning",
+        "amount": "$12,500"
+      }
+    ]
   }
 ]
