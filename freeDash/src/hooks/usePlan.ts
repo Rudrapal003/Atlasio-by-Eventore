@@ -1,9 +1,10 @@
 import { useCallback, useEffect, useMemo, useState } from 'react';
 import type { Plan, VendorPlanEntry, ChecklistKey, StageId } from '@/types';
+import { supabase } from '@/lib/supabase';
 
 /* =========================================================
    usePlan — anonymous, localStorage-backed plan state.
-   When auth lands later, sync this up to fd_plans on signup.
+   Automatically syncs with Supabase fd_plans if user is authenticated.
    ========================================================= */
 
 const STORAGE_KEY = 'fd_plan_v1';
@@ -18,7 +19,7 @@ function load(): Plan {
   }
 }
 
-function save(plan: Plan) {
+function saveLocal(plan: Plan) {
   if (typeof window === 'undefined') return;
   try {
     localStorage.setItem(STORAGE_KEY, JSON.stringify(plan));
@@ -66,11 +67,46 @@ export interface UsePlanApi {
 
 export function usePlan(): UsePlanApi {
   const [plan, setPlan] = useState<Plan>(() => load());
+  // We use `any` here to avoid strict Supabase User typings import, just need the id
+  const [userId, setUserId] = useState<string | null>(null);
+
+  // Hydrate from Supabase and listen to Auth state changes
+  useEffect(() => {
+    const client = supabase;
+    if (!client) return;
+
+    client.auth.getSession().then(({ data: { session } }) => {
+      if (session?.user) {
+        setUserId(session.user.id);
+        client.from('fd_plans').select('data').eq('user_id', session.user.id).single()
+          .then(({ data, error }) => {
+            if (data && data.data && !error) {
+              setPlan(data.data as Plan);
+            }
+          });
+      }
+    });
+
+    const { data: { subscription } } = client.auth.onAuthStateChange((_event, session) => {
+      setUserId(session?.user?.id ?? null);
+    });
+
+    return () => subscription.unsubscribe();
+  }, []);
 
   /* persist whenever the plan changes */
   useEffect(() => {
-    save(plan);
-  }, [plan]);
+    saveLocal(plan);
+    
+    // Sync to backend if authenticated
+    if (userId && supabase) {
+      supabase.from('fd_plans').upsert({
+        user_id: userId,
+        data: plan,
+        updated_at: new Date().toISOString()
+      }, { onConflict: 'user_id' }).then();
+    }
+  }, [plan, userId]);
 
   const has = useCallback((id: string) => Boolean(plan[id]), [plan]);
 
@@ -134,3 +170,4 @@ export function usePlan(): UsePlanApi {
     countsByStage,
   };
 }
+

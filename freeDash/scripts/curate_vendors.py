@@ -1,0 +1,203 @@
+from pathlib import Path
+import json
+
+ROOT = Path(__file__).resolve().parents[1]
+DATA_PATH = ROOT / 'src' / 'data' / 'vendors.json'
+
+CURATED = [
+    {
+        'id': 'v01', 'name': 'Driftwood Pavilion', 'cat': 'venue', 'lat': 49.3010, 'lng': -123.1417,
+        'area': 'Stanley Park', 'price': 4, 'rating': 4.8,
+        'brief': 'Open-air heritage pavilion with forest backdrop. Seats 140 indoors, 280 with tent.',
+        'email': 'events@driftwoodpavilion.ca', 'phone': '(604) 555-0117',
+        'web': 'https://driftwoodpavilion.ca',
+        'quotes': [{'tier': '100 guests / full evening', 'amount': '$8,400'}],
+        'sponsored': False, 'outboundUrl': None,
+    },
+    {
+        'id': 'v02', 'name': 'Brick & Birch', 'cat': 'venue', 'lat': 49.2750, 'lng': -123.1216,
+        'area': 'Yaletown', 'price': 3, 'rating': 4.6,
+        'brief': 'Industrial-loft event space with exposed brick, original beams, and a long west-facing window wall.',
+        'email': 'hello@brickbirch.com', 'phone': '(604) 555-0132',
+        'web': 'https://brickbirch.com',
+        'quotes': [{'tier': '80 guests / 6h', 'amount': '$5,200'}],
+        'sponsored': False, 'outboundUrl': None,
+    },
+    {
+        'id': 'v03', 'name': 'The Glasshouse', 'cat': 'venue', 'lat': 49.2829, 'lng': -123.1107,
+        'area': 'Downtown', 'price': 4, 'rating': 4.9,
+        'brief': 'Rooftop botanical conservatory with panoramic harbour views and on-site bar program.',
+        'email': 'bookings@glasshousevan.ca', 'phone': '(604) 555-0149',
+        'web': 'https://glasshousevan.ca',
+        'quotes': [],
+        'sponsored': True, 'outboundUrl': None,
+    },
+    {
+        'id': 'v04', 'name': 'Cedar & Sea Estate', 'cat': 'venue', 'lat': 49.2535, 'lng': -123.2516,
+        'area': 'UBC', 'price': 3, 'rating': 4.5,
+        'brief': 'Coastal estate near Wreck Beach. Garden ceremony plus tented reception lawn.',
+        'email': 'events@cedarsea.ca', 'phone': '(604) 555-0163',
+        'web': 'https://cedarsea.ca',
+        'quotes': [{'tier': '120 guests / full day', 'amount': '$11,500'}],
+        'sponsored': False, 'outboundUrl': None,
+    },
+    {
+        'id': 'v05', 'name': 'Aurora Frame Studio', 'cat': 'photo', 'lat': 49.2738, 'lng': -123.0950,
+        'area': 'Strathcona', 'price': 3, 'rating': 4.9,
+        'brief': 'Documentary-style wedding and event photography, two-shooter teams.',
+        'email': 'studio@auroraframe.ca', 'phone': '(604) 555-0188',
+        'web': 'https://auroraframe.ca',
+        'quotes': [{'tier': '8h coverage', 'amount': '$3,600'}],
+        'sponsored': False, 'outboundUrl': None,
+    },
+    {
+        'id': 'v06', 'name': 'Ember & Oak Photo', 'cat': 'photo', 'lat': 49.2670, 'lng': -123.1530,
+        'area': 'Kitsilano', 'price': 2, 'rating': 4.7,
+        'brief': 'Light-led portrait and editorial coverage. Includes engagement session.',
+        'email': 'hi@emberoak.co', 'phone': '(604) 555-0204',
+        'web': 'https://emberoak.co',
+        'quotes': [],
+        'sponsored': False, 'outboundUrl': None,
+    },
+    {
+        'id': 'v07', 'name': 'Pacific Light Photography', 'cat': 'photo', 'lat': 49.2630, 'lng': -123.0991,
+        'area': 'Mt Pleasant', 'price': 3, 'rating': 4.8,
+        'brief': 'Editorial coverage with film + digital. Specializes in golden-hour ceremonies.',
+        'email': 'team@paclight.ca', 'phone': '(604) 555-0211',
+        'web': 'https://paclight.ca',
+        'quotes': [{'tier': '10h + 2 shooters', 'amount': '$4,800'}],
+        'sponsored': True, 'outboundUrl': None,
+    },
+    {
+        'id': 'v08', 'name': 'Saltwater Kitchen', 'cat': 'catering', 'lat': 49.2625, 'lng': -123.0840,
+        'area': 'East Van', 'price': 3, 'rating': 4.7,
+        'brief': 'Coastal seasonal menus, in-house pastry, full bar program with BC-only wine list.',
+        'email': 'events@saltwaterkitchen.ca', 'phone': '(604) 555-0237',
+        'web': 'https://saltwaterkitchen.ca',
+        'quotes': [{'tier': 'plated / 100 guests', 'amount': '$11,200'}],
+        'sponsored': False, 'outboundUrl': None,
+    },
+    {
+        'id': 'v09', 'name': 'Foragefire Catering', 'cat': 'catering', 'lat': 49.2831, 'lng': -123.1145,
+        'area': 'Downtown', 'price': 4, 'rating': 4.9,
+        'brief': 'Open-fire and live-fire stations. Chef-driven seasonal tasting menus.',
+        'email': 'kitchen@foragefire.ca', 'phone': '(604) 555-0258',
+        'web': 'https://foragefire.ca',
+        'quotes': [{'tier': 'family-style / 120 guests', 'amount': '$14,800'}],
+        'sponsored': False, 'outboundUrl': None,
+    },
+    {
+        'id': 'v10', 'name': 'Bloomline Florals', 'cat': 'florals', 'lat': 49.2671, 'lng': -123.1610,
+        'area': 'Kitsilano', 'price': 3, 'rating': 4.8,
+        'brief': 'Locally-grown garden-style installations and ceremony arches.',
+        'email': 'hello@bloomline.ca', 'phone': '(604) 555-0269',
+        'web': 'https://bloomline.ca',
+        'quotes': [{'tier': 'ceremony + 10 centerpieces', 'amount': '$3,200'}],
+        'sponsored': False, 'outboundUrl': None,
+    },
+    {
+        'id': 'v11', 'name': 'Wildgrove Flowers', 'cat': 'florals', 'lat': 49.2823, 'lng': -123.1050,
+        'area': 'Gastown', 'price': 2, 'rating': 4.6,
+        'brief': 'Wild, foraged-style florals with emphasis on local growers and dried elements.',
+        'email': 'shop@wildgrove.ca', 'phone': '(604) 555-0277',
+        'web': 'https://wildgrove.ca',
+        'quotes': [],
+        'sponsored': False, 'outboundUrl': None,
+    },
+    {
+        'id': 'v12', 'name': 'Marvel Sound DJ', 'cat': 'dj', 'lat': 49.2761, 'lng': -123.1230,
+        'area': 'Yaletown', 'price': 2, 'rating': 4.7,
+        'brief': 'Open-format DJ, multilingual MC, full lighting + sub kit included.',
+        'email': 'book@marvelsound.ca', 'phone': '(604) 555-0282',
+        'web': 'https://marvelsound.ca',
+        'quotes': [{'tier': '6h reception', 'amount': '$1,950'}],
+        'sponsored': False, 'outboundUrl': None,
+    },
+    {
+        'id': 'v13', 'name': 'Tidal Audio Co.', 'cat': 'dj', 'lat': 49.2890, 'lng': -123.1227,
+        'area': 'Coal Harbour', 'price': 3, 'rating': 4.8,
+        'brief': 'Live-band-meets-DJ hybrid sets, modular stage and live sax option.',
+        'email': 'events@tidalaudio.ca', 'phone': '(604) 555-0299',
+        'web': 'https://tidalaudio.ca',
+        'quotes': [],
+        'sponsored': False, 'outboundUrl': None,
+    },
+    {
+        'id': 'v14', 'name': 'Maeve Lane Planning', 'cat': 'planning', 'lat': 49.2754, 'lng': -123.1281,
+        'area': 'Yaletown', 'price': 4, 'rating': 4.9,
+        'brief': 'Full-service planning and design, average 12-month engagement.',
+        'email': 'studio@maevelane.ca', 'phone': '(604) 555-0301',
+        'web': 'https://maevelane.ca',
+        'quotes': [{'tier': 'full planning, 12 mo', 'amount': '$9,500'}],
+        'sponsored': True, 'outboundUrl': None,
+    },
+    {
+        'id': 'v15', 'name': 'Coastal Curated Events', 'cat': 'planning', 'lat': 49.2697, 'lng': -123.1561,
+        'area': 'Kitsilano', 'price': 3, 'rating': 4.6,
+        'brief': 'Partial planning + month-of coordination packages.',
+        'email': 'hello@coastalcurated.ca', 'phone': '(604) 555-0316',
+        'web': 'https://coastalcurated.ca',
+        'quotes': [],
+        'sponsored': False, 'outboundUrl': None,
+    },
+    {
+        'id': 'v16', 'name': 'Powder & Petal Cakes', 'cat': 'cake', 'lat': 49.2826, 'lng': -123.1010,
+        'area': 'Gastown', 'price': 2, 'rating': 4.8,
+        'brief': 'Floral-pressed butter-cream cakes, organic ingredients, gluten-free options.',
+        'email': 'hello@powderpetal.ca', 'phone': '(604) 555-0322',
+        'web': 'https://powderpetal.ca',
+        'quotes': [{'tier': '3-tier / 80 servings', 'amount': '$680'}],
+        'sponsored': False, 'outboundUrl': None,
+    },
+    {
+        'id': 'v17', 'name': 'Glow Bridal Beauty', 'cat': 'beauty', 'lat': 49.2789, 'lng': -123.1284,
+        'area': 'Yaletown', 'price': 3, 'rating': 4.9,
+        'brief': 'On-location hair + airbrush makeup teams, available across the Lower Mainland.',
+        'email': 'team@glowbridal.ca', 'phone': '(604) 555-0339',
+        'web': 'https://glowbridal.ca',
+        'quotes': [{'tier': 'bride + 4 guests', 'amount': '$1,250'}],
+        'sponsored': False, 'outboundUrl': None,
+    },
+    {
+        'id': 'v18', 'name': 'Rev. Sara Holm', 'cat': 'officiant', 'lat': 49.2640, 'lng': -123.0991,
+        'area': 'Mt Pleasant', 'price': 1, 'rating': 4.9,
+        'brief': 'Non-denominational and bilingual ceremonies, rehearsal included.',
+        'email': 'sara@holmceremonies.ca', 'phone': '(604) 555-0344',
+        'web': 'https://holmceremonies.ca',
+        'quotes': [{'tier': 'ceremony + rehearsal', 'amount': '$650'}],
+        'sponsored': False, 'outboundUrl': None,
+    },
+]
+
+CATEGORY_DEFAULT_PRICE = {
+    'venue': 3,
+    'photo': 2,
+    'catering': 3,
+    'florals': 2,
+    'dj': 2,
+    'planning': 3,
+    'cake': 2,
+    'beauty': 2,
+    'officiant': 1,
+}
+
+# Load and normalize the JSON seed.
+data = json.loads(DATA_PATH.read_text(encoding='utf-8'))
+
+# Replace the leading curated set.
+for i, record in enumerate(CURATED):
+    data[i] = record
+
+# Normalize remaining records with safer defaults.
+for item in data:
+    item['price'] = item.get('price') or CATEGORY_DEFAULT_PRICE.get(item.get('cat'), 2)
+    item['rating'] = item.get('rating') or 0
+    item['quotes'] = item.get('quotes') or []
+    item['sponsored'] = bool(item.get('sponsored', False))
+    item['outboundUrl'] = item.get('outboundUrl') if item.get('outboundUrl') is not None else None
+    if item.get('web') and not item['web'].startswith('http'):
+        item['web'] = 'https://' + item['web']
+
+DATA_PATH.write_text(json.dumps(data, indent=2, ensure_ascii=False) + '\n', encoding='utf-8')
+print(f'Updated {len(data)} records in {DATA_PATH}')
+print(f'Curated entries replaced: {len(CURATED)}')

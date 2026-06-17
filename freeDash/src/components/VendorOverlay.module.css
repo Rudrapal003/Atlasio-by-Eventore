@@ -174,12 +174,52 @@
 .desc { color: var(--muted); }
 .amt { font: 700 14px "Fraunces", serif; color: var(--brand-deep); }
 .quotesEmpty {
-  color: var(--muted); font-size: 12px; font-style: italic;
-  background: var(--surface);
-  border: 1px dashed var(--line);
-  border-radius: var(--r-md);
-  padding: 10px;
+  font-size: 13px;
+  color: var(--muted);
+  line-height: 1.4;
   text-align: center;
+  padding: 16px;
+  background: var(--bg);
+  border-radius: var(--r-md);
+  border: 1px dashed var(--line-strong);
+}
+
+.restrictedWrapper {
+  position: relative;
+}
+.restrictedOverlay {
+  position: absolute;
+  inset: -10px;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.1);
+}
+.lockBadge {
+  background: var(--surface);
+  color: var(--brand-deep);
+  padding: 10px 16px;
+  border-radius: var(--pill);
+  font: 600 13px "Inter Tight", sans-serif;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  border: 1px solid var(--line-strong);
+  transition: transform 0.1s, box-shadow 0.1s;
+}
+.restrictedOverlay:hover .lockBadge {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+}
+
+.blurredContent {
+  filter: blur(6px) grayscale(50%);
+  opacity: 0.5;
+  pointer-events: none;
+  user-select: none;
 }
 .addQuote {
   background: transparent; border: 0;

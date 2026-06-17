@@ -9,17 +9,7 @@ import type { EventEntry } from '@/types';
 const KEY_EVENTS = 'fd_events_v1';
 const KEY_ACTIVE = 'fd_active_event_v1';
 
-const DEFAULT_EVENTS: EventEntry[] = [
-  {
-    id: 'evt_default',
-    title: 'Maya & Sam — Wedding',
-    date: '2026-09-14',
-    guestCount: 110,
-    locationLabel: 'Stanley Park',
-    notes: '',
-    createdAt: '2026-06-01T00:00:00Z',
-  },
-];
+const DEFAULT_EVENTS: EventEntry[] = [];
 
 function loadEvents(): EventEntry[] {
   if (typeof window === 'undefined') return DEFAULT_EVENTS;

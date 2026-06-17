@@ -9,9 +9,9 @@ import type { UserProfile, AvatarTone } from '@/types';
 const KEY = 'fd_profile_v1';
 
 const DEFAULT: UserProfile = {
-  name: 'Rudra',
+  name: 'Guest Planner',
   email: '',
-  initial: 'R',
+  initial: 'GP',
   tone: 'gold',
 };
 

@@ -87,6 +87,12 @@ export function resolveOutboundUrl(
   vendor: { web: string; outboundUrl?: string | null },
 ): string {
   if (vendor.outboundUrl) return vendor.outboundUrl;
-  const web = vendor.web.replace(/^https?:\/\//, '');
-  return 'https://' + web;
+
+  const rawWeb = vendor.web?.trim() ?? '';
+  if (rawWeb) {
+    const normalized = rawWeb.replace(/^https?:\/\//, '');
+    return `https://${normalized}`;
+  }
+
+  return 'https://eventore.ca';
 }

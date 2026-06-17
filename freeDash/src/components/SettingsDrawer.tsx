@@ -141,6 +141,7 @@ export function SettingsDrawer(props: Props) {
 }
 
 /* ---------- Profile tab ---------- */
+import { supabase } from '@/lib/supabase';
 
 function ProfileTab({
   profile,
@@ -152,6 +153,22 @@ function ProfileTab({
   onTone: (t: AvatarTone) => void;
 }) {
   const tone = AVATAR_TONES.find((t) => t.id === profile.tone) ?? AVATAR_TONES[0]!;
+  const [authMsg, setAuthMsg] = useState('');
+
+  const handleSignIn = async () => {
+    if (!profile.email) {
+      setAuthMsg('Please enter an email above.');
+      return;
+    }
+    if (!supabase) {
+      setAuthMsg('Supabase is not configured yet.');
+      return;
+    }
+    setAuthMsg('Sending magic link...');
+    const { error } = await supabase.auth.signInWithOtp({ email: profile.email });
+    if (error) setAuthMsg(error.message);
+    else setAuthMsg('Check your email for the magic link!');
+  };
 
   /* Fully controlled inputs — keystroke commits to the hook so tab
      switches and drawer closes never lose work. localStorage writes
@@ -175,7 +192,7 @@ function ProfileTab({
         />
       </Field>
 
-      <Field label="Email" hint="Used for plan recovery later — never shared.">
+      <Field label="Email" hint="Used to sync your plan securely.">
         <input
           className={styles.input}
           type="email"
@@ -203,8 +220,16 @@ function ProfileTab({
         </div>
       </Field>
 
+      <div style={{ height: '1px', background: 'var(--line)', margin: '16px 0' }} />
+      <div className={styles.field}>
+        <button className={styles.btnPrimary} onClick={handleSignIn}>
+          Sign in / Sync Plan
+        </button>
+        {authMsg && <div className={styles.fieldHint} style={{marginTop: '8px'}}>{authMsg}</div>}
+      </div>
+
       <p className={styles.fineprint}>
-        Your profile is stored on this device. Sign-in sync arrives in v1.1.
+        Your plan will be securely synced across your devices.
       </p>
     </section>
   );

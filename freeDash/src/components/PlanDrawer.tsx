@@ -64,7 +64,10 @@ export function PlanDrawer({
   };
   const submitCompose = (vendorId: string) => {
     const amount = parseInt(draft.amount.replace(/[^\d]/g, ''), 10);
-    if (Number.isNaN(amount) || amount <= 0) return;
+    const spentDate = new Date(draft.spentOn);
+
+    if (Number.isNaN(amount) || amount <= 0 || Number.isNaN(spentDate.getTime())) return;
+
     onAddExpense({
       vendorId,
       amount,

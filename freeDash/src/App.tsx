@@ -44,7 +44,12 @@ const FUNCTION_TO_TAB: Record<string, SettingsTabId> = {
   'ai':               'about',
 };
 
-export default function App() {
+interface AppProps {
+  isGuest: boolean;
+  onRequireAuth: () => void;
+}
+
+export default function App({ isGuest, onRequireAuth }: AppProps) {
   const plan = usePlan();
   const fl = useFilters();
   const { budget, setTotal } = useBudget();
@@ -148,6 +153,15 @@ export default function App() {
     window.location.reload();
   }, [resetProfile, clearAlloc]);
 
+  const handleAddEvent = useCallback(() => {
+    if (isGuest) {
+      onRequireAuth();
+      return;
+    }
+    eventsApi.createEvent();
+    openSettings('events');
+  }, [isGuest, onRequireAuth, eventsApi, openSettings]);
+
   const vendorsBooked = plan.countsByStage.booked + plan.countsByStage.confirmed;
   const selectedVendor = selectedId
     ? VENDORS.find((v) => v.id === selectedId) ?? null
@@ -194,6 +208,8 @@ export default function App() {
         onMinRating={fl.setMinRating}
         onResetFilters={fl.reset}
         onFunction={handleFunction}
+        isGuest={isGuest}
+        onAddEvent={handleAddEvent}
       />
 
       <RightRail
@@ -214,6 +230,8 @@ export default function App() {
           expenseCount={expensesApi.byVendor(selectedVendor.id).length}
           onClose={closePanel}
           onTogglePlan={() => plan.toggle(selectedVendor.id)}
+          isGuest={isGuest}
+          onRequireAuth={onRequireAuth}
         />
       ) : null}
 

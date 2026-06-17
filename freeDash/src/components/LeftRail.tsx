@@ -8,7 +8,7 @@ import styles from './LeftRail.module.css';
 
 interface Props {
   profile: UserProfile;
-  activeEvent: EventEntry;
+  activeEvent: EventEntry | undefined;
   eventCount: number;
   vendorsInPlan: number;
   vendorsBooked: number;
@@ -22,6 +22,8 @@ interface Props {
   onMinRating: (n: number) => void;
   onResetFilters: () => void;
   onFunction: (fn: string) => void;
+  isGuest?: boolean;
+  onAddEvent?: () => void;
 }
 
 /* =========================================================
@@ -48,9 +50,9 @@ export function LeftRail({
   filters,
   mobileOpen, onCloseMobile,
   onDistKm, onMinRating, onResetFilters,
-  onFunction,
+  onFunction, isGuest, onAddEvent
 }: Props) {
-  const daysToEvent = useMemo(() => daysUntil(activeEvent.date), [activeEvent.date]);
+  const daysToEvent = useMemo(() => activeEvent ? daysUntil(activeEvent.date) : 0, [activeEvent]);
   const badgeFor = (key?: string): number => {
     if (key === 'unreadMessages') return unreadMessages;
     return 0;
@@ -83,32 +85,53 @@ export function LeftRail({
         </div>
 
         {/* Active event card */}
-        <div className={styles.eventCard}>
-          <div className={styles.eventTtl}>{activeEvent.title}</div>
-          <div className={styles.eventMeta}>
-            <span>📅 {new Date(activeEvent.date).toLocaleDateString('en-CA', { month: 'short', day: 'numeric', year: 'numeric' })}</span>
-            <span>👥 {activeEvent.guestCount} guests</span>
-            <span>📍 {activeEvent.locationLabel}</span>
-          </div>
-          <div className={styles.eventStats}>
-            <div className={styles.eventStat}>
-              <div className={styles.statN}>{daysToEvent}</div>
-              <div className={styles.statL}>days to go</div>
+        {activeEvent ? (
+          <div className={styles.eventCard}>
+            <div className={styles.eventTtl}>{activeEvent.title}</div>
+            <div className={styles.eventMeta}>
+              <span>📅 {new Date(activeEvent.date).toLocaleDateString('en-CA', { month: 'short', day: 'numeric', year: 'numeric' })}</span>
+              <span>👥 {activeEvent.guestCount} guests</span>
+              <span>📍 {activeEvent.locationLabel}</span>
             </div>
-            <div className={styles.eventStat}>
-              <div className={styles.statN}>{vendorsInPlan}</div>
-              <div className={styles.statL}>vendors</div>
+            <div className={styles.eventStats}>
+              <div className={styles.eventStat}>
+                <div className={styles.statN}>{daysToEvent}</div>
+                <div className={styles.statL}>days to go</div>
+              </div>
+              <div className={styles.eventStat}>
+                <div className={styles.statN}>{vendorsInPlan}</div>
+                <div className={styles.statL}>vendors</div>
+              </div>
+              <div className={styles.eventStat}>
+                <div className={styles.statN}>{vendorsBooked}</div>
+                <div className={styles.statL}>booked</div>
+              </div>
             </div>
-            <div className={styles.eventStat}>
-              <div className={styles.statN}>{vendorsBooked}</div>
-              <div className={styles.statL}>booked</div>
-            </div>
+            {!isGuest && (
+              <div className={styles.eventSwitcher}>
+                <span>Active event</span>
+                <a className={styles.switchLink} onClick={() => onFunction('switch-event')}>Switch ›</a>
+              </div>
+            )}
           </div>
-          <div className={styles.eventSwitcher}>
-            <span>Active event</span>
-            <a className={styles.switchLink} onClick={() => onFunction('switch-event')}>Switch ›</a>
+        ) : (
+          <div className={styles.eventCard} style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '12px', padding: '24px' }}>
+            <div className={styles.eventTtl} style={{ margin: 0 }}>No Event Active</div>
+            <p style={{ margin: 0, fontSize: '13px', color: 'var(--muted)', textAlign: 'center', lineHeight: '1.4' }}>
+              Create your first event to start planning vendors and budgets.
+            </p>
+            <button
+              onClick={onAddEvent}
+              style={{
+                width: '100%', padding: '10px', borderRadius: '6px',
+                background: 'var(--brand)', color: '#fff', border: 0,
+                font: '600 14px "Inter Tight", sans-serif', cursor: 'pointer'
+              }}
+            >
+              Add Event
+            </button>
           </div>
-        </div>
+        )}
       </section>
 
       {/* Function grid */}
