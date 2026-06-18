@@ -252,6 +252,7 @@ export default function App({ isGuest, onRequireAuth, session }: AppProps) {
         onCloseMobile={() => setRightRailOpen(false)}
         onToggleCat={fl.toggleCat}
         onToggleInPlanOnly={() => fl.setShowOnlyInPlan(!fl.filters.showOnlyInPlan)}
+        onLocationClick={() => setShowLocationPicker(true)}
       />
 
       {panelMode === 'vendor' && selectedVendor ? (
