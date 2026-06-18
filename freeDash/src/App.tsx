@@ -22,9 +22,9 @@ import { useExpenses, type AddExpenseInput } from '@/hooks/useExpenses';
 import { trackExpenseLog } from '@/lib/tracking';
 
 const VENDORS = vendorsJson as Vendor[];
+const LOC_KEY = 'fd_location_v1';
 
 type PanelMode = 'vendor' | 'plan' | 'messages' | null;
-
 const UNREAD_MESSAGES = 0;
 
 const FUNCTION_TO_TAB: Record<string, SettingsTabId> = {
@@ -37,6 +37,20 @@ const FUNCTION_TO_TAB: Record<string, SettingsTabId> = {
   'ai': 'about',
 };
 
+/** Persist chosen location to localStorage */
+function saveLocation(center: GeoCenter, name: string) {
+  try { localStorage.setItem(LOC_KEY, JSON.stringify({ center, name })); } catch { /* ignore */ }
+}
+
+/** Load persisted location; returns null if none saved */
+function loadLocation(): { center: GeoCenter; name: string } | null {
+  try {
+    const raw = localStorage.getItem(LOC_KEY);
+    if (!raw) return null;
+    return JSON.parse(raw);
+  } catch { return null; }
+}
+
 interface AppProps {
   isGuest: boolean;
   onRequireAuth: () => void;
@@ -45,28 +59,38 @@ interface AppProps {
 
 export default function App({ isGuest, onRequireAuth, session }: AppProps) {
   // ── Location / geo state ────────────────────────────────
-  const [geoCenter, setGeoCenter] = useState<GeoCenter>(null);
-  const [cityName, setCityName] = useState('');
-  const [showLocationPicker, setShowLocationPicker] = useState(false);
+  const saved = loadLocation();
+  const [geoCenter, setGeoCenter] = useState<GeoCenter>(saved?.center ?? null);
+  const [cityName, setCityName] = useState(saved?.name ?? '');
+  const [showLocationPicker, setShowLocationPicker] = useState(!saved); // skip if already saved
 
   useEffect(() => {
-    if (!navigator.geolocation) {
-      setShowLocationPicker(true);
-      return;
-    }
+    if (saved) return; // already have a saved location — skip auto-request
+    if (!navigator.geolocation) { setShowLocationPicker(true); return; }
     navigator.geolocation.getCurrentPosition(
       (pos) => {
-        setGeoCenter({ lat: pos.coords.latitude, lng: pos.coords.longitude });
+        const center = { lat: pos.coords.latitude, lng: pos.coords.longitude };
+        setGeoCenter(center);
         setCityName('My Location');
+        saveLocation(center, 'My Location');
+        setShowLocationPicker(false);
       },
       () => { setShowLocationPicker(true); },
       { timeout: 6000, maximumAge: 120000 }
     );
-  }, []);
+  }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
   function handleLocationSelect(center: { lat: number; lng: number }, name: string) {
     setGeoCenter(center);
     setCityName(name);
+    saveLocation(center, name);
+    setShowLocationPicker(false);
+  }
+
+  function handleLocationSkip() {
+    setGeoCenter(null);
+    setCityName('All Areas');
+    saveLocation(null, 'All Areas');
     setShowLocationPicker(false);
   }
 
@@ -95,12 +119,10 @@ export default function App({ isGuest, onRequireAuth, session }: AppProps) {
     setRightRailOpen(false);
   }, []);
 
-  const sortedVendors = useMemo(() => {
-    return [...VENDORS].sort((a, b) => {
-      if (a.sponsored !== b.sponsored) return a.sponsored ? -1 : 1;
-      return b.rating - a.rating;
-    });
-  }, []);
+  const sortedVendors = useMemo(() => [...VENDORS].sort((a, b) => {
+    if (a.sponsored !== b.sponsored) return a.sponsored ? -1 : 1;
+    return b.rating - a.rating;
+  }), []);
 
   const visibleVendors = useMemo(
     () => fl.filterList(sortedVendors, plan.has),
@@ -130,10 +152,7 @@ export default function App({ isGuest, onRequireAuth, session }: AppProps) {
     closeMobileRails();
   }, [closeMobileRails]);
 
-  const closePanel = useCallback(() => {
-    setPanelMode(null);
-    setSelectedId(null);
-  }, []);
+  const closePanel = useCallback(() => { setPanelMode(null); setSelectedId(null); }, []);
 
   const openSettings = useCallback((tab: SettingsTabId = 'profile') => {
     setSettingsTab(tab);
@@ -153,9 +172,7 @@ export default function App({ isGuest, onRequireAuth, session }: AppProps) {
   }, [expensesApi]);
 
   const resetAllData = useCallback(() => {
-    try {
-      Object.keys(localStorage).filter((k) => k.startsWith('fd_')).forEach((k) => localStorage.removeItem(k));
-    } catch { /* ignore */ }
+    try { Object.keys(localStorage).filter((k) => k.startsWith('fd_')).forEach((k) => localStorage.removeItem(k)); } catch { /* ignore */ }
     resetProfile();
     clearAlloc();
     window.location.reload();
@@ -177,7 +194,7 @@ export default function App({ isGuest, onRequireAuth, session }: AppProps) {
         <LocationPicker
           vendors={VENDORS}
           onSelect={handleLocationSelect}
-          onSkip={() => { setCityName('All Areas'); setShowLocationPicker(false); }}
+          onSkip={handleLocationSkip}
         />
       )}
 
