@@ -1,9 +1,11 @@
-import { CheckSquare, MapPin, Menu, Search, SlidersHorizontal } from 'lucide-react';
+import { useState, useRef, useEffect } from 'react';
+import { CheckSquare, MapPin, Menu, Search, SlidersHorizontal, X } from 'lucide-react';
 import type { AvatarTone, BudgetState } from '@/types';
 import { BudgetThermometer } from './BudgetThermometer';
 import styles from './TopBar.module.css';
 
 interface Props {
+  cityName?: string;
   query: string;
   onQuery: (q: string) => void;
   planCount: number;
@@ -17,10 +19,7 @@ interface Props {
   onAvatarClick: () => void;
   onMenu: () => void;
   onFilter: () => void;
-  /** New: opens the location / city picker */
   onLocationClick: () => void;
-  /** New: current city label to display in the pill */
-  cityName?: string;
 }
 
 const TONE_GRADIENT: Record<AvatarTone, { from: string; to: string }> = {
@@ -33,16 +32,28 @@ const TONE_GRADIENT: Record<AvatarTone, { from: string; to: string }> = {
 };
 
 export function TopBar({
-  query, onQuery,
+  cityName, query, onQuery,
   planCount, onTogglePlan,
   budget, spentByCategory, totalSpent, onBudgetTotal,
   userInitial, userTone, onAvatarClick,
-  onMenu, onFilter,
-  onLocationClick, cityName,
+  onMenu, onFilter, onLocationClick,
 }: Props) {
   const grad = TONE_GRADIENT[userTone] ?? TONE_GRADIENT.gold;
+  const [searchOpen, setSearchOpen] = useState(false);
+  const inputRef = useRef<HTMLInputElement>(null);
+
+  useEffect(() => {
+    if (searchOpen) inputRef.current?.focus();
+  }, [searchOpen]);
+
+  function closeSearch() {
+    setSearchOpen(false);
+    onQuery('');
+  }
+
   return (
     <div className={styles.topbar}>
+      {/* ── Mobile hamburger ── */}
       <button
         className={`${styles.iconBtn} ${styles.mobileOnly} floatCard`}
         onClick={onMenu}
@@ -51,6 +62,7 @@ export function TopBar({
         <Menu size={18} />
       </button>
 
+      {/* ── Brand ── */}
       <div className={`${styles.brandCard} floatCard`}>
         <span className={styles.brandMark}>
           atlas<span className={styles.brandAccent}>io</span>
@@ -58,18 +70,19 @@ export function TopBar({
         <span className={styles.brandSub}>by Eventore</span>
       </div>
 
-      {/* Location pill — now clickable */}
+      {/* ── Location pill — desktop always, mobile always ── */}
       <button
-        className={`${styles.locPill} floatCard ${styles.desktopOnly}`}
+        className={`${styles.locPill} floatCard`}
         type="button"
-        title="Change city or location"
+        title="Change location"
         onClick={onLocationClick}
       >
         <MapPin size={14} color="var(--rose)" />
-        {cityName || 'Set location'}
+        <span className={styles.locLabel}>{cityName || 'Set location'}</span>
       </button>
 
-      <div className={`${styles.searchCard} floatCard`}>
+      {/* ── Desktop search bar ── */}
+      <div className={`${styles.searchCard} floatCard ${styles.desktopOnly}`}>
         <Search size={16} color="var(--muted)" />
         <input
           value={query}
@@ -79,6 +92,24 @@ export function TopBar({
         />
       </div>
 
+      {/* ── Mobile: expanding search overlay ── */}
+      {searchOpen && (
+        <div className={`${styles.mobileSearch} floatCard ${styles.mobileOnly}`}>
+          <Search size={15} color="var(--muted)" />
+          <input
+            ref={inputRef}
+            value={query}
+            onChange={(e) => onQuery(e.target.value)}
+            placeholder="Search vendors…"
+            aria-label="Search vendors"
+          />
+          <button onClick={closeSearch} className={styles.searchClose} aria-label="Close search">
+            <X size={15} />
+          </button>
+        </div>
+      )}
+
+      {/* ── Desktop budget thermometer ── */}
       <div className={styles.desktopOnly}>
         <BudgetThermometer
           budget={budget}
@@ -90,6 +121,18 @@ export function TopBar({
 
       <div className={styles.spacer} />
 
+      {/* ── Mobile: search icon ── */}
+      {!searchOpen && (
+        <button
+          className={`${styles.iconBtn} ${styles.mobileOnly} floatCard`}
+          onClick={() => setSearchOpen(true)}
+          aria-label="Search"
+        >
+          <Search size={18} />
+        </button>
+      )}
+
+      {/* ── Mobile: filter icon ── */}
       <button
         className={`${styles.iconBtn} ${styles.mobileOnly} floatCard`}
         onClick={onFilter}
@@ -98,12 +141,14 @@ export function TopBar({
         <SlidersHorizontal size={18} />
       </button>
 
+      {/* ── My Plan button ── */}
       <button className={styles.planBtn} onClick={onTogglePlan} type="button">
         <CheckSquare size={14} />
         <span className={styles.planLbl}>My Plan</span>
         <span className={styles.badge}>{planCount}</span>
       </button>
 
+      {/* ── Avatar ── */}
       <button
         className={styles.avatar}
         onClick={onAvatarClick}
