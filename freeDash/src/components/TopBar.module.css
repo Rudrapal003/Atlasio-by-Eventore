@@ -1,15 +1,21 @@
+/* ── TopBar layout ──────────────────────────────── */
 .topbar {
   position: absolute;
   top: 14px; left: 14px; right: 14px;
   z-index: 600;
-  display: flex; align-items: center; gap: 10px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
   pointer-events: none;
+  flex-wrap: nowrap;
 }
-.topbar > * { pointer-events: auto; }
+.topbar > * { pointer-events: auto; flex-shrink: 0; }
 
+/* ── Brand card ── */
 .brandCard {
   display: flex; align-items: center; gap: 10px;
   padding: 9px 14px 9px 12px;
+  flex-shrink: 0;
 }
 .brandMark {
   font-family: "Fraunces", serif;
@@ -17,6 +23,7 @@
   color: var(--brand-deep);
   letter-spacing: -0.02em;
   line-height: 1;
+  white-space: nowrap;
 }
 .brandAccent { color: var(--gold-bright); }
 .brandSub {
@@ -26,42 +33,86 @@
   text-transform: uppercase;
   border-left: 1px solid var(--line);
   padding-left: 10px;
+  white-space: nowrap;
 }
 
+/* ── Location pill ── */
 .locPill {
   display: inline-flex; align-items: center; gap: 6px;
-  padding: 8px 14px;
+  padding: 8px 12px;
   border: 0;
   border-radius: var(--pill);
   font: 600 13px "Inter Tight", sans-serif;
   color: var(--text);
+  white-space: nowrap;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+.locPill:hover { opacity: 0.85; }
+/* Truncate city name on very small phones */
+.locLabel {
+  max-width: 90px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
+/* ── Desktop search bar ── */
 .searchCard {
-  flex: 1; max-width: 420px;
+  flex: 1;
+  max-width: 400px;
   display: flex; align-items: center;
   padding: 0 14px;
   height: 42px;
 }
 .searchCard input {
   flex: 1; border: 0; outline: 0; background: transparent;
-  color: var(--text);
+  color: var(--text); font-size: 14px;
   padding: 0 10px;
+  min-width: 0;
 }
 
-.spacer { flex: 1; }
+/* ── Mobile expanding search ── */
+.mobileSearch {
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 48px;
+  display: flex; align-items: center;
+  padding: 0 14px;
+  gap: 8px;
+  z-index: 10;
+  animation: fadeIn 0.15s ease;
+}
+.mobileSearch input {
+  flex: 1; border: 0; outline: 0; background: transparent;
+  color: var(--text); font-size: 14px;
+  min-width: 0;
+}
+.searchClose {
+  background: none; border: 0;
+  color: var(--muted);
+  display: flex; align-items: center; justify-content: center;
+  padding: 4px;
+  cursor: pointer;
+}
+@keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
 
+.spacer { flex: 1 1 auto; min-width: 0; }
+
+/* ── Plan button ── */
 .planBtn {
-  position: relative;
-  display: inline-flex; align-items: center; gap: 8px;
+  display: inline-flex; align-items: center; gap: 7px;
   background: var(--brand);
   color: #fff;
   border: 0;
-  padding: 10px 16px 10px 14px;
+  padding: 10px 14px 10px 12px;
   border-radius: var(--pill);
   font: 600 13px "Inter Tight", sans-serif;
-  box-shadow: 0 4px 14px rgba(31, 78, 121, 0.32);
-  transition: transform 0.05s ease, background 0.15s ease;
+  box-shadow: 0 4px 14px rgba(31,78,121,0.32);
+  cursor: pointer;
+  white-space: nowrap;
+  flex-shrink: 0;
+  transition: background 0.15s;
 }
 .planBtn:hover { background: var(--brand-bright); }
 .planBtn:active { transform: translateY(1px); }
@@ -69,80 +120,68 @@
 .badge {
   background: var(--gold-bright);
   color: var(--brand-deep);
-  font-weight: 700;
-  font-size: 11px;
+  font-weight: 700; font-size: 11px;
   padding: 1px 7px;
   border-radius: var(--pill);
   min-width: 18px; text-align: center;
 }
 
+/* ── Avatar ── */
 .avatar {
   width: 42px; height: 42px;
   border-radius: 50%;
-  background: linear-gradient(135deg, var(--gold-bright), var(--gold));
   color: var(--brand-deep);
   display: flex; align-items: center; justify-content: center;
   font: 700 14px "Fraunces", serif;
   box-shadow: var(--shadow-float);
   cursor: pointer;
-  border: 2px solid rgba(251, 249, 244, 0.95);
+  border: 2px solid rgba(251,249,244,0.95);
   flex-shrink: 0;
   padding: 0;
-  transition: transform 0.12s ease;
+  transition: transform 0.12s;
 }
 .avatar:hover { transform: scale(1.06); }
 
-/* Mobile-only icon trigger button */
+/* ── Icon button (mobile triggers) ── */
 .iconBtn {
   width: 42px; height: 42px;
   border-radius: 50%;
-  background: rgba(251, 249, 244, 0.94);
+  background: rgba(251,249,244,0.94);
   color: var(--brand-deep);
   display: inline-flex; align-items: center; justify-content: center;
-  border: 0;
-  padding: 0;
+  border: 0; padding: 0;
   flex-shrink: 0;
   cursor: pointer;
-  transition: background 0.12s ease;
+  transition: background 0.12s;
 }
 .iconBtn:hover { background: var(--cream); }
 
-/* Show/hide helpers — flip at the tablet breakpoint. */
-.mobileOnly { display: none; }
+/* ── Desktop / mobile visibility ── */
+.mobileOnly { display: none !important; }
 .desktopOnly { display: flex; }
 
+/* ── ≤1023px — tablet / mobile ── */
 @media (max-width: 1023px) {
-  .topbar {
-    top: 10px; left: 10px; right: 10px;
-    gap: 8px;
-  }
-  .mobileOnly { display: inline-flex; }
-  .desktopOnly { display: none; }
-  .brandCard { padding: 8px 12px 8px 10px; }
-  .brandMark { font-size: 19px; }
+  .topbar { top: 10px; left: 10px; right: 10px; gap: 7px; }
+  .mobileOnly { display: inline-flex !important; }
+  .desktopOnly { display: none !important; }
   .brandSub { display: none; }
-  .searchCard { height: 38px; max-width: none; }
-  .planBtn { padding: 9px 12px; }
+  .brandMark { font-size: 19px; }
   .planLbl { display: none; }
+  .planBtn { padding: 9px 11px; }
+  .avatar { width: 38px; height: 38px; }
+  .iconBtn { width: 38px; height: 38px; }
+  .locLabel { max-width: 70px; }
 }
 
-@media (max-width: 640px) {
-  .topbar {
-    top: 8px; left: 8px; right: 8px;
-    gap: 6px;
-  }
-  .brandCard {
-    /* Collapse to just the wordmark on small phones */
-    padding: 8px 10px;
-  }
+/* ── ≤480px — small phones ── */
+@media (max-width: 480px) {
+  .topbar { top: 8px; left: 8px; right: 8px; gap: 5px; }
   .brandMark { font-size: 17px; }
-  .iconBtn, .avatar { width: 38px; height: 38px; }
-  .searchCard {
-    /* Pop search to its own row below the bar on tiny screens */
-    order: 10;
-    width: 100%;
-    margin-top: 6px;
-    flex-basis: 100%;
-  }
+  .brandCard { padding: 7px 9px; }
+  .locPill { padding: 7px 9px; }
+  .locLabel { max-width: 55px; font-size: 12px; }
+  .avatar { width: 36px; height: 36px; }
+  .iconBtn { width: 36px; height: 36px; }
   .planBtn { padding: 8px 10px; }
 }
